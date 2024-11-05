@@ -36,7 +36,7 @@
                  <div class="row intro">
                      <div class="col-12 p-0">
                          <!-- <span class="pre-title m-0">Drop Us a Line</span> -->
-                         <h2> <span class="featured"><span>Drop </span></span>Us a Line</h2>
+                         <h2> <span class="featured"><span>Drop </span></span> Us a Line</h2>
                          <p>We are here to help you with all your queries and concerns, just write to us using the below form and we will get back to you as soon as we can.</p>
                      </div>
                  </div>
