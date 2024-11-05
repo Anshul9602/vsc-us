@@ -30,14 +30,14 @@
     <!-- ==============================================
         Vendor Stylesheet
         =============================================== -->
-    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/vendor/slider.min.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/vendor/icons.min.css">
-    <link rel="stylesheet" href="assets/css/vendor/icons-fa.min.css">
-    <link rel="stylesheet" href="assets/css/vendor/animation.min.css">
-    <link rel="stylesheet" href="assets/css/vendor/gallery.min.css">
-    <link rel="stylesheet" href="assets/css/vendor/cookie-notice.min.css">
+    <link rel="stylesheet" href="<?php echo base_url(''); ?>assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo base_url(''); ?>assets/css/vendor/slider.min.css">
+    <link rel="stylesheet" href="<?php echo base_url(''); ?>assets/css/main.css">
+    <link rel="stylesheet" href="<?php echo base_url(''); ?>assets/css/vendor/icons.min.css">
+    <link rel="stylesheet" href="<?php echo base_url(''); ?>assets/css/vendor/icons-fa.min.css">
+    <link rel="stylesheet" href="<?php echo base_url(''); ?>assets/css/vendor/animation.min.css">
+    <link rel="stylesheet" href="<?php echo base_url(''); ?>assets/css/vendor/gallery.min.css">
+    <link rel="stylesheet" href="<?php echo base_url(''); ?>assets/css/vendor/cookie-notice.min.css">
 
     <!-- ==============================================
         Custom Stylesheet
@@ -88,7 +88,7 @@
         <nav class="navbar navbar-expand navbar-fixed sub">
             <div class="container header">
                 <div class="col-md-2">
-                    <a class="navbar-brand" href="/">
+                    <a class="navbar-brand" href="<?php echo base_url(''); ?>">
                         <!-- <span class="brand">
                             <span class="featured">
                                 <span class="first">GLO</span>
@@ -177,19 +177,55 @@
                             </li>
 
                             <li class="nav-item dropdown">
-                                <a href="#" class="nav-link  n-menu">SERVICES <i class="icon-arrow-down"></i></a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item ">
-                                        <a class="nav-link" href="#">Our Team</a>
-                                    </li>
-                                    <li class="nav-item ">
-                                        <a class="nav-link" href="#">Why Infinity VSC Australia</a>
-                                    </li>
-                                    <li class="nav-item ">
-                                        <a class="nav-link" href="#">Data Security & Confidentiality</a>
-                                    </li>
+                                <a href="<?php echo base_url('Services'); ?>" class="nav-link  n-menu">SERVICES <i class="icon-arrow-down"></i></a>
 
-                                </ul>
+                                <div class="dropdown-menu newmenu">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <ul>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="#">Our Team</a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="#">Why Infinity VSC Australia</a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="#">Data Security & Confidentiality</a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <ul>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="#">Our Team</a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="#">Why Infinity VSC Australia</a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="#">Data Security & Confidentiality</a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <ul>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="#">Our Team</a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="#">Why Infinity VSC Australia</a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="#">Data Security & Confidentiality</a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
                             </li>
                             <li class="nav-item dropdown">
                                 <a href="#" class="nav-link  n-menu">RESOURCES<i class="icon-arrow-down"></i></a>

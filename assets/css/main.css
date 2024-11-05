@@ -83,7 +83,7 @@ body {
     height: 100%;
     background-color: var(--primary-bg-color);
     font-family: var(--p-font);
-    color: var(--primary-p-color);
+    color: #000;
 }
 
 body.odd {
@@ -1856,6 +1856,12 @@ header .navbar-expand {
     width: 100%;
     padding: 5px 25px 10px;
 }
+
+.newmenu{
+    left:-150%;
+    padding: 20%;
+}
+
 
 header .navbar-expand.relative {
     position: relative;
