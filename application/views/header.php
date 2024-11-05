@@ -184,27 +184,16 @@
                                         <div class="col-md-4">
                                             <ul>
                                                 <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Our Team</a>
+                                                    <a class="nav-link" href="#">Tax Preparation Service</a>
                                                 </li>
                                                 <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Why Infinity VSC Australia</a>
+                                                    <a class="nav-link" href="#">Multistate Tax Preparation Service</a>
                                                 </li>
                                                 <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Data Security & Confidentiality</a>
-                                                </li>
-
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <ul>
-                                                <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Our Team</a>
+                                                    <a class="nav-link" href="#">Back Year Tax Preparation</a>
                                                 </li>
                                                 <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Why Infinity VSC Australia</a>
-                                                </li>
-                                                <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Data Security & Confidentiality</a>
+                                                    <a class="nav-link" href="#">Forensic Accounting Services</a>
                                                 </li>
 
                                             </ul>
@@ -212,13 +201,33 @@
                                         <div class="col-md-4">
                                             <ul>
                                                 <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Our Team</a>
+                                                    <a class="nav-link" href="#">Tax Litigation Resolution Services</a>
                                                 </li>
                                                 <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Why Infinity VSC Australia</a>
+                                                    <a class="nav-link" href="#">Management Accounting & Reporting Services</a>
                                                 </li>
                                                 <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Data Security & Confidentiality</a>
+                                                    <a class="nav-link" href="#">Payroll Services</a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="#">Business Valuation Services</a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <ul>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="#">Bookkeeping Services</a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="#">Secretarial Services</a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="#">Audit Services</a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="#">Employee Retention Tax Credit (ERTC)</a>
                                                 </li>
 
                                             </ul>

@@ -72,67 +72,58 @@
     .sidebar-widget.with-title, .accordion {
         height: 100%;
     }
+     ul.sidebar-cat-list li a {
+        width: 100% !important;
+        font-size: 14px !important;
+        font-weight: 500 !important;
+        line-height: 1.55 !important;
+        color: #444 !important;
+        position: relative !important;
+    }
 </style>
 
 <!-- banner -->
-
-    <div class="sticky-sidebar d-lg-block d-none">
-        <div class="sidebar-widget">
-            <div class="accordion" id="accordionServices">
-                <div class="accordion-item">
-                    <div class="accordion-header" id="serviceOne">
-                        <h4 class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#serviceCollapseOne" aria-expanded="false"
-                            aria-controls="serviceCollapseOne">Our Services</h4>
-                    </div>
-                    <div id="serviceCollapseOne" class="accordion-collapse " aria-labelledby="serviceOne"
-                        data-bs-parent="#accordionServices">
-                        <div class="accordion-body">
-                            <h4 class="sidebar-title">Our Services</h4>
+<div>
+    <h4 class="sidebar-title">Our Services</h4>
                             <ul class="sidebar-cat-list">
                                 <li class="active"><a
-                                        href="https://www.infinity-globus.com/services/outsourced-tax-preparation-services/">Outsourced
+                                        href="<?php echo base_url(''); ?>outsourced-tax-preparation-services/">Outsourced
                                         Tax Preparation Service<span></span></a></li>
                                 <li class=""><a
-                                        href="https://www.infinity-globus.com/services/outsourced-multistate-tax-preparation/">Outsourced
+                                        href="<?php echo base_url(''); ?>outsourced-multistate-tax-preparation/">Outsourced
                                         Multistate Tax Preparation Service<span></span></a></li>
                                 <li class=""><a
-                                        href="https://www.infinity-globus.com/services/outsourced-back-year-tax-preparation/">Outsourced
+                                        href="<?php echo base_url(''); ?>outsourced-back-year-tax-preparation/">Outsourced
                                         Back Year Tax Preparation<span></span></a></li>
                                 <li class=""><a
-                                        href="https://www.infinity-globus.com/services/outsourced-tax-litigation-resolution/">Outsourced
+                                        href="<?php echo base_url(''); ?>outsourced-tax-litigation-resolution/">Outsourced
                                         Tax Litigation Resolution Services<span></span></a></li>
                                 <li class=""><a
-                                        href="https://www.infinity-globus.com/services/outsourced-management-accounting/">Outsourced
+                                        href="<?php echo base_url(''); ?>outsourced-management-accounting/">Outsourced
                                         Management Accounting &amp; Reporting Services<span></span></a></li>
                                 <li class=""><a
-                                        href="https://www.infinity-globus.com/services/payroll-outsourcing-services/">Outsourced
+                                        href="<?php echo base_url(''); ?>payroll-outsourcing-services/">Outsourced
                                         Payroll Services<span></span></a></li>
                                 <li class=""><a
-                                        href="https://www.infinity-globus.com/services/outsourced-bookkeeping-services/">Outsourced
+                                        href="<?php echo base_url(''); ?>outsourced-bookkeeping-services/">Outsourced
                                         Bookkeeping Services<span></span></a></li>
                                 <li class=""><a
-                                        href="https://www.infinity-globus.com/services/outsourced-secretarial-services/">Outsourced
+                                        href="<?php echo base_url(''); ?>outsourced-secretarial-services/">Outsourced
                                         Secretarial Services<span></span></a></li>
                                 <li class=""><a
-                                        href="https://www.infinity-globus.com/services/outsource-audit-services/">Outsourced
+                                        href="<?php echo base_url(''); ?>outsource-audit-services/">Outsourced
                                         Audit Services<span></span></a></li>
                                 <li class=""><a
-                                        href="https://www.infinity-globus.com/services/outsourced-forensic-accounting/">Outsourced
+                                        href="<?php echo base_url(''); ?>outsourced-forensic-accounting/">Outsourced
                                         Forensic Accounting Services<span></span></a></li>
                                 <li class=""><a
-                                        href="https://www.infinity-globus.com/services/outsourced-business-valuation/">Outsourced
+                                        href="<?php echo base_url(''); ?>outsourced-business-valuation/">Outsourced
                                         Business Valuation Services<span></span></a></li>
                                 <li class=""><a
-                                        href="https://www.infinity-globus.com/services/outsourced-ertc/">Outsourced
+                                        href="<?php echo base_url(''); ?>outsourced-ertc/">Outsourced
                                         Employee Retention Tax Credit (ERTC)<span></span></a></li>
                             </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+</div>
+   
 
 <!-- banner -->
