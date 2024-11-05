@@ -100,16 +100,16 @@
                             <div class="phonerow col-md-12 m-0 pt-md-1 pt-2" style="align-items: center;">
                              <p class="m-0 row"><b>CALL</b></p>
                                  <p class="m-0">
-                                    <a href="" style="color:white !important;">+61 370443376</a><br>
+                                    <a href="" style="color:white !important;">+91 8511103880</a><br>
                                 </p>
                             </div>
                             <div class="email row col-md-12 m-0 pt-md-1 pt-2" style="align-items: center;">
                              <p class="m-0 pt-3"><b>EMAIL</b></p>
-                                 <p class="m-0">au@infinity-VSC.com </p>
+                                 <p class="m-0">hello@infinity-globus.com</p>
                             </div>
                             <div class="address row col-md-12 m-0 pt-md-1 pt-2" style="align-items: center;">
                               <p class="m-0 pt-3"><b>GET IN TOUCH</b></p>
-                                 <p class="m-0">  Suite 28/195 Wellington Road, Clayton, VIC 3168 Australia</p>
+                                 <p class="m-0">  8 The Green, Ste A, Diver County, Kent, DE - 19901</p>
                             </div>
                         </div>
 
