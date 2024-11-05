@@ -1165,11 +1165,13 @@ aside {
 .testimonials .card .logo {
     width: auto;
     max-width: 100%;
-    height: 25px;
+    height: 100px;
     margin-right: auto;
     margin-bottom: 1.5rem;
     display: block;
+    border-radius: 50%;
 }
+
 
 .testimonials .card .quote-right {
     position: absolute;

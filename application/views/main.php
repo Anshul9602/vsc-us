@@ -315,8 +315,10 @@
      </div>
  </section> -->
 
+
+
  <!-- Testimonials -->
- <!-- <section id="testimonials" class="section-5 carousel testimonials">
+ <section id="testimonials" class="section-5 carousel testimonials">
      <div class="overflow-holder">
          <div class="container">
              <div class="row text-center intro">
@@ -331,9 +333,9 @@
                      <div class="swiper-slide slide-center item">
                          <div class="row card">
                              <div class="col-12">
-                                 <img src="assets/images/logo-1.png" alt="Logo" class="logo">
-                                 <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                 <img src="assets/images/testimonial1.jpg" alt="Logo" class="logo">
+                                 <p>I love working with you!!!! Your team has been very professional, courteous, and prompt in helping me handle the workload of my firm. Resolving many special and complex tasks that are beneficial to my firm.</p>
+                                 <h6>Shlomi Golan</h6>
                                  <i class="quote-right fas fa-quote-right"></i>
                              </div>
                          </div>
@@ -341,9 +343,9 @@
                      <div class="swiper-slide slide-center item">
                          <div class="row card">
                              <div class="col-12">
-                                 <img src="assets/images/logo-2.png" alt="Logo" class="logo">
-                                 <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                 <img src="assets/images/testimonial2.jpg" alt="Logo" class="logo">
+                                 <p>Thanks for taking on tax & bookkeeping service for my company. It was a new venture but is so crucial to Tax-Bookkeeping company like mine that it is a surprise at how professionally you complete the tasks.</p>
+                                 <h6>Craig Carr</h6>
                                  <i class="quote-right fas fa-quote-right"></i>
                              </div>
                          </div>
@@ -351,9 +353,18 @@
                      <div class="swiper-slide slide-center item">
                          <div class="row card">
                              <div class="col-12">
-                                 <img src="assets/images/logo-3.png" alt="Logo" class="logo">
-                                 <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                 <img src="assets/images/testimonial3.jpg" alt="Logo" class="logo">
+                                 <p>Learning about new clients and the way they have their accounting can be tricky but Team Infinity Globus has been a quick learner and has taken over tasks entirely which has reduced our training time and workload.</p>
+                         <h6>Jonathan Convery</h6>
+                                 <i class="quote-right fas fa-quote-right"></i>
+                             </div>
+                         </div>
+                     </div> <div class="swiper-slide slide-center item">
+                         <div class="row card">
+                             <div class="col-12">
+                                 <img src="assets/images/testimonial1.jpg" alt="Logo" class="logo">
+                                 <p>I love working with you!!!! Your team has been very professional, courteous, and prompt in helping me handle the workload of my firm. Resolving many special and complex tasks that are beneficial to my firm.</p>
+                                 <h6>Shlomi Golan</h6>
                                  <i class="quote-right fas fa-quote-right"></i>
                              </div>
                          </div>
@@ -361,9 +372,9 @@
                      <div class="swiper-slide slide-center item">
                          <div class="row card">
                              <div class="col-12">
-                                 <img src="assets/images/logo-4.png" alt="Logo" class="logo">
-                                 <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                 <img src="assets/images/testimonial2.jpg" alt="Logo" class="logo">
+                                 <p>Thanks for taking on tax & bookkeeping service for my company. It was a new venture but is so crucial to Tax-Bookkeeping company like mine that it is a surprise at how professionally you complete the tasks.</p>
+                                 <h6>Craig Carr</h6>
                                  <i class="quote-right fas fa-quote-right"></i>
                              </div>
                          </div>
@@ -371,9 +382,19 @@
                      <div class="swiper-slide slide-center item">
                          <div class="row card">
                              <div class="col-12">
-                                 <img src="assets/images/logo-5.png" alt="Logo" class="logo">
-                                 <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                 <img src="assets/images/testimonial3.jpg" alt="Logo" class="logo">
+                                 <p>Learning about new clients and the way they have their accounting can be tricky but Team Infinity Globus has been a quick learner and has taken over tasks entirely which has reduced our training time and workload.</p>
+                         <h6>Jonathan Convery</h6>
+                                 <i class="quote-right fas fa-quote-right"></i>
+                             </div>
+                         </div>
+                     </div>
+                      <div class="swiper-slide slide-center item">
+                         <div class="row card">
+                             <div class="col-12">
+                                 <img src="assets/images/testimonial1.jpg" alt="Logo" class="logo">
+                                 <p>I love working with you!!!! Your team has been very professional, courteous, and prompt in helping me handle the workload of my firm. Resolving many special and complex tasks that are beneficial to my firm.</p>
+                                 <h6>Shlomi Golan</h6>
                                  <i class="quote-right fas fa-quote-right"></i>
                              </div>
                          </div>
@@ -381,9 +402,9 @@
                      <div class="swiper-slide slide-center item">
                          <div class="row card">
                              <div class="col-12">
-                                 <img src="assets/images/logo-1.png" alt="Logo" class="logo">
-                                 <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                 <img src="assets/images/testimonial2.jpg" alt="Logo" class="logo">
+                                 <p>Thanks for taking on tax & bookkeeping service for my company. It was a new venture but is so crucial to Tax-Bookkeeping company like mine that it is a surprise at how professionally you complete the tasks.</p>
+                                 <h6>Craig Carr</h6>
                                  <i class="quote-right fas fa-quote-right"></i>
                              </div>
                          </div>
@@ -391,50 +412,22 @@
                      <div class="swiper-slide slide-center item">
                          <div class="row card">
                              <div class="col-12">
-                                 <img src="assets/images/logo-2.png" alt="Logo" class="logo">
-                                 <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                 <img src="assets/images/testimonial3.jpg" alt="Logo" class="logo">
+                                 <p>Learning about new clients and the way they have their accounting can be tricky but Team Infinity Globus has been a quick learner and has taken over tasks entirely which has reduced our training time and workload.</p>
+                         <h6>Jonathan Convery</h6>
                                  <i class="quote-right fas fa-quote-right"></i>
                              </div>
                          </div>
                      </div>
-                     <div class="swiper-slide slide-center item">
-                         <div class="row card">
-                             <div class="col-12">
-                                 <img src="assets/images/logo-3.png" alt="Logo" class="logo">
-                                 <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                 <i class="quote-right fas fa-quote-right"></i>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="swiper-slide slide-center item">
-                         <div class="row card">
-                             <div class="col-12">
-                                 <img src="assets/images/logo-4.png" alt="Logo" class="logo">
-                                 <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                 <i class="quote-right fas fa-quote-right"></i>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="swiper-slide slide-center item">
-                         <div class="row card">
-                             <div class="col-12">
-                                 <img src="assets/images/logo-5.png" alt="Logo" class="logo">
-                                 <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                 <i class="quote-right fas fa-quote-right"></i>
-                             </div>
-                         </div>
-                     </div>
+                    
                  </div>
              </div>
          </div>
      </div>
- </section> -->
+ </section>
 
 
+ <!-- Service -->
  <section id="funfacts" class="section-2 highlights image-right counter funfacts featured">
      <div class="container">
          <div class="row">
