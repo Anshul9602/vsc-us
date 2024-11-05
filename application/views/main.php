@@ -36,6 +36,29 @@
      </div>
  </section>
 
+
+ <!-- slider -->
+ <div class="client-slider">
+         <div class="container">
+             <div id="client-slider-2" class="owl-carousel owl-theme client-slid client-slider-2">
+                 <div class="item"><img width="125" height="50" src="https://www.infinity-globus.com/wp-content/uploads/2023/11/QuickBooks.png" class="img-fluid" alt="QuickBooks" decoding="async" /></div>
+                 <div class="item"><img width="125" height="50" src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Drake-Software.png" class="img-fluid" alt="Drake Software" decoding="async" /></div>
+                 <div class="item"><img width="125" height="50" src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Ultratax.png" class="img-fluid" alt="Ultratax" decoding="async" /></div>
+                 <div class="item"><img width="125" height="50" src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Xero.png" class="img-fluid" alt="Xero" decoding="async" /></div>
+                 <div class="item"><img width="125" height="50" src="https://www.infinity-globus.com/wp-content/uploads/2023/11/CCH-Axcess-2.png" class="img-fluid" alt="CCH Axcess" decoding="async" /></div>
+                 <div class="item"><img width="125" height="50" src="https://www.infinity-globus.com/wp-content/uploads/2023/11/ProConnect.png" class="img-fluid" alt="ProConnect" decoding="async" /></div>
+                 <div class="item"><img width="125" height="50" src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Sage.png" class="img-fluid" alt="Sage" decoding="async" /></div>
+                 <div class="item"><img width="125" height="50" src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Avalara.png" class="img-fluid" alt="Avalara" decoding="async" /></div>
+                 <div class="item"><img width="125" height="50" src="https://www.infinity-globus.com/wp-content/uploads/2023/11/TaxJar.png" class="img-fluid" alt="TaxJar" decoding="async" /></div>
+                 <div class="item"><img width="125" height="50" src="https://www.infinity-globus.com/wp-content/uploads/2023/11/ADP.png" class="img-fluid" alt="ADP" decoding="async" /></div>
+                 <div class="item"><img width="125" height="50" src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Gusto.png" class="img-fluid" alt="Gusto" decoding="async" /></div>
+                 <div class="item"><img width="125" height="50" src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Zoho.png" class="img-fluid" alt="Zoho" decoding="async" /></div>
+                 <div class="item"><img width="125" height="50" src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Wave.png" class="img-fluid" alt="" decoding="async" /></div>
+                 <div class="item"><img width="125" height="50" src="https://www.infinity-globus.com/wp-content/uploads/2023/11/AuditFile.png" class="img-fluid" alt="AuditFile" decoding="async" /></div>
+             </div>
+         </div>
+     </div>
+
  <!-- Features -->
  <section id="features" class="section-1 features offers featured" style="padding: 80px 0;">
      <div class="container">
@@ -323,9 +346,9 @@
          <div class="container">
              <div class="row text-center intro">
                  <div class="col-12">
-              
+
                      <h2>Knowledge <span class="featured"><span> Treasure </span></span></h2>
-                   
+
                  </div>
              </div>
              <div class="swiper-container mid-slider items" data-perview="3">
@@ -355,11 +378,12 @@
                              <div class="col-12">
                                  <img src="assets/images/testimonial3.jpg" alt="Logo" class="logo">
                                  <p>Learning about new clients and the way they have their accounting can be tricky but Team Infinity Globus has been a quick learner and has taken over tasks entirely which has reduced our training time and workload.</p>
-                         <h6>Jonathan Convery</h6>
+                                 <h6>Jonathan Convery</h6>
                                  <i class="quote-right fas fa-quote-right"></i>
                              </div>
                          </div>
-                     </div> <div class="swiper-slide slide-center item">
+                     </div>
+                     <div class="swiper-slide slide-center item">
                          <div class="row card">
                              <div class="col-12">
                                  <img src="assets/images/testimonial1.jpg" alt="Logo" class="logo">
@@ -384,12 +408,12 @@
                              <div class="col-12">
                                  <img src="assets/images/testimonial3.jpg" alt="Logo" class="logo">
                                  <p>Learning about new clients and the way they have their accounting can be tricky but Team Infinity Globus has been a quick learner and has taken over tasks entirely which has reduced our training time and workload.</p>
-                         <h6>Jonathan Convery</h6>
+                                 <h6>Jonathan Convery</h6>
                                  <i class="quote-right fas fa-quote-right"></i>
                              </div>
                          </div>
                      </div>
-                      <div class="swiper-slide slide-center item">
+                     <div class="swiper-slide slide-center item">
                          <div class="row card">
                              <div class="col-12">
                                  <img src="assets/images/testimonial1.jpg" alt="Logo" class="logo">
@@ -414,12 +438,12 @@
                              <div class="col-12">
                                  <img src="assets/images/testimonial3.jpg" alt="Logo" class="logo">
                                  <p>Learning about new clients and the way they have their accounting can be tricky but Team Infinity Globus has been a quick learner and has taken over tasks entirely which has reduced our training time and workload.</p>
-                         <h6>Jonathan Convery</h6>
+                                 <h6>Jonathan Convery</h6>
                                  <i class="quote-right fas fa-quote-right"></i>
                              </div>
                          </div>
                      </div>
-                    
+
                  </div>
              </div>
          </div>
@@ -439,7 +463,7 @@
                          <p>Our experienced team in Australia extends a wide range of outsourced Bookkeeping, Accounting and Tax, SMSF, Paraplanning and Loans Processing services that are aimed towards enhancing your business stature and bringing optimum output at all times. With the aid of cutting-edge technology and advanced strategies, we strive to assist you in your business endeavors.</p>
                      </div>
                  </div>
-            
+
                  <!-- Action -->
                  <div data-aos="fade-up" class="buttons">
                      <div class="d-sm-inline-flex mb-5 mb-md-0">
@@ -454,3 +478,4 @@
          </div>
      </div>
  </section>
+
