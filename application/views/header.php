@@ -135,7 +135,7 @@
                                     <a href="#" class="nav-link"><i class="fas fa-phone-alt mr-2"></i> +1(754)-258-4994</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link"><i class="fas fa-envelope mr-2"></i>hello@infinity-globus.com</a>
+                                    <a href="#" class="nav-link"><i class="fas fa-envelope mr-2"></i>Support@vscoffshore.com</a>
                                 </li>
                             </ul>
 

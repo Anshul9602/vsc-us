@@ -181,7 +181,7 @@
                          <div data-percent="200" class="radial left">
                              <span></span>
                          </div>
-                         <h4>CPA Clients</h4>
+                         <h4>Clients</h4>
                          <!-- <p>Lorem ipsum dolor sit amet.</p> -->
                      </div>
                      <div data-aos="fade-up" class="col-12 col-md-4 m-0 p-0 pr-md-4 item">

@@ -105,7 +105,7 @@
                             </div>
                             <div class="email row col-md-12 m-0 pt-md-1 pt-2" style="align-items: center;">
                              <p class="m-0 pt-3"><b>EMAIL</b></p>
-                                 <p class="m-0">hello@infinity-globus.com</p>
+                                 <p class="m-0">Support@vscoffshore.com</p>
                             </div>
                             <div class="address row col-md-12 m-0 pt-md-1 pt-2" style="align-items: center;">
                               <p class="m-0 pt-3"><b>GET IN TOUCH</b></p>
