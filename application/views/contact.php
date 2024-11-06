@@ -11,19 +11,19 @@
                          <li class="nav-item">
                              <a href="#" class="nav-link">
                                  <i class="fas fa-phone-alt mr-2"></i>
-                                 +61 370443376
+                                 +91 8511103880, +91 9829787040
                              </a>
                          </li>
                          <li class="nav-item">
                              <a href="#" class="nav-link">
                                  <i class="fas fa-envelope mr-2"></i>
-                                 au@infinity-globus.com
+                                 Support@vscoffshore.com
                              </a>
                          </li>
                          <li class="nav-item">
                              <a href="#" class="nav-link">
                                  <i class="fas fa-map-marker-alt mr-2"></i>
-                                 Suite 28/195 Wellington Road, Clayton
+                                 8 The Green, Ste A, Diver County, Kent, DE - 19901
                              </a>
                          </li>
                          <li class="nav-item">

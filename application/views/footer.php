@@ -2,6 +2,10 @@
     .aai-footer-nav-title{
         color: white;
     }
+    footer ul {
+    padding-left: 0px;
+    text-align: left;
+}
 </style>
 
 
@@ -22,7 +26,7 @@
                     data-aos-delay="100"
                     data-aos-duration="1500">
                     <nav class="aai-footer-nav">
-                        <h3 class="aai-footer-nav-title">Company</h3>
+                        <p class="aai-footer-nav-title"><b>Company</b></p>
                         <ul class="aai-footer-nav-list" style="list-style-type: none;" >
                             <li class="aai-footer-nav-list-item">
                                 <a href="" class="aai-footer-nav-link">Our Team </a>
@@ -53,7 +57,7 @@
 
 
                     <nav class="aai-footer-nav">
-                        <h3 class="aai-footer-nav-title">Quick Links</h3>
+                        <p class="aai-footer-nav-title"><b>Quick Links</b></p>
                         <ul class="aai-footer-nav-list"  style="list-style-type: none;" >
 
                             <li class="aai-footer-nav-list-item">
@@ -77,7 +81,7 @@
 
 
                     <nav class="aai-footer-nav">
-                        <h3 class="aai-footer-nav-title">RESOURCES</h3>
+                        <p class="aai-footer-nav-title"><b>RESOURCES</b></p>
                         <ul class="aai-footer-nav-list"  style="list-style-type: none;" >
 
                             <li class="aai-footer-nav-list-item">
@@ -96,20 +100,20 @@
                     data-aos="fade-up"
                     data-aos-delay="300"
                     data-aos-duration="1500">
-                    <div class="info mt-4 col-md-12  row" style="color:white;">
+                    <div class="info col-md-12  row" style="color:white;">
                             <div class="phonerow col-md-12 m-0 pt-md-1 pt-2" style="align-items: center;">
                              <p class="m-0 row"><b>CALL</b></p>
                                  <p class="m-0">
-                                    <a href="" style="color:white !important;">+91 8511103880</a><br>
+                                    <a href="" >+91 8511103880</a><br>
                                 </p>
                             </div>
                             <div class="email row col-md-12 m-0 pt-md-1 pt-2" style="align-items: center;">
                              <p class="m-0 pt-3"><b>EMAIL</b></p>
-                                 <p class="m-0">Support@vscoffshore.com</p>
+                                 <p class="m-0" style="color:#058283;">Support@vscoffshore.com</p>
                             </div>
                             <div class="address row col-md-12 m-0 pt-md-1 pt-2" style="align-items: center;">
                               <p class="m-0 pt-3"><b>GET IN TOUCH</b></p>
-                                 <p class="m-0">  8 The Green, Ste A, Diver County, Kent, DE - 19901</p>
+                                 <p class="m-0"style="color:#058283;">  8 The Green, Ste A, Diver County, Kent, DE - 19901</p>
                             </div>
                         </div>
 

@@ -1,4 +1,4 @@
-<!-- <section   style="background-image: url('<?php echo base_url(''); ?>assets/img/bg.png'); max-width: 100%; background-repeat: no-repeat;height:90vh; ">
+<!-- <section   style="background-image: url('<?php echo base_url('Service1'); ?>assets/img/bg.png'); max-width: 100%; background-repeat: no-repeat;height:90vh; ">
 <div class=" d-flex justify-content-center align-items-center container space" style="padding-top: 40vh;">
     <h1>COMING SOON</h1>
 </div>
@@ -198,7 +198,7 @@
         <div class="row" id="ajax_product">
             <div class="col-lg-4 col-md-6">
                 <a class="listing-card"
-                    href="<?php echo base_url(''); ?>outsourced-tax-preparation-services/">
+                    href="<?php echo base_url('Service1'); ?>">
                     <div class="card-img"><img
                             src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Outsource-Tax-Preparation-Services.webp"
                             class=" wp-post-image" alt="Outsource Tax Preparation Services" decoding="async"></div>
@@ -212,7 +212,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <a class="listing-card"
-                    href="<?php echo base_url(''); ?>outsourced-multistate-tax-preparation/">
+                    href="<?php echo base_url('Service1'); ?>">
                     <div class="card-img"><img
                             src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Outsource-Multistate-Sales-Tax-Preparation.webp"
                             class=" wp-post-image" alt="Outsource Multistate Sales Tax Preparation" decoding="async">
@@ -227,7 +227,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <a class="listing-card"
-                    href="<?php echo base_url(''); ?>outsourced-back-year-tax-preparation/">
+                    href="<?php echo base_url('Service1'); ?>">
                     <div class="card-img"><img
                             src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Outsourced-Back-Years-Tax-Preparation.webp"
                             class=" wp-post-image" alt="Outsourced Back Year Tax Preparation" decoding="async"></div>
@@ -241,7 +241,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <a class="listing-card"
-                    href="<?php echo base_url(''); ?>outsourced-tax-litigation-resolution/">
+                    href="<?php echo base_url('Service1'); ?>">
                     <div class="card-img"><img
                             src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Outsourced-Tax-Litigation-Resolution-Notices.webp"
                             class=" wp-post-image" alt="Outsourced Tax Litigation Resolution Services" decoding="async">
@@ -256,7 +256,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <a class="listing-card"
-                    href="<?php echo base_url(''); ?>outsourced-management-accounting/">
+                    href="<?php echo base_url('Service1'); ?>">
                     <div class="card-img"><img
                             src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Outsourced-Management-Accounting.webp"
                             class=" wp-post-image" alt="Outsourced Management Accounting" decoding="async"></div>
@@ -269,7 +269,7 @@
                 </a>
             </div>
             <div class="col-lg-4 col-md-6">
-                <a class="listing-card" href="<?php echo base_url(''); ?>payroll-outsourcing-services/">
+                <a class="listing-card" href="<?php echo base_url('Service1'); ?>">
                     <div class="card-img"><img
                             src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Outsourced-Payroll-Services.webp"
                             class=" wp-post-image" alt="Outsourced Payroll Services" decoding="async"></div>
@@ -283,7 +283,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <a class="listing-card"
-                    href="<?php echo base_url(''); ?>outsourced-bookkeeping-services/">
+                    href="<?php echo base_url('Service1'); ?>">
                     <div class="card-img"><img
                             src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Outsource-Bookkeeping-Services.webp"
                             class=" wp-post-image" alt="Outsourced bookkeeping service" decoding="async"></div>
@@ -297,7 +297,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <a class="listing-card"
-                    href="<?php echo base_url(''); ?>outsourced-secretarial-services/">
+                    href="<?php echo base_url('Service1'); ?>">
                     <div class="card-img"><img
                             src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Outsource-Secretarial-Services.webp"
                             class=" wp-post-image" alt="Outsource Secretarial Services" decoding="async"></div>
@@ -310,7 +310,7 @@
                 </a>
             </div>
             <div class="col-lg-4 col-md-6">
-                <a class="listing-card" href="<?php echo base_url(''); ?>outsource-audit-services/">
+                <a class="listing-card" href="<?php echo base_url('Service1'); ?>">
                     <div class="card-img"><img
                             src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Outsource-Audit-Services.webp"
                             class=" wp-post-image" alt="Outsourced Audit Services" decoding="async"></div>
@@ -324,7 +324,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <a class="listing-card"
-                    href="<?php echo base_url(''); ?>outsourced-forensic-accounting/">
+                    href="<?php echo base_url('Service1'); ?>">
                     <div class="card-img"><img
                             src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Outsourced-Forensic-Accounting-Services.webp"
                             class=" wp-post-image" alt="Outsourced Forensic Accounting Services" decoding="async"></div>
@@ -338,7 +338,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <a class="listing-card"
-                    href="<?php echo base_url(''); ?>outsourced-business-valuation/">
+                    href="<?php echo base_url('Service1'); ?>">
                     <div class="card-img"><img
                             src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Outsource-Business-Valuation.webp"
                             class=" wp-post-image" alt="Outsource Business Valuation Services" decoding="async"></div>
@@ -351,7 +351,7 @@
                 </a>
             </div>
             <div class="col-lg-4 col-md-6">
-                <a class="listing-card" href="<?php echo base_url(''); ?>outsourced-ertc/">
+                <a class="listing-card" href="<?php echo base_url('Service1'); ?>">
                     <div class="card-img"><img
                             src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Outsourced-Employee-Retention-Tax-Credit-ERTC.webp"
                             class=" wp-post-image" alt="Outsourced Employee Retention Tax Credit&nbsp;"
