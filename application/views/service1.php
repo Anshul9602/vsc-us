@@ -174,7 +174,7 @@
         </div>
     </div>
     <div class="inner-page details-page services-details">
-        <div class="row  d-flex justify-content-center " style="">
+        <div class="row  d-flex justify-content-center " >
 
             <div class="col-lg-9 col-md-8 mt-md-5 mt-2">
 
@@ -268,7 +268,7 @@
             </div>
         </div>
     </div>
-    <div class="blue-bg sec-with-shape py-5 d-none">
+    <div class="blue-bg sec-with-shape py-5 ">
         <div class="container">
             <div class="row">
                 <div class="col-xl-4">

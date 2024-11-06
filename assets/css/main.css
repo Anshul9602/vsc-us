@@ -207,6 +207,7 @@ table {
     box-sizing: border-box;
 }
 
+
 a:not(.btn), a:link:not(.btn), a:visited:not(.btn), a:hover:not(.btn), a:active:not(.btn) {
     font-size: 1rem;
     font-weight: 400;
@@ -1021,7 +1022,7 @@ aside {
 }
 
 .highlights p {
-    white-space: pre-wrap;
+    text-align: justify;
 }
 
 .highlights .items .item .icon {
@@ -2893,7 +2894,7 @@ header .navbar-expand .navbar-brand .featured .first {
 
 .card p {
     margin: 0 0 10px;
-    white-space: pre-wrap;
+    text-align: justify;
     -webkit-transition: all .4s ease-out 0s;
     -o-transition: all .4s ease-out 0s;
     -moz-transition: all .4s ease-out 0s;
