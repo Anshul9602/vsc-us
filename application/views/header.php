@@ -166,7 +166,7 @@
                                 <ul class="dropdown-menu">
                                     <li class="nav-item"><a href="team" class="nav-link">Our Team </a></li>
                                     <li class="nav-item"><a href="" class="nav-link">Onboarding Process</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link">Why Infinity VSC Australia</a></li>
+                                    <li class="nav-item"><a href="why" class="nav-link">Why Infinity VSC Australia</a></li>
                                     <li class="nav-item"><a href="data" class="nav-link">Data Security & Confidentiality</li>
 
                                     <li class="nav-item">
