@@ -32,11 +32,13 @@
         border-bottom: 2px solid;
         color: #fff;
     }
+
     .accordion-button:not(.collapsed) {
         color: #fff;
-        background-color:transparent;
+        background-color: transparent;
         box-shadow: inset 0 calc(-1* var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
     }
+
     .accordion-item {
         background-color: transparent;
         color: #fff;
@@ -62,21 +64,17 @@
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseOne" aria-expanded="true"
                                                 aria-controls="collapseOne">
-                                                <i class="bi-apple me-2"></i>
-                                                Accordion Item #1
+                                                
+                                                Cost Efficient
                                             </button>
                                         </h2>
                                         <div id="collapseOne" class="accordion-collapse collapse show"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <strong>This is the first item's accordion body.</strong> It is
-                                                shown by default, until the collapse plugin adds the appropriate
-                                                classes that we use to style each element. These classes control the
-                                                overall appearance, as well as the showing and hiding via CSS
-                                                transitions. You can modify any of this with custom CSS or
-                                                overriding our default variables. It's also worth noting that just
-                                                about any HTML can go within the <code>.accordion-body</code>,
-                                                though the transition does limit overflow.
+                                                We offer a cost-effective approach combined with exceptional outsourced
+                                                tax return preparation services that are one of a kind in the industry.
+                                                We, therefore, not only give you value-added services but even save your
+                                                clients from unwanted expenditures.
                                             </div>
                                         </div>
                                     </div>
@@ -85,21 +83,16 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                                 aria-expanded="false" aria-controls="collapseTwo">
-                                                <i class="bi-android2 me-2"></i>
-                                                Accordion Item #2
+                                                
+                                                Cutting-Edge Technology
                                             </button>
                                         </h2>
                                         <div id="collapseTwo" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <strong>This is the second item's accordion body.</strong> It is
-                                                hidden by default, until the collapse plugin adds the appropriate
-                                                classes that we use to style each element. These classes control the
-                                                overall appearance, as well as the showing and hiding via CSS
-                                                transitions. You can modify any of this with custom CSS or
-                                                overriding our default variables. It's also worth noting that just
-                                                about any HTML can go within the <code>.accordion-body</code>,
-                                                though the transition does limit overflow.
+                                                By leveraging modern technology, we provide the best tax preparation
+                                                outsourcing services that optimize your experience and bring optimal
+                                                results.
                                             </div>
                                         </div>
                                     </div>
@@ -108,21 +101,99 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                                 aria-expanded="false" aria-controls="collapseThree">
-                                                <i class="bi-microsoft me-2"></i>
-                                                Accordion Item #3
+                                              
+                                                Process Standardization 
                                             </button>
                                         </h2>
                                         <div id="collapseThree" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <strong>This is the third item's accordion body.</strong> It is
-                                                hidden by default, until the collapse plugin adds the appropriate
-                                                classes that we use to style each element. These classes control the
-                                                overall appearance, as well as the showing and hiding via CSS
-                                                transitions. You can modify any of this with custom CSS or
-                                                overriding our default variables. It's also worth noting that just
-                                                about any HTML can go within the <code>.accordion-body</code>,
-                                                though the transition does limit overflow.
+                                                We are committed to offering you a guaranteed standardized process of tax planning that not only
+                                                boosts overall efficiency but converts outsourced tax return preparation into a seamless experience.
+                                            </div>
+                                        </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree1"
+                                                aria-expanded="false" aria-controls="collapseThree1">
+                                               
+                                                Diverse and Committed Workforce
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree1" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                We have a dedicated team of CPAs, EAs, Tax specialists and industry veterans who understand the
+                                                know-how of the complex outsourcing tax return preparation demands of the industry.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree2"
+                                                aria-expanded="false" aria-controls="collapseThree2">
+                                               
+                                                Assurance of Data Confidentiality
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree2" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                Infinity Globus keeps your client’s data confidentiality at the core of the services offered. As
+                                                such, we secure every piece of information shared with the aid of our trusted software along with a
+                                                team of reliable and responsible professionals.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree3"
+                                                aria-expanded="false" aria-controls="collapseThree3">
+                                                Exemplary Outsourced Tax Preparation Services 
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree3" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                From our impeccable tax return services to our unfailing commitment to offering you the best services
+                                                based on attention to detail, Infinity Globus is the answer to all your outsourced tax return
+                                                requirements.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree4"
+                                                aria-expanded="false" aria-controls="collapseThree4">
+                                                Professional Advice and Guidance 
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree4" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                We are always on our toes to assist and guide you with your client’s tax planning, and its solutions,
+                                                thus ensuring maximum credits and deductions to them. Infinity Globus believes in providing you with
+                                                tailored outsourced tax solutions at every step of your way.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree5"
+                                                aria-expanded="false" aria-controls="collapseThree5">
+                                                Adept in Complex Tax Returns
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree5" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                No matter how complex your client’s tax returns are, Infinity Globus can prepare and save money
+                                                wherever possible, making your experience with your client a seamless one.
                                             </div>
                                         </div>
                                     </div>
