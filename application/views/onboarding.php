@@ -4,6 +4,10 @@
     background-color: rgb(255 255 255 / 56%) !important;
     color: black !important;
 }
+.onb2:hover span{
+   
+    color: black !important;
+}
  </style>
  
  <!-- Hero -->
