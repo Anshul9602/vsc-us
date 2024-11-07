@@ -51,6 +51,22 @@ HTML5 display-role reset for older browsers
 /* #region Reset */
 
 /* ncss */
+.onb1{
+    height: 340px;
+}
+.onb2{
+    height: 600px;
+    color:black !important;
+}
+
+.onb2:hover {
+    background-color: rgb(255 255 255 / 56%) !important;
+    color: black !important;
+}
+
+.onb2:hover span {
+    color: black !important;
+}
 
 /* ncss */
 
@@ -467,8 +483,12 @@ h6 {
     word-wrap: break-word;
 }
 
-.odd h6 {
+/* .odd h6 {
     color: var(--white-color);
+} */
+.odd h6{
+    color:black;
+    font-weight:400px;
 }
 
 b, strong {
@@ -659,6 +679,8 @@ section {
     background-attachment: fixed;
     background-position: center;
 }
+
+
 
 section.hero       { background-color: var(--hero-bg-color); }
 section.section-1  { background-color: var(--section-1-bg-color);  background-image: var(--section-1-bg-image); }
@@ -3010,6 +3032,7 @@ header .navbar-expand .navbar-brand .featured .first {
 .odd .card:hover .btn-icon {
     opacity: 1;
     color: var(--primary-bg-color);
+    
 }
 
 .odd .card:hover .share-list i {
