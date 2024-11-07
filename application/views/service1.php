@@ -126,6 +126,7 @@
         font-family: "Source Serif 4", serif;
 
     }
+  
 
     p {
         margin-bottom: 30px;
@@ -148,8 +149,22 @@
         color: #444;
         border: none;
     }
-
-   
+    ul.theme-list li::before, .details-page ul li::before, .sidebar-widget ul li::before, ::marker {
+        content: '';
+        position: absolute;
+        top: 8px;
+        left: 0;
+        width: 10px;
+        height: 10px;
+        background: url(assets/images/arrow-TopRight.svg) no-repeat center center;
+        background-size: contain;
+        transition: 0.5s;
+    }
+    .accordion-body ul li:hover::before, li:hover::marker {
+        transform: rotate(45deg);
+    }
+    .accordion-button::after {
+        background: #fff;}
 </style>
 
 <section>

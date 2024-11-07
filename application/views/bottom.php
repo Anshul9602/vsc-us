@@ -155,99 +155,100 @@
                                                 into a seamless experience.
                                             </div>
                                         </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#collapseThree1"
-                                                    aria-expanded="false" aria-controls="collapseThree1">
+                                       
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree1"
+                                                aria-expanded="false" aria-controls="collapseThree1">
 
-                                                    Diverse and Committed Workforce
-                                                </button>
-                                            </h2>
-                                            <div id="collapseThree1" class="accordion-collapse collapse"
-                                                data-bs-parent="#accordionExample">
-                                                <div class="accordion-body">
-                                                    We have a dedicated team of CPAs, EAs, Tax specialists and industry
-                                                    veterans who understand the
-                                                    know-how of the complex outsourcing tax return preparation demands
-                                                    of the industry.
-                                                </div>
+                                                Diverse and Committed Workforce
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree1" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                We have a dedicated team of CPAs, EAs, Tax specialists and industry
+                                                veterans who understand the
+                                                know-how of the complex outsourcing tax return preparation demands
+                                                of the industry.
                                             </div>
                                         </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#collapseThree2"
-                                                    aria-expanded="false" aria-controls="collapseThree2">
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree2"
+                                                aria-expanded="false" aria-controls="collapseThree2">
 
-                                                    Assurance of Data Confidentiality
-                                                </button>
-                                            </h2>
-                                            <div id="collapseThree2" class="accordion-collapse collapse"
-                                                data-bs-parent="#accordionExample">
-                                                <div class="accordion-body">
-                                                    Infinity Globus keeps your client’s data confidentiality at the core
-                                                    of the services offered. As
-                                                    such, we secure every piece of information shared with the aid of
-                                                    our trusted software along with a
-                                                    team of reliable and responsible professionals.
-                                                </div>
+                                                Assurance of Data Confidentiality
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree2" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                Infinity Globus keeps your client’s data confidentiality at the core
+                                                of the services offered. As
+                                                such, we secure every piece of information shared with the aid of
+                                                our trusted software along with a
+                                                team of reliable and responsible professionals.
                                             </div>
                                         </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#collapseThree3"
-                                                    aria-expanded="false" aria-controls="collapseThree3">
-                                                    Exemplary Outsourced Tax Preparation Services
-                                                </button>
-                                            </h2>
-                                            <div id="collapseThree3" class="accordion-collapse collapse"
-                                                data-bs-parent="#accordionExample">
-                                                <div class="accordion-body">
-                                                    From our impeccable tax return services to our unfailing commitment
-                                                    to offering you the best services
-                                                    based on attention to detail, Infinity Globus is the answer to all
-                                                    your outsourced tax return
-                                                    requirements.
-                                                </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree3"
+                                                aria-expanded="false" aria-controls="collapseThree3">
+                                                Exemplary Outsourced Tax Preparation Services
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree3" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                From our impeccable tax return services to our unfailing commitment
+                                                to offering you the best services
+                                                based on attention to detail, Infinity Globus is the answer to all
+                                                your outsourced tax return
+                                                requirements.
                                             </div>
                                         </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#collapseThree4"
-                                                    aria-expanded="false" aria-controls="collapseThree4">
-                                                    Professional Advice and Guidance
-                                                </button>
-                                            </h2>
-                                            <div id="collapseThree4" class="accordion-collapse collapse"
-                                                data-bs-parent="#accordionExample">
-                                                <div class="accordion-body">
-                                                    We are always on our toes to assist and guide you with your client’s
-                                                    tax planning, and its solutions,
-                                                    thus ensuring maximum credits and deductions to them. Infinity
-                                                    Globus believes in providing you with
-                                                    tailored outsourced tax solutions at every step of your way.
-                                                </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree4"
+                                                aria-expanded="false" aria-controls="collapseThree4">
+                                                Professional Advice and Guidance
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree4" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                We are always on our toes to assist and guide you with your client’s
+                                                tax planning, and its solutions,
+                                                thus ensuring maximum credits and deductions to them. Infinity
+                                                Globus believes in providing you with
+                                                tailored outsourced tax solutions at every step of your way.
                                             </div>
                                         </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#collapseThree5"
-                                                    aria-expanded="false" aria-controls="collapseThree5">
-                                                    Adept in Complex Tax Returns
-                                                </button>
-                                            </h2>
-                                            <div id="collapseThree5" class="accordion-collapse collapse"
-                                                data-bs-parent="#accordionExample">
-                                                <div class="accordion-body">
-                                                    No matter how complex your client’s tax returns are, Infinity Globus
-                                                    can prepare and save money
-                                                    wherever possible, making your experience with your client a
-                                                    seamless one.
-                                                </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree5"
+                                                aria-expanded="false" aria-controls="collapseThree5">
+                                                Adept in Complex Tax Returns
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree5" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                No matter how complex your client’s tax returns are, Infinity Globus
+                                                can prepare and save money
+                                                wherever possible, making your experience with your client a
+                                                seamless one.
                                             </div>
                                         </div>
                                     </div>
@@ -369,3 +370,5 @@
         </div>
     </div>
 </div>
+
+
