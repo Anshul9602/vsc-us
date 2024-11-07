@@ -35,10 +35,10 @@
                                 <a href="" class="aai-footer-nav-link">Why Infinity VSC Australia </a>
                             </li>
                             <li class="aai-footer-nav-list-item">
-                                <a href="service1" class="aai-footer-nav-link">Data Security & Confidentiality</a>
+                                <a href="Services" class="aai-footer-nav-link">Data Security & Confidentiality</a>
                             </li>
                             <li class="aai-footer-nav-list-item">
-                                <a href="product1" class="aai-footer-nav-link"> Careers</a>
+                                <a href="#" class="aai-footer-nav-link"> Careers</a>
                             </li>
                             <li class="aai-footer-nav-list-item">
                                 <a href="contact" class="aai-footer-nav-link">Contact</a>
@@ -61,12 +61,12 @@
                         <ul class="aai-footer-nav-list"  style="list-style-type: none;" >
 
                             <li class="aai-footer-nav-list-item">
-                                <a href="service" class="aai-footer-nav-link">
+                                <a href="Services" class="aai-footer-nav-link">
                                 Services
                                 </a>
                             </li>
                             <li class="aai-footer-nav-list-item">
-                                <a href="faq" class="aai-footer-nav-link">FAQs</a>
+                                <a href="#" class="aai-footer-nav-link">FAQs</a>
                             </li>
                            
                         </ul>
@@ -85,7 +85,7 @@
                         <ul class="aai-footer-nav-list"  style="list-style-type: none;" >
 
                             <li class="aai-footer-nav-list-item">
-                                <a href="blog" class="aai-footer-nav-link">
+                                <a href="/" class="aai-footer-nav-link">
                                 Blog
                                 </a>
                             </li>
