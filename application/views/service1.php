@@ -167,7 +167,7 @@
         background: #fff;}
 </style>
 
-<section>
+<section style="    padding: 30px 0;">
 
     <div style="background: url('assets/inner-banner.jpg') no-repeat center center fixed;background-size: cover;">
         <div class="inner-banner">
