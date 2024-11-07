@@ -229,7 +229,6 @@
                 <div class="col-lg-3 col-md-4 mt-md-5 mt-2">
                     <?php $this->load->view('side'); ?>
                 </div>
-
             </div>
         </div>
     </div>
