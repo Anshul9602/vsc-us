@@ -224,10 +224,10 @@
                                                     <a class="nav-link" href="<?php echo base_url('Secretarial_Services'); ?>">Secretarial Services</a>
                                                 </li>
                                                 <li class="nav-item ">
-                                                    <a class="nav-link" href="<?php echo base_url('Tax_Preparation_Service'); ?>">Audit Services</a>
+                                                    <a class="nav-link" href="<?php echo base_url('Audit_Services'); ?>">Audit Services</a>
                                                 </li>
                                                 <li class="nav-item ">
-                                                    <a class="nav-link" href="<?php echo base_url('Tax_Preparation_Service'); ?>">Employee Retention Tax Credit (ERTC)</a>
+                                                    <a class="nav-link" href="<?php echo base_url('Employee_Retention_Tax_Credit'); ?>">Employee Retention Tax Credit (ERTC)</a>
                                                 </li>
 
                                             </ul>

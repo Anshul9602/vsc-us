@@ -194,7 +194,7 @@
                 enable our clients to achieve their goals and reach new levels of success.</p>
         </div>
     </div>
-    <div class="row  d-flex justify-content-center  align-items-center">
+    <div class="container  d-flex justify-content-center  align-items-center">
         <div class="row" id="ajax_product">
             <div class="col-lg-4 col-md-6">
                 <a class="listing-card"
