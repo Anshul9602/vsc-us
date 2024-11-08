@@ -184,33 +184,16 @@
                                         <div class="col-md-4">
                                             <ul>
                                                 <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Tax Preparation Service</a>
+                                                    <a class="nav-link" href="<?php echo base_url('Tax_Preparation_Service'); ?>">Tax Preparation Service</a>
                                                 </li>
                                                 <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Multistate Tax Preparation Service</a>
+                                                    <a class="nav-link" href="<?php echo base_url('Multistate_Tax_Preparation_Service'); ?>">Multistate Tax Preparation Service</a>
                                                 </li>
                                                 <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Back Year Tax Preparation</a>
+                                                    <a class="nav-link" href="<?php echo base_url('Back_Year_Tax_Preparation'); ?>">Back Year Tax Preparation</a>
                                                 </li>
                                                 <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Forensic Accounting Services</a>
-                                                </li>
-
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <ul>
-                                                <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Tax Litigation Resolution Services</a>
-                                                </li>
-                                                <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Management Accounting & Reporting Services</a>
-                                                </li>
-                                                <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Payroll Services</a>
-                                                </li>
-                                                <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Business Valuation Services</a>
+                                                    <a class="nav-link" href="<?php echo base_url('Forensic_Accounting_Services'); ?>">Forensic Accounting Services</a>
                                                 </li>
 
                                             </ul>
@@ -218,16 +201,33 @@
                                         <div class="col-md-4">
                                             <ul>
                                                 <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Bookkeeping Services</a>
+                                                    <a class="nav-link" href="<?php echo base_url('Tax_Litigation_Resolution_Services'); ?>">Tax Litigation Resolution Services</a>
                                                 </li>
                                                 <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Secretarial Services</a>
+                                                    <a class="nav-link" href="<?php echo base_url('Management_Accounting_Reporting_Services'); ?>">Management Accounting & Reporting Services</a>
                                                 </li>
                                                 <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Audit Services</a>
+                                                    <a class="nav-link" href="<?php echo base_url('Payroll_Services'); ?>">Payroll Services</a>
                                                 </li>
                                                 <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Employee Retention Tax Credit (ERTC)</a>
+                                                    <a class="nav-link" href="<?php echo base_url('Business_Valuation_Services'); ?>">Business Valuation Services</a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <ul>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="<?php echo base_url('Bookkeeping_Services'); ?>">Bookkeeping Services</a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="<?php echo base_url('Secretarial_Services'); ?>">Secretarial Services</a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="<?php echo base_url('Tax_Preparation_Service'); ?>">Audit Services</a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="<?php echo base_url('Tax_Preparation_Service'); ?>">Employee Retention Tax Credit (ERTC)</a>
                                                 </li>
 
                                             </ul>
