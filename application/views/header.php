@@ -156,7 +156,7 @@
                     </nav>
                     <!-- Navbar Items -->
                     <div class="row" style="    text-align: end;">
-                        <ul class="navbar-nav items col-md-9">
+                        <ul class="navbar-nav items col-md-9 p-0">
                             <li class="nav-item ">
                                 <a href="main" class="nav-link n-menu">HOME </a>
 

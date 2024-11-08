@@ -57,6 +57,7 @@ HTML5 display-role reset for older browsers
 .onb2{
     height: 600px;
     color:black !important;
+    background-color: rgb(255 255 255 / 50%)  !important;
 }
 
 .onb2:hover {
@@ -65,6 +66,32 @@ HTML5 display-role reset for older browsers
 }
 
 .onb2:hover span {
+    color: black !important;
+}
+.onb4{
+    color:black !important;
+    background-color: rgb(255 255 255 / 50%)  !important;
+}
+
+.onb4:hover {
+    background-color: rgb(255 255 255 / 56%) !important;
+    color: black !important;
+}
+
+.onb4:hover span {
+    color: black !important;
+}
+.onb6{
+    color:black !important;
+    background-color: rgb(255 255 255 / 50%)  !important;
+}
+
+.onb6:hover {
+    background-color: rgb(255 255 255 / 56%) !important;
+    color: black !important;
+}
+
+.onb6:hover span {
     color: black !important;
 }
 
