@@ -87,40 +87,39 @@
     <h4 class="sidebar-title">Our Services</h4>
                             <ul class="sidebar-cat-list">
                                 <li class="active"><a
-                                        href="<?php echo base_url(''); ?>outsourced-tax-preparation-services/">Outsourced
+                                        href="<?php echo base_url('./Tax_Preparation_Service'); ?>">Outsourced
                                         Tax Preparation Service<span></span></a></li>
                                 <li class=""><a
-                                        href="<?php echo base_url(''); ?>outsourced-multistate-tax-preparation/">Outsourced
+                                        href="<?php echo base_url('./Multistate_Tax_Preparation_Service'); ?>">Outsourced
                                         Multistate Tax Preparation Service<span></span></a></li>
                                 <li class=""><a
-                                        href="<?php echo base_url(''); ?>outsourced-back-year-tax-preparation/">Outsourced
+                                        href="<?php echo base_url('./Back_Year_Tax_Preparation'); ?>">Outsourced
                                         Back Year Tax Preparation<span></span></a></li>
                                 <li class=""><a
-                                        href="<?php echo base_url(''); ?>outsourced-tax-litigation-resolution/">Outsourced
+                                        href="<?php echo base_url('./Tax_Litigation_Resolution_Services'); ?>">Outsourced
                                         Tax Litigation Resolution Services<span></span></a></li>
                                 <li class=""><a
-                                        href="<?php echo base_url(''); ?>outsourced-management-accounting/">Outsourced
+                                        href="<?php echo base_url('./Management_Accounting_Reporting_Services'); ?>">Outsourced
                                         Management Accounting &amp; Reporting Services<span></span></a></li>
                                 <li class=""><a
-                                        href="<?php echo base_url(''); ?>payroll-outsourcing-services/">Outsourced
-                                        Payroll Services<span></span></a></li>
+                                        href="<?php echo base_url('./Payroll_Services'); ?>">Outsourced Payroll Services<span></span></a></li>
                                 <li class=""><a
-                                        href="<?php echo base_url(''); ?>outsourced-bookkeeping-services/">Outsourced
+                                        href="<?php echo base_url('./Bookkeeping_Services'); ?>">Outsourced
                                         Bookkeeping Services<span></span></a></li>
                                 <li class=""><a
-                                        href="<?php echo base_url(''); ?>outsourced-secretarial-services/">Outsourced
+                                        href="<?php echo base_url('./Secretarial_Services'); ?>">Outsourced
                                         Secretarial Services<span></span></a></li>
                                 <li class=""><a
-                                        href="<?php echo base_url(''); ?>outsource-audit-services/">Outsourced
+                                        href="<?php echo base_url('./Audit_Services'); ?>">Outsourced
                                         Audit Services<span></span></a></li>
                                 <li class=""><a
-                                        href="<?php echo base_url(''); ?>outsourced-forensic-accounting/">Outsourced
+                                        href="<?php echo base_url('./Forensic_Accounting_Services'); ?>">Outsourced
                                         Forensic Accounting Services<span></span></a></li>
                                 <li class=""><a
-                                        href="<?php echo base_url(''); ?>outsourced-business-valuation/">Outsourced
+                                        href="<?php echo base_url('./Business_Valuation_Services'); ?>">Outsourced
                                         Business Valuation Services<span></span></a></li>
                                 <li class=""><a
-                                        href="<?php echo base_url(''); ?>outsourced-ertc/">Outsourced
+                                        href="<?php echo base_url('./Employee_Retention_Tax_Credit'); ?>">Outsourced
                                         Employee Retention Tax Credit (ERTC)<span></span></a></li>
                             </ul>
 </div>
