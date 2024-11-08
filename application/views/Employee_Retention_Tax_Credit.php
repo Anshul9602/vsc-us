@@ -196,7 +196,7 @@
 
         </div>
     </div>
-    <div class="" style="max-width: 95%; margin:auto;">
+    <div class="container">
         <div class="inner-page details-page services-details">
             <div class="row  d-flex justify-content-center ">
 

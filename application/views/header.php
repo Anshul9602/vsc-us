@@ -248,7 +248,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a href="#" class="nav-link  n-menu">FAQ'S </a>
+                                <a href="<?php echo base_url('FAQ'); ?>" class="nav-link  n-menu">FAQ'S </a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a href="contact" class="nav-link  n-menu ">CONTACT US </a>
@@ -302,5 +302,9 @@
             </div>
         </div>
 </body>
-
+<style>
+    .inner-page ol, .inner-page ul{
+        padding-left: 0;
+    }
+</style>
 </html>

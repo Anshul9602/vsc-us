@@ -174,7 +174,7 @@
                     <h1 class="page-title">Services</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="https://www.infinity-globus.com"><i
+                            <li class="breadcrumb-item"><a href="<?php echo base_url(''); ?>"><i
                                         class="fa fa-home"></i></a></li>
                             <li class="breadcrumb-item active">Services</li>
                         </ol>
