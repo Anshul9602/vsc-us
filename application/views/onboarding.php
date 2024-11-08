@@ -1,8 +1,20 @@
  <style>
+<<<<<<< HEAD
      .onb2:hover {
          background-color: rgb(255 255 255 / 56%) !important;
          color: black !important;
      }
+=======
+    
+.onb2:hover{
+    background-color: rgb(255 255 255 / 56%) !important;
+    color: black !important;
+}
+.onb2:hover span{
+   
+    color: black !important;
+}
+>>>>>>> 16a5dae1425d00dc350106d7d5c401cfb9757626
  </style>
 
  <!-- Hero -->

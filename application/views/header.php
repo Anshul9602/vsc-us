@@ -63,6 +63,31 @@
             --section-5-bg-color: #eef4ed;
             --section-6-bg-color: #111117;
         }
+        .faq .accordion .accordion-item .accordion-button:not(.collapsed):before {
+    background: rgb(255 255 255 / 14%);
+}
+        @media (max-width: 768px) {
+           .testi-text-slider .testimonial-card{
+            display: block !important;
+           } 
+           .section-part .testi-text-slider .icon {
+    margin-right: auto !important;
+ 
+}
+.section-part .testi-text-slider .testimonial-content {
+    width: 100% !important;
+}
+.faq .accordion .accordion-item .accordion-button, .faq .accordion .accordion-item:last-of-type .accordion-button.collapsed {
+        padding: 15px 40px 15px 50px;
+        font-size: 16px;
+    }
+    .faq .accordion .accordion-item .accordion-button, .faq .accordion .accordion-item:last-of-type .accordion-button.collapsed {
+    font-family: sans-serif !important;
+    padding: 15px;}
+    .faq .accordion .accordion-item .accordion-button::before {
+display: none !important;
+    }
+        }
     </style>
 
 </head>
@@ -184,33 +209,16 @@
                                         <div class="col-md-4">
                                             <ul>
                                                 <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Tax Preparation Service</a>
+                                                    <a class="nav-link" href="<?php echo base_url('Tax_Preparation_Service'); ?>">Tax Preparation Service</a>
                                                 </li>
                                                 <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Multistate Tax Preparation Service</a>
+                                                    <a class="nav-link" href="<?php echo base_url('Multistate_Tax_Preparation_Service'); ?>">Multistate Tax Preparation Service</a>
                                                 </li>
                                                 <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Back Year Tax Preparation</a>
+                                                    <a class="nav-link" href="<?php echo base_url('Back_Year_Tax_Preparation'); ?>">Back Year Tax Preparation</a>
                                                 </li>
                                                 <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Forensic Accounting Services</a>
-                                                </li>
-
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <ul>
-                                                <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Tax Litigation Resolution Services</a>
-                                                </li>
-                                                <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Management Accounting & Reporting Services</a>
-                                                </li>
-                                                <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Payroll Services</a>
-                                                </li>
-                                                <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Business Valuation Services</a>
+                                                    <a class="nav-link" href="<?php echo base_url('Forensic_Accounting_Services'); ?>">Forensic Accounting Services</a>
                                                 </li>
 
                                             </ul>
@@ -218,16 +226,33 @@
                                         <div class="col-md-4">
                                             <ul>
                                                 <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Bookkeeping Services</a>
+                                                    <a class="nav-link" href="<?php echo base_url('Tax_Litigation_Resolution_Services'); ?>">Tax Litigation Resolution Services</a>
                                                 </li>
                                                 <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Secretarial Services</a>
+                                                    <a class="nav-link" href="<?php echo base_url('Management_Accounting_Reporting_Services'); ?>">Management Accounting & Reporting Services</a>
                                                 </li>
                                                 <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Audit Services</a>
+                                                    <a class="nav-link" href="<?php echo base_url('Payroll_Services'); ?>">Payroll Services</a>
                                                 </li>
                                                 <li class="nav-item ">
-                                                    <a class="nav-link" href="#">Employee Retention Tax Credit (ERTC)</a>
+                                                    <a class="nav-link" href="<?php echo base_url('Business_Valuation_Services'); ?>">Business Valuation Services</a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <ul>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="<?php echo base_url('Bookkeeping_Services'); ?>">Bookkeeping Services</a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="<?php echo base_url('Secretarial_Services'); ?>">Secretarial Services</a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="<?php echo base_url('Audit_Services'); ?>">Audit Services</a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link" href="<?php echo base_url('Employee_Retention_Tax_Credit'); ?>">Employee Retention Tax Credit (ERTC)</a>
                                                 </li>
 
                                             </ul>
@@ -248,7 +273,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a href="#" class="nav-link  n-menu">FAQ'S </a>
+                                <a href="<?php echo base_url('FAQ'); ?>" class="nav-link  n-menu">FAQ'S </a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a href="contact" class="nav-link  n-menu ">CONTACT US </a>
@@ -302,5 +327,9 @@
             </div>
         </div>
 </body>
-
+<style>
+    .inner-page ol, .inner-page ul{
+        padding-left: 0;
+    }
+</style>
 </html>
