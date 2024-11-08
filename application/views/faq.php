@@ -442,6 +442,21 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             font-size: 22px;
         }
     }
+    .primary-button, .primary-button:visited, .primary-button:active {
+        position: relative;
+        z-index: 2;
+        padding: 10px 25px;
+        background-color: var(--primary-color);
+        border-radius: 4px;
+        border: 1px solid;
+        border-color: var(--primary-color);
+        color: var(--primary-b-color);
+        font-weight: 500;
+        -webkit-transition: all .4s ease-out 0s;
+        -o-transition: all .4s ease-out 0s;
+        -moz-transition: all .4s ease-out 0s;
+        transition: all .4s ease-out 0s;
+    }
 </style>
 
 <section class="inner-page">

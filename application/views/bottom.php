@@ -650,13 +650,13 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseOne11" aria-expanded="true"
+                                                data-bs-target="#collapseOne11" aria-expanded="false"
                                                 aria-controls="collapseOne11">
 
                                                 Cost Efficient
                                             </button>
                                         </h2>
-                                        <div id="collapseOne11" class="accordion-collapse collapse show"
+                                        <div id="collapseOne11" class="accordion-collapse collapse "
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body" style="color:#000">
                                                 <ul>
