@@ -338,6 +338,71 @@
     h2.accordion-header{
     margin: 0 !important;
     }
+    @media (max-width: 768px) {
+        .inner-page h3 {
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+        .section-title1{
+            font-size: 21px;
+        }
+        .section-title{
+            font-size: 21px !important;
+        }
+        .testi-text-slider .testimonial-card {
+            display: block !important;
+        }
+
+        .section-part .testi-text-slider .icon {
+            margin-right: auto !important;
+
+        }
+
+        .section-part .testi-text-slider .testimonial-content {
+            width: 100% !important;
+        }
+
+       
+
+        .faq .accordion .accordion-item .accordion-button,
+        .faq .accordion .accordion-item:last-of-type .accordion-button.collapsed {
+            font-family: sans-serif !important;
+            padding: 15px 15px 15px 20px;
+            font-size: 16px;
+        }
+
+        .faq .accordion .accordion-item .accordion-button::before {
+            display: none !important;
+        }
+        .faq .accordion .accordion-item .accordion-body {
+            padding: 20px 20px 20px 30px;
+        }
+        .experiance-sec .experiance-card {
+            display: block;
+            height: auto;
+        }
+        .experiance-sec .experiance-card .experiance-img {
+            width:100%;
+            height: auto;
+        }
+        .experiance-sec h3 {
+          font-size: 20px !important;
+        }
+        .inner-page h3 {
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+        .experiance-sec li {
+          font-size: 16px !important;
+        }
+        .experiance-sec .experiance-card .experiance-area {
+            position: relative;
+            padding: 30px 15px 30px 25px;
+            width: 100%;
+            border: 0 solid #D5D5D5;
+            border-width: 1px 1px 1px 0;
+        }
+    }
 </style>
 <script src="
 https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
@@ -355,7 +420,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             <div class="col-md-8">
                 <!-- Accordion 6 - Bootstrap Brain Component -->
                 <section class="bsb-accordion-6 py-3">
-                    <div class="container">
+                  
                         <div class="row">
                             <div class="col-12">
                                 <div class="accordion" id="accordionExample">
@@ -578,7 +643,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             <div class="col-md-8">
                 <!-- Accordion 6 - Bootstrap Brain Component -->
                 <section class="bsb-accordion-6 py-3">
-                    <div class="container">
+                    
                         <div class="row">
                             <div class="col-12">
                                 <div class="accordion" id="accordionExample">

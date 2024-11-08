@@ -207,8 +207,7 @@
                         <img width="1017" height="395"
                             src="<?php echo base_url(''); ?>assets/service/Outsource-Bookkeeping-Services.webp"
                             class="attachment-full size-full wp-post-image" alt="Outsourced bookkeeping service"
-                            decoding="async" fetchpriority="high"
-                            srcset="<?php echo base_url(''); ?>assets/service/Outsource-Bookkeeping-Services.webp 1017w, <?php echo base_url(''); ?>assets/service/Outsource-Bookkeeping-Services-300x117.webp 300w, <?php echo base_url(''); ?>assets/service/Outsource-Bookkeeping-Services-768x298.webp 768w"
+                           
                             sizes="(max-width: 1017px) 100vw, 1017px">
                     </div><!-- .post-thumbnail -->
 

@@ -63,6 +63,31 @@
             --section-5-bg-color: #eef4ed;
             --section-6-bg-color: #111117;
         }
+        .faq .accordion .accordion-item .accordion-button:not(.collapsed):before {
+    background: rgb(255 255 255 / 14%);
+}
+        @media (max-width: 768px) {
+           .testi-text-slider .testimonial-card{
+            display: block !important;
+           } 
+           .section-part .testi-text-slider .icon {
+    margin-right: auto !important;
+ 
+}
+.section-part .testi-text-slider .testimonial-content {
+    width: 100% !important;
+}
+.faq .accordion .accordion-item .accordion-button, .faq .accordion .accordion-item:last-of-type .accordion-button.collapsed {
+        padding: 15px 40px 15px 50px;
+        font-size: 16px;
+    }
+    .faq .accordion .accordion-item .accordion-button, .faq .accordion .accordion-item:last-of-type .accordion-button.collapsed {
+    font-family: sans-serif !important;
+    padding: 15px;}
+    .faq .accordion .accordion-item .accordion-button::before {
+display: none !important;
+    }
+        }
     </style>
 
 </head>

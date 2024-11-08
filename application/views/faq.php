@@ -10,7 +10,7 @@
 <link rel='stylesheet' id='infinityglobus-owl-carousel-css'
     href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.min.css?ver=1.0.0'
     media='all' />
-    <link rel="stylesheet" href="<?php echo base_url(''); ?>assets/css/main.css">
+<link rel="stylesheet" href="<?php echo base_url(''); ?>assets/css/main.css">
 <style>
     /*====================== Inner Page Banner =====================*/
     .inner-banner {
@@ -229,24 +229,25 @@
         background-color: transparent;
         color: #fff;
     }
-   
+
     .inner-page .section-title {
         margin: 0 0 30px 0;
         font-size: 31px;
         font-family: initial;
         line-height: 1.44;
     }
+
     .section-title::after {
         content: '';
         position: absolute;
         left: calc(var(--bs-gutter-x)* .5);
-      
+
         top: 50px;
         width: 60px;
         height: 3px;
         background: #f66c00;
     }
-    
+
     .section-part .testi-text-slider .item {
         padding: 20px 0 1px 0;
     }
@@ -395,9 +396,10 @@
     .sp_arr .splide__arrow--prev {
         margin-left: -110px;
     }
-    h2.accordion-header{
+
+    h2.accordion-header {
         margin: 0 !important;
-        }
+    }
 </style>
 <script src="
 https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
@@ -405,6 +407,43 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
 <link href="
 https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 " rel="stylesheet">
+<style>
+    @media (max-width: 768px) {
+        .testi-text-slider .testimonial-card {
+            display: block !important;
+        }
+
+        .section-part .testi-text-slider .icon {
+            margin-right: auto !important;
+
+        }
+
+        .section-part .testi-text-slider .testimonial-content {
+            width: 100% !important;
+        }
+
+       
+
+        .faq .accordion .accordion-item .accordion-button,
+        .faq .accordion .accordion-item:last-of-type .accordion-button.collapsed {
+            font-family: sans-serif !important;
+            padding: 15px 15px 15px 20px;
+            font-size: 16px;
+        }
+
+        .faq .accordion .accordion-item .accordion-button::before {
+            display: none !important;
+        }
+        .faq .accordion .accordion-item .accordion-body {
+            padding: 20px 20px 20px 30px;
+        }
+        .inner-page h3 {
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+    }
+</style>
+
 <section class="inner-page">
 
     <div style="background: url('assets/inner-banner.jpg') no-repeat center center fixed;background-size: cover;">
@@ -427,7 +466,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
     <div class="www sec-with-shape py-5 container">
         <!-- Accordion 6 - Bootstrap Brain Component -->
-        <div class="bsb-accordion-6 py-3 container">
+        <div class="bsb-accordion-6 py-3 ">
             <div class="faq_content text-center">
                 <p>We offer outsourced tax and accounting services that are aimed to save time for you to grow your
                     business exponentially. Driven by dedication and zeal to offer exemplary services to you, we are
@@ -512,14 +551,14 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     <div class="blue-bg sec-with-shape py-5 ">
         <div class="container inner-page">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <h3 class="section-title" style="    position: relative;">Financials
                     </h3>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-9">
                     <!-- Accordion 6 - Bootstrap Brain Component -->
                     <section class="bsb-accordion-6 py-3">
-                        <div class="container">
+                     
                             <div class="row dark-accordion">
                                 <div class="col-12">
                                     <div class="accordion" id="accordionExample">
@@ -562,7 +601,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                                 </div>
                                             </div>
                                         </div>
-                                       
+
                                     </div>
                                 </div>
                             </div>
@@ -577,14 +616,14 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     <div class="www sec-with-shape py-5 ">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <h3 class="section-title" style="    position: relative;">Communication</h3>
-                   
+
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-9">
                     <!-- Accordion 6 - Bootstrap Brain Component -->
                     <section class="bsb-accordion-6 py-3">
-                        <div class="container">
+                        
                             <div class="row">
                                 <div class="col-12">
                                     <div class="accordion" id="accordionExample">
@@ -599,7 +638,10 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                             <div id="collapseOne" class="accordion-collapse collapse show"
                                                 data-bs-parent="#accordionExample">
                                                 <div class="accordion-body" style="color:#000">
-                                                    We understand that uninterrupted communication is a key element whilst working with teams across borders. At Infinity Globus, our teams are accessible through all the usual mediums such as email, phone, Skype/ Zoom.
+                                                    We understand that uninterrupted communication is a key element
+                                                    whilst working with teams across borders. At Infinity Globus, our
+                                                    teams are accessible through all the usual mediums such as email,
+                                                    phone, Skype/ Zoom.
                                                 </div>
                                             </div>
                                         </div>
@@ -608,13 +650,18 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                                     data-bs-target="#collapseOne1" aria-expanded="false"
                                                     aria-controls="collapseOne1">
-                                                    How do I assess work performance and solicit feedback from the team that I am working with?
+                                                    How do I assess work performance and solicit feedback from the team
+                                                    that I am working with?
                                                 </button>
                                             </h2>
                                             <div id="collapseOne1" class="accordion-collapse collapse "
                                                 data-bs-parent="#accordionExample">
                                                 <div class="accordion-body" style="color:#000">
-                                                    We believe in an output oriented philosophy, hence each team is assigned with a manager who is responsible for monitoring daily, weekly and monthly performance. Subsequently, the client is also free to implement any performance review methodology that works best for the client.
+                                                    We believe in an output oriented philosophy, hence each team is
+                                                    assigned with a manager who is responsible for monitoring daily,
+                                                    weekly and monthly performance. Subsequently, the client is also
+                                                    free to implement any performance review methodology that works best
+                                                    for the client.
                                                 </div>
                                             </div>
                                         </div>
@@ -623,13 +670,18 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                                     data-bs-target="#collapseOne2" aria-expanded="false"
                                                     aria-controls="collapseOne2">
-                                                    How do I assess work performance and solicit feedback from the team that I am working with?
+                                                    How do I assess work performance and solicit feedback from the team
+                                                    that I am working with?
                                                 </button>
                                             </h2>
                                             <div id="collapseOne2" class="accordion-collapse collapse "
                                                 data-bs-parent="#accordionExample">
                                                 <div class="accordion-body" style="color:#000">
-                                                    We believe in an output oriented philosophy, hence each team is assigned with a manager who is responsible for monitoring daily, weekly and monthly performance. Subsequently, the client is also free to implement any performance review methodology that works best for the client.
+                                                    We believe in an output oriented philosophy, hence each team is
+                                                    assigned with a manager who is responsible for monitoring daily,
+                                                    weekly and monthly performance. Subsequently, the client is also
+                                                    free to implement any performance review methodology that works best
+                                                    for the client.
                                                 </div>
                                             </div>
                                         </div>
@@ -644,7 +696,12 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                             <div id="collapseOne2" class="accordion-collapse collapse"
                                                 data-bs-parent="#accordionExample">
                                                 <div class="accordion-body" style="color:#000">
-                                                    We understand that in this day and age, technology holds paramount importance for accountants. With respect to that, we are equipped with the most up-to-date IT infrastructure. We use internationally renowned software tools required to best suit client needs. Our professionals are extensively trained and proficient in working with software tools such as Xero, Quickbooks, and NETSUITE etc.
+                                                    We understand that in this day and age, technology holds paramount
+                                                    importance for accountants. With respect to that, we are equipped
+                                                    with the most up-to-date IT infrastructure. We use internationally
+                                                    renowned software tools required to best suit client needs. Our
+                                                    professionals are extensively trained and proficient in working with
+                                                    software tools such as Xero, Quickbooks, and NETSUITE etc.
                                                 </div>
                                             </div>
                                         </div>
@@ -659,7 +716,13 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                             <div id="collapseOne3" class="accordion-collapse collapse "
                                                 data-bs-parent="#accordionExample">
                                                 <div class="accordion-body" style="color:#000">
-                                                    Data security is crucial to an accountant and we fully understand that at Infinity Globus. We manage all our data using highly secure cloud-based servers, thereby ensuring maximum data security. Our professional will only request data that is required to complete the assigned tasks. Once the task is completed the data is cleared from our systems permanently. In addition to that, we are an ISO 9001-2008 as well as ISO 27001 certified organisation.
+                                                    Data security is crucial to an accountant and we fully understand
+                                                    that at Infinity Globus. We manage all our data using highly secure
+                                                    cloud-based servers, thereby ensuring maximum data security. Our
+                                                    professional will only request data that is required to complete the
+                                                    assigned tasks. Once the task is completed the data is cleared from
+                                                    our systems permanently. In addition to that, we are an ISO
+                                                    9001-2008 as well as ISO 27001 certified organisation.
                                                 </div>
                                             </div>
                                         </div>
@@ -674,7 +737,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                             <div id="collapseOne4" class="accordion-collapse collapse "
                                                 data-bs-parent="#accordionExample">
                                                 <div class="accordion-body" style="color:#000">
-                                                    At Infinity Globus, we understand that no two accounting firms are the same. Our years of experience and expertise allows us to work across diverse sectors. We have been providing consistent accounting excellence to CPA firms operating within industries such as Automotive, Restaurants and Hospitality, Healthcare etc.
+                                                    At Infinity Globus, we understand that no two accounting firms are
+                                                    the same. Our years of experience and expertise allows us to work
+                                                    across diverse sectors. We have been providing consistent accounting
+                                                    excellence to CPA firms operating within industries such as
+                                                    Automotive, Restaurants and Hospitality, Healthcare etc.
                                                 </div>
                                             </div>
                                         </div>
@@ -683,13 +750,17 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                                     data-bs-target="#collapseOne4" aria-expanded="false"
                                                     aria-controls="collapseOne4">
-                                                    Does the company invest in training and up skilling of the employees?
+                                                    Does the company invest in training and up skilling of the
+                                                    employees?
                                                 </button>
                                             </h2>
                                             <div id="collapseOne4" class="accordion-collapse collapse "
                                                 data-bs-parent="#accordionExample">
                                                 <div class="accordion-body" style="color:#000">
-                                                    At Infinity Globus, we believe are employees to be the driving force behind the growth of our business. In order to sustain the same, we dedicate substantial amount of time and energy in up-skilling our teams.
+                                                    At Infinity Globus, we believe are employees to be the driving force
+                                                    behind the growth of our business. In order to sustain the same, we
+                                                    dedicate substantial amount of time and energy in up-skilling our
+                                                    teams.
                                                 </div>
                                             </div>
                                         </div>
@@ -704,7 +775,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                             <div id="collapseOne5" class="accordion-collapse collapse "
                                                 data-bs-parent="#accordionExample">
                                                 <div class="accordion-body" style="color:#000">
-                                                    Time is a crucial element when it comes to accounting and financial procedures as there are strict timelines to be followed. At Infinity Globus, we boast an average turnaround time of 24 hours. Of course the timelines are mutually co-ordinated and depend on the nature of the work.
+                                                    Time is a crucial element when it comes to accounting and financial
+                                                    procedures as there are strict timelines to be followed. At Infinity
+                                                    Globus, we boast an average turnaround time of 24 hours. Of course
+                                                    the timelines are mutually co-ordinated and depend on the nature of
+                                                    the work.
                                                 </div>
                                             </div>
                                         </div>
@@ -719,7 +794,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                             <div id="collapseOne6" class="accordion-collapse collapse "
                                                 data-bs-parent="#accordionExample">
                                                 <div class="accordion-body" style="color:#000">
-                                                    We have a team of highly experienced CPAs, EAs, CAs and US Tax & Accounting professionals.
+                                                    We have a team of highly experienced CPAs, EAs, CAs and US Tax &
+                                                    Accounting professionals.
                                                 </div>
                                             </div>
                                         </div>
@@ -734,16 +810,18 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                             <div id="collapseOne7" class="accordion-collapse collapse "
                                                 data-bs-parent="#accordionExample">
                                                 <div class="accordion-body" style="color:#000">
-                                                    The key benefit of working with a team that operates in a different geography is that of the time-zone difference. This ensures increased working efficiency thereby driving business growth.
+                                                    The key benefit of working with a team that operates in a different
+                                                    geography is that of the time-zone difference. This ensures
+                                                    increased working efficiency thereby driving business growth.
                                                 </div>
                                             </div>
                                         </div>
-    
+
                                     </div>
                                 </div>
                             </div>
                     </section>
-    
+
                 </div>
             </div>
         </div>
@@ -760,11 +838,13 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                         <ul class="splide__list">
                             <li class="splide__slide">
                                 <div class="testimonial-card">
-                                    <div class="icon"><img width="150" height="150" src="assets/images/jonathan-convery.jpg"
+                                    <div class="icon"><img width="150" height="150"
+                                            src="assets/images/jonathan-convery.jpg"
                                             sizes="(max-width: 150px) 100vw, 150px"
                                             class="attachment-thumbnail size-thumbnail wp-post-image" alt=""></div>
                                     <div class="testimonial-content">
-                                        <p>Learning about new clients and the way they have their accounting can be tricky
+                                        <p>Learning about new clients and the way they have their accounting can be
+                                            tricky
                                             but Team Infinity
                                             Globus has been a quick learner and has taken over tasks entirely which has
                                             reduced our training
@@ -779,9 +859,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                             class="attachment-thumbnail size-thumbnail wp-post-image" alt="Shlomi Golan"
                                             sizes="(max-width: 150px) 100vw, 150px"></div>
                                     <div class="testimonial-content">
-                                        <p>I love working with you!!!! Your team has been very professional, courteous, and
+                                        <p>I love working with you!!!! Your team has been very professional, courteous,
+                                            and
                                             prompt in
-                                            helping me handle the workload of my firm. Resolving many special and complex
+                                            helping me handle the workload of my firm. Resolving many special and
+                                            complex
                                             tasks that are
                                             beneficial to my firm.</p>
                                         <h6 class="designation">Shlomi Golan</h6>
@@ -794,15 +876,17 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                             class="attachment-thumbnail size-thumbnail wp-post-image" alt="craig carr"
                                             sizes="(max-width: 150px) 100vw, 150px"></div>
                                     <div class="testimonial-content">
-                                        <p>Thank you for taking on tax &amp; bookkeeping service for my company. I know it
+                                        <p>Thank you for taking on tax &amp; bookkeeping service for my company. I know
+                                            it
                                             was a new venture
-                                            but is so crucial to Tax-Bookkeeping company like mine that it is a surprise at
+                                            but is so crucial to Tax-Bookkeeping company like mine that it is a surprise
+                                            at
                                             how...</p>
                                         <h6 class="designation">Craig Carr</h6>
                                     </div>
                                 </div>
                             </li>
-    
+
                         </ul>
                     </div>
                 </div>

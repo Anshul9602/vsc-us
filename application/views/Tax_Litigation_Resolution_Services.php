@@ -207,8 +207,7 @@
                         <img width="1017" height="395"
                             src="<?php echo base_url(''); ?>assets/service/Outsourced-Tax-Litigation-Resolution-Notices.webp"
                             class="attachment-full size-full wp-post-image"
-                            alt="Outsourced Tax Litigation Resolution Services" decoding="async" fetchpriority="high"
-                            srcset="<?php echo base_url(''); ?>assets/service/Outsourced-Tax-Litigation-Resolution-Notices.webp 1017w, <?php echo base_url(''); ?>assets/service/Outsourced-Tax-Litigation-Resolution-Notices-300x117.webp 300w, <?php echo base_url(''); ?>assets/service/Outsourced-Tax-Litigation-Resolution-Notices-768x298.webp 768w"
+                            alt="Outsourced Tax Litigation Resolution Services"
                             sizes="(max-width: 1017px) 100vw, 1017px">
                     </div><!-- .post-thumbnail -->
 
