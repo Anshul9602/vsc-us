@@ -126,7 +126,7 @@
         font-family: "Source Serif 4", serif;
 
     }
-  
+
 
     p {
         margin-bottom: 30px;
@@ -149,7 +149,11 @@
         color: #444;
         border: none;
     }
-    ul.theme-list li::before, .details-page ul li::before, .sidebar-widget ul li::before, ::marker {
+
+    ul.theme-list li::before,
+    .details-page ul li::before,
+    .sidebar-widget ul li::before,
+    ::marker {
         content: '';
         position: absolute;
         top: 8px;
@@ -160,11 +164,15 @@
         background-size: contain;
         transition: 0.5s;
     }
-    .accordion-body ul li:hover::before, li:hover::marker {
+
+    .accordion-body ul li:hover::before,
+    li:hover::marker {
         transform: rotate(45deg);
     }
+
     .accordion-button::after {
-        background: #fff;}
+        background: #fff;
+    }
 </style>
 
 <section style="    padding: 130px 0 0px;">
@@ -192,53 +200,48 @@
         <div class="inner-page details-page services-details">
             <div class="row  d-flex justify-content-center ">
 
+            
                 <div class="col-lg-9 col-md-8 mt-md-5 mt-2">
-
 
                     <div class="post-thumbnails thumb-image">
                         <img width="1017" height="395"
-                            src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Outsource-Tax-Preparation-Services.webp"
-                            class="attachment-full size-full wp-post-image" alt="Outsource Tax Preparation Services"
+                            src="<?php echo base_url(''); ?>assets/service/Outsourced-Back-Years-Tax-Preparation.webp"
+                            class="attachment-full size-full wp-post-image" alt="Outsourced Back Year Tax Preparation"
                             decoding="async" fetchpriority="high"
-                            srcset="https://www.infinity-globus.com/wp-content/uploads/2023/11/Outsource-Tax-Preparation-Services.webp 1017w, https://www.infinity-globus.com/wp-content/uploads/2023/11/Outsource-Tax-Preparation-Services-300x117.webp 300w, https://www.infinity-globus.com/wp-content/uploads/2023/11/Outsource-Tax-Preparation-Services-768x298.webp 768w"
+                            srcset="<?php echo base_url(''); ?>assets/service/Outsourced-Back-Years-Tax-Preparation.webp 1017w, <?php echo base_url(''); ?>assets/service/Outsourced-Back-Years-Tax-Preparation-300x117.webp 300w, <?php echo base_url(''); ?>assets/service/Outsourced-Back-Years-Tax-Preparation-768x298.webp 768w"
                             sizes="(max-width: 1017px) 100vw, 1017px">
                     </div><!-- .post-thumbnail -->
 
-                    <h2 class="section-title">Effortless Tax Preparation with the Leading Outsourced Tax Preparation
-                        Company
-                        in the US and India!</h2>
-                    <p>Are you overworked during tax season or are experiencing one or more situations regarding the tax
-                        preparation of your clients?</p>
+                    <h2 class="section-title">A Seamless Outsourced Back Year Tax Preparation Services for Accounting
+                        and CPA Firms!</h2>
+                    <p>Are you worried about effectively handling the following challenges related to your client’s Back
+                        Year Tax preparation?</p>
                     <ul>
-                        <li>Exhausted workforce during rush season</li>
-                        <li>Missed deadlines</li>
-                        <li>Failing to manage the dynamic tax policies and new business models</li>
-                        <li>Flaws in tax returns</li>
+                        <li>Missed deadlines for tax filing</li>
+                        <li>Difficulty in categorizing tax filing details</li>
+                        <li>Tax filing errors</li>
+                        <li>Keeping updated with the dynamic tax laws</li>
                     </ul>
-                    <p>Relax and let our expert team alleviate your burden!</p>
-                    <p>Our outsourced tax preparation services are the perfect aid for combating tedious tax seasons,
-                        custom-tailored to rejuvenate your accounting firm’s efficiency and success.</p>
-                    <p><strong>Why Outsourced Tax Preparation is the Right Choice for You?</strong></p>
-                    <p>According to a survey conducted by <a
-                            href="https://www2.deloitte.com/content/dam/Deloitte/us/Documents/Tax/tax-transformation-trends-technology-in-focus-april-2022.pdf"
-                            data-lf-fd-inspected-3p1w24dor3o7my5n="true">Deloitte</a>, 35% of the respondents said that
-                        one
-                        of the advantages of employing outsourced tax operations is better compliance with digital tax
-                        filing/ reporting requirements across multiple jurisdictions.</p>
-                    <p>All in all, the satisfaction from outsourcing tax preparation is evident across all levels!</p>
-                    <p>And why not?</p>
-                    <p>With myriad advantages and key elements, outsourcing tax return preparation indeed serves as a
-                        boon
-                        for small, mid-sized and large-scale CPA firms alike!</p>
+                    <p>If yes, then look no further!</p>
+                    <p>Stay relaxed, and let us offer you the best outsourced back year tax preparation services in one
+                        place!</p>
+                    <p><strong>Why Outsourced Back Year Tax Preparation is the Right Choice for You?</strong></p>
+                    <p>According to a report, the <a
+                            href="https://www.irs.gov/statistics/collections-activities-penalties-and-appeals">IRS</a>
+                        assessed nearly $23.8 billion in additional taxes for returns not filed timely and collected
+                        almost $2.3 billion with delinquent returns.</p>
+                    <p>The whooping additional tax number is enough to point out that you may receive a good number of
+                        back year tax preparation inquiries and if you miss something important, your clients have to
+                        pay additional taxes.</p>
+                    <p>But outsourcing back year tax preparation saves you from this trouble. It ultimately boosts your
+                        credit and saves valuable time that you can utilize for growing your business.</p>
                     <p><strong>Some Key Advantages</strong></p>
                     <ul>
-                        <li>Boosts Efficiency</li>
-                        <li>Enhances Compliance</li>
-                        <li>Improves Scalability</li>
-                        <li>Promotes Data Security</li>
-                        <li>Maintains Confidentiality</li>
+                        <li>Enhanced Accuracy</li>
+                        <li>Penalty Prevention</li>
+                        <li>Reduced Costs</li>
+                        <li>Improved Efficiency</li>
                     </ul>
-
                 </div>
                 <div class="col-lg-3 col-md-4 mt-md-5 mt-2">
                     <?php $this->load->view('side'); ?>
@@ -246,7 +249,7 @@
             </div>
         </div>
     </div>
-    
+
     <?php $this->load->view('bottom'); ?>
 
 

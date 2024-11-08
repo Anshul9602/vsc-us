@@ -126,7 +126,7 @@
         font-family: "Source Serif 4", serif;
 
     }
-  
+
 
     p {
         margin-bottom: 30px;
@@ -149,7 +149,11 @@
         color: #444;
         border: none;
     }
-    ul.theme-list li::before, .details-page ul li::before, .sidebar-widget ul li::before, ::marker {
+
+    ul.theme-list li::before,
+    .details-page ul li::before,
+    .sidebar-widget ul li::before,
+    ::marker {
         content: '';
         position: absolute;
         top: 8px;
@@ -160,11 +164,15 @@
         background-size: contain;
         transition: 0.5s;
     }
-    .accordion-body ul li:hover::before, li:hover::marker {
+
+    .accordion-body ul li:hover::before,
+    li:hover::marker {
         transform: rotate(45deg);
     }
+
     .accordion-button::after {
-        background: #fff;}
+        background: #fff;
+    }
 </style>
 
 <section style="    padding: 130px 0 0px;">
@@ -192,53 +200,47 @@
         <div class="inner-page details-page services-details">
             <div class="row  d-flex justify-content-center ">
 
+                
                 <div class="col-lg-9 col-md-8 mt-md-5 mt-2">
-
 
                     <div class="post-thumbnails thumb-image">
                         <img width="1017" height="395"
-                            src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Outsource-Tax-Preparation-Services.webp"
-                            class="attachment-full size-full wp-post-image" alt="Outsource Tax Preparation Services"
-                            decoding="async" fetchpriority="high"
-                            srcset="https://www.infinity-globus.com/wp-content/uploads/2023/11/Outsource-Tax-Preparation-Services.webp 1017w, https://www.infinity-globus.com/wp-content/uploads/2023/11/Outsource-Tax-Preparation-Services-300x117.webp 300w, https://www.infinity-globus.com/wp-content/uploads/2023/11/Outsource-Tax-Preparation-Services-768x298.webp 768w"
+                            src="<?php echo base_url(''); ?>assets/service/Outsourced-Employee-Retention-Tax-Credit-ERTC.webp"
+                            class="attachment-full size-full wp-post-image"
+                            alt="Outsourced Employee Retention Tax Credit&nbsp;" decoding="async" fetchpriority="high"
+                            srcset="<?php echo base_url(''); ?>assets/service/Outsourced-Employee-Retention-Tax-Credit-ERTC.webp 1017w, <?php echo base_url(''); ?>assets/service/Outsourced-Employee-Retention-Tax-Credit-ERTC-300x117.webp 300w, <?php echo base_url(''); ?>assets/service/Outsourced-Employee-Retention-Tax-Credit-ERTC-768x298.webp 768w"
                             sizes="(max-width: 1017px) 100vw, 1017px">
                     </div><!-- .post-thumbnail -->
 
-                    <h2 class="section-title">Effortless Tax Preparation with the Leading Outsourced Tax Preparation
-                        Company
-                        in the US and India!</h2>
-                    <p>Are you overworked during tax season or are experiencing one or more situations regarding the tax
-                        preparation of your clients?</p>
+                    <h2 class="section-title">Structured Outsourced Employee Retention Tax Credit Services for CPAs,
+                        EAs, and Accountants!</h2>
+                    <p>Are you finding it hard to deal with the following challenges related to your client’s employee
+                        retention tax credit?</p>
                     <ul>
-                        <li>Exhausted workforce during rush season</li>
-                        <li>Missed deadlines</li>
-                        <li>Failing to manage the dynamic tax policies and new business models</li>
-                        <li>Flaws in tax returns</li>
+                        <li>Maintaining compliance with new regulations</li>
+                        <li>Complexity in eligibility criteria</li>
+                        <li>Audit management</li>
+                        <li>Performing complex calculations</li>
+                        <li>Dealing with time constraints</li>
                     </ul>
-                    <p>Relax and let our expert team alleviate your burden!</p>
-                    <p>Our outsourced tax preparation services are the perfect aid for combating tedious tax seasons,
-                        custom-tailored to rejuvenate your accounting firm’s efficiency and success.</p>
-                    <p><strong>Why Outsourced Tax Preparation is the Right Choice for You?</strong></p>
-                    <p>According to a survey conducted by <a
-                            href="https://www2.deloitte.com/content/dam/Deloitte/us/Documents/Tax/tax-transformation-trends-technology-in-focus-april-2022.pdf"
-                            data-lf-fd-inspected-3p1w24dor3o7my5n="true">Deloitte</a>, 35% of the respondents said that
-                        one
-                        of the advantages of employing outsourced tax operations is better compliance with digital tax
-                        filing/ reporting requirements across multiple jurisdictions.</p>
-                    <p>All in all, the satisfaction from outsourcing tax preparation is evident across all levels!</p>
-                    <p>And why not?</p>
-                    <p>With myriad advantages and key elements, outsourcing tax return preparation indeed serves as a
-                        boon
-                        for small, mid-sized and large-scale CPA firms alike!</p>
+                    <p>If yes, then look no further!</p>
+                    <p>Sit back and let us alleviate your burden as we offer the industry’s best outsourcing employee
+                        retention credit services to you!</p>
+                    <p><strong>Why Outsourced Employee Retention Tax Credit is the Right Choice for You?</strong></p>
+                    <p>According to a <a
+                            href="https://www.linkedin.com/pulse/employee-retention-tax-credit-service-market-vxkuf#:~:text=The%20Global%20Employee%20Retention%20Tax,rise%20over%20the%20projected%20horizon.">report</a>,
+                        the Global Employee Retention Tax Credit Service Market is anticipated to rise between 2022 and
+                        2031. While this growth is remarkable, there are various challenges in the employee retention
+                        domain, which can only be solved with the aid of a professional.</p>
+                    <p>Here, outsourced employee retention tax credit services come into play, bringing immense
+                        advantages at large.</p>
                     <p><strong>Some Key Advantages</strong></p>
                     <ul>
-                        <li>Boosts Efficiency</li>
-                        <li>Enhances Compliance</li>
-                        <li>Improves Scalability</li>
-                        <li>Promotes Data Security</li>
-                        <li>Maintains Confidentiality</li>
+                        <li>Saves Time</li>
+                        <li>Cost-Efficient</li>
+                        <li>Ensures Compliance</li>
+                        <li>Tax Savings</li>
                     </ul>
-
                 </div>
                 <div class="col-lg-3 col-md-4 mt-md-5 mt-2">
                     <?php $this->load->view('side'); ?>
@@ -246,7 +248,7 @@
             </div>
         </div>
     </div>
-    
+
     <?php $this->load->view('bottom'); ?>
 
 

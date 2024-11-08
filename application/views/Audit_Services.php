@@ -197,11 +197,9 @@
 
                     <div class="post-thumbnails thumb-image">
                         <img width="1017" height="395"
-                            src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Outsource-Tax-Preparation-Services.webp"
+                            src="<?php echo base_url(''); ?>assets/service/Outsource-Tax-Preparation-Services.webp"
                             class="attachment-full size-full wp-post-image" alt="Outsource Tax Preparation Services"
-                            decoding="async" fetchpriority="high"
-                            srcset="https://www.infinity-globus.com/wp-content/uploads/2023/11/Outsource-Tax-Preparation-Services.webp 1017w, https://www.infinity-globus.com/wp-content/uploads/2023/11/Outsource-Tax-Preparation-Services-300x117.webp 300w, https://www.infinity-globus.com/wp-content/uploads/2023/11/Outsource-Tax-Preparation-Services-768x298.webp 768w"
-                            sizes="(max-width: 1017px) 100vw, 1017px">
+                           sizes="(max-width: 1017px) 100vw, 1017px">
                     </div><!-- .post-thumbnail -->
 
                     <h2 class="section-title">Effortless Tax Preparation with the Leading Outsourced Tax Preparation

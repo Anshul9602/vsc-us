@@ -126,7 +126,7 @@
         font-family: "Source Serif 4", serif;
 
     }
-  
+
 
     p {
         margin-bottom: 30px;
@@ -149,7 +149,11 @@
         color: #444;
         border: none;
     }
-    ul.theme-list li::before, .details-page ul li::before, .sidebar-widget ul li::before, ::marker {
+
+    ul.theme-list li::before,
+    .details-page ul li::before,
+    .sidebar-widget ul li::before,
+    ::marker {
         content: '';
         position: absolute;
         top: 8px;
@@ -160,11 +164,15 @@
         background-size: contain;
         transition: 0.5s;
     }
-    .accordion-body ul li:hover::before, li:hover::marker {
+
+    .accordion-body ul li:hover::before,
+    li:hover::marker {
         transform: rotate(45deg);
     }
+
     .accordion-button::after {
-        background: #fff;}
+        background: #fff;
+    }
 </style>
 
 <section style="    padding: 130px 0 0px;">
@@ -192,53 +200,57 @@
         <div class="inner-page details-page services-details">
             <div class="row  d-flex justify-content-center ">
 
+               
                 <div class="col-lg-9 col-md-8 mt-md-5 mt-2">
-
 
                     <div class="post-thumbnails thumb-image">
                         <img width="1017" height="395"
-                            src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Outsource-Tax-Preparation-Services.webp"
-                            class="attachment-full size-full wp-post-image" alt="Outsource Tax Preparation Services"
-                            decoding="async" fetchpriority="high"
-                            srcset="https://www.infinity-globus.com/wp-content/uploads/2023/11/Outsource-Tax-Preparation-Services.webp 1017w, https://www.infinity-globus.com/wp-content/uploads/2023/11/Outsource-Tax-Preparation-Services-300x117.webp 300w, https://www.infinity-globus.com/wp-content/uploads/2023/11/Outsource-Tax-Preparation-Services-768x298.webp 768w"
+                            src="<?php echo base_url(''); ?>assets/service/Outsourced-Tax-Litigation-Resolution-Notices.webp"
+                            class="attachment-full size-full wp-post-image"
+                            alt="Outsourced Tax Litigation Resolution Services" decoding="async" fetchpriority="high"
+                            srcset="<?php echo base_url(''); ?>assets/service/Outsourced-Tax-Litigation-Resolution-Notices.webp 1017w, <?php echo base_url(''); ?>assets/service/Outsourced-Tax-Litigation-Resolution-Notices-300x117.webp 300w, <?php echo base_url(''); ?>assets/service/Outsourced-Tax-Litigation-Resolution-Notices-768x298.webp 768w"
                             sizes="(max-width: 1017px) 100vw, 1017px">
                     </div><!-- .post-thumbnail -->
 
-                    <h2 class="section-title">Effortless Tax Preparation with the Leading Outsourced Tax Preparation
-                        Company
-                        in the US and India!</h2>
-                    <p>Are you overworked during tax season or are experiencing one or more situations regarding the tax
-                        preparation of your clients?</p>
+                    <h2 class="section-title"><span
+                            class="ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak"
+                            dir="ltr">Proficient Outsourced Tax Litigation Resolution Services</span></h2>
+                    <p>Are you tired of handling the following complex issues pertaining to your client’s tax
+                        litigation?</p>
                     <ul>
-                        <li>Exhausted workforce during rush season</li>
-                        <li>Missed deadlines</li>
-                        <li>Failing to manage the dynamic tax policies and new business models</li>
-                        <li>Flaws in tax returns</li>
+                        <li>Strategizing tax litigation</li>
+                        <li>Dealing with the IRS</li>
+                        <li>Investigating tax disputes</li>
+                        <li>Tax-exempt issues</li>
                     </ul>
-                    <p>Relax and let our expert team alleviate your burden!</p>
-                    <p>Our outsourced tax preparation services are the perfect aid for combating tedious tax seasons,
-                        custom-tailored to rejuvenate your accounting firm’s efficiency and success.</p>
-                    <p><strong>Why Outsourced Tax Preparation is the Right Choice for You?</strong></p>
-                    <p>According to a survey conducted by <a
-                            href="https://www2.deloitte.com/content/dam/Deloitte/us/Documents/Tax/tax-transformation-trends-technology-in-focus-april-2022.pdf"
-                            data-lf-fd-inspected-3p1w24dor3o7my5n="true">Deloitte</a>, 35% of the respondents said that
-                        one
-                        of the advantages of employing outsourced tax operations is better compliance with digital tax
-                        filing/ reporting requirements across multiple jurisdictions.</p>
-                    <p>All in all, the satisfaction from outsourcing tax preparation is evident across all levels!</p>
-                    <p>And why not?</p>
-                    <p>With myriad advantages and key elements, outsourcing tax return preparation indeed serves as a
-                        boon
-                        for small, mid-sized and large-scale CPA firms alike!</p>
+                    <p>If yes, then let our expert team handle all your burdens and assist you throughout your client’s
+                        tax litigation journey!</p>
+                    <p><strong>Why Outsourced Tax Litigation Resolution is the Right Choice for You?</strong></p>
+                    <p>In a changing business landscape, a survey pointed out that global firms faced <a
+                            href="https://www.bakermckenzie.com/en/newsroom/2022/02/tax-disputes-in-2021">USD 269
+                            billion</a> in tax disputes in 2021, which is likely to rise further. This invariably can
+                        drain any business venture, no matter how big its stature may be.</p>
+                    <p><strong>Tax Litigation Cases, Fiscal Year 2022</strong></p>
+                    <ul>
+                        <li>Received Cases: 36,514</li>
+                        <li>Closed Cases: 31,158</li>
+                        <li>Pending Cases: 39,434 (as of September 30, 2022)</li>
+                    </ul>
+                    <p>Source: <a
+                            href="https://www.irs.gov/statistics/soi-tax-stats-chief-counsel-workload-tax-litigation-cases-by-type-of-case-irs-data-book-table-29">IRS</a>
+                    </p>
+                    <p>The pending cases show that CPAs and accounting professionals may be facing pressure to solve tax
+                        litigation cases along with providing high-quality services to their clients. This can be
+                        reduced by outsource tax dispute resolution services.</p>
+                    <p>To avoid such financial setbacks and gain benefits, efficient outsourced tax notice resolution
+                        services are the need of the hour.</p>
                     <p><strong>Some Key Advantages</strong></p>
                     <ul>
-                        <li>Boosts Efficiency</li>
-                        <li>Enhances Compliance</li>
-                        <li>Improves Scalability</li>
-                        <li>Promotes Data Security</li>
-                        <li>Maintains Confidentiality</li>
+                        <li>Cost-efficient</li>
+                        <li>Quality deliverables</li>
+                        <li>Increased profitability</li>
+                        <li>Enhanced productivity</li>
                     </ul>
-
                 </div>
                 <div class="col-lg-3 col-md-4 mt-md-5 mt-2">
                     <?php $this->load->view('side'); ?>
@@ -246,7 +258,7 @@
             </div>
         </div>
     </div>
-    
+
     <?php $this->load->view('bottom'); ?>
 
 
