@@ -45,10 +45,10 @@
                             <div class="col-12 col-md-6 p-0">
                                 <div class="row item">
                                     <div class="col-4 p-0 pr-3 align-self-center">
-                                        <img src="assets/images/founder.jpg" alt="Person" class="person">
+                                        <img src="assets/images/testimonial.webp" alt="Person" class="person">
                                     </div>
                                     <div class="col-8 align-self-center text-left">
-                                        <h4>Vivek Shah</h4>
+                                        <h4>Lorem</h4>
                                         <p>Founder & Managing Director</p>
                                         <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis diam varius diam ultricies lacinia.</p> -->
                                         <ul class="navbar-nav social share-list ml-auto">
@@ -66,10 +66,10 @@
                                 </div>
                                  <div class="row item">
                                     <div class="col-4 p-0 pr-3 align-self-center">
-                                        <img src="assets/images/team1.jpg" alt="Person" class="person">
+                                        <img src="assets/images/testimonial.webp" alt="Person" class="person">
                                     </div>
                                     <div class="col-8 align-self-center text-left">
-                                        <h4>Amit Patel</h4>
+                                        <h4> Lorem</h4>
                                         <p>Director – US Operation</p>
                                         <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis diam varius diam ultricies lacinia.</p> -->
                                         <ul class="navbar-nav social share-list ml-auto">
@@ -87,10 +87,10 @@
                                 </div>
                                 <div class="row item">
                                     <div class="col-4 p-0 pr-3 align-self-center">
-                                        <img src="assets/images/team2.jpg" alt="Person" class="person">
+                                        <img src="assets/images/testimonial.webp" alt="Person" class="person">
                                     </div>
                                     <div class="col-8 align-self-center text-left">
-                                        <h4>Ritesh Sanghvi</h4>
+                                        <h4>Lorem</h4>
                                         <p>Director – US Operation</p>
                                         <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis diam varius diam ultricies lacinia.</p> -->
                                         <ul class="navbar-nav social share-list ml-auto">
@@ -110,10 +110,10 @@
                             <div class="col-12 col-md-6 p-0">
                                 <div class="row item">
                                     <div class="col-4 p-0 pr-3 align-self-center">
-                                        <img src="assets/images/team3.jpg" alt="Person" class="person">
+                                        <img src="assets/images/testimonial.webp" alt="Person" class="person">
                                     </div>
                                     <div class="col-8 align-self-center text-left">
-                                        <h4>Nevil Soni</h4>
+                                        <h4>Loprem</h4>
                                         <p>Sr. Audit & Assurance Manager</p>
                                         <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis diam varius diam ultricies lacinia.</p> -->
                                         <ul class="navbar-nav social share-list ml-auto">
@@ -131,10 +131,10 @@
                                 </div>
                                 <div class="row item">
                                     <div class="col-4 p-0 pr-3 align-self-center">
-                                        <img src="assets/images/team4.webp" alt="Person" class="person">
+                                        <img src="assets/images/testimonial.webp" alt="Person" class="person">
                                     </div>
                                     <div class="col-8 align-self-center text-left">
-                                        <h4>Piyush Prajapati</h4>
+                                        <h4>Lorem<</h4>
                                         <p>Sr. Accounts Manager</p>
                                         <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis diam varius diam ultricies lacinia.</p> -->
                                         <ul class="navbar-nav social share-list ml-auto">

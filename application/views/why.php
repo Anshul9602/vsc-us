@@ -36,9 +36,9 @@
              <div class="col-12 col-md-12 pr-md-5 align-self-center text-center text-md-left text items">
                  <div data-aos="fade-up" class="row intro mb-4">
                      <div class="col-12 p-0">
-                         <!-- <span class="pre-title m-auto m-md-0">Why Choose Infinity Globus As Your Outsourcing Partner?</span> -->
+                         <!-- <span class="pre-title m-auto m-md-0">Why Choose VSC OFFSHORE As Your Outsourcing Partner?</span> -->
                          <h2>Why Choose VSC As Your Outsourcing Partner?</h2>
-                         <p>At Infinity Globus we are committed to not only providing you with the exemplary service that you deserve but also aiming towards building a long-term relationship built on trust and values.</p> 
+                         <p>At VSC OFFSHORE we are committed to not only providing you with the exemplary service that you deserve but also aiming towards building a long-term relationship built on trust and values.</p> 
 
                          <p> As such, we are dedicated to offering you with –</p>
 

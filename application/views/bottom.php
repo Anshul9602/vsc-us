@@ -414,7 +414,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     <div class="container" >
         <div class="row">
             <div class="col-md-4">
-                <h5 class="section-title1" style="    position: relative;">Why is Infinity Globus Your Perfect Partner for Outsourced Multi-State Tax Preparation Services?
+                <h5 class="section-title1" style="    position: relative;">Why is VSC OFFSHORE Your Perfect Partner for Outsourced Multi-State Tax Preparation Services?
                 </h5>
             </div>
             <div class="col-md-8">
@@ -512,7 +512,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                         <div id="collapseThree2" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                Infinity Globus keeps your client’s data confidentiality at the core
+                                                VSC OFFSHORE keeps your client’s data confidentiality at the core
                                                 of the services offered. As
                                                 such, we secure every piece of information shared with the aid of
                                                 our trusted software along with a
@@ -533,7 +533,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                             <div class="accordion-body">
                                                 From our impeccable tax return services to our unfailing commitment
                                                 to offering you the best services
-                                                based on attention to detail, Infinity Globus is the answer to all
+                                                based on attention to detail, VSC OFFSHORE is the answer to all
                                                 your outsourced tax return
                                                 requirements.
                                             </div>
@@ -569,7 +569,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                         <div id="collapseThree5" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                No matter how complex your client’s tax returns are, Infinity Globus
+                                                No matter how complex your client’s tax returns are, VSC OFFSHORE
                                                 can prepare and save money
                                                 wherever possible, making your experience with your client a
                                                 seamless one.
@@ -713,7 +713,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                     <ul class="splide__list">
                         <li class="splide__slide">
                             <div class="testimonial-card">
-                                <div class="icon"><img width="150" height="150" src="assets/images/jonathan-convery.jpg"
+                                <div class="icon"><img width="150" height="150" src="assets/images/testimonial.webp"
                                         sizes="(max-width: 150px) 100vw, 150px"
                                         class="attachment-thumbnail size-thumbnail wp-post-image" alt=""></div>
                                 <div class="testimonial-content">
@@ -722,14 +722,14 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                         Globus has been a quick learner and has taken over tasks entirely which has
                                         reduced our training
                                         time...</p>
-                                    <h6 class="designation">Jonathan Convery, CPA, MBA</h6>
+                                    <h6 class="designation">lorem ipsum, CPA, MBA</h6>
                                 </div>
                             </div>
                         </li>
                         <li class="splide__slide">
                             <div class="testimonial-card">
-                                <div class="icon"><img width="150" height="150" src="assets/images/shlomi-golan.jpg"
-                                        class="attachment-thumbnail size-thumbnail wp-post-image" alt="Shlomi Golan"
+                                <div class="icon"><img width="150" height="150" src="assets/images/testimonial.webp"
+                                        class="attachment-thumbnail size-thumbnail wp-post-image" alt="lorem ipsum"
                                         sizes="(max-width: 150px) 100vw, 150px"></div>
                                 <div class="testimonial-content">
                                     <p>I love working with you!!!! Your team has been very professional, courteous, and
@@ -737,21 +737,21 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                         helping me handle the workload of my firm. Resolving many special and complex
                                         tasks that are
                                         beneficial to my firm.</p>
-                                    <h6 class="designation">Shlomi Golan</h6>
+                                    <h6 class="designation">lorem ipsum</h6>
                                 </div>
                             </div>
                         </li>
                         <li class="splide__slide">
                             <div class="testimonial-card">
-                                <div class="icon"><img width="150" height="150" src="assets/images/craig-carr.jpg"
-                                        class="attachment-thumbnail size-thumbnail wp-post-image" alt="craig carr"
+                                <div class="icon"><img width="150" height="150" src="assets/images/testimonial.webp"
+                                        class="attachment-thumbnail size-thumbnail wp-post-image" alt="lorem ipsum"
                                         sizes="(max-width: 150px) 100vw, 150px"></div>
                                 <div class="testimonial-content">
                                     <p>Thank you for taking on tax &amp; bookkeeping service for my company. I know it
                                         was a new venture
                                         but is so crucial to Tax-Bookkeeping company like mine that it is a surprise at
                                         how...</p>
-                                    <h6 class="designation">Craig Carr</h6>
+                                    <h6 class="designation">lorem ipsum</h6>
                                 </div>
                             </div>
                         </li>

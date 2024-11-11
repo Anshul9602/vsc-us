@@ -13,7 +13,7 @@
 
     <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
 
-    <title>VSC</title>
+    <title>VSC OFFSHORE - Value Synergy Creation </title>
 
     <meta name="description" content="Business, Consulting, Finance, Insurance, Startup and Technology">
     <meta name="subject" content="Business, Consulting, Finance, Insurance, Startup and Technology">
@@ -22,10 +22,10 @@
     <!-- ==============================================
         Favicons
         =============================================== -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
-    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
+    <link rel="shortcut icon" href="assets/images/vsc-us.png">
+    <link rel="apple-touch-icon" href="assets/images/vsc-us.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/vsc-us.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/vsc-us.png">
 
     <!-- ==============================================
         Vendor Stylesheet
@@ -131,7 +131,8 @@ display: none !important;
 
                 <!-- Nav holder -->
                 <div class="ml-auto"></div>
-                <div class="col-md-10">
+                <div class="col-md-1"></div>
+                <div class="col-md-9">
                     <nav class="navbar navbar-expand top">
                         <div class="container header">
 
@@ -181,7 +182,7 @@ display: none !important;
                     </nav>
                     <!-- Navbar Items -->
                     <div class="row" style="    text-align: end;">
-                        <ul class="navbar-nav items col-md-9 p-0">
+                        <ul class="navbar-nav items col-md-12 p-0">
                             <li class="nav-item ">
                                 <a href="main" class="nav-link n-menu">HOME </a>
 
@@ -191,7 +192,7 @@ display: none !important;
                                 <ul class="dropdown-menu">
                                     <li class="nav-item"><a href="team" class="nav-link">Our Team </a></li>
                                     <li class="nav-item"><a href="onboarding" class="nav-link">Onboarding Process</a></li>
-                                    <li class="nav-item"><a href="why" class="nav-link">Why Infinity VSC Australia</a></li>
+                                    <li class="nav-item"><a href="why" class="nav-link">Why VSC Offshore Australia</a></li>
                                     <li class="nav-item"><a href="data" class="nav-link">Data Security & Confidentiality</li>
 
                                     <li class="nav-item">
@@ -265,11 +266,11 @@ display: none !important;
                                 <a href="#" class="nav-link  n-menu">RESOURCES<i class="icon-arrow-down"></i></a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item ">
-                                        <a class="nav-link" href="#">Blog </a>
+                                        <a class="nav-link" href="blog">Blog </a>
 
                                     </li>
-                                    <li class="nav-item"><a href="" class="nav-link">Event</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link">Press Release</a></li>
+                                    <li class="nav-item"><a href="event" class="nav-link">Event</a></li>
+                                    <li class="nav-item"><a href="press" class="nav-link">Press Release</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
@@ -277,18 +278,19 @@ display: none !important;
                             </li>
                             <li class="nav-item dropdown">
                                 <a href="contact" class="nav-link  n-menu ">CONTACT US </a>
+                            </li> 
+                            <li class="nav-item dropdown">
+                            <a href="#" target="_blank" class="btn ml-lg-auto primary-button nav-link  n-menu ">SCHEDULE CALL </a>
                             </li>
+                           
+                         
                         </ul>
-                        <ul class="navbar-nav action col-md-3">
-                            <li class="nav-item ml-3">
+                        <!-- <ul class="navbar-nav action col-md-3 p-0 justify-content-end" style>
+                            <li class="nav-item ">
                                 <a href="#" target="_blank" class="btn ml-lg-auto primary-button">SCHEDULE CALL </a>
-                                <!-- 
-                                Suggestion: Replace the purchase button above with a contact button.
-                                
-                                <a href="#contact" class="smooth-anchor btn ml-lg-auto primary-button">CONTACT US</a>
-                            -->
+                               
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
 
                 </div>

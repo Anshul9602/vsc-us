@@ -95,6 +95,8 @@ HTML5 display-role reset for older browsers
     color: black !important;
 }
 
+
+
 /* ncss */
 
 
@@ -2661,6 +2663,8 @@ header .navbar-expand .navbar-brand .featured .first {
     position: relative;
     z-index: 1;
     width: 100%;
+    height: 100%;
+    /* top: 15%; */
 }
 
 .swiper-slide .aos-animate {
@@ -3388,6 +3392,7 @@ header .navbar-expand .navbar-brand .featured .first {
     height: 100%;
     object-fit: cover;
     object-position: top;
+    top: 20%;
 }
 
 .full-image.to-bottom {

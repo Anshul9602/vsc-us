@@ -523,7 +523,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                             <div id="collapseOne1" class="accordion-collapse collapse "
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body" style="color:#000">
-                                    At Infinity Globus, we strive towards maximum client satisfaction and ease of
+                                    At VSC OFFSHORE, we strive towards maximum client satisfaction and ease of
                                     operation. We have a tried and tested process in place for all our clients. The
                                     first step of the process involves a thorough need identification, building up on
                                     that we suggest the most appropriate engagement model for your needs. Moving on, you
@@ -542,7 +542,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                             <div id="collapseOne2" class="accordion-collapse collapse "
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body" style="color:#000">
-                                    At Infinity Globus, we understand that each client will have different needs, and to
+                                    At VSC OFFSHORE, we understand that each client will have different needs, and to
                                     cater to each of our client in the best possible manner we have a host of engagement
                                     models to choose from depending on your needs such as<br><br>
 
@@ -610,7 +610,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                             <div id="collapse2" class="accordion-collapse collapse"
                                                 data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
-                                                    At Infinity Globus, you can pay in a method most convenient to you
+                                                    At VSC OFFSHORE, you can pay in a method most convenient to you
                                                     such as a direct transfer to our bank account, bill.com, credit
                                                     cards etc.
                                                 </div>
@@ -654,7 +654,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                                 data-bs-parent="#accordionExample">
                                                 <div class="accordion-body" style="color:#000">
                                                     We understand that uninterrupted communication is a key element
-                                                    whilst working with teams across borders. At Infinity Globus, our
+                                                    whilst working with teams across borders. At VSC OFFSHORE, our
                                                     teams are accessible through all the usual mediums such as email,
                                                     phone, Skype/ Zoom.
                                                 </div>
@@ -705,7 +705,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                                     data-bs-target="#collapseOne2" aria-expanded="false"
                                                     aria-controls="collapseOne2">
-                                                    What does the IT competence look like at Infinity Globus?
+                                                    What does the IT competence look like at VSC OFFSHORE?
                                                 </button>
                                             </h2>
                                             <div id="collapseOne2" class="accordion-collapse collapse"
@@ -732,7 +732,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                                 data-bs-parent="#accordionExample">
                                                 <div class="accordion-body" style="color:#000">
                                                     Data security is crucial to an accountant and we fully understand
-                                                    that at Infinity Globus. We manage all our data using highly secure
+                                                    that at VSC OFFSHORE. We manage all our data using highly secure
                                                     cloud-based servers, thereby ensuring maximum data security. Our
                                                     professional will only request data that is required to complete the
                                                     assigned tasks. Once the task is completed the data is cleared from
@@ -752,7 +752,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                             <div id="collapseOne4" class="accordion-collapse collapse "
                                                 data-bs-parent="#accordionExample">
                                                 <div class="accordion-body" style="color:#000">
-                                                    At Infinity Globus, we understand that no two accounting firms are
+                                                    At VSC OFFSHORE, we understand that no two accounting firms are
                                                     the same. Our years of experience and expertise allows us to work
                                                     across diverse sectors. We have been providing consistent accounting
                                                     excellence to CPA firms operating within industries such as
@@ -772,7 +772,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                             <div id="collapseOne4" class="accordion-collapse collapse "
                                                 data-bs-parent="#accordionExample">
                                                 <div class="accordion-body" style="color:#000">
-                                                    At Infinity Globus, we believe are employees to be the driving force
+                                                    At VSC OFFSHORE, we believe are employees to be the driving force
                                                     behind the growth of our business. In order to sustain the same, we
                                                     dedicate substantial amount of time and energy in up-skilling our
                                                     teams.

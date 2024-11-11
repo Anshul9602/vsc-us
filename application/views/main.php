@@ -84,6 +84,38 @@
                             <!-- Action -->
                             <div data-aos="fade-up" data-aos-delay="2800" class="buttons">
                                 <div class="d-sm-inline-flex">
+                                    <a href="#contact" class="smooth-anchor mb-4 btn primary-button">Know More</a>
+                                    <!-- <a href="#features" class="smooth-anchor ml-sm-4 mt-4 btn outline-button">READ MORE</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="swiper-slide slide-center">
+
+                <!-- Media -->
+                <img src="assets/images/banner.webp" alt="Full Image" class="full-image" data-mask="50">
+
+                <div class="slide-content row">
+                    <div class="col-12 d-flex justify-content-start inner">
+                        <div class="left text-left">
+
+                            <!-- Content -->
+                            <h1 data-aos="zoom-in" data-aos-delay="2000" class="title effect-static-text">
+                                <!-- <span class="pre-title m-0">Human Resources</span> -->
+                                <span class="pt-5"> Outsourcing<span class="featured bottom"><span>Your
+                                            Way!</span></span>
+                            </h1>
+                            <p data-aos="zoom-in" data-aos-delay="2400" class="description bigger"> A Trusted Outsourced
+                                Firm for Bookkeeping, Accounting and Tax, SMSF, Paraplanning and Loans Processing in
+                                Australia </p>
+
+                            <!-- Action -->
+                            <div data-aos="fade-up" data-aos-delay="2800" class="buttons">
+                                <div class="d-sm-inline-flex">
                                     <a href="#contact" class="smooth-anchor mt-4 btn primary-button">Know More</a>
                                     <!-- <a href="#features" class="smooth-anchor ml-sm-4 mt-4 btn outline-button">READ MORE</a> -->
                                 </div>
@@ -99,8 +131,8 @@
 
 
 <!-- slider -->
-<div class="row " style="background: #eef4ed;">
-    <div class="slider-container" style="margin: 10px 0;background: #eef4ed;">
+<div class="row " style="padding:40px 0;">
+    <div class="slider-container" style="margin: 10px 0;">
         <!-- Left white overlay -->
         <div class="slider-overlay slider-overlay-left"></div>
 
@@ -184,8 +216,8 @@
 <section id="features" class="section-1 features offers featured" style="padding: 40px 0;">
     <div class="container">
         <div class="row justify-content-center items">
-            <div class="col-md-12 text-center">
-                <h2>A Leading Outsourced Firm for Maximizing Profits & Minimizing Hassles!</h2>
+            <div class="col-md-8 text-center">
+                <h3>A Leading Outsourced Firm for Maximizing Profits  & Minimizing Hassles!</h3>
             </div>
         </div>
     </div>
@@ -200,13 +232,8 @@
                     <div class="col-12 p-0">
                         <span class="pre-title m-auto m-md-0">About the network</span>
                         <h2><span class="featured"><span>About</span></span> Us</h2>
-                        <p>We offer a wide suite for Bookkeeping, Accounting and Tax, SMSF, Paraplanning and Loans
-                            Processing services across Australia through innovative ideas and integrated solutions. With
-                            us, you can be sure of receiving carefully curated services that meet your unique
-                            requirements.</p>
-                        <p>Possessing a combined experience of 20+ years in the industry, our team of exceptionally
-                            talented professionals helps strengthen your business while simultaneously offering you a
-                            comprehensive understanding of the industry trends.</p>
+                        <p>We have been providing outsourced taxation and accounting services to CPAs, EAs and accounting firms based in the USA, UK, Canada, and Australia.</p>
+                        <p>Our team has over two decades of experience in outsourced accounting & tax preparation services and ensures a greater transparency with control to keep an eye on your business.</p>
                     </div>
                 </div>
                 <div class="row items">
@@ -236,18 +263,18 @@
                 <!-- Action -->
                 <div data-aos="fade-up" class="buttons">
                     <div class="d-sm-inline-flex mb-5 mb-md-0">
-                        <!-- <a href="#contact" class="smooth-anchor mx-auto mt-4 btn primary-button">GET IN TOUCH</a> -->
-                        <a href="#" class="mx-auto ml-sm-4 mt-4 btn outline-button">EXPLORE MORE</a>
+                        <a href="#contact" class="smooth-anchor mx-auto mt-4 btn primary-button">EXPLORE MORE</a>
+                        <!-- <a href="#" class="mx-auto ml-sm-4 mt-4 btn outline-button">EXPLORE MORE</a> -->
                     </div>
                 </div>
                 <div class="row pt-4">
-                    <div class="col-md-3">
+                    <div class="col-md-2 p-0">
                         <img src="assets/images/c-1.png" alt="">
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-2 p-0 pl-1">
                         <img src="assets/images/c-2.png" alt="">
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-2 p-0 pl-1">
                         <img src="assets/images/c-3.png" alt="">
                     </div>
                 </div>
@@ -317,7 +344,7 @@
                 <div class="col-12">
                     <span class="pre-title">We do more for everyone</span>
                     <h2 class="mb-0"> <span class="featured"><span>Why</span></span> Choose Us?</h2>
-                    <p>Infinity Globus specializes in addressing the needs of CPAs, EAs and accounting firms across the
+                    <p>VSC OFFSHORE specializes in addressing the needs of CPAs, EAs and accounting firms across the
                         globe.
                         Our end-to-end outsourced tax and accounting services are designed to help you navigate
                         challenges and seize opportunities.</p>
@@ -502,11 +529,11 @@
                     <div class="swiper-slide slide-center item">
                         <div class="row card">
                             <div class="col-12">
-                                <img src="assets/images/testimonial1.jpg" alt="Logo" class="logo">
+                                <img src="assets/images/testimonial.webp" alt="Logo" class="logo">
                                 <p>I love working with you!!!! Your team has been very professional, courteous, and
                                     prompt in helping me handle the workload of my firm. Resolving many special and
                                     complex tasks that are beneficial to my firm.</p>
-                                <h6>Shlomi Golan</h6>
+                                <h6>lorem ipsum</h6>
                                 <i class="quote-right fas fa-quote-right"></i>
                             </div>
                         </div>
@@ -514,11 +541,11 @@
                     <div class="swiper-slide slide-center item">
                         <div class="row card">
                             <div class="col-12">
-                                <img src="assets/images/testimonial2.jpg" alt="Logo" class="logo">
+                                <img src="assets/images/testimonial.webp" alt="Logo" class="logo">
                                 <p>Thanks for taking on tax & bookkeeping service for my company. It was a new venture
                                     but is so crucial to Tax-Bookkeeping company like mine that it is a surprise at how
                                     professionally you complete the tasks.</p>
-                                <h6>Craig Carr</h6>
+                                <h6>lorem ipsum</h6>
                                 <i class="quote-right fas fa-quote-right"></i>
                             </div>
                         </div>
@@ -526,11 +553,11 @@
                     <div class="swiper-slide slide-center item">
                         <div class="row card">
                             <div class="col-12">
-                                <img src="assets/images/testimonial3.jpg" alt="Logo" class="logo">
+                                <img src="assets/images/testimonial.webp" alt="Logo" class="logo">
                                 <p>Learning about new clients and the way they have their accounting can be tricky but
-                                    Team Infinity Globus has been a quick learner and has taken over tasks entirely
+                                    Team VSC OFFSHORE has been a quick learner and has taken over tasks entirely
                                     which has reduced our training time and workload.</p>
-                                <h6>Jonathan Convery</h6>
+                                <h6>lorem ipsum</h6>
                                 <i class="quote-right fas fa-quote-right"></i>
                             </div>
                         </div>
@@ -538,11 +565,11 @@
                     <div class="swiper-slide slide-center item">
                         <div class="row card">
                             <div class="col-12">
-                                <img src="assets/images/testimonial1.jpg" alt="Logo" class="logo">
+                                <img src="assets/images/testimonial.webp" alt="Logo" class="logo">
                                 <p>I love working with you!!!! Your team has been very professional, courteous, and
                                     prompt in helping me handle the workload of my firm. Resolving many special and
                                     complex tasks that are beneficial to my firm.</p>
-                                <h6>Shlomi Golan</h6>
+                                <h6>lorem ipsum</h6>
                                 <i class="quote-right fas fa-quote-right"></i>
                             </div>
                         </div>
@@ -550,11 +577,11 @@
                     <div class="swiper-slide slide-center item">
                         <div class="row card">
                             <div class="col-12">
-                                <img src="assets/images/testimonial2.jpg" alt="Logo" class="logo">
+                                <img src="assets/images/testimonial.webp" alt="Logo" class="logo">
                                 <p>Thanks for taking on tax & bookkeeping service for my company. It was a new venture
                                     but is so crucial to Tax-Bookkeeping company like mine that it is a surprise at how
                                     professionally you complete the tasks.</p>
-                                <h6>Craig Carr</h6>
+                                <h6>lorem ipsum</h6>
                                 <i class="quote-right fas fa-quote-right"></i>
                             </div>
                         </div>
@@ -562,11 +589,11 @@
                     <div class="swiper-slide slide-center item">
                         <div class="row card">
                             <div class="col-12">
-                                <img src="assets/images/testimonial3.jpg" alt="Logo" class="logo">
+                                <img src="assets/images/testimonial.webp" alt="Logo" class="logo">
                                 <p>Learning about new clients and the way they have their accounting can be tricky but
-                                    Team Infinity Globus has been a quick learner and has taken over tasks entirely
+                                    Team VSC OFFSHORE has been a quick learner and has taken over tasks entirely
                                     which has reduced our training time and workload.</p>
-                                <h6>Jonathan Convery</h6>
+                                <h6>lorem ipsum</h6>
                                 <i class="quote-right fas fa-quote-right"></i>
                             </div>
                         </div>
@@ -574,11 +601,11 @@
                     <div class="swiper-slide slide-center item">
                         <div class="row card">
                             <div class="col-12">
-                                <img src="assets/images/testimonial1.jpg" alt="Logo" class="logo">
+                                <img src="assets/images/testimonial.webp" alt="Logo" class="logo">
                                 <p>I love working with you!!!! Your team has been very professional, courteous, and
                                     prompt in helping me handle the workload of my firm. Resolving many special and
                                     complex tasks that are beneficial to my firm.</p>
-                                <h6>Shlomi Golan</h6>
+                                <h6>lorem ipsum</h6>
                                 <i class="quote-right fas fa-quote-right"></i>
                             </div>
                         </div>
@@ -586,11 +613,11 @@
                     <div class="swiper-slide slide-center item">
                         <div class="row card">
                             <div class="col-12">
-                                <img src="assets/images/testimonial2.jpg" alt="Logo" class="logo">
+                                <img src="assets/images/testimonial.webp" alt="Logo" class="logo">
                                 <p>Thanks for taking on tax & bookkeeping service for my company. It was a new venture
                                     but is so crucial to Tax-Bookkeeping company like mine that it is a surprise at how
                                     professionally you complete the tasks.</p>
-                                <h6>Craig Carr</h6>
+                                <h6>lorem ipsum</h6>
                                 <i class="quote-right fas fa-quote-right"></i>
                             </div>
                         </div>
@@ -598,11 +625,11 @@
                     <div class="swiper-slide slide-center item">
                         <div class="row card">
                             <div class="col-12">
-                                <img src="assets/images/testimonial3.jpg" alt="Logo" class="logo">
+                                <img src="assets/images/testimonial.webp" alt="Logo" class="logo">
                                 <p>Learning about new clients and the way they have their accounting can be tricky but
-                                    Team Infinity Globus has been a quick learner and has taken over tasks entirely
+                                    Team VSC OFFSHORE has been a quick learner and has taken over tasks entirely
                                     which has reduced our training time and workload.</p>
-                                <h6>Jonathan Convery</h6>
+                                <h6>lorem ipsum</h6>
                                 <i class="quote-right fas fa-quote-right"></i>
                             </div>
                         </div>

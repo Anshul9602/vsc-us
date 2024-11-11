@@ -43,9 +43,9 @@
                          <p> Not only are these pieces of information linked with the financial security of these clients, but they are also integral to preventing identity theft. </p>
 
                          <p> Therefore, maintaining data security and confidentiality is the need of the hour for every CPA firm.</p>
-                         <p>As such, Infinity Globus understands the importance of crucial data that comes into possession of the firms that deal in tax, bookkeeping, accounting, payroll, and related services.</p>
+                         <p>As such, VSC OFFSHORE understands the importance of crucial data that comes into possession of the firms that deal in tax, bookkeeping, accounting, payroll, and related services.</p>
                              
-                         <p> We are extremely committed to maintaining confidentiality and offering utmost security at all levels. We are dedicated to maintaining the utmost security and confidentiality of the data by all means. Keeping that in view, Infinity Globus is a proud SOC 2 Type 2 compliant firm that critically understands its fundamental obligation to extend thorough data protection and security at all levels.</p>
+                         <p> We are extremely committed to maintaining confidentiality and offering utmost security at all levels. We are dedicated to maintaining the utmost security and confidentiality of the data by all means. Keeping that in view, VSC OFFSHORE is a proud SOC 2 Type 2 compliant firm that critically understands its fundamental obligation to extend thorough data protection and security at all levels.</p>
                              
                          <p> We are dedicated to safeguarding the privacy of the information shared with us. We are proud to be an ISO 27001-2013 certified firm for the most Standard Quality Measures pertaining to Information Security.
                          </p>
@@ -94,7 +94,7 @@
                          <p>We have anti-malware software on each of our computers which carries out a quick scan twice daily.</p>
                          <p>Our company’s network is safeguarded by default Windows firewall software.</p> 
                          <p>We follow a procedure whereby all our computers tend to be password protected for added security. Here too, each of the users possesses a password that gets changed compulsorily every 42 days.</p>
-                         <p>Infinity Globus aims to build a paperless world that not only fosters an eco-friendly environment but also ensures data security.</p>
+                         <p>VSC OFFSHORE aims to build a paperless world that not only fosters an eco-friendly environment but also ensures data security.</p>
                          <p>We even follow stringent IP authentication that restricts outsiders from laying hands on the confidential data of the organization.</p>
                      </div>
                  </div>
