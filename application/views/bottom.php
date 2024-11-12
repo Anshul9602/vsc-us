@@ -718,8 +718,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                         class="attachment-thumbnail size-thumbnail wp-post-image" alt=""></div>
                                 <div class="testimonial-content">
                                     <p>Learning about new clients and the way they have their accounting can be tricky
-                                        but Team Infinity
-                                        Globus has been a quick learner and has taken over tasks entirely which has
+                                        but Team VSC-US has been a quick learner and has taken over tasks entirely which has
                                         reduced our training
                                         time...</p>
                                     <h6 class="designation">lorem ipsum, CPA, MBA</h6>
@@ -733,8 +732,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                         sizes="(max-width: 150px) 100vw, 150px"></div>
                                 <div class="testimonial-content">
                                     <p>I love working with you!!!! Your team has been very professional, courteous, and
-                                        prompt in
-                                        helping me handle the workload of my firm. Resolving many special and complex
+                                        prompt in helping me handle the workload of my firm. Resolving many special and complex
                                         tasks that are
                                         beneficial to my firm.</p>
                                     <h6 class="designation">lorem ipsum</h6>
