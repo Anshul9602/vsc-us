@@ -63,30 +63,43 @@
             --section-5-bg-color: #eef4ed;
             --section-6-bg-color: #111117;
         }
+
         .faq .accordion .accordion-item .accordion-button:not(.collapsed):before {
-    background: rgb(255 255 255 / 14%);
-}
+            background: rgb(255 255 255 / 14%);
+        }
+
         @media (max-width: 768px) {
-           .testi-text-slider .testimonial-card{
-            display: block !important;
-           } 
-           .section-part .testi-text-slider .icon {
-    margin-right: auto !important;
- 
+            .testi-text-slider .testimonial-card {
+                display: block !important;
+            }
+
+            .section-part .testi-text-slider .icon {
+                margin-right: auto !important;
+
+            }
+
+            .section-part .testi-text-slider .testimonial-content {
+                width: 100% !important;
+            }
+
+            .faq .accordion .accordion-item .accordion-button,
+            .faq .accordion .accordion-item:last-of-type .accordion-button.collapsed {
+                padding: 15px 40px 15px 50px;
+                font-size: 16px;
+            }
+
+            .faq .accordion .accordion-item .accordion-button,
+            .faq .accordion .accordion-item:last-of-type .accordion-button.collapsed {
+                font-family: sans-serif !important;
+                padding: 15px;
+            }
+
+            .faq .accordion .accordion-item .accordion-button::before {
+                display: none !important;
+            }
+            header .navbar-expand .navbar-brand img {
+    height: auto;
 }
-.section-part .testi-text-slider .testimonial-content {
-    width: 100% !important;
-}
-.faq .accordion .accordion-item .accordion-button, .faq .accordion .accordion-item:last-of-type .accordion-button.collapsed {
-        padding: 15px 40px 15px 50px;
-        font-size: 16px;
-    }
-    .faq .accordion .accordion-item .accordion-button, .faq .accordion .accordion-item:last-of-type .accordion-button.collapsed {
-    font-family: sans-serif !important;
-    padding: 15px;}
-    .faq .accordion .accordion-item .accordion-button::before {
-display: none !important;
-    }
         }
     </style>
 
@@ -278,12 +291,12 @@ display: none !important;
                             </li>
                             <li class="nav-item dropdown">
                                 <a href="contact" class="nav-link  n-menu ">CONTACT US </a>
-                            </li> 
-                            <li class="nav-item dropdown">
-                            <a href="#" target="_blank" class="btn ml-lg-auto primary-button nav-link  n-menu ">SCHEDULE CALL </a>
                             </li>
-                           
-                         
+                            <li class="nav-item dropdown">
+                                <a href="#" target="_blank" class="btn ml-lg-auto primary-button nav-link  n-menu ">SCHEDULE CALL </a>
+                            </li>
+
+
                         </ul>
                         <!-- <ul class="navbar-nav action col-md-3 p-0 justify-content-end" style>
                             <li class="nav-item ">
@@ -310,28 +323,30 @@ display: none !important;
 
     </header>
     <div id="menu" class="p-0 modal fade" role="dialog" aria-labelledby="menu" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-slideout" role="document">
-                <div class="modal-content full">
-                    <div class="modal-header" data-dismiss="modal">
-                        <i class="icon-close fas fa-arrow-right"></i>
-                    </div>
-                    <div class="menu modal-body">
-                        <div class="row w-100">
-                            <div class="items p-0 col-12 text-center">
-                                <!-- Append [navbar] -->
-                            </div>
-                            <div class="contacts p-0 col-12 text-center">
-                                <!-- Append [navbar] -->
-                            </div>
+        <div class="modal-dialog modal-dialog-slideout" role="document">
+            <div class="modal-content full">
+                <div class="modal-header" data-dismiss="modal">
+                    <i class="icon-close fas fa-arrow-right"></i>
+                </div>
+                <div class="menu modal-body">
+                    <div class="row w-100">
+                        <div class="items p-0 col-12 text-center">
+                            <!-- Append [navbar] -->
+                        </div>
+                        <div class="contacts p-0 col-12 text-center">
+                            <!-- Append [navbar] -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 </body>
 <style>
-    .inner-page ol, .inner-page ul{
+    .inner-page ol,
+    .inner-page ul {
         padding-left: 0;
     }
 </style>
+
 </html>
