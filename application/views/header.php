@@ -97,10 +97,12 @@
             .faq .accordion .accordion-item .accordion-button::before {
                 display: none !important;
             }
+
             header .navbar-expand .navbar-brand img {
-    height: auto;
-}
+                height: auto;
+            }
         }
+        
     </style>
 
 </head>
@@ -194,26 +196,26 @@
                         </div>
                     </nav>
                     <!-- Navbar Items -->
-                    <div class="row d-flex justify-content-end" >
+                    <div class="row d-flex justify-content-end">
                         <ul class="navbar-nav items col-md-11 p-0">
-                            <li class="nav-item ">
+                        <li class="nav-item ">
                                 <a href="main" class="nav-link n-menu">HOME </a>
 
                             </li>
-                            <li class="nav-item dropdown">
-                                <a href="#" class="nav-link  n-menu">ABOUT US <i class="icon-arrow-down"></i></a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item"><a href="team" class="nav-link">Our Team </a></li>
-                                    <li class="nav-item"><a href="onboarding" class="nav-link">Onboarding Process</a></li>
-                                    <li class="nav-item"><a href="why" class="nav-link">Why VSC Offshore Australia</a></li>
-                                    <li class="nav-item"><a href="data" class="nav-link">Data Security & Confidentiality</li>
 
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#"></a>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link  n-menu">ABOUT US<i class="icon-arrow-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="team">Our Team </a>
 
                                     </li>
+                                    <li class="nav-item"><a href="onboarding" class="nav-link">Onboarding Process</a></li>
+                                    <li class="nav-item"><a href="why" class="nav-link">Why VSC Offshore </a></li>
+                                    <li class="nav-item"><a href="data" class="nav-link">Data Security & Confidentiality</a></li>
                                 </ul>
                             </li>
+
 
                             <li class="nav-item dropdown">
                                 <a href="<?php echo base_url('Services'); ?>" class="nav-link  n-menu">SERVICES <i class="icon-arrow-down"></i></a>
@@ -275,6 +277,7 @@
 
                                 </div>
                             </li>
+
                             <li class="nav-item dropdown">
                                 <a href="#" class="nav-link  n-menu">RESOURCES<i class="icon-arrow-down"></i></a>
                                 <ul class="dropdown-menu">
@@ -291,16 +294,11 @@
                             </li>
                             <li class="nav-item ">
                                 <a href="contact" class="nav-link  n-menu ">CONTACT US </a>
-<<<<<<< HEAD
-                            </li> 
-                            <li class="nav-item ">
-                            <a href="#" target="_blank" class="btn ml-lg-auto primary-button nav-link  n-menu ">SCHEDULE CALL </a>
-=======
->>>>>>> 99a36422e2b82d937e52322c5060bfcf3bd975cf
                             </li>
-                            <li class="nav-item dropdown">
+                            <li class="nav-item ">
                                 <a href="#" target="_blank" class="btn ml-lg-auto primary-button nav-link  n-menu ">SCHEDULE CALL </a>
                             </li>
+
 
 
                         </ul>

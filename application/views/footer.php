@@ -11,28 +11,21 @@
 
 <!-- Footer Start -->
 
-<footer
-    class="aai-footer pt-120"
-    style=" background: url('assets/img/bg/footer-bg.jpeg') no-repeat center
-          center/cover; background-color:#03091b;">
-    <div class="container">
+<footer class="aai-footer pt-120">
+    <div class="container" style="max-width: 78%;">
 
         <div class="aai-footer-navigation-widgets py-80">
             <div class="row pt-5">
 
-                <div
-                    class="col-xl-3 col-lg-4 col-md-3 mb-5 mb-lg-0"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                    data-aos-duration="1500">
+                <div  class="col-xl-3 col-lg-4 col-md-3 mb-5 mb-lg-0">
                     <nav class="aai-footer-nav">
-                        <p class="aai-footer-nav-title"><b>Company</b></p>
+                        <p class="aai-footer-nav-title"><b>COMPANY</b></p>
                         <ul class="aai-footer-nav-list" style="list-style-type: none;" >
                             <li class="aai-footer-nav-list-item">
                                 <a href="" class="aai-footer-nav-link">Our Team </a>
                             </li>
                             <li class="aai-footer-nav-list-item">
-                                <a href="" class="aai-footer-nav-link">Why Infinity VSC Australia </a>
+                                <a href="" class="aai-footer-nav-link">Why VSC OFFSHORE</a>
                             </li>
                             <li class="aai-footer-nav-list-item">
                                 <a href="Services" class="aai-footer-nav-link">Data Security & Confidentiality</a>
@@ -49,15 +42,11 @@
                         </ul>
                     </nav>
                 </div>
-                <div
-                    class="col-xl-3 col-lg-4 col-md-3 mb-5 mb-lg-0"
-                    data-aos="fade-up"
-                    data-aos-delay="300"
-                    data-aos-duration="1500">
+                <div  class="col-xl-3 col-lg-4 col-md-3 mb-5 mb-lg-0">
 
 
                     <nav class="aai-footer-nav">
-                        <p class="aai-footer-nav-title"><b>Quick Links</b></p>
+                        <p class="aai-footer-nav-title"><b>QUICK LINKS</b></p>
                         <ul class="aai-footer-nav-list"  style="list-style-type: none;" >
 
                             <li class="aai-footer-nav-list-item">
@@ -73,11 +62,7 @@
                         
                     </nav>
                 </div>
-                <div
-                    class="col-xl-3 col-lg-4 col-md-3 mb-5 mb-lg-0"
-                    data-aos="fade-up"
-                    data-aos-delay="300"
-                    data-aos-duration="1500">
+                <div  class="col-xl-3 col-lg-4 col-md-3 mb-5 mb-lg-0">
 
 
                     <nav class="aai-footer-nav">
@@ -95,11 +80,7 @@
                     </nav>
                 </div>
 
-                <div
-                    class="col-xl-3 col-lg-4 col-md-3 mb-5 mb-lg-0"
-                    data-aos="fade-up"
-                    data-aos-delay="300"
-                    data-aos-duration="1500">
+                <div  class="col-xl-3 col-lg-4 col-md-3 mb-5 mb-lg-0">
                     <div class="info col-md-12  row" style="color:white;">
                             <div class="phonerow col-md-12 m-0 pt-md-1 pt-2" style="align-items: center;">
                              <p class="m-0 row"style="color:#fff;"><b>CALL</b></p>
@@ -109,11 +90,11 @@
                             </div>
                             <div class="email row col-md-12 m-0 pt-md-1 pt-2" style="align-items: center;">
                              <p class="m-0 pt-3" style="color:#fff;"><b>EMAIL</b></p>
-                                 <p class="m-0" style="color:#058283;">Support@vscoffshore.com</p>
+                                 <p class="m-0" style="color:#9ea9b6;">Support@vscoffshore.com</p>
                             </div>
                             <div class="address row col-md-12 m-0 pt-md-1 pt-2" style="align-items: center;">
                               <p class="m-0 pt-3"style="color:#fff;"><b>GET IN TOUCH</b></p>
-                                 <p class="m-0"style="color:#058283;">  8 The Green, Ste A, Diver County, Kent, DE - 19901</p>
+                                 <p class="m-0"style="color:#9ea9b6;">  8 The Green, Ste A, Diver County, Kent, DE - 19901</p>
                             </div>
                         </div>
 

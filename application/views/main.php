@@ -296,7 +296,9 @@
         </div>
         <div class="card-container">
             <div class="card1">
-                <div class="icon-section accounting-icon d-flex align-items-start">      </div>
+                <div class="icon-section accounting-icon d-flex align-items-start">  
+                <img src="assets/images/1.png" alt="">         
+            </div>
                 <div class="content">
                     <h3 class="m-0">Accounting</h3>
                     <hr class="my-4">
@@ -310,7 +312,9 @@
             </div>
 
             <div class="card1">
-                <div class="icon-section tax-icon"></div>
+                <div class="icon-section tax-icon">
+                    <img src="assets/images/2.png" alt=""> 
+                </div>
                 <div class="content">
                     <h3 class="m-0">Tax</h3>
                     <hr class="my-4">
@@ -324,7 +328,9 @@
             </div>
 
             <div class="card1">
-                <div class="icon-section audit-icon"></div>
+                <div class="icon-section audit-icon">
+                <img src="assets/images/3.png" alt=""> 
+                </div>
                 <div class="content">
                     <h3 class="m-0">Audit</h3>
                     <hr class="my-4">
@@ -346,12 +352,12 @@
 <section id="projects" class="section-3 odd showcase blog-grid filter-section projects">
     <div class="overflow-holder">
         <div class="container">
-            <div class="row text-center intro">
-                <div class="col-12">
+            <div class="row d-flex justify-content-center text-center intro">
+                <div class="col-md-10">
                     <span class="pre-title">We do more for everyone</span>
                     <h2 class="mb-0"> <span class="featured"><span>Why</span></span> Choose Us?</h2>
                     <p>VSC OFFSHORE specializes in addressing the needs of CPAs, EAs and accounting firms across the
-                        globe.
+                        globe. <br>
                         Our end-to-end outsourced tax and accounting services are designed to help you navigate
                         challenges and seize opportunities.</p>
                 </div>
