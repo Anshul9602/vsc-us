@@ -181,8 +181,8 @@ display: none !important;
                         </div>
                     </nav>
                     <!-- Navbar Items -->
-                    <div class="row" style="    text-align: end;">
-                        <ul class="navbar-nav items col-md-12 p-0">
+                    <div class="row d-flex justify-content-end" >
+                        <ul class="navbar-nav items col-md-11 p-0">
                             <li class="nav-item ">
                                 <a href="main" class="nav-link n-menu">HOME </a>
 
@@ -273,13 +273,13 @@ display: none !important;
                                     <li class="nav-item"><a href="press" class="nav-link">Press Release</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown">
+                            <li class="nav-item ">
                                 <a href="<?php echo base_url('FAQ'); ?>" class="nav-link  n-menu">FAQ'S </a>
                             </li>
-                            <li class="nav-item dropdown">
+                            <li class="nav-item ">
                                 <a href="contact" class="nav-link  n-menu ">CONTACT US </a>
                             </li> 
-                            <li class="nav-item dropdown">
+                            <li class="nav-item ">
                             <a href="#" target="_blank" class="btn ml-lg-auto primary-button nav-link  n-menu ">SCHEDULE CALL </a>
                             </li>
                            

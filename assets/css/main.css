@@ -132,7 +132,7 @@ HTML5 display-role reset for older browsers
   }
   
   .tax-icon {
-    background-color: #f7a600;
+    background-color: #058283;
     background-image: url('tax-icon.svg'); /* Replace with your icon file path */
     background-repeat: no-repeat;
     background-position: center;
@@ -147,7 +147,7 @@ HTML5 display-role reset for older browsers
   
   .content {
     padding: 20px;
-    background-image: url('texture.png'); /* Replace with your background texture path */
+    background-image: url('assets/images/texture.jpeg'); /* Replace with your background texture path */
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
