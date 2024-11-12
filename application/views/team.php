@@ -113,7 +113,7 @@
                                         <img src="assets/images/testimonial.webp" alt="Person" class="person">
                                     </div>
                                     <div class="col-8 align-self-center text-left">
-                                        <h4>Loprem</h4>
+                                        <h4>Lorem</h4>
                                         <p>Sr. Audit & Assurance Manager</p>
                                         <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis diam varius diam ultricies lacinia.</p> -->
                                         <ul class="navbar-nav social share-list ml-auto">
@@ -134,7 +134,7 @@
                                         <img src="assets/images/testimonial.webp" alt="Person" class="person">
                                     </div>
                                     <div class="col-8 align-self-center text-left">
-                                        <h4>Lorem<</h4>
+                                        <h4>Lorem</h4>
                                         <p>Sr. Accounts Manager</p>
                                         <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis diam varius diam ultricies lacinia.</p> -->
                                         <ul class="navbar-nav social share-list ml-auto">

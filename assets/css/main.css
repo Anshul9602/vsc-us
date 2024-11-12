@@ -95,7 +95,107 @@ HTML5 display-role reset for older browsers
     color: black !important;
 }
 
+/* personalised */
 
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  }
+  
+  .card1 {
+    width: 360px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+  
+  .icon-section {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .accounting-icon {
+    background-color: #1a406d;
+    background-image: url('assets/images/logo.png'); /* Replace with your icon file path */
+    padding-top: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .tax-icon {
+    background-color: #f7a600;
+    background-image: url('tax-icon.svg'); /* Replace with your icon file path */
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .audit-icon {
+    background-color: #1a406d;
+    background-image: url('audit-icon.svg'); /* Replace with your icon file path */
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .content {
+    padding: 20px;
+    background-image: url('texture.png'); /* Replace with your background texture path */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  
+  h3 {
+    color: #1a406d;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  hr {
+    margin: 10px 0;
+    border: 0;
+    border-top: 1px solid #d3d3d3;
+  }
+  
+  ul {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0;
+  }
+  
+  ul li {
+    color: #1a406d;
+    margin-bottom: 5px;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .card1 {
+      width: 100%; /* Full width on smaller screens */
+      flex-direction: column; /* Stack icon and content vertically */
+      text-align: center;
+    }
+  
+    .icon-section {
+      width: 100%; /* Full width icon section */
+      padding: 20px;
+    }
+  
+    .content {
+      padding: 15px;
+    }
+  }
+
+
+/* personalised */
 
 /* ncss */
 
@@ -1949,7 +2049,7 @@ header .navbar-expand .navbar-brand i {
 }
 
 header .navbar-expand .navbar-brand img {
-    height:90px;
+    height:70px;
 }
 
 header .navbar-expand .navbar-brand .brand {
@@ -2312,12 +2412,13 @@ header .navbar-expand .navbar-brand .featured .first {
 
 .slider-h-100 {
     width: 100%;
-    height: calc(100vh - 50px);
+    height: 100vh; /* Full viewport height */
 }
 
 .slider-h-100.slider-h-auto {
-    min-height: calc(100vh - 50px);
+    min-height: 100vh; /* Full viewport height minimum */
 }
+
 
 .slider-h-85 {
     width: 100%;
@@ -3392,7 +3493,7 @@ header .navbar-expand .navbar-brand .featured .first {
     height: 100%;
     object-fit: cover;
     object-position: top;
-    top: 20%;
+    top:14%;
 }
 
 .full-image.to-bottom {

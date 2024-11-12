@@ -57,7 +57,7 @@
     }
 </style>
 <!-- Hero -->
-<section id="slider" class="hero p-0 odd">
+<section class="hero p-0 odd">
     <div class="swiper-container no-slider animation slider-h-100 slider-h-auto">
         <div class="swiper-wrapper">
 
@@ -77,9 +77,8 @@
                                 <span class="pt-5"> Outsourcing<span class="featured bottom"><span>Your
                                             Way!</span></span>
                             </h1>
-                            <p data-aos="zoom-in" data-aos-delay="2400" class="description bigger"> A Trusted Outsourced
-                                Firm for Bookkeeping, Accounting and Tax, SMSF, Paraplanning and Loans Processing in
-                                Australia </p>
+                            <p data-aos="zoom-in" data-aos-delay="2400" class="description bigger"> Get accurate financial
+                                statements at month-end with our Outsource Bookkeeping Services</p>
 
                             <!-- Action -->
                             <div data-aos="fade-up" data-aos-delay="2800" class="buttons">
@@ -216,8 +215,9 @@
 <section id="features" class="section-1 features offers featured" style="padding: 40px 0;">
     <div class="container">
         <div class="row justify-content-center items">
-            <div class="col-md-8 text-center">
-                <h3>A Leading Outsourced Firm for Maximizing Profits  & Minimizing Hassles!</h3>
+            <div class="col-md-12 text-center">
+                <h2 class="mb-0">A Leading Outsourced Firm for Maximizing </h2>
+                <h2 class="mt-0"> Profits & Minimizing Hassles!</h2>
             </div>
         </div>
     </div>
@@ -291,15 +291,16 @@
     <div class="container">
         <div class="row pb-3">
             <div class="col-md-12">
-                <h2>Personalized Talent for Your Goals</h2>
+                <h2><span class="featured"><span>Personalized </span></span> Talent for Your Goals</h2>
             </div>
         </div>
-        <div class="row justify-content-center items">
-            <div class="col-12 col-md-6 col-lg-4 item">
-                <div class="card">
-                    <i class="icon featured icon-people"></i>
-                    <h4 class="m-1">Accounting</h4>
-                    <ul style="list-style: none;">
+        <div class="card-container">
+            <div class="card1">
+                <div class="icon-section accounting-icon d-flex align-items-start">      </div>
+                <div class="content">
+                    <h3 class="m-0">Accounting</h3>
+                    <hr class="my-4">
+                    <ul>
                         <li>Account Staff</li>
                         <li>Account Senior</li>
                         <li>Account Supervisor</li>
@@ -307,11 +308,13 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 item">
-                <div class="card">
-                    <i class="icon featured icon-pie-chart"></i>
-                    <h4 class="m-1">Tax</h4>
-                    <ul style="list-style: none;">
+
+            <div class="card1">
+                <div class="icon-section tax-icon"></div>
+                <div class="content">
+                    <h3 class="m-0">Tax</h3>
+                    <hr class="my-4">
+                    <ul>
                         <li>Tax Staff</li>
                         <li>Tax Senior</li>
                         <li>Tax Supervisor</li>
@@ -319,11 +322,13 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 item">
-                <div class="card">
-                    <i class="icon featured icon-speedometer"></i>
-                    <h4 class="m-1">Audit</h4>
-                    <ul style="list-style: none;">
+
+            <div class="card1">
+                <div class="icon-section audit-icon"></div>
+                <div class="content">
+                    <h3 class="m-0">Audit</h3>
+                    <hr class="my-4">
+                    <ul>
                         <li>Audit Staff</li>
                         <li>Audit Senior</li>
                         <li>Audit Supervisor</li>
@@ -332,6 +337,7 @@
                 </div>
             </div>
         </div>
+
     </div>
 
 </section>

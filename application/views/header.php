@@ -122,7 +122,7 @@ display: none !important;
                         </span> -->
 
 
-                        <img src="assets/images/logo.svg" alt="NEXGEN" style="width:100%">
+                        <img src="assets/images/logo.png" alt="logo" style="width:100%">
 
                     </a>
                 </div>
