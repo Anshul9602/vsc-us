@@ -8,7 +8,7 @@
                     <div class="swiper-slide slide-center">
 
                         <!-- Media -->
-                        <img src="assets/images/bg-wide.jpg" alt="Full Image" class="full-image" data-mask="80">
+                        <img src="assets/images//bg-wide.webp" alt="Full Image" class="full-image" data-mask="80">
 
                         <div class="slide-content row text-center">
                             <div class="col-12 mx-auto inner">
@@ -21,7 +21,7 @@
                                     </ol>
                                 </nav>
 
-                                <h1 class="mb-0 title effect-static-text">Blog</h1>
+                                <h1 class="mb-0 title effect-static-text"  style="font-size: 24px;">Blog</h1>
                             </div>
                         </div>
                     </div>

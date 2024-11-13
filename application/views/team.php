@@ -21,7 +21,7 @@
                                     </ol>
                                 </nav>
 
-                                <h1 class="mb-0 title effect-static-text">Our People</h1>
+                                <h1 class="mb-0 title effect-static-text"  style="font-size: 24px;">Our People</h1>
                             </div>
                         </div>
                     </div>
