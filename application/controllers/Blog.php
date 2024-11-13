@@ -10,4 +10,8 @@ class Blog extends CI_Controller {
 		$this->load->view('blog');
 		$this->load->view('footer');
 	}
+
+
+
+	
 }
