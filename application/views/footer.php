@@ -70,7 +70,7 @@
                         <ul class="aai-footer-nav-list"  style="list-style-type: none;" >
 
                             <li class="aai-footer-nav-list-item">
-                                <a href="/" class="aai-footer-nav-link">
+                                <a href="<?php echo base_url('blog'); ?>" class="aai-footer-nav-link">
                                 Blog
                                 </a>
                             </li>

@@ -69,7 +69,27 @@
                         </div>
                     </div>
                     <div class="row items filter-items">
-                        
+                    <?php for ($i = 0; $i < sizeof($posts); $i++) { ?>
+                        <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["innovation","social","technology"]'>
+                            <div class="row card p-0 text-center">
+                                <div class="image-over">
+                                    <img src="<?php echo base_url() . 'admin' . $posts[$i]['image_path'] ?>" alt="Lorem ipsum">
+                                </div>
+                                <div class="card-footer d-lg-flex align-items-center justify-content-center">
+                                    <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i><?php echo $posts[$i]['author'] ?></a>
+                                    <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i>2 Days Ago</a>
+                                </div>
+                                <div class="card-caption col-12 p-0">
+                                    <div class="card-body">
+                                        <a href="<?php echo base_url() . 'blog/post/' . $posts[$i]['id'] . '/' . $posts[$i]['url'] ?>">
+                                            <h4><?php echo substr(strip_tags($posts[$i]['name']), 0, 50) ?></h4>
+                                            <p><?php echo substr(strip_tags($posts[$i]['content']), 0, 150) ?></p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                        <?php } ?>        
                         <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["innovation","social","technology"]'>
                             <div class="row card p-0 text-center">
                                 <div class="image-over">

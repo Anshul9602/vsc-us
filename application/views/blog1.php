@@ -8,7 +8,7 @@
                     <div class="swiper-slide slide-center">
 
                         <!-- Media -->
-                        <img src="assets/images/bg-wide.jpg" alt="Full Image" class="full-image" data-mask="80">
+                        <img src="<?php echo base_url() . 'admin' . $post['image_path'] ?>" alt="Full Image" class="full-image" data-mask="80">
 
                         <div class="slide-content row text-center">
                             <div class="col-12 mx-auto inner">
@@ -17,11 +17,11 @@
                                 <nav data-aos="zoom-out-up" data-aos-delay="800" aria-label="breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="/">Home</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Single Post</li>
+                                        <li class="breadcrumb-item active" aria-current="page"><?php echo  $post['name'] ?></li>
                                     </ol>
                                 </nav>
 
-                                <h1 class="mb-0 title effect-static-text">Single Post</h1>
+                                <h1 class="mb-0 title effect-static-text d-none"><?php echo $post['name'] ?></h1>
                             </div>
                         </div>
                     </div>
@@ -37,6 +37,84 @@
                     
                     <!-- Main -->
                     <div class="col-12 col-lg-8 p-0 text">
+
+                        <!-- Text -->
+                        <div class="row intro">
+                            <div class="col-12">
+                                <span class="pre-title m-0">Technology</span>
+                                <h2 class="mb-0"><span class="featured"></span> <?php echo $post['name'] ?></h2>
+                            </div>
+
+                            <!-- Meta -->
+                            <div class="row post-meta mx-auto ml-lg-0">
+                                <div class="col-12 align-self-center">
+                                    <span class="date"><i class="fas fa-user"></i><?php echo  $post['author'] ?></span>
+                                    <span class="author"><i class="fas fa-calendar-alt"></i><?php  
+                                   
+                                                $createdAt = DateTime::createFromFormat('Y-m-d', $post['created_at']);
+
+                                                if ($createdAt) {
+                                                    echo $createdAt->format('d/m/Y'); // Output in dd/mm/yyyy format
+                                                } else {
+                                                    echo "Invalid date format"; // Handle the case where the date cannot be parsed
+                                                } ?></span>
+                                    <span class="comment"><i class="fas fa-comment-dots"></i>35 Comments</span>    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12 align-self-center">
+                                <p><?php echo  $post['content'] ?></p>
+                            </div>
+                        </div>
+
+                        <!-- Gallery -->
+                        <div class="gallery row justify-content-center d-none">
+                            <a class="col-6 item" href="assets/images/gallery-1.jpg">
+                                <img src="assets/images/gallery-1.jpg" alt="Gallery" class="w-100">
+                            </a>
+                            <a class="col-6 item" href="assets/images/gallery-2.jpg">
+                                <img src="assets/images/gallery-2.jpg" alt="Gallery" class="w-100">
+                            </a>
+                            <a class="col-6 item" href="assets/images/gallery-3.jpg">
+                                <img src="assets/images/gallery-3.jpg" alt="Gallery" class="w-100">
+                            </a>
+                            <a class="col-6 item" href="assets/images/gallery-4.jpg">
+                                <img src="assets/images/gallery-4.jpg" alt="Gallery" class="w-100">
+                            </a>
+                        </div>
+
+                        <!-- Comments -->
+                        <div class="row">
+                            <div class="col-12 align-self-center">
+                                <h4>Leave a Reply</h4>
+                                <p>Sed mauris nulla, tempor eu est vel, dapibus hendrerit mauris.</p>
+                                <form >
+                                    <fieldset>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-6 input-group p-0 pr-lg-3">
+                                                <input type="text" name="name" data-minlength="3" class="form-control" placeholder="Name" required>
+                                            </div>
+                                            <div class="col-12 col-lg-6 input-group p-0">
+                                                <input type="email" name="email" data-minlength="3" class="form-control" placeholder="Email" required>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 input-group p-0">
+                                                <textarea name="message" data-minlength="3" class="form-control" placeholder="Message" required></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 input-group p-0">
+                                            <a id="next-3" class="send btn primary-button">COMMENT</a>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+            
+                    </div>
+                    <div class="col-12 col-lg-8 p-0 text d-none">
 
                         <!-- Text -->
                         <div class="row intro">
@@ -282,38 +360,14 @@
                         </div>
 
                         <!-- Gallery -->
-                        <div class="row item widget-gallery mb-0">
-                            <div class="col-12 align-self-center">
-                                <h4 class="title">Gallery</h4>
-                                <div class="gallery row justify-content-center">
-                                    <a class="col-6 pl-0 item" href="assets/images/project-1.jpg">
-                                        <img src="assets/images/project-1.jpg" alt="Project" class="w-100">
-                                    </a>
-                                    <a class="col-6 pr-0 item" href="assets/images/project-2.jpg">
-                                        <img src="assets/images/project-2.jpg" alt="Project" class="w-100">
-                                    </a>
-                                    <a class="col-6 pl-0 item" href="assets/images/project-3.jpg">
-                                        <img src="assets/images/project-3.jpg" alt="Project" class="w-100">
-                                    </a>
-                                    <a class="col-6 pr-0 item" href="assets/images/project-4.jpg">
-                                        <img src="assets/images/project-4.jpg" alt="Project" class="w-100">
-                                    </a>
-                                    <a class="col-6 pl-0 item" href="assets/images/project-5.jpg">
-                                        <img src="assets/images/project-5.jpg" alt="Project" class="w-100">
-                                    </a>
-                                    <a class="col-6 pr-0 item" href="assets/images/project-6.jpg">
-                                        <img src="assets/images/project-6.jpg" alt="Project" class="w-100">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </aside>
                 </div>
             </div>
         </section>
 
         <!-- Result -->
-        <section id="result" class="section-2 showcase blog-grid filter-section projects">
+        <section id="result" class="section-2 showcase blog-grid filter-section projects d-none">
             <div class="container">
             <div class="row items">
                 <div class="col-12 col-md-4 pr-md-5 text">

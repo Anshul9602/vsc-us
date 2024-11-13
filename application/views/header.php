@@ -22,10 +22,10 @@
     <!-- ==============================================
         Favicons
         =============================================== -->
-    <link rel="shortcut icon" href="assets/images/vsc-us.png">
-    <link rel="apple-touch-icon" href="assets/images/vsc-us.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/vsc-us.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/vsc-us.png">
+    <link rel="shortcut icon" href="<?php echo base_url(''); ?>assets/images/vsc-us.png">
+    <link rel="apple-touch-icon" href="<?php echo base_url(''); ?>assets/images/vsc-us.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="<?php echo base_url(''); ?>assets/images/vsc-us.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="<?php echo base_url(''); ?>assets/images/vsc-us.png">
 
     <!-- ==============================================
         Vendor Stylesheet
@@ -42,7 +42,7 @@
     <!-- ==============================================
         Custom Stylesheet
         =============================================== -->
-    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="<?php echo base_url(''); ?>assets/css/default.css">
 
     <!-- ==============================================
         Theme Color
@@ -137,7 +137,7 @@
                         </span> -->
 
 
-                        <img src="assets/images/logo.png" alt="logo" style="width:100%">
+                        <img src="<?php echo base_url(''); ?>assets/images/logo.png" alt="logo" style="width:100%">
 
                     </a>
                 </div>
@@ -282,7 +282,7 @@
                                 <a href="#" class="nav-link  n-menu">RESOURCES<i class="icon-arrow-down"></i></a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item ">
-                                        <a class="nav-link" href="blog">Blog </a>
+                                        <a class="nav-link" href="<?php echo base_url('blog'); ?>">Blog </a>
 
                                     </li>
                                     <li class="nav-item"><a href="event" class="nav-link">Event</a></li>
