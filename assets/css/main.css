@@ -2014,7 +2014,7 @@ header .navbar-expand {
 }
 
 .newmenu{
-    left:-200%;
+    left:-338%;
     padding: 20%;
 }
 
@@ -2108,7 +2108,7 @@ header .navbar-expand .navbar-brand .featured .first {
     position: relative;
     display: flex;
     align-items: center;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
 }
 

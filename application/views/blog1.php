@@ -17,11 +17,19 @@
                                 <nav data-aos="zoom-out-up" data-aos-delay="800" aria-label="breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="/">Home</a></li>
+<<<<<<< HEAD
                                         <li class="breadcrumb-item active" aria-current="page"><?php echo  $post['name'] ?></li>
                                     </ol>
                                 </nav>
 
                                 <h1 class="mb-0 title effect-static-text d-none"><?php echo $post['name'] ?></h1>
+=======
+                                        <li class="breadcrumb-item active" aria-current="page">Blog Post</li>
+                                    </ol>
+                                </nav>
+
+                                <h1 class="mb-0 title effect-static-text"  style="font-size: 24px;">Blog Post</h1>
+>>>>>>> 367d967a5d38565d03c75d43491da46d3de16cfa
                             </div>
                         </div>
                     </div>

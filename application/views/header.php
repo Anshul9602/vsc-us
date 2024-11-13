@@ -102,7 +102,69 @@
                 height: auto;
             }
         }
-        
+
+
+
+
+        /* Base style for nav links */
+      .nav-link1 {
+            position: relative;
+            /* padding-bottom: 8px; */
+            /* Space for underline effect */
+        }
+
+        /* Active underline */
+        .nav-link1.active::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            /* Position at the bottom of the link */
+            left: 0;
+            width: 100%;
+            height: 3px;
+            /* Thicker underline for active */
+            background-color: #1A406D;
+            /* Color for active underline */  
+        }
+
+        /* Hover underline */
+        .nav-link1::before {
+            content: "";
+            position: absolute;
+            bottom: -5px;
+            /* Lower than active underline */
+            left: 0;
+            width: 0;
+            height: 2px;
+            /* Thinner underline */
+            background-color: #1A406D;
+            transition: width 0.4s ease;
+            /* Smooth expansion on hover */
+        }
+
+        .nav-link1:hover::before {
+            width: 100%;
+            /* Expands on hover */
+        }
+
+        /* Smooth dropdown effect */
+        .navbar .dropdown-menu {
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.5s ease, visibility 0.3s ease;
+            transform: translateY(-10px);
+        }
+
+        .navbar .dropdown:hover .dropdown-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+            transition: opacity 0.5s ease, transform 0.5s ease;
+        }
+
+
+
+
     </style>
 
 </head>
@@ -198,8 +260,8 @@
                     <!-- Navbar Items -->
                     <div class="row d-flex justify-content-end">
                         <ul class="navbar-nav items col-md-11 p-0">
-                        <li class="nav-item ">
-                                <a href="main" class="nav-link n-menu">HOME </a>
+                            <li class="nav-item ">
+                                <a href="main" class="nav-link nav-link1 n-menu">HOME </a>
 
                             </li>
 
@@ -289,10 +351,10 @@
                                     <li class="nav-item"><a href="press" class="nav-link">Press Release</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item ">
+                            <li class="nav-item  nav-link1  ">
                                 <a href="<?php echo base_url('FAQ'); ?>" class="nav-link  n-menu">FAQ'S </a>
                             </li>
-                            <li class="nav-item ">
+                            <li class="nav-item  nav-link1  ">
                                 <a href="contact" class="nav-link  n-menu ">CONTACT US </a>
                             </li>
                             <li class="nav-item ">
