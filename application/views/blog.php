@@ -8,7 +8,8 @@
                     <div class="swiper-slide slide-center">
 
                         <!-- Media -->
-                        <img src="assets/images//bg-wide.webp" alt="Full Image" class="full-image" data-mask="80">
+                        <img src="assets/images//bg-wide.webp 
+                        " alt="Full Image" class="full-image" data-mask="80">
 
                         <div class="slide-content row text-center">
                             <div class="col-12 mx-auto inner">
