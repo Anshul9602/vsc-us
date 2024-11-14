@@ -347,7 +347,7 @@
                                         <a class="nav-link" href="<?php echo base_url('blog'); ?>">Blog </a>
 
                                     </li>
-                                    <li class="nav-item"><a href="event" class="nav-link">Event</a></li>
+                                    <li class="nav-item"><a href="<?php echo base_url('event'); ?>" class="nav-link">Event</a></li>
                                     <li class="nav-item"><a href="press" class="nav-link">Press Release</a></li>
                                 </ul>
                             </li>
