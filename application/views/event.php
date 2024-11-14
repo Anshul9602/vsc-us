@@ -66,7 +66,7 @@
                         <?php for ($i = 0; $i < sizeof($posts); $i++) {
                             
                             ?>
-                            <div class="col-12 col-md-6 item">
+                            <div class="col-12 col-md-4 item">
                                 <div class="row card p-0 text-center">
                                     <div class="image-over">
                                         <img src="<?php echo base_url() . 'admin' . $posts[$i]['image_path'] ?>" alt="Lorem ipsum">
@@ -144,7 +144,7 @@
                     <div class="swiper-container mid-slider items" data-perview="3"> 
                         <div class="swiper-wrapper">
                              <?php 
-                                
+                                 shuffle($posts);
                              for ($i = 0; $i < sizeof($posts); $i++) { 
                                 
                              
