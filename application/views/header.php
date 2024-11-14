@@ -348,7 +348,7 @@
 
                                     </li>
                                     <li class="nav-item"><a href="<?php echo base_url('event'); ?>" class="nav-link">Event</a></li>
-                                    <li class="nav-item"><a href="press" class="nav-link">Press Release</a></li>
+                                    <li class="nav-item"><a href="<?php echo base_url('press'); ?>" class="nav-link">Press Release</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item  nav-link1  ">

@@ -60,10 +60,8 @@
                       
                                 <div class="col-12 align-self-center">
                                     <span class="date"><i class="fas fa-user"></i><?php echo  $post['author'] ?></span>
-                                    <span class="author"><i class="fas fa-calendar-alt"></i><?php  
-                                   
+                                    <span class="author"><i class="fas fa-calendar-alt"></i><?php                                    
                                                 $createdAt = DateTime::createFromFormat('Y-m-d', $post['created_at']);
-
                                                 if ($createdAt) {
                                                     echo $createdAt->format('d/m/Y'); // Output in dd/mm/yyyy format
                                                 } else {

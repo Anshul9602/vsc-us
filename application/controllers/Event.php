@@ -26,4 +26,49 @@ class Event extends CI_Controller {
 		$this->load->view('event',$data);
 		$this->load->view('footer');
 	}
+	public function events($id = null, $heading = "")
+    {
+        if (empty($id) && empty($heading)) {
+            redirect(base_url() . 'blog');
+        }
+
+        $this->load->model('Admin_model');
+
+        $post = [];
+        if (!empty($id)) {
+            // Fetch post by ID
+            $post = $this->Admin_model->get_event($id);
+        } elseif (!empty($heading)) {
+            // Fetch post by heading if ID is not provided
+            $posts = $this->Admin_model->get_posts();
+            foreach ($posts as $p) {
+                $temp = $p['name'];
+                $p['name'] = str_replace(' ', '-', $p['name']);
+                $p['name'] = preg_replace('/[^A-Za-z0-9\-]/', '', $p['name']);
+                $p['name'] = strtolower($p['name']);
+                if ($p['name'] == $heading) {
+                    $p['name'] = $temp;
+                    $post[] = $p;
+                    break;
+                }
+            }
+        }
+
+        if (empty($post)) {
+            redirect(base_url() . 'event');
+        }
+
+        $data['post'] = $post[0];
+
+        // echo "<pre>";
+        //     print_r($data['post']);
+        //     echo "</pre>";
+        $this->load->helper('url');
+        $this->load->view('header');
+
+
+
+        $this->load->view('event1', $data);
+        $this->load->view('footer');
+    }
 }

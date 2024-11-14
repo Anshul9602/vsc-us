@@ -85,7 +85,7 @@
                                     </div>
                                     <div class="card-caption col-12 p-0">
                                         <div class="card-body">
-                                            <a href="">
+                                            <a href="<?php echo base_url() . 'event/events/' . $posts[$i]['id'] . '/' . $posts[$i]['url'] ?>">
                                                 <h4><?php echo substr(strip_tags($posts[$i]['name']), 0, 50) ?></h4>
                                                 <p class="text-center"><?php echo substr(strip_tags($posts[$i]['content']), 0, 150) ?></p>
                                             </a>
@@ -143,196 +143,40 @@
                     </div>
                     <div class="swiper-container mid-slider items" data-perview="3"> 
                         <div class="swiper-wrapper">
+                             <?php 
+                                
+                             for ($i = 0; $i < sizeof($posts); $i++) { 
+                                
+                             
+                                ?>
                             <div class="swiper-slide slide-center item">
                                 <div class="row card p-0 text-center">
                                     <div class="image-over">
-                                        <img src="assets/images/news-1.jpg" alt="Lorem ipsum">
+                                        <img src="<?php echo base_url() . 'admin' . $posts[$i]['image_path'] ?>" alt="Lorem ipsum">
                                     </div>
                                     <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>Andrea Miller</a>
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i>2 Days Ago</a>
+                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>Vsc Offshore</a>
+                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i><?php  
+                                   
+                                   $createdAt = DateTime::createFromFormat('Y-m-d', $posts[$i]['created_at']);
+
+                                   if ($createdAt) {
+                                       echo $createdAt->format('d/m/Y'); // Output in dd/mm/yyyy format
+                                   } else {
+                                       echo "Invalid date format"; // Handle the case where the date cannot be parsed
+                                   } ?></a>
                                     </div>
                                     <div class="card-caption col-12 p-0">
                                         <div class="card-body">
-                                            <a href="page-single-post-1.html">
-                                                <h4>Increasing creativity is possible for everyone</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                            <a href="<?php echo base_url() . 'event/events/' . $posts[$i]['id'] . '/' . $posts[$i]['url'] ?>">
+                                                <h4><?php echo substr(strip_tags($posts[$i]['name']), 0, 50) ?></h4>
+                                                <p><?php echo substr(strip_tags($posts[$i]['content']), 0, 150) ?></p>
                                             </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide slide-center item">
-                                <div class="row card p-0 text-center">
-                                    <div class="image-over">
-                                        <img src="assets/images/news-2.jpg" alt="Lorem ipsum">
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>John Smith</a>
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i>9 Days Ago</a>
-                                    </div>
-                                    <div class="card-caption col-12 p-0">
-                                        <div class="card-body">
-                                            <a href="page-single-post-1.html">
-                                                <h4>Because market research is part of the business plan</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide slide-center item">
-                                <div class="row card p-0 text-center">
-                                    <div class="image-over">
-                                        <img src="assets/images/news-3.jpg" alt="Lorem ipsum">
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>Andrea Miller</a>
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i>16 Days Ago</a>
-                                    </div>
-                                    <div class="card-caption col-12 p-0">
-                                        <div class="card-body">
-                                            <a href="page-single-post-1.html">
-                                                <h4>Working from home is now a trend</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide slide-center item">
-                                <div class="row card p-0 text-center">
-                                    <div class="image-over">
-                                        <img src="assets/images/news-4.jpg" alt="Lorem ipsum">
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>John Smith</a>
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i>23 Days Ago</a>
-                                    </div>
-                                    <div class="card-caption col-12 p-0">
-                                        <div class="card-body">
-                                            <a href="page-single-post-1.html">
-                                                <h4>Tips for having a good relationship at work</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide slide-center item">
-                                <div class="row card p-0 text-center">
-                                    <div class="image-over">
-                                        <img src="assets/images/news-5.jpg" alt="Lorem ipsum">
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>David Cooper</a>
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i>30 Days Ago</a>
-                                    </div>
-                                    <div class="card-caption col-12 p-0">
-                                        <div class="card-body">
-                                            <a href="page-single-post-1.html">
-                                                <h4>David Cooper tells about the opening of the new office in Baltimore</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide slide-center item">
-                                <div class="row card p-0 text-center">
-                                    <div class="image-over">
-                                        <img src="assets/images/news-1.jpg" alt="Lorem ipsum">
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>Andrea Miller</a>
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i>2 Days Ago</a>
-                                    </div>
-                                    <div class="card-caption col-12 p-0">
-                                        <div class="card-body">
-                                            <a href="page-single-post-1.html">
-                                                <h4>Increasing creativity is possible for everyone</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide slide-center item">
-                                <div class="row card p-0 text-center">
-                                    <div class="image-over">
-                                        <img src="assets/images/news-2.jpg" alt="Lorem ipsum">
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>John Smith</a>
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i>9 Days Ago</a>
-                                    </div>
-                                    <div class="card-caption col-12 p-0">
-                                        <div class="card-body">
-                                            <a href="page-single-post-1.html">
-                                                <h4>Because market research is part of the business plan</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide slide-center item">
-                                <div class="row card p-0 text-center">
-                                    <div class="image-over">
-                                        <img src="assets/images/news-3.jpg" alt="Lorem ipsum">
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>Andrea Miller</a>
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i>16 Days Ago</a>
-                                    </div>
-                                    <div class="card-caption col-12 p-0">
-                                        <div class="card-body">
-                                            <a href="page-single-post-1.html">
-                                                <h4>Working from home is now a trend</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide slide-center item">
-                                <div class="row card p-0 text-center">
-                                    <div class="image-over">
-                                        <img src="assets/images/news-4.jpg" alt="Lorem ipsum">
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>John Smith</a>
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i>23 Days Ago</a>
-                                    </div>
-                                    <div class="card-caption col-12 p-0">
-                                        <div class="card-body">
-                                            <a href="page-single-post-1.html">
-                                                <h4>Tips for having a good relationship at work</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide slide-center item">
-                                <div class="row card p-0 text-center">
-                                    <div class="image-over">
-                                        <img src="assets/images/news-5.jpg" alt="Lorem ipsum">
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>David Cooper</a>
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i>30 Days Ago</a>
-                                    </div>
-                                    <div class="card-caption col-12 p-0">
-                                        <div class="card-body">
-                                            <a href="page-single-post-1.html">
-                                                <h4>David Cooper tells about the opening of the new office in Baltimore</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <?php } ?>  
                         </div>
                     </div>
                 </div>
