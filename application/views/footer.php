@@ -10,9 +10,9 @@
 
 
 <!-- Footer Start -->
-
+</body>
 <footer class="aai-footer pt-120">
-    <div class="container" style="max-width: 78%;">
+    <div class="container pb-3" style="max-width: 78%;   ">
 
         <div class="aai-footer-navigation-widgets py-80">
             <div class="row pt-5">
@@ -102,19 +102,20 @@
          
             </div>
         </div>
+        <br>
         <div class="aai-footer-copyright text-center">
-            <p class="aai-copyright-text">Copyright @2023 VSC</p>
+            <p class="aai-copyright-text" style="color:#fff;">VSC OFFSHORE © 2024 | All Rights Reserved</p>
         </div>
     </div>
 </footer>
 
 
-<!-- Scroll [to top] -->
 <div id="scroll-to-top" class="scroll-to-top">
     <a href="#header" class="smooth-anchor">
         <i class="fas fa-arrow-up"></i>
     </a>
 </div>
+
 
 <!-- ==============================================
 Google reCAPTCHA // Put your site key here
