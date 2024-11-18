@@ -230,6 +230,9 @@
                                 </li>
                                 <li class="nav-item" style="margin: auto;justify-content: center;align-items: center;">
                                     <a href="#" class="nav-link"> UK</a>|
+                                </li> 
+                                 <li class="nav-item" style="margin: auto;justify-content: center;align-items: center;">
+                                    <a href="#" class="nav-link"> CANADA</a>|
                                 </li>
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">UAE</a>
@@ -259,15 +262,15 @@
                     </nav>
                     <!-- Navbar Items -->
                     <div class="row d-flex justify-content-end">
-                        <ul class="navbar-nav items col-md-11 p-0">
+                        <ul class="navbar-nav items col-md-10 p-0">
                             <li class="nav-item ">
                                 <a href="main" class="nav-link nav-link1 n-menu">HOME </a>
 
                             </li>
 
-                            <li class="nav-item dropdown">
-                                <a href="#" class="nav-link  n-menu">ABOUT US<i class="icon-arrow-down"></i></a>
-                                <ul class="dropdown-menu">
+                            <li class="nav-item ">
+                                <a href="onboarding" class="nav-link  nav-link1  n-menu">ABOUT US</a>
+                                <!-- <ul class="dropdown-menu">
                                     <li class="nav-item ">
                                         <a class="nav-link" href="team">Our Team </a>
 
@@ -275,7 +278,7 @@
                                     <li class="nav-item"><a href="onboarding" class="nav-link">Onboarding Process</a></li>
                                     <li class="nav-item"><a href="why" class="nav-link">Why VSC Offshore </a></li>
                                     <li class="nav-item"><a href="data" class="nav-link">Data Security & Confidentiality</a></li>
-                                </ul>
+                                </ul> -->
                             </li>
 
 
@@ -329,9 +332,9 @@
                                                 <li class="nav-item ">
                                                     <a class="nav-link" href="<?php echo base_url('Audit_Services'); ?>">Audit Services</a>
                                                 </li>
-                                                <li class="nav-item ">
+                                                <!-- <li class="nav-item ">
                                                     <a class="nav-link" href="<?php echo base_url('Employee_Retention_Tax_Credit'); ?>">Employee Retention Tax Credit (ERTC)</a>
-                                                </li>
+                                                </li> -->
 
                                             </ul>
                                         </div>
@@ -348,12 +351,12 @@
 
                                     </li>
                                     <li class="nav-item"><a href="<?php echo base_url('event'); ?>" class="nav-link">Event</a></li>
-                                    <li class="nav-item"><a href="<?php echo base_url('press'); ?>" class="nav-link">Press Release</a></li>
+                                    <!-- <li class="nav-item"><a href="<?php echo base_url('press'); ?>" class="nav-link">Press Release</a></li> -->
                                 </ul>
                             </li>
-                            <li class="nav-item  nav-link1  ">
+                            <!-- <li class="nav-item  nav-link1  ">
                                 <a href="<?php echo base_url('FAQ'); ?>" class="nav-link  n-menu">FAQ'S </a>
-                            </li>
+                            </li> -->
                             <li class="nav-item  nav-link1  ">
                                 <a href="contact" class="nav-link  n-menu ">CONTACT US </a>
                             </li>

@@ -1,15 +1,3 @@
- <style>
-    
-.onb2:hover{
-    background-color: rgb(255 255 255 / 56%) !important;
-    color: black !important;
-}
-.onb2:hover span{
-   
-    color: black !important;
-}
- </style>
-
  <!-- Hero -->
  <section id="slider" class="hero p-0 odd featured">
      <div class="swiper-container no-slider animation slider-h-50 slider-h-auto">
@@ -28,11 +16,11 @@
                          <nav data-aos="zoom-out-up" data-aos-delay="800" aria-label="breadcrumb">
                              <ol class="breadcrumb">
                                  <li class="breadcrumb-item"><a href="/">Home</a></li>
-                                 <li class="breadcrumb-item active" aria-current="page">Onboarding Process</li>
+                                 <li class="breadcrumb-item active" aria-current="page">About Us</li>
                              </ol>
                          </nav>
 
-                         <h1 class="mb-0  effect-static-text" style="font-size: 24px;">Onboarding Process</h1>
+                         <h1 class="mb-0  effect-static-text" style="font-size: 24px;">About Us</h1>
                      </div>
                  </div>
              </div>
@@ -40,257 +28,537 @@
          </div>
      </div>
  </section>
-
-
- <!--01. No Obligation Call & NDNC Agreement -->
- <section id="pricing" class="section-2 odd plans  featured" style="background-color: #212529;">
-     <div class="container">
-         <div class="row text-center intro">
-             <div class="col-12">
-                 <!-- <span class="pre-title">Monthly Plans</span> -->
-                 <h2><span class="featured"><span>01.</span></span> No Obligation Call & NDNC Agreement</h2>
-                 <!-- <p class="text-max-800">We can help you deliver and execute your future, wherever you compete, using the latest technologies, from strategy development to implementation.</p> -->
-             </div>
-         </div>
-         <div class="row justify-content-center text-center items">
-             <div class="col-12 col-md-6 col-lg-4 align-self-center text-center item">
-                 <div data-aos="fade-up" class="card onb1">
-                     <a href="#" class="choose-plan"><i class="btn-icon pulse fas fas fa-arrow-right"></i></a>
-                     <!-- <i class="icon icon-rocket"></i> -->
-                     <h4>Step-1</h4>
-                     <p>Initiate a no-obligation call with our experts to gain a comprehensive understanding of our offshoring process and how we operate. Discussing your requirements in this call will allow us to suggest the engagement model that best suits your needs.</p>
-                 </div>
-             </div>
-
-             <div class="col-12 col-md-6 col-lg-4 align-self-center text-center item">
-                 <div data-aos="fade-up" class="card onb1">
-                     <a href="#" class="choose-plan"><i class="btn-icon pulse fas fas fa-arrow-right"></i></a>
-                     <!-- <i class="icon icon-rocket"></i> -->
-                     <h4>Step-2</h4>
-                     <p>Signing an NDNC agreement for the confidentiality of our engagement followed by a no-obligation interview process. You are not obliged to hire any candidate unless you feel 100% confident and satisfied with the talent presented to you.</p>
-                 </div>
-             </div>
-
-             <div class="col-12 col-md-6 col-lg-4  text-center item">
-                 <div data-aos="fade-up" class="card onb1">
-                     <a href="#" class="choose-plan"><i class="btn-icon pulse fas fas fa-arrow-right"></i></a>
-                     <!-- <i class="icon icon-rocket"></i> -->
-                     <h4>Step-3</h4>
-                     <p>Move forward with a no-obligation interview procedure at the given stage.</p>
-                 </div>
-             </div>
-
-         </div>
-     </div>
- </section>
-
-
- <!--02. Profile Reviewing -->
- <section id="pricing" class="section-2 odd plans  featured" style="background-color: #EEF4ED; color:black">
-     <div class="container">
-         <div class="row text-center intro">
-             <div class="col-12">
-                 <!-- <span class="pre-title">Monthly Plans</span> -->
-                 <h2 style="color:black"><span class="featured"><span>02.</span></span> Profile Reviewing </h2>
-                 <!-- <p class="text-max-800">We can help you deliver and execute your future, wherever you compete, using the latest technologies, from strategy development to implementation.</p> -->
-             </div>
-         </div>
-         <div class="row justify-content-center text-center items">
-             <div class="col-12 col-md-6 col-lg-4 align-self-center text-center item">
-                 <div data-aos="fade-up" class="card onb2">
-                     <a href="#" class="choose-plan"><i class="btn-icon pulse fas fas fa-arrow-right"></i></a>
-                     <!-- <i class="icon icon-rocket"></i> -->
-                     <h4 style="color:black">Step-1</h4>
-                     <span>In the next few days, we will be on a hunt to find the apt profile(s) to be presented for your review. Once through with the review session, you can lend us a preferred time slot on which the interview can be scheduled.</span>
-                 </div>
-             </div>
-
-             <div class="col-12 col-md-6 col-lg-4 align-self-center text-center item">
-                 <div data-aos="fade-up" class="card onb2">
-                     <a href="#" class="choose-plan"><i class="btn-icon pulse fas fas fa-arrow-right"></i></a>
-                     <!-- <i class="icon icon-rocket"></i> -->
-                     <h4 style="color:black">Step-2</h4>
-                     <span>It may sometimes happen that the requisite skills or roles might not be readily available within our network. In cases like these, we will devote additional effort and time to extract talents for you that are specifically aimed to meet your requirements.</span>
-                 </div>
-             </div>
-
-             <div class="col-12 col-md-6 col-lg-4  text-center item">
-                 <div data-aos="fade-up" class="card onb2">
-                     <a href="#" class="choose-plan"><i class="btn-icon pulse fas fas fa-arrow-right"></i></a>
-                     <!-- <i class="icon icon-rocket"></i> -->
-                     <h4 style="color:black">Step-3</h4>
-                     <span>After receiving a hiring request, there exist three steps leading to the matchmaking:-</span>
-                     <ul style="list-style: circle;">
-
-                         <li>
-                             We are in possession of an apt candidate who can be considered immediately.
-                         </li>
-                         <li>
-                             Our database encompasses potential talent, but they have yet not been critically evaluated. After the required scrutiny, we will inform you of the profile(s) at hand.
-                         </li>
-                         <li>
-                             If we are devoid of the existing match in our present network, there would be a proactive approach on our part to extract suitable candidates for you in the least possible time frame.
-                         </li>
-                     </ul>
-                 </div>
-             </div>
-
-         </div>
-     </div>
- </section>
-
-
- <!--03. No Obligation Call & NDNC Agreement -->
- <section id="pricing" class="section-2 odd plans" style="background-color: #212529;">
-     <div class="container">
-         <div class="row text-center intro">
-             <div class="col-12">
-                 <!-- <span class="pre-title">Monthly Plans</span> -->
-                 <h2><span class="featured"><span>03.</span></span> Interview and Assessment</h2>
-                 <!-- <p class="text-max-800">We can help you deliver and execute your future, wherever you compete, using the latest technologies, from strategy development to implementation.</p> -->
-             </div>
-         </div>
-         <div class="row justify-content-center text-center items">
-             <div class="col-12 col-md-8 col-lg-8 align-self-center text-center item">
-                 <div data-aos="fade-up" class="card onb3">
-                     <a href="#" class="choose-plan"><i class="btn-icon pulse fas fas fa-arrow-right"></i></a>
-                     <!-- <i class="icon icon-rocket"></i> -->
-                     <h4>Steps</h4>
-                     <p>Interview the chosen candidate and share your feedback. You can carry out the interview more than once. Our team is observed beforehand on Communication skills, and Technical and Time zone compatibility that minimizes the chance of wrong hiring.</p>
-                     <p>Assessments – If you think that the talent provided should take up an additional assessment for you to better judge their potential, you can come forward with the test, and the candidate will complete the same.</p>
-                 </div>
-             </div>
-
-
-         </div>
-     </div>
- </section>
-
-
- <!--04. Selection & IT Set up -->
- <section id="pricing" class="section-2 odd plans  featured" style="background-color: #EEF4ED; color:black">
-     <div class="container">
-         <div class="row text-center intro">
-             <div class="col-12">
-                 <!-- <span class="pre-title">Monthly Plans</span> -->
-                 <h2 style="color:black"><span class="featured"><span>04.</span></span> Selection & IT Set up</h2>
-                 <!-- <p class="text-max-800">We can help you deliver and execute your future, wherever you compete, using the latest technologies, from strategy development to implementation.</p> -->
-             </div>
-         </div>
-         <div class="row justify-content-center text-center items">
-             <div class="col-12 col-md-6 col-lg-4 align-self-center text-center item">
-                 <div data-aos="fade-up" class="card onb4">
-                     <a href="#" class="choose-plan"><i class="btn-icon pulse fas fas fa-arrow-right"></i></a>
-                     <!-- <i class="icon icon-rocket"></i> -->
-                     <h4 style="color:black">Step-1</h4>
-                     <span><b>Selection Process – </b>Once the interview is carried out, meticulously note the talent’s performance and qualifications. Consider their experience, skill set, suitability, and cultural fit for the given role. On the basis of the assessment done, choose the apt candidate.</span>
-                 </div>
-             </div>
-
-             <div class="col-12 col-md-6 col-lg-4 align-self-center text-center item">
-                 <div data-aos="fade-up" class="card onb4">
-                     <a href="#" class="choose-plan"><i class="btn-icon pulse fas fas fa-arrow-right"></i></a>
-                     <!-- <i class="icon icon-rocket"></i> -->
-                     <h4 style="color:black">Step-2</h4>
-                     <span><b>Confirmation –</b> Once you are done with the selection, confirm your acceptance, and we will put forward the staff confirmation along with the signed paperwork. Following your acceptance, move ahead with the required IT setup and access.</span>
-                 </div>
-             </div>
-
-             <div class="col-12 col-md-6 col-lg-4 align-self-center text-center item">
-                 <div data-aos="fade-up" class="card onb4">
-                     <a href="#" class="choose-plan"><i class="btn-icon pulse fas fas fa-arrow-right"></i></a>
-                     <!-- <i class="icon icon-rocket"></i> -->
-                     <h4 style="color:black">Step-3</h4>
-                     <span><b> IT Setup –</b> Once you are done with the selection, confirm your acceptance, and we will put forward the staff confirmation along with the signed paperwork. Following your acceptance, move ahead with the required IT setup and access.</span>
-                 </div>
-             </div>
-
-
-         </div>
-     </div>
- </section>
-
-
- <!--05.Onboarding -->
- <section id="pricing" class="section-2 odd plans" style="background-color: #212529;">
-     <div class="container">
-         <div class="row text-center intro">
-             <div class="col-12">
-                 <!-- <span class="pre-title">Monthly Plans</span> -->
-                 <h2><span class="featured"><span>05.</span></span> Onboarding</h2>
-                 <!-- <p class="text-max-800">We can help you deliver and execute your future, wherever you compete, using the latest technologies, from strategy development to implementation.</p> -->
-             </div>
-         </div>
-         <div class="row justify-content-center text-center items">
-             <div class="col-12 col-md-6 col-lg-4 align-self-center text-center item">
-                 <div data-aos="fade-up" class="card onb5">
-                     <a href="#" class="choose-plan"><i class="btn-icon pulse fas fas fa-arrow-right"></i></a>
-                     <!-- <i class="icon icon-rocket"></i> -->
-                     <h4>Step-1</h4>
-                     <p> <b>Manager/ Supervisor Involvement –</b> With the commencement of the onboarding process, the offshore staff members would be duly trained and aided by your manager. Our supervisors will be offering support and guidance throughout so that the talent can easily adapt to the given role.</p>
-                 </div>
-             </div>
-
-             <div class="col-12 col-md-6 col-lg-4 align-self-center text-center item">
-                 <div data-aos="fade-up" class="card onb5">
-                     <a href="#" class="choose-plan"><i class="btn-icon pulse fas fas fa-arrow-right"></i></a>
-                     <!-- <i class="icon icon-rocket"></i> -->
-                     <h4>Step-2</h4>
-                     <p> <b>Training and Knowledge Dissemination –</b> The offshore team will be undergoing varied training activities, which might include participating in various live sessions or watching training videos. These activities would be conducted by your team which will aid the members in gaining an in-depth understanding of their responsibilities.</p>
-                 </div>
-             </div>
-
-
-         </div>
-         <div class="row justify-content-center text-center items">
-             <div class="col-12 col-md-6 col-lg-4 align-self-center text-center item">
-                 <div data-aos="fade-up" class="card onb5">
-                     <a href="#" class="choose-plan"><i class="btn-icon pulse fas fas fa-arrow-right"></i></a>
-                     <!-- <i class="icon icon-rocket"></i> -->
-                     <h4>Step-3</h4>
-                     <p> <b>Insights into Processes and Client Tasks –</b> It is crucial for the offshore team to be well-versed in the processes and strategies followed in the client’s firm. This includes gaining a clear understanding of the client’s task they will be handling.</p>
-                 </div>
-             </div>
-
-             <div class="col-12 col-md-6 col-lg-4 align-self-center text-center item">
-                 <div data-aos="fade-up" class="card onb5">
-                     <a href="#" class="choose-plan"><i class="btn-icon pulse fas fas fa-arrow-right"></i></a>
-                     <!-- <i class="icon icon-rocket"></i> -->
-                     <h4>Step-4</h4>
-                     <p>Consistent Review and Feedback – At the behest of the onboarding session, consistent review meetings followed by feedback are to be conducted which will help in identifying the offshore team’s progress, and their areas of improvement. The feedback is also important to aid them in gaining a good grasp of their responsibilities at hand.
-
-                         With the help of a structured onboarding procedure, the offshore staff will be better enabled to adapt to their roles without any hassles and will be nicely equipped to contribute effectively to the organization’s growth.</p>
-                 </div>
-             </div>
-
-
-         </div>
-     </div>
- </section>
-
  
- <!--06. Handling and Forming Offshore Team -->
- <section id="pricing" class="section-2 odd plans  featured" style="background-color: #EEF4ED; color:black">
+ <!-- why us -->
+
+ <section id="funfacts" class="section-2 highlights image-right counter funfacts featured">
      <div class="container">
-         <div class="row text-center intro">
-             <div class="col-12">
-                 <!-- <span class="pre-title">Monthly Plans</span> -->
-                 <h2 style="color:black"><span class="featured"><span>06.</span></span> Handling and Forming Offshore Team </h2>
-                 <!-- <p class="text-max-800">We can help you deliver and execute your future, wherever you compete, using the latest technologies, from strategy development to implementation.</p> -->
+         <div class="row">
+             <div class="col-12 col-md-12 pr-md-5 align-self-center text-center text-md-left text items">
+                 <div data-aos="fade-up" class="row intro mb-4">
+                     <div class="col-12 p-0">
+                         <!-- <span class="pre-title m-auto m-md-0">Why Choose VSC OFFSHORE As Your Outsourcing Partner?</span> -->
+                         <h2>Why Choose VSC As Your Outsourcing Partner?</h2>
+                         <p>At VSC OFFSHORE we are committed to not only providing you with the exemplary service that you deserve but also aiming towards building a long-term relationship built on trust and values.</p>
+
+                         <p> As such, we are dedicated to offering you with –</p>
+
+                     </div>
+                 </div>
+
              </div>
          </div>
-         <div class="row justify-content-center text-center items">
-             <div class="col-12 col-md-8 col-lg-8 align-self-center text-center item">
-                 <div data-aos="fade-up" class="card onb6">
-                     <a href="#" class="choose-plan"><i class="btn-icon pulse fas fas fa-arrow-right"></i></a>
-                     <!-- <i class="icon icon-rocket"></i> -->
-                     <h4>Steps</h4>
-                     <span>We are proud to be your Co-corroborating, Co-instructing, and Co-tackling partner throughout your offshoring process. The relentless assistance extended by our Accounts Management team will further help you in managing and expanding your offshore team, no matter if it is related to training, workflow management, or any such domains.</span>
+ </section>
+
+
+ <!-- certificate -->
+
+ <section id="about" class="section-1 highlights team image-right  featured">
+     <div class="container">
+         <div class="row">
+             <div class="col-12 col-lg-8 align-self-top text">
+                 <div class="row intro m-0">
+                     <div class="col-12 p-0">
+                         <!-- <span class="pre-title m-0">Proven warranty</span> -->
+                         <h2>
+                             Tailored Services Excellence</h2>
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="col-12 p-0 pr-md-5">
+                         <p>Strives to provide its clients with exceptional services that meet their unique needs.</p>
+                         <p>ISO 9001-2008 certified firm for the best Quality Management System for each of the deliverables offered.</p>
+                         <p>ISO 27001-2013 certified firm for the best systems of Information Security Measures in the industry.</p>
+                         <p>Adheres to the most standard procedures for maintaining service quality.</p>
+
+                     </div>
                  </div>
              </div>
+             <div data-aos="zoom-in" class="col-12 col-lg-4 mt-5 mt-lg-0">
 
-
+                 <!-- Gallery -->
+                 <div class="gallery row justify-content-center pt-5">
+                     <img src="assets/images/why1.jpg" alt="Certificate">
+                 </div>
+             </div>
          </div>
      </div>
  </section>
 
+ <section id="funfacts" class="section-2 highlights image-right counter funfacts featured">
+     <div class="container">
+         <div class="row">
+             <div class="col-12 col-lg-8 align-self-top text">
+                 <div class="row intro m-0">
+                     <div class="col-12 p-0">
+                         <!-- <span class="pre-title m-0">Proven warranty</span> -->
+                         <h2>
+                             Timely Service Deliveries </h2>
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="col-12 p-0 pr-md-5">
+                         <p>Prompt services that fulfill your expectations.</p>
+                         <p>Systematic processes aimed at ensuring on-time services to you.</p>
+                     </div>
+                 </div>
+             </div>
+             <div data-aos="zoom-in" class="col-12 col-lg-4 mt-5 mt-lg-0">
+
+                 <!-- Gallery -->
+                 <div class="gallery row justify-content-center pt-5">
+                     <img src="assets/images/why2.jpg" alt="Certificate">
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+
+ <section id="about" class="section-1 highlights team image-right  featured">
+     <div class="container">
+         <div class="row">
+             <div class="col-12 col-lg-8 align-self-top text">
+                 <div class="row intro m-0">
+                     <div class="col-12 p-0">
+                         <!-- <span class="pre-title m-0">Proven warranty</span> -->
+                         <h2>Tailor-Made Operational Systems </h2>
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="col-12 p-0 pr-md-5">
+                         <p>Understands client’s unique needs and customizes systems and processes to bring optimal results by all means.</p>
+                         <p>A strong onboarding process that sheds clarity on what your needs are, further leading to tailored services that meet your requisites.</p>
+                         <p>Scope to put forward your ideal work method that fulfills the requirements of your books of accounts as well as the Finance and tax department.</p>
+
+                     </div>
+                 </div>
+             </div>
+             <div data-aos="zoom-in" class="col-12 col-lg-4 mt-5 mt-lg-0">
+
+                 <!-- Gallery -->
+                 <div class="gallery row justify-content-center pt-5">
+                     <img src="assets/images/why3.jpg" alt="Certificate">
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+
+ <section id="funfacts" class="section-2 highlights image-right counter funfacts featured">
+     <div class="container">
+         <div class="row">
+             <div class="col-12 col-lg-8 align-self-top text">
+                 <div class="row intro m-0">
+                     <div class="col-12 p-0">
+                         <!-- <span class="pre-title m-0">Proven warranty</span> -->
+                         <h2>Top-Notch Domain Mastery</h2>
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="col-12 p-0 pr-md-5">
+                         <p>Exceptionally experienced and qualified financial experts, adept in offering industry-centric accounting, payroll, and taxation services.</p>
+                         <p>Skilled and in line with the latest legislative modifications and ongoing industry trends.</p>
+                     </div>
+                 </div>
+             </div>
+             <div data-aos="zoom-in" class="col-12 col-lg-4 mt-5 mt-lg-0">
+
+                 <!-- Gallery -->
+                 <div class="gallery row justify-content-center pt-5">
+                     <img src="assets/images/why4.jpg" alt="Certificate">
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+
+ <section id="about" class="section-1 highlights team image-right  featured">
+     <div class="container">
+         <div class="row">
+             <div class="col-12 col-lg-8 align-self-top text">
+                 <div class="row intro m-0">
+                     <div class="col-12 p-0">
+                         <!-- <span class="pre-title m-0">Proven warranty</span> -->
+                         <h2>Trusted Data Security Measures</h2>
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="col-12 p-0 pr-md-5">
+                         <p>Stringent non-disclosure and non-compete agreements with employees to maintain confidentiality at all levels.
+                         </p>
+                         <p>Data destruction once the work gets completed irrespective of whether the information is in physical form or electronic format.</p>
+                         <p>Restricted access to the server room with only IT members authorized to enter the designated area. This access is further authorized only with an access card.</p>
+                         <p>Password-protected computers with every user given a password that gets changed compulsorily every 42 days.</p>
+
+                     </div>
+                 </div>
+             </div>
+             <div data-aos="zoom-in" class="col-12 col-lg-4 mt-5 mt-lg-0">
+
+                 <!-- Gallery -->
+                 <div class="gallery row justify-content-center pt-5">
+                     <img src="assets/images/why5.jpg" alt="Certificate">
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+
+ <section id="funfacts" class="section-2 highlights image-right counter funfacts featured">
+     <div class="container">
+         <div class="row">
+             <div class="col-12 col-lg-8 align-self-top text">
+                 <div class="row intro m-0">
+                     <div class="col-12 p-0">
+                         <!-- <span class="pre-title m-0">Proven warranty</span> -->
+                         <h2>Thorough GDPR Compliance</h2>
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="col-12 p-0 pr-md-5">
+                         <p>A certified GDPR-compliant firm, adhering to strict protocols pertaining to data security.</p>
+                         <p>Utilizing extremely sophisticated software, hardware, and relevant servers, ensuring complete financial information security.</p>
+                         <p>A fully functional data security policy in place addressing physical and IT-oriented security concerns.</p>
+                     </div>
+                 </div>
+             </div>
+             <div data-aos="zoom-in" class="col-12 col-lg-4 mt-5 mt-lg-0">
+
+                 <!-- Gallery -->
+                 <div class="gallery row justify-content-center pt-5">
+                     <img src="assets/images/why6.jpg" alt="Certificate">
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+
+ <section id="about" class="section-1 highlights team image-right  featured">
+     <div class="container">
+         <div class="row">
+             <div class="col-12 col-lg-8 align-self-top text">
+                 <div class="row intro m-0">
+                     <div class="col-12 p-0">
+                         <!-- <span class="pre-title m-0">Proven warranty</span> -->
+                         <h2>Tremendously Scalable Offerings</h2>
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="col-12 p-0 pr-md-5">
+                         <p>Flexible engagement models for businesses with the flexibility to amplify up resources during peak activities and to scale down the same when the requirement gets over.</p>
+                     </div>
+                 </div>
+             </div>
+             <div data-aos="zoom-in" class="col-12 col-lg-4 mt-5 mt-lg-0">
+
+                 <!-- Gallery -->
+                 <div class="gallery row justify-content-center pt-5">
+                     <img src="assets/images/why7.jpg" alt="Certificate">
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+
+ <section id="funfacts" class="section-2 highlights image-right counter funfacts featured">
+     <div class="container">
+         <div class="row">
+             <div class="col-12 col-lg-8 align-self-top text">
+                 <div class="row intro m-0">
+                     <div class="col-12 p-0">
+                         <!-- <span class="pre-title m-0">Proven warranty</span> -->
+                         <h2>Total Customer Satisfaction</h2>
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="col-12 p-0 pr-md-5">
+                         <p>A solid customer engagement model that aids in creating long-term relationships with our customer base.</p>
+                         <p>An accessible round-the-clock team addressing and resolving every issue at hand.</p>
+                         <p>Giving priority to client feedback and regularly reviewing the mechanism to ensure that the client requirement is met, and the deliverable quality is maintained.</p>
+                     </div>
+                 </div>
+             </div>
+             <div data-aos="zoom-in" class="col-12 col-lg-4 mt-5 mt-lg-0">
+
+                 <!-- Gallery -->
+                 <div class="gallery row justify-content-center pt-5">
+                     <img src="assets/images/why8.jpg" alt="Certificate">
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+
+ <section id="about" class="section-1 highlights team image-right  featured">
+     <div class="container">
+         <div class="row">
+             <div class="col-12 col-lg-8 align-self-top text">
+                 <div class="row intro m-0">
+                     <div class="col-12 p-0">
+                         <!-- <span class="pre-title m-0">Proven warranty</span> -->
+                         <h2>Tech-Driven Innovations
+                         </h2>
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="col-12 p-0 pr-md-5">
+                         <p>Adopting and adapting to new technologies with the evolving times, thus, providing high-quality services to you on time with the best tools in the industry.</p>
+                     </div>
+                 </div>
+             </div>
+             <div data-aos="zoom-in" class="col-12 col-lg-4 mt-5 mt-lg-0">
+
+                 <!-- Gallery -->
+                 <div class="gallery row justify-content-center pt-5">
+                     <img src="assets/images/why9.jpg" alt="Certificate">
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+
+ <section id="funfacts" class="section-2 highlights image-right counter funfacts featured">
+     <div class="container">
+         <div class="row">
+             <div class="col-12 col-lg-8 align-self-top text">
+                 <div class="row intro m-0">
+                     <div class="col-12 p-0">
+                         <!-- <span class="pre-title m-0">Proven warranty</span> -->
+                         <h2>Total Solution Convenience</h2>
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="col-12 p-0 pr-md-5">
+                         <p>A significant global outsourcing accounting firm offering a plethora of services ranging from accounting, bookkeeping, taxation, and category-centric skilled remote staffing solutions to its clients.</p>
+                         <p>Do you opine that investing extra time in non-core financial tasks is restricting your business growth?</p>
+                         <p>Are you investing unnecessary time worrying about the accounting and payroll paperwork that adds to your overall burden?</p>
+                         <p>Are you looking for ideal strategic and tailored Financial, Accounting, and Remote Staffing Solutions?</p>
+
+                     </div>
+                 </div>
+             </div>
+             <div data-aos="zoom-in" class="col-12 col-lg-4 mt-5 mt-lg-0">
+
+                 <!-- Gallery -->
+                 <div class="gallery row justify-content-center pt-5">
+                     <img src="assets/images/why10.jpg" alt="Certificate">
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+
+ <!-- why us -->
+
+
+
+
+
+
+ <!-- Team -->
+ <section id="team" class="section-1 team   featured">
+     <div class="container">
+         <div class="row">
+             <div class="col-12 align-self-top text-center text-md-left text">
+                 <div class="row text-center intro">
+                     <div class="col-12">
+                         <span class="pre-title m-auto">We like what we do</span>
+                         <h2><span class="featured"><span>Team</span></span> of Experts</h2>
+                     </div>
+                 </div>
+                 <div class="row items text-left">
+                     <div class="col-12 col-md-6 p-0">
+                         <div class="row item">
+                             <div class="col-4 p-0 pr-3 align-self-center">
+                                 <img src="assets/images/testimonial.webp" alt="Person" class="person">
+                             </div>
+                             <div class="col-8 align-self-center text-left">
+                                 <h4>Lorem</h4>
+                                 <p>Founder & Managing Director</p>
+                                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis diam varius diam ultricies lacinia.</p> -->
+                                 <ul class="navbar-nav social share-list ml-auto">
+                                     <li class="nav-item">
+                                         <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                                     </li>
+                                     <li class="nav-item">
+                                         <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+                                     </li>
+                                     <li class="nav-item">
+                                         <a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
+                                     </li>
+                                 </ul>
+                             </div>
+                         </div>
+                         <div class="row item">
+                             <div class="col-4 p-0 pr-3 align-self-center">
+                                 <img src="assets/images/testimonial.webp" alt="Person" class="person">
+                             </div>
+                             <div class="col-8 align-self-center text-left">
+                                 <h4> Lorem</h4>
+                                 <p>Director – US Operation</p>
+                                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis diam varius diam ultricies lacinia.</p> -->
+                                 <ul class="navbar-nav social share-list ml-auto">
+                                     <li class="nav-item">
+                                         <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                                     </li>
+                                     <li class="nav-item">
+                                         <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+                                     </li>
+                                     <li class="nav-item">
+                                         <a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
+                                     </li>
+                                 </ul>
+                             </div>
+                         </div>
+                         <div class="row item">
+                             <div class="col-4 p-0 pr-3 align-self-center">
+                                 <img src="assets/images/testimonial.webp" alt="Person" class="person">
+                             </div>
+                             <div class="col-8 align-self-center text-left">
+                                 <h4>Lorem</h4>
+                                 <p>Director – US Operation</p>
+                                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis diam varius diam ultricies lacinia.</p> -->
+                                 <ul class="navbar-nav social share-list ml-auto">
+                                     <li class="nav-item">
+                                         <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                                     </li>
+                                     <li class="nav-item">
+                                         <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+                                     </li>
+                                     <li class="nav-item">
+                                         <a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
+                                     </li>
+                                 </ul>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col-12 col-md-6 p-0">
+                         <div class="row item">
+                             <div class="col-4 p-0 pr-3 align-self-center">
+                                 <img src="assets/images/testimonial.webp" alt="Person" class="person">
+                             </div>
+                             <div class="col-8 align-self-center text-left">
+                                 <h4>Lorem</h4>
+                                 <p>Sr. Audit & Assurance Manager</p>
+                                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis diam varius diam ultricies lacinia.</p> -->
+                                 <ul class="navbar-nav social share-list ml-auto">
+                                     <li class="nav-item">
+                                         <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                                     </li>
+                                     <li class="nav-item">
+                                         <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+                                     </li>
+                                     <li class="nav-item">
+                                         <a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
+                                     </li>
+                                 </ul>
+                             </div>
+                         </div>
+                         <div class="row item">
+                             <div class="col-4 p-0 pr-3 align-self-center">
+                                 <img src="assets/images/testimonial.webp" alt="Person" class="person">
+                             </div>
+                             <div class="col-8 align-self-center text-left">
+                                 <h4>Lorem</h4>
+                                 <p>Sr. Accounts Manager</p>
+                                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis diam varius diam ultricies lacinia.</p> -->
+                                 <ul class="navbar-nav social share-list ml-auto">
+                                     <li class="nav-item">
+                                         <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                                     </li>
+                                     <li class="nav-item">
+                                         <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+                                     </li>
+                                     <li class="nav-item">
+                                         <a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
+                                     </li>
+                                 </ul>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+ <!-- team -->
+
+
+
+
+
+
+
+
+
+
+
+ <!-- data Security -->
+
+ <section id="about" class=" section-2 highlights image-right counter funfacts featured">
+     <div class="container">
+         <div class="row">
+             <div class="col-12 col-lg-8 align-self-top text">
+                 <div class="row intro m-0">
+                     <div class="col-12 p-0">
+                         <!-- <span class="pre-title m-0">Proven warranty</span> -->
+                         <h2><span class="featured"><span>Data </span></span>Security</h2>
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="col-12 p-0 pr-md-5">
+                         <p>Our workstation is devoid of CD R/W drives.</p>
+                         <p>We have disabled USB ports at our workplace.</p>
+                         <p>We possess closed-circuit cameras on our premises that monitor and secure the workplace.</p>
+                         <p>Each of our workstations has a fully functional anti-virus software in place that regularly checks recent updates, followed by a quick scan, which occurs every day. We also schedule a boot and full scan on a weekly and monthly basis, respectively.</p>
+                         <p>We have anti-malware software on each of our computers which carries out a quick scan twice daily.</p>
+                         <p>Our company’s network is safeguarded by default Windows firewall software.</p>
+                         <p>We follow a procedure whereby all our computers tend to be password protected for added security. Here too, each of the users possesses a password that gets changed compulsorily every 42 days.</p>
+                         <p>VSC OFFSHORE aims to build a paperless world that not only fosters an eco-friendly environment but also ensures data security.</p>
+                         <p>We even follow stringent IP authentication that restricts outsiders from laying hands on the confidential data of the organization.</p>
+                     </div>
+                 </div>
+             </div>
+             <div data-aos="zoom-in" class="col-12 col-lg-4 mt-5 mt-lg-0">
+
+                 <!-- Gallery -->
+                 <div class="gallery row justify-content-center pt-5">
+                     <img src="assets/images/security.jpg" alt="Certificate">
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+
+ <section id="funfacts" class="section-1 highlights team image-right  featured">
+     <div class="container">
+         <div class="row">
+             <div class="col-12 col-lg-8 align-self-top text">
+                 <div class="row intro m-0">
+                     <div class="col-12 p-0">
+                         <!-- <span class="pre-title m-0">Proven warranty</span> -->
+                         <h2><span class="featured"><span>Data </span></span>Confidentiality</h2>
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="col-12 p-0 pr-md-5">
+                         <p>There is an access control system installed at the workplace entry point that allows controlled entry into the production area.</p>
+                         <p>We maintain restricted server room access, and only the IT team is authorized to enter the arena. This entry too, is possible only with an access card.</p>
+                         <p>We follow measures by which our document storage area is well-secured.</p>
+                         <p>To the best of our ability, we maintain reasonable control over client data. As such, only authorized users retain access to the confidential information of the clients they are catering to.</p>
+                         <p>We even follow stringent IP authentication that restricts outsiders from laying hands on the confidential data of the organization.</p>
+
+                     </div>
+                 </div>
+             </div>
+             <div data-aos="zoom-in" class="col-12 col-lg-4 mt-5 mt-lg-0">
+
+                 <!-- Gallery -->
+                 <div class="gallery row justify-content-center pt-5">
+                     <img src="assets/images/confidentiality.jpg" alt="Certificate">
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+ <!-- data Security -->

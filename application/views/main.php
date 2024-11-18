@@ -109,8 +109,8 @@
                                             Way!</span></span>
                             </h1>
                             <p data-aos="zoom-in" data-aos-delay="2400" class="description bigger"> A Trusted Outsourced
-                                Firm for Bookkeeping, Accounting and Tax, SMSF, Paraplanning and Loans Processing in
-                                Australia </p>
+                                Firm for Bookkeeping, Accounting and Tax, Paraplanning and Loans Processing in
+                                Middle East </p>
 
                             <!-- Action -->
                             <div data-aos="fade-up" data-aos-delay="2800" class="buttons">
@@ -138,47 +138,47 @@
         <!-- Slider wrapper -->
         <div class="slider-wrapper">
             <div class="slider-item"><img width="125" height="50"
-                    src="https://www.infinity-globus.com/wp-content/uploads/2023/11/QuickBooks.png" class="img-fluid"
+                    src="assets/images/QuickBooks.png" class="img-fluid"
                     alt="QuickBooks" decoding="async" /></div>
             <div class="slider-item"><img width="125" height="50"
-                    src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Drake-Software.png"
+                    src="assets/images/Drake-Software.png"
                     class="img-fluid" alt="Drake Software" decoding="async" /></div>
             <div class="slider-item"><img width="125" height="50"
-                    src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Ultratax.png" class="img-fluid"
+                    src="assets/images/Ultratax.png" class="img-fluid"
                     alt="Ultratax" decoding="async" /></div>
             <div class="slider-item"><img width="125" height="50"
-                    src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Xero.png" class="img-fluid"
+                    src="assets/images/Xero.png" class="img-fluid"
                     alt="Xero" decoding="async" /></div>
             <div class="slider-item"><img width="125" height="50"
-                    src="https://www.infinity-globus.com/wp-content/uploads/2023/11/CCH-Axcess-2.png" class="img-fluid"
+                    src="assets/images/CCH-Axcess.png" class="img-fluid"
                     alt="CCH Axcess" decoding="async" /></div>
             <div class="slider-item"><img width="125" height="50"
-                    src="https://www.infinity-globus.com/wp-content/uploads/2023/11/ProConnect.png" class="img-fluid"
+                    src="assets/images/ProConnect.png" class="img-fluid"
                     alt="ProConnect" decoding="async" /></div>
             <!-- Duplicate images for infinite scroll -->
             <div class="slider-item"><img width="125" height="50"
-                    src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Sage.png" class="img-fluid"
+                    src="assets/images/Sage.png" class="img-fluid"
                     alt="Sage" decoding="async" /></div>
             <div class="slider-item"><img width="125" height="50"
-                    src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Avalara.png" class="img-fluid"
+                    src="assets/images/Avalara.png" class="img-fluid"
                     alt="Avalara" decoding="async" /></div>
             <div class="slider-item"><img width="125" height="50"
-                    src="https://www.infinity-globus.com/wp-content/uploads/2023/11/TaxJar.png" class="img-fluid"
+                    src="assets/images/TaxJar.png" class="img-fluid"
                     alt="TaxJar" decoding="async" /></div>
             <div class="slider-item"><img width="125" height="50"
-                    src="https://www.infinity-globus.com/wp-content/uploads/2023/11/ADP.png" class="img-fluid" alt="ADP"
+                    src="assets/images/ADP.png" class="img-fluid" alt="ADP"
                     decoding="async" /></div>
             <div class="slider-item"><img width="125" height="50"
-                    src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Gusto.png" class="img-fluid"
+                    src="assets/images/Gusto.png" class="img-fluid"
                     alt="Gusto" decoding="async" /></div>
             <div class="slider-item"><img width="125" height="50"
-                    src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Zoho.png" class="img-fluid"
+                    src="assets/images/Zoho.png" class="img-fluid"
                     alt="Zoho" decoding="async" /></div>
             <div class="slider-item"><img width="125" height="50"
-                    src="https://www.infinity-globus.com/wp-content/uploads/2023/11/Wave.png" class="img-fluid" alt=""
+                    src="assets/images/Wave.png" class="img-fluid" alt=""
                     decoding="async" /></div>
             <div class="slider-item"><img width="125" height="50"
-                    src="https://www.infinity-globus.com/wp-content/uploads/2023/11/AuditFile.png" class="img-fluid"
+                    src="assets/images/AuditFile.png" class="img-fluid"
                     alt="AuditFile" decoding="async" /></div>
 
         </div>
@@ -232,7 +232,7 @@
                     <div class="col-12 p-0">
                         <span class="pre-title m-auto m-md-0">About the network</span>
                         <h2><span class="featured"><span>About</span></span> Us</h2>
-                        <p>We have been providing outsourced taxation and accounting services to CPAs, EAs and accounting firms based in the USA, UK, Canada, and Australia.</p>
+                        <p>We have been providing outsourced taxation and accounting services to CPAs, EAs and accounting firms based in the USA, UK, Canada, and Middle East.</p>
                         <p>Our team has over two decades of experience in outsourced accounting & tax preparation services and ensures a greater transparency with control to keep an eye on your business.</p>
                     </div>
                 </div>
@@ -294,62 +294,64 @@
                 <h2><span class="featured"><span>Personalized </span></span> Talent for Your Goals</h2>
             </div>
         </div>
-        <div class="card-container">
-            <div class="card1">
-                <div class="icon-section accounting-icon d-flex align-items-start">  
-                <img src="assets/images/1.png" alt="">         
-            </div>
-                <div class="content">
-                    <h3 class="m-0">Accounting</h3>
-                    <hr class="my-4">
-                    <ul>
-                        <li>Account Staff</li>
-                        <li>Account Senior</li>
-                        <li>Account Supervisor</li>
-                        <li>Account Manager</li>
-                    </ul>
+        <div class="col-md-12">
+            <div class="card-container">
+                <!-- Card 1 -->
+                <div class="card1">
+                    <div class="icon-section accounting-icon d-flex align-items-start">
+                        <!-- <img src="assets/images/1.png" alt="Tailored Financial Solutions"> -->
+                    </div>
+                    <div class="content">
+                        <h3 class="m-0">Tailored Financial Solutions</h3>
+                        <hr class="my-4">
+                        <ul>
+                            <li>Comprehensive Services: Bookkeeping, Accounting, and Tax management</li>
+                            <li>Personalized for You: Solutions aligned with your business goals</li>
+                            <li>Expert Support: Middle East-based experienced professionals</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card1">
+                    <div class="icon-section tax-icon">
+                        <!-- <img src="assets/images/2.png" alt="Streamlined Processes"> -->
+                    </div>
+                    <div class="content">
+                        <h3 class="m-0">Streamlined Processes</h3>
+                        <hr class="my-4">
+                        <ul>
+                            <li>Outsourced Expertise: Paraplanning and Loans Processing</li>
+                            <li>Technology-Driven: Cutting-edge tools for efficiency</li>
+                            <li>Enhanced Output: Optimizing performance for better results</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card1">
+                    <div class="icon-section audit-icon">
+                        <!-- <img src="assets/images/3.png" alt="Growth-Oriented Approach"> -->
+                    </div>
+                    <div class="content">
+                        <h3 class="m-0">Growth-Oriented Approach</h3>
+                        <hr class="my-4">
+                        <ul>
+                            <li>Business Focused: Strategies to elevate your business stature</li>
+                            <li>Continuous Improvement: Always aiming for optimal results</li>
+                            <li>Reliable Partnership: Supporting your business endeavors</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
-            <div class="card1">
-                <div class="icon-section tax-icon">
-                    <img src="assets/images/2.png" alt=""> 
-                </div>
-                <div class="content">
-                    <h3 class="m-0">Tax</h3>
-                    <hr class="my-4">
-                    <ul>
-                        <li>Tax Staff</li>
-                        <li>Tax Senior</li>
-                        <li>Tax Supervisor</li>
-                        <li>Tax Manager</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="card1">
-                <div class="icon-section audit-icon">
-                <img src="assets/images/3.png" alt=""> 
-                </div>
-                <div class="content">
-                    <h3 class="m-0">Audit</h3>
-                    <hr class="my-4">
-                    <ul>
-                        <li>Audit Staff</li>
-                        <li>Audit Senior</li>
-                        <li>Audit Supervisor</li>
-                        <li>Audit Manager</li>
-                    </ul>
-                </div>
-            </div>
         </div>
-
     </div>
 
 </section>
 
 <!-- Projects -->
-<section id="projects" class="section-3 odd showcase blog-grid filter-section projects">
+<section id="projects" class="section-3 odd showcase blog-grid filter-section projects featured">
     <div class="overflow-holder">
         <div class="container">
             <div class="row d-flex justify-content-center text-center intro">
@@ -526,7 +528,7 @@
 
 
 <!-- Testimonials -->
-<section id="testimonials" class="section-5 carousel testimonials">
+<section id="testimonials" class="section-5 carousel testimonials featured">
     <div class="overflow-holder">
         <div class="container">
             <div class="row text-center intro">
@@ -655,7 +657,7 @@
 
 
 <!-- Service -->
-<section id="funfacts" class="section-2 highlights image-right counter funfacts featured">
+<!-- <section id="funfacts" class="section-2 highlights image-right counter funfacts featured">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6 pr-md-5 align-self-center text-center text-md-left text items">
@@ -664,18 +666,18 @@
                         <span class="pre-title m-auto m-md-0"> A Holistic Solution for All Your Outsourcing Needs
                         </span>
                         <h2>Our <span class="featured"><span>Services</span></span></h2>
-                        <p>Our experienced team in Australia extends a wide range of outsourced Bookkeeping, Accounting
-                            and Tax, SMSF, Paraplanning and Loans Processing services that are aimed towards enhancing
+                        <p>Our experienced team in Middle East extends a wide range of outsourced Bookkeeping, Accounting
+                            and Tax, Paraplanning and Loans Processing services that are aimed towards enhancing
                             your business stature and bringing optimum output at all times. With the aid of cutting-edge
                             technology and advanced strategies, we strive to assist you in your business endeavors.</p>
                     </div>
                 </div>
 
-                <!-- Action -->
+         
                 <div data-aos="fade-up" class="buttons">
                     <div class="d-sm-inline-flex mb-5 mb-md-0">
                         <a href="#contact" class="smooth-anchor mx-auto mt-4 btn primary-button">EXPLORE MORE</a>
-                        <!-- <a href="#" class="mx-auto ml-sm-4 mt-4 btn outline-button">EXPLORE MORE</a> -->
+                    
                     </div>
                 </div>
             </div>
@@ -685,46 +687,54 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
-<!-- Partners -->
-<section id="partners" class="section-1 offers testimonials">
+<!-- blog -->
+<section id="result" class="section-2 showcase blog-grid projects">
     <div class="container">
-        <div class="row justify-content-center items">
-            <div data-aos="fade-up" class="col-12 col-md-6 item">
-                <div class="card">
-                    <div class="col-12">
-                        <img src="assets/images/eBooks.jpg" alt="Logo" class="logo" style="border-radius: 0%;">
-                        <h4>eBooks</h4>
-                        <p>Discover Our Vast Collection of eBooks Explore a World of Knowledge at Your Fingertips</p>
-
-                        <!-- Action -->
-                        <div class="buttons">
-                            <div class="d-sm-inline-flex">
-                                <a href="#" class="mt-3 btn outline-button">READ MORE</a>
+        <div class="row items">
+            <div class="col-12 col-md-4 pr-md-5 text">
+                <div data-aos="fade-up" class="row intro">
+                    <div class="col-12 p-0">
+                        <span class="pre-title m-0">Featured posts</span>
+                        <h2 class="mb-3">Most<br>Viewed<br>This Month</h2>
+                        <div class="row">
+                            <div class="col-12 p-0 input-group">
+                                <input type="text" class="form-control" placeholder="Enter Keywords">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 p-0 input-group align-self-center">
+                                <button class="btn primary-button">SEARCH</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div data-aos="fade-up" class="col-12 col-md-6 item">
-                <div class="card">
-                    <div class="col-12">
-                        <img src="assets/images/infographics.jpg" alt="Logo" class="logo" style="border-radius: 0%;">
-                        <h4>Infographics</h4>
-                        <p>Get interesting accounting marketing facts, tips and tools to help you drive new clients to
-                            your firm.</p>
+            <?php
+            shuffle($posts);
 
-                        <!-- Action -->
-                        <div class="buttons">
-                            <div class="d-sm-inline-flex">
-                                <a href="#" class="mt-3 btn outline-button">READ MORE</a>
+            for ($i = 0; $i < 2; $i++) { ?>
+                <div data-aos="fade-up" class="col-12 col-md-4 item">
+                    <div class="card p-0 text-center">
+                        <div class="image-over">
+                            <img src="<?php echo base_url() . 'admin' . $posts[$i]['image_path'] ?>" alt="Lorem ipsum">
+                        </div>
+                        <div class="card-footer d-lg-flex align-items-center justify-content-center">
+                            <a href="<?php echo base_url() . 'blog/post/' . $posts[$i]['id'] . '/' . $posts[$i]['url'] ?>" class="d-lg-flex align-items-center"><i class="icon-user"></i><?php echo $posts[$i]['author'] ?></a>
+                            <a href="<?php echo base_url() . 'blog/post/' . $posts[$i]['id'] . '/' . $posts[$i]['url'] ?>" class="d-lg-flex align-items-center"><i class="icon-clock"></i>2 Days Ago</a>
+                        </div>
+                        <div class="card-caption col-12 p-0">
+                            <div class="card-body">
+                                <a href="<?php echo base_url() . 'blog/post/' . $posts[$i]['id'] . '/' . $posts[$i]['url'] ?>">
+                                    <h4><?php echo substr(strip_tags($posts[$i]['name']), 0, 50) ?></h4>
+                                    <p class="text-center"><?php echo substr(strip_tags($posts[$i]['content']), 0, 150) ?></p>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
+            <?php } ?>
         </div>
     </div>
 </section>

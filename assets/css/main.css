@@ -117,7 +117,7 @@ HTML5 display-role reset for older browsers
   }
   
   .icon-section {
-    width: 101px;
+    width: 10px;
     display: flex;
     align-items: start;
     justify-content: center;
@@ -136,7 +136,7 @@ HTML5 display-role reset for older browsers
   
   
   .tax-icon {
-    background-color: #058283;
+    background-color: #f6820dc2;
     /* background-image: url('assets/images/2.png');  */
     background-repeat: no-repeat;
     background-position: center;
@@ -816,11 +816,11 @@ section {
 
 
 section.hero       { background-color: var(--hero-bg-color); }
-section.section-1  { background-color: var(--section-1-bg-color);  background-image: var(--section-1-bg-image); }
+section.section-1  { background-color:#f4f1ed;  background-image: var(--section-1-bg-image); }
 section.section-2  { background-color: var(--section-2-bg-color);  background-image: var(--section-2-bg-image); }
 section.section-3  { background-color: var(--section-3-bg-color);  background-image: var(--section-3-bg-image); }
 section.section-4  { background-color: var(--section-4-bg-color);  background-image: var(--section-4-bg-image); }
-section.section-5  { background-color: var(--section-5-bg-color);  background-image: var(--section-5-bg-image); }
+section.section-5  { background-color:#f4f1ed;  background-image: var(--section-5-bg-image); }
 section.section-6  { background-color: var(--section-6-bg-color);  background-image: var(--section-6-bg-image); }
 section.section-7  { background-color: var(--section-7-bg-color);  background-image: var(--section-7-bg-image); }
 section.section-8  { background-color: var(--section-8-bg-color);  background-image: var(--section-8-bg-image); }
@@ -1838,7 +1838,7 @@ aside {
     padding: 5px 0;
     font-size: 1.2rem;
     font-weight: 400;
-    color: var(--primary-color);
+    color: white;
 }
 
 .contacts li {
@@ -3497,7 +3497,7 @@ header .navbar-expand .navbar-brand .featured .first {
     height: 100%;
     object-fit: cover;
     object-position: top;
-    top:14%;
+    top:10%;
 }
 
 .full-image.to-bottom {
@@ -4589,7 +4589,7 @@ footer .copyright p {
     /* #region Slider */
 
     body .slider-h-100 {
-        height: auto;
+        /* height: auto; */
     }
 
     body .slider-h-100.alt {
