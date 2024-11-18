@@ -843,7 +843,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     </div>
 
 
-    <div class="light-bg testimonial_scssn py-5">
+    <!-- <div class="light-bg testimonial_scssn py-5">
         <div class="container">
             <div class="section-part pro-testimonials">
                 <h3 class="section-title" style="    position: relative;">Clients' Testimonials</h3>
@@ -907,7 +907,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </section>
 <script>
     var splide = new Splide('.splide', {
