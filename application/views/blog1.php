@@ -17,11 +17,19 @@
                                 <nav data-aos="zoom-out-up" data-aos-delay="800" aria-label="breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="/">Home</a></li>
+<<<<<<< HEAD
+                                        <li class="breadcrumb-item active" aria-current="page"><?php echo  $post['name'] ?></li>
+                                    </ol>
+                                </nav>
+
+                                <h1 class="mb-0 title effect-static-text d-none"><?php echo $post['name'] ?></h1>
+=======
                                         <li class="breadcrumb-item active" aria-current="page">Blog Post</li>
                                     </ol>
                                 </nav>
 
                                 <h1 class="mb-0 title effect-static-text"  style="font-size: 24px;">Blog Post</h1>
+>>>>>>> 367d967a5d38565d03c75d43491da46d3de16cfa
                             </div>
                         </div>
                     </div>
@@ -42,17 +50,18 @@
                         <div class="row intro">
                             <div class="col-12">
                                 <span class="pre-title m-0">Technology</span>
+                                <br><br>
+                                <img src="<?php echo base_url() . 'admin' . $post['image_path'] ?>" alt="Full Image" class="" ><br><br>
                                 <h2 class="mb-0"><span class="featured"></span> <?php echo $post['name'] ?></h2>
                             </div>
 
                             <!-- Meta -->
                             <div class="row post-meta mx-auto ml-lg-0">
+                      
                                 <div class="col-12 align-self-center">
                                     <span class="date"><i class="fas fa-user"></i><?php echo  $post['author'] ?></span>
-                                    <span class="author"><i class="fas fa-calendar-alt"></i><?php  
-                                   
+                                    <span class="author"><i class="fas fa-calendar-alt"></i><?php                                    
                                                 $createdAt = DateTime::createFromFormat('Y-m-d', $post['created_at']);
-
                                                 if ($createdAt) {
                                                     echo $createdAt->format('d/m/Y'); // Output in dd/mm/yyyy format
                                                 } else {

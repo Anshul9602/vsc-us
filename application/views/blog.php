@@ -84,38 +84,20 @@
                                     <div class="card-body">
                                         <a href="<?php echo base_url() . 'blog/post/' . $posts[$i]['id'] . '/' . $posts[$i]['url'] ?>">
                                             <h4><?php echo substr(strip_tags($posts[$i]['name']), 0, 50) ?></h4>
-                                            <p><?php echo substr(strip_tags($posts[$i]['content']), 0, 150) ?></p>
+                                            <p class="text-center"><?php echo substr(strip_tags($posts[$i]['content']), 0, 150) ?></p>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                         </div>    
                         <?php } ?>        
-                        <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["innovation","social","technology"]'>
-                            <div class="row card p-0 text-center">
-                                <div class="image-over">
-                                    <img src="assets/images/news-1.jpg" alt="Lorem ipsum">
-                                </div>
-                                <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                    <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>Andrea Miller</a>
-                                    <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i>2 Days Ago</a>
-                                </div>
-                                <div class="card-caption col-12 p-0">
-                                    <div class="card-body">
-                                        <a href="#">
-                                            <h4>Increasing creativity is possible for everyone</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>            
+                             
                         
                         <div class="col-1 filter-sizer"></div>
                     </div>
 
                     <!-- Pagination -->
-                    <div class="row">
+                    <div class="row d-none">
                         <div class="col-12">
                             <nav>
                                 <ul class="pagination justify-content-center">
@@ -163,44 +145,30 @@
                         </div>
                     </div>
                 </div>
+                <?php 
+                shuffle($posts);
+                
+                for ($i = 0; $i < 2; $i++) { ?>
                 <div data-aos="fade-up" class="col-12 col-md-4 item">
                     <div class="card p-0 text-center">
                         <div class="image-over">
-                            <img src="assets/images/news-1.jpg" alt="Lorem ipsum">
+                            <img src="<?php echo base_url() . 'admin' . $posts[$i]['image_path'] ?>" alt="Lorem ipsum">
                         </div>
                         <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                            <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>Andrea Miller</a>
-                            <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i>2 Days Ago</a>
+                            <a href="<?php echo base_url() . 'blog/post/' . $posts[$i]['id'] . '/' . $posts[$i]['url'] ?>" class="d-lg-flex align-items-center"><i class="icon-user"></i><?php echo $posts[$i]['author'] ?></a>
+                            <a href="<?php echo base_url() . 'blog/post/' . $posts[$i]['id'] . '/' . $posts[$i]['url'] ?>" class="d-lg-flex align-items-center"><i class="icon-clock"></i>2 Days Ago</a>
                         </div>
                         <div class="card-caption col-12 p-0">
                             <div class="card-body">
-                                <a href="#">
-                                    <h4>Increasing creativity is possible for everyone</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <a href="<?php echo base_url() . 'blog/post/' . $posts[$i]['id'] . '/' . $posts[$i]['url'] ?>">
+                                <h4><?php echo substr(strip_tags($posts[$i]['name']), 0, 50) ?></h4>
+                                <p class="text-center"><?php echo substr(strip_tags($posts[$i]['content']), 0, 150) ?></p>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-up" class="col-12 col-md-4 item">
-                    <div class="card p-0 text-center">
-                        <div class="image-over">
-                            <img src="assets/images/news-2.jpg" alt="Lorem ipsum">
-                        </div>
-                        <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                            <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>John Smith</a>
-                            <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i>9 Days Ago</a>
-                        </div>
-                        <div class="card-caption col-12 p-0">
-                            <div class="card-body">
-                                <a href="#">
-                                    <h4>Because market research is part of the business plan</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <?php } ?>        
             </div>
             </div>
         </section>

@@ -14,6 +14,15 @@ class Admin_model extends CI_Model
         
         return $query->result_array();
     }
+    function get_events_with_images()
+    {
+        $this->db->select('user_events.*, user_profile_images.image_path');
+        $this->db->from('user_events');
+        $this->db->join('user_profile_images', 'user_events.id = user_profile_images.user_id', 'left'); // 'left' join to include blogs without an image
+        $query = $this->db->get();
+        
+        return $query->result_array();
+    }
 
     function get_posts()
     {
@@ -31,6 +40,17 @@ class Admin_model extends CI_Model
         $this->db->from('user_blog');
         $this->db->join('user_profile_images', 'user_blog.id = user_profile_images.user_id', 'left'); 
         $this->db->where('user_blog.id', $id);
+        // 'left' join to include blogs without an image
+        $query = $this->db->get();
+        
+        return $query->result_array();
+    }
+    function get_event($id)
+    {
+        $this->db->select('user_events.*, user_profile_images.image_path');
+        $this->db->from('user_events');
+        $this->db->join('user_profile_images', 'user_events.id = user_profile_images.user_id', 'left'); 
+        $this->db->where('user_events.id', $id);
         // 'left' join to include blogs without an image
         $query = $this->db->get();
         
