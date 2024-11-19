@@ -226,7 +226,7 @@
                             <!-- Navbar Items [right] -->
                             <ul class="navbar-nav">
                                 <li class="nav-item" style="margin: auto;justify-content: center;align-items: center;">
-                                    <a href="#" class="nav-link"> USA</a>|
+                                    <a href="#" class="nav-link" style="color:#1A406D;font-weight: 600;"> USA</a>|
                                 </li>
                                 <li class="nav-item" style="margin: auto;justify-content: center;align-items: center;">
                                     <a href="#" class="nav-link"> UK</a>|
