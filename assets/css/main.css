@@ -1839,16 +1839,16 @@ aside {
     font-size: 1.2rem;
     font-weight: 400;
     color: white;
-}
+} 
 
 .contacts li {
     margin: 6.1px 0;
 }
-
+ 
 .contacts i {
     width: 45px;
     height: 45px;
-    background: var(--primary-bg-color-3);
+    background: var(--primary-bg-color-3);   
     border-radius: 100px;
     text-align: center;
     line-height: 45px;

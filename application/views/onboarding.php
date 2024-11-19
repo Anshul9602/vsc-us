@@ -204,36 +204,8 @@
      </div>
  </section>
 
- <section id="funfacts" class="section-2 highlights image-right counter funfacts featured">
-     <div class="container">
-         <div class="row">
-             <div class="col-12 col-lg-8 align-self-top text">
-                 <div class="row intro m-0">
-                     <div class="col-12 p-0">
-                         <!-- <span class="pre-title m-0">Proven warranty</span> -->
-                         <h2>Thorough GDPR Compliance</h2>
-                     </div>
-                 </div>
-                 <div class="row">
-                     <div class="col-12 p-0 pr-md-5">
-                         <p>A certified GDPR-compliant firm, adhering to strict protocols pertaining to data security.</p>
-                         <p>Utilizing extremely sophisticated software, hardware, and relevant servers, ensuring complete financial information security.</p>
-                         <p>A fully functional data security policy in place addressing physical and IT-oriented security concerns.</p>
-                     </div>
-                 </div>
-             </div>
-             <div data-aos="zoom-in" class="col-12 col-lg-4 mt-5 mt-lg-0">
 
-                 <!-- Gallery -->
-                 <div class="gallery row justify-content-center pt-5">
-                     <img src="assets/images/why6.jpg" alt="Certificate">
-                 </div>
-             </div>
-         </div>
-     </div>
- </section>
-
- <section id="about" class="section-1 highlights team image-right  featured">
+ <section id="about" class="section-2 highlights team image-right  featured">
      <div class="container">
          <div class="row">
              <div class="col-12 col-lg-8 align-self-top text">
@@ -260,7 +232,7 @@
      </div>
  </section>
 
- <section id="funfacts" class="section-2 highlights image-right counter funfacts featured">
+ <section id="funfacts" class="section-1 highlights image-right counter funfacts featured">
      <div class="container">
          <div class="row">
              <div class="col-12 col-lg-8 align-self-top text">
@@ -289,7 +261,7 @@
      </div>
  </section>
 
- <section id="about" class="section-1 highlights team image-right  featured">
+ <section id="about" class="section-2 highlights team image-right  featured">
      <div class="container">
          <div class="row">
              <div class="col-12 col-lg-8 align-self-top text">
@@ -317,7 +289,7 @@
      </div>
  </section>
 
- <section id="funfacts" class="section-2 highlights image-right counter funfacts featured">
+ <section id="funfacts" class="section-1 highlights image-right counter funfacts featured">
      <div class="container">
          <div class="row">
              <div class="col-12 col-lg-8 align-self-top text">
@@ -356,7 +328,7 @@
 
 
  <!-- Team -->
- <section id="team" class="section-1 team   featured">
+ <section id="team" class="section-2 team   featured" style="    padding: 50px 0;">
      <div class="container">
          <div class="row">
              <div class="col-12 align-self-top text-center text-md-left text">
@@ -495,7 +467,7 @@
 
  <!-- data Security -->
 
- <section id="about" class=" section-2 highlights image-right counter funfacts featured">
+ <section id="about" class=" section-1 highlights image-right counter funfacts featured">
      <div class="container">
          <div class="row">
              <div class="col-12 col-lg-8 align-self-top text">
