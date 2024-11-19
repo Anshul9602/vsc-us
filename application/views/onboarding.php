@@ -502,7 +502,7 @@
      </div>
  </section>
 
- <section id="funfacts" class="section-1 highlights team image-right  featured">
+ <section id="funfacts" class="section-2 highlights team image-right  featured">
      <div class="container">
          <div class="row">
              <div class="col-12 col-lg-8 align-self-top text">
