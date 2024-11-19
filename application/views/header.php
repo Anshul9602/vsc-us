@@ -32,7 +32,7 @@
         =============================================== -->
     <link rel="stylesheet" href="<?php echo base_url(''); ?>assets/css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo base_url(''); ?>assets/css/vendor/slider.min.css">
-    <link rel="stylesheet" href="<?php echo base_url(''); ?>assets/css/main.css">
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/main.css?v=1.2.3'); ?>">
     <link rel="stylesheet" href="<?php echo base_url(''); ?>assets/css/vendor/icons.min.css">
     <link rel="stylesheet" href="<?php echo base_url(''); ?>assets/css/vendor/icons-fa.min.css">
     <link rel="stylesheet" href="<?php echo base_url(''); ?>assets/css/vendor/animation.min.css">
@@ -42,7 +42,7 @@
     <!-- ==============================================
         Custom Stylesheet
         =============================================== -->
-    <link rel="stylesheet" href="<?php echo base_url(''); ?>assets/css/default.css">
+    <link rel="stylesheet" href="<?php echo base_url(''); ?>assets/css/default.css?v=">
 
     <!-- ==============================================
         Theme Color
