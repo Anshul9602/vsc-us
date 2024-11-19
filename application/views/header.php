@@ -107,7 +107,7 @@
 
 
         /* Base style for nav links */
-      .nav-link1 {
+        .nav-link1 {
             position: relative;
             /* padding-bottom: 8px; */
             /* Space for underline effect */
@@ -124,7 +124,7 @@
             height: 3px;
             /* Thicker underline for active */
             background-color: #1A406D;
-            /* Color for active underline */  
+            /* Color for active underline */
         }
 
         /* Hover underline */
@@ -161,10 +161,6 @@
             transform: translateY(0);
             transition: opacity 0.5s ease, transform 0.5s ease;
         }
-
-
-
-
     </style>
 
 </head>
@@ -230,8 +226,8 @@
                                 </li>
                                 <li class="nav-item" style="margin: auto;justify-content: center;align-items: center;">
                                     <a href="#" class="nav-link"> UK</a>|
-                                </li> 
-                                 <li class="nav-item" style="margin: auto;justify-content: center;align-items: center;">
+                                </li>
+                                <li class="nav-item" style="margin: auto;justify-content: center;align-items: center;">
                                     <a href="#" class="nav-link"> CANADA</a>|
                                 </li>
                                 <li class="nav-item">
@@ -261,131 +257,110 @@
                         </div>
                     </nav>
                     <!-- Navbar Items -->
+                    <?php
+                    $currentPage = basename($_SERVER['REQUEST_URI']); // Get the current page
+                    ?>
                     <div class="row d-flex justify-content-end">
-                        <ul class="navbar-nav items col-md-10 p-0">
-                            <li class="nav-item ">
-                                <a href="main" class="nav-link nav-link1 n-menu">HOME </a>
+                    <ul class="navbar-nav items col-md-10 p-0">
+                        <!-- HOME -->
+                        <li class="nav-item">
+                            <a href="main" class="nav-link nav-link1 n-menu <?php echo ($currentPage == 'main') ? 'active' : ''; ?>">HOME</a>
+                        </li>
 
-                            </li>
+                        <!-- ABOUT US -->
+                        <li class="nav-item">
+                            <a href="onboarding" class="nav-link nav-link1 n-menu <?php echo ($currentPage == 'onboarding') ? 'active' : ''; ?>">ABOUT US</a>
+                        </li>
 
-                            <li class="nav-item ">
-                                <a href="onboarding" class="nav-link  nav-link1  n-menu">ABOUT US</a>
-                                <!-- <ul class="dropdown-menu">
-                                    <li class="nav-item ">
-                                        <a class="nav-link" href="team">Our Team </a>
-
+                        <!-- SERVICES -->
+                        <li class="nav-item dropdown">
+                            <a href="<?php echo base_url('Services'); ?>" class="nav-link n-menu <?php echo ($currentPage == 'Services') ? 'active' : ''; ?>">
+                                SERVICES <i class="icon-arrow-down"></i>
+                            </a>
+                            <div class="dropdown-menu newmenu">
+                                <ul>
+                                    <li class="nav-item">
+                                        <a href="<?php echo base_url('Tax_Preparation_Service'); ?>" class="nav-link <?php echo ($currentPage == 'Tax_Preparation_Service') ? 'active' : ''; ?>">
+                                            Tax Preparation Service
+                                        </a>
                                     </li>
-                                    <li class="nav-item"><a href="onboarding" class="nav-link">Onboarding Process</a></li>
-                                    <li class="nav-item"><a href="why" class="nav-link">Why VSC Offshore </a></li>
-                                    <li class="nav-item"><a href="data" class="nav-link">Data Security & Confidentiality</a></li>
-                                </ul> -->
-                            </li>
-
-
-                            <li class="nav-item dropdown">
-                                <a href="<?php echo base_url('Services'); ?>" class="nav-link  n-menu">SERVICES <i class="icon-arrow-down"></i></a>
-
-                                <div class="dropdown-menu newmenu">
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <ul>
-                                                <li class="nav-item ">
-                                                    <a class="nav-link" href="<?php echo base_url('Tax_Preparation_Service'); ?>">Tax Preparation Service</a>
-                                                </li>
-                                                <li class="nav-item ">
-                                                    <a class="nav-link" href="<?php echo base_url('Multistate_Tax_Preparation_Service'); ?>">Multistate Tax Preparation Service</a>
-                                                </li>
-                                                <li class="nav-item ">
-                                                    <a class="nav-link" href="<?php echo base_url('Back_Year_Tax_Preparation'); ?>">Back Year Tax Preparation</a>
-                                                </li>
-                                                <li class="nav-item ">
-                                                    <a class="nav-link" href="<?php echo base_url('Forensic_Accounting_Services'); ?>">Forensic Accounting Services</a>
-                                                </li>
-
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <ul>
-                                                <li class="nav-item ">
-                                                    <a class="nav-link" href="<?php echo base_url('Tax_Litigation_Resolution_Services'); ?>">Tax Litigation Resolution Services</a>
-                                                </li>
-                                                <li class="nav-item ">
-                                                    <a class="nav-link" href="<?php echo base_url('Management_Accounting_Reporting_Services'); ?>">Management Accounting & Reporting Services</a>
-                                                </li>
-                                                <li class="nav-item ">
-                                                    <a class="nav-link" href="<?php echo base_url('Payroll_Services'); ?>">Payroll Services</a>
-                                                </li>
-                                                <li class="nav-item ">
-                                                    <a class="nav-link" href="<?php echo base_url('Business_Valuation_Services'); ?>">Business Valuation Services</a>
-                                                </li>
-
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <ul>
-                                                <li class="nav-item ">
-                                                    <a class="nav-link" href="<?php echo base_url('Bookkeeping_Services'); ?>">Bookkeeping Services</a>
-                                                </li>
-                                                <li class="nav-item ">
-                                                    <a class="nav-link" href="<?php echo base_url('Secretarial_Services'); ?>">Secretarial Services</a>
-                                                </li>
-                                                <li class="nav-item ">
-                                                    <a class="nav-link" href="<?php echo base_url('Audit_Services'); ?>">Audit Services</a>
-                                                </li>
-                                                <!-- <li class="nav-item ">
-                                                    <a class="nav-link" href="<?php echo base_url('Employee_Retention_Tax_Credit'); ?>">Employee Retention Tax Credit (ERTC)</a>
-                                                </li> -->
-
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </li>
-
-                            <li class="nav-item dropdown">
-                                <a href="#" class="nav-link  n-menu">RESOURCES<i class="icon-arrow-down"></i></a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item ">
-                                        <a class="nav-link" href="<?php echo base_url('blog'); ?>">Blog </a>
-
+                                    <li class="nav-item">
+                                        <a href="<?php echo base_url('Multistate_Tax_Preparation_Service'); ?>" class="nav-link <?php echo ($currentPage == 'Multistate_Tax_Preparation_Service') ? 'active' : ''; ?>">
+                                            Multistate Tax Preparation Service
+                                        </a>
                                     </li>
-                                    <li class="nav-item"><a href="<?php echo base_url('event'); ?>" class="nav-link">Event</a></li>
-                                    <!-- <li class="nav-item"><a href="<?php echo base_url('press'); ?>" class="nav-link">Press Release</a></li> -->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="<?php echo base_url('Back_Year_Tax_Preparation'); ?>">Back Year Tax Preparation</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="<?php echo base_url('Forensic_Accounting_Services'); ?>">Forensic Accounting Services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="<?php echo base_url('Tax_Litigation_Resolution_Services'); ?>">Tax Litigation Resolution Services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="<?php echo base_url('Management_Accounting_Reporting_Services'); ?>">Management Accounting & Reporting Services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="<?php echo base_url('Payroll_Services'); ?>">Payroll Services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="<?php echo base_url('Business_Valuation_Services'); ?>">Business Valuation Services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="<?php echo base_url('Bookkeeping_Services'); ?>">Bookkeeping Services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="<?php echo base_url('Secretarial_Services'); ?>">Secretarial Services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="<?php echo base_url('Audit_Services'); ?>">Audit Services</a>
+                                    </li>
                                 </ul>
-                            </li>
-                            <!-- <li class="nav-item  nav-link1  ">
-                                <a href="<?php echo base_url('FAQ'); ?>" class="nav-link  n-menu">FAQ'S </a>
-                            </li> -->
-                            <li class="nav-item  nav-link1  ">
-                                <a href="contact" class="nav-link  n-menu ">CONTACT US </a>
-                            </li>
-                            <li class="nav-item ">
-                                <a href="#" target="_blank" class="btn ml-lg-auto primary-button nav-link  n-menu ">SCHEDULE CALL </a>
-                            </li>
 
+                            </div>
+                        </li>
 
+                        <!-- RESOURCES -->
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link n-menu <?php echo ($currentPage == 'blog' || $currentPage == 'event') ? 'active' : ''; ?>">
+                                RESOURCES<i class="icon-arrow-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item">
+                                    <a href="<?php echo base_url('blog'); ?>" class="nav-link <?php echo ($currentPage == 'blog') ? 'active' : ''; ?>">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="<?php echo base_url('event'); ?>" class="nav-link <?php echo ($currentPage == 'event') ? 'active' : ''; ?>">Event</a>
+                                </li>
+                            </ul>
+                        </li>
 
-                        </ul>
-                        <!-- <ul class="navbar-nav action col-md-3 p-0 justify-content-end" style>
-                            <li class="nav-item ">
-                                <a href="#" target="_blank" class="btn ml-lg-auto primary-button">SCHEDULE CALL </a>
-                               
-                            </li>
-                        </ul> -->
-                    </div>
+                        <!-- CONTACT US -->
+                        <li class="nav-item">
+                            <a href="contact" class="nav-link n-menu <?php echo ($currentPage == 'contact') ? 'active' : ''; ?>">CONTACT US</a>
+                        </li>
+
+                        <!-- SCHEDULE CALL -->
+                        <li class="nav-item">
+                            <a href="#" target="_blank" class="btn ml-lg-auto primary-button nav-link n-menu">SCHEDULE CALL</a>
+                        </li>
 
                 </div>
-                <!-- Navbar Toggle -->
-                <ul class="navbar-nav toggle">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link" data-toggle="modal" data-target="#menu">
-                            <i class="icon-menu m-0"></i>
-                        </a>
-                    </li>
-                </ul>
+                </div>
+            </div>
 
-                <!-- Navbar Action -->
+            </div>
+            <!-- Navbar Toggle -->
+            <ul class="navbar-nav toggle">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-toggle="modal" data-target="#menu">
+                        <i class="icon-menu m-0"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Navbar Action -->
 
             </div>
         </nav>

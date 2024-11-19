@@ -100,7 +100,7 @@ HTML5 display-role reset for older browsers
 
 .card-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 20px;
     flex-wrap: wrap; /* Allows wrapping on smaller screens */
   }
@@ -200,6 +200,16 @@ HTML5 display-role reset for older browsers
 
 
 /* personalised */
+
+
+.nav-link1.active::after{
+    display: none;
+}
+
+.navbar-expand .navbar-nav .nav-link{
+    padding-right: 0.7rem;
+    padding-left: .7rem;
+}
 
 /* ncss */
 
@@ -2014,7 +2024,7 @@ header .navbar-expand {
 }
 
 .newmenu{
-    left:-338%;
+    left:-42%;
     padding: 20%;
 }
 

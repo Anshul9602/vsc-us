@@ -762,7 +762,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 </div>
 <div class="www sec-with-shape py-5 container">
     <!-- Accordion 6 - Bootstrap Brain Component -->
-    <section class="bsb-accordion-6 py-3 container">
+    <!-- <section class="bsb-accordion-6 py-3 container">
 
         <div class="row">
             <div class="col-12 faq">
@@ -1015,7 +1015,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 </div>
 </div>
 <script>
