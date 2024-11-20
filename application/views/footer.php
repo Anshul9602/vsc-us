@@ -83,20 +83,26 @@
                 <div  class="col-xl-3 col-lg-4 col-md-3 mb-5 mb-lg-0">
                     <div class="info col-md-12  row" style="color:white;">
                             <div class="phonerow col-md-12 m-0 pt-md-1 pt-2" style="align-items: center;">
-                             <p class="m-0 row"style="color:#fff;"><b>CALL</b></p>
+                             <p class="m-0 row"style="color:#fff;"><i class="fas fa-phone-alt mr-2"></i><b>CALL</b></p>
                                  <p class="m-0">
+                                 
                                     <a href="" >+91 8511103880</a><br>
                                 </p>
                             </div>
                             <div class="email row col-md-12 m-0 pt-md-1 pt-2" style="align-items: center;">
-                             <p class="m-0 pt-3" style="color:#fff;"><b>EMAIL</b></p>
+                             <p class="m-0 pt-3" style="color:#fff;">  <i class="fas fa-envelope mr-2"></i><b>EMAIL</b></p>
+                           
                                  <p class="m-0" style="color:#9ea9b6;">Support@vscoffshore.com</p>
                             </div>
                             <div class="address row col-md-12 m-0 pt-md-1 pt-2" style="align-items: center;">
-                              <p class="m-0 pt-3"style="color:#fff;"><b>GET IN TOUCH</b></p>
+                              <p class="m-0 pt-3"style="color:#fff;">   <i class="fas fa-map-marker-alt mr-2"></i><b>GET IN TOUCH</b></p>
+                           
                                  <p class="m-0"style="color:#9ea9b6;">  8 The Green, Ste A, Diver County, Kent, DE - 19901</p>
                             </div>
                         </div>
+
+
+
 
                 </div>
          
