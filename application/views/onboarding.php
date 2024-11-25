@@ -1,3 +1,38 @@
+ <style>
+     /* Popup styling */
+     .popup {
+         display: none;
+         /* Initially hidden */
+         position: fixed;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         background-color: rgba(0, 0, 0, 0.5);
+         /* Semi-transparent background */
+         justify-content: center;
+         align-items: center;
+         z-index: 9999;
+         /* Ensure the popup is on top of other content */
+     }
+
+     .popup-content {
+         background-color: white;
+         padding: 20px;
+         border-radius: 5px;
+         text-align: center;
+         width: 1000px;
+         /* max-width: 400px; */
+     }
+
+     .popup-close {
+         position: absolute;
+         top: 10px;
+         right: 10px;
+         font-size: 24px;
+         cursor: pointer;
+     }
+ </style>
  <!-- Hero -->
  <section id="slider" class="hero p-0 odd featured">
      <div class="swiper-container no-slider animation slider-h-50 slider-h-auto">
@@ -28,7 +63,7 @@
          </div>
      </div>
  </section>
- 
+
  <!-- why us -->
 
  <section id="funfacts" class="section-2 highlights image-right counter funfacts featured">
@@ -345,9 +380,21 @@
                                  <img src="assets/images/testimonial.webp" alt="Person" class="person">
                              </div>
                              <div class="col-8 align-self-center text-left">
-                                 <h4>Lorem</h4>
-                                 <p>Founder & Managing Director</p>
-                                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis diam varius diam ultricies lacinia.</p> -->
+                                 <h4>Prateek Goyal </h4>
+                                 <p>Head of Strategy, Research & Development</p>
+                                 <p class="tinfo">Prateek Goyal serves as the Head of Strategy, Research & Development, and Business Development at our organization
+                                 </p>
+                                 <div id="popup" class="popup">
+                                     <div class="popup-content">
+                                         <span class="popup-close">&times;</span>
+                                         <h2>Prateek Goyal</h2>
+                                         <p>Prateek Goyal serves as the Head of Strategy, Research & Development, and Business Development at our organization, where he leads initiatives that combine innovation, strategic growth, and business expansion with a focus on outsourcing solutions. Leveraging his keen understanding of emerging trends and market dynamics, Prateek shapes the organization’s long-term vision and positions it as a leader in delivering tailored services across diverse sectors.
+                                             In his role, Prateek oversees a multidisciplinary team dedicated to crafting and executing strategic plans aligned with the organization’s goals, including the optimization of outsourcing frameworks. His expertise in research and development ensures the organization remains at the forefront of industry advancements, driving continuous improvement and operational efficiency. By identifying new outsourcing opportunities and refining existing processes, he ensures the organization’s agility and competitiveness in a rapidly changing marketplace.
+                                             With a deep knowledge of corporate governance and regulatory compliance, Prateek also serves as Audit, Tax, Virtual CFO and Controller service, His leadership in R&D supports the organization’s capacity to innovate and enhance its service offerings, particularly in outsourcing.
+                                             A dynamic leader, Prateek excels at building strong stakeholder relationships, fostering cross-functional collaboration, and delivering impactful results. His strategic insight and business acumen have been instrumental in the execution of high-value projects, significantly advancing the organization’s growth and outsourcing capabilities.
+                                             Prateek’s extensive experience, coupled with his passion for innovation and commitment to excellence, makes him an invaluable member of our leadership team and a driving force in the organization’s success within the outsourcing landscape.</p>
+                                     </div>
+                                 </div>
                                  <ul class="navbar-nav social share-list ml-auto">
                                      <li class="nav-item">
                                          <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
@@ -361,58 +408,28 @@
                                  </ul>
                              </div>
                          </div>
-                         <div class="row item">
-                             <div class="col-4 p-0 pr-3 align-self-center">
-                                 <img src="assets/images/testimonial.webp" alt="Person" class="person">
-                             </div>
-                             <div class="col-8 align-self-center text-left">
-                                 <h4> Lorem</h4>
-                                 <p>Director – US Operation</p>
-                                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis diam varius diam ultricies lacinia.</p> -->
-                                 <ul class="navbar-nav social share-list ml-auto">
-                                     <li class="nav-item">
-                                         <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
-                                     </li>
-                                     <li class="nav-item">
-                                         <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
-                                     </li>
-                                     <li class="nav-item">
-                                         <a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
-                                     </li>
-                                 </ul>
-                             </div>
-                         </div>
-                         <div class="row item">
-                             <div class="col-4 p-0 pr-3 align-self-center">
-                                 <img src="assets/images/testimonial.webp" alt="Person" class="person">
-                             </div>
-                             <div class="col-8 align-self-center text-left">
-                                 <h4>Lorem</h4>
-                                 <p>Director – US Operation</p>
-                                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis diam varius diam ultricies lacinia.</p> -->
-                                 <ul class="navbar-nav social share-list ml-auto">
-                                     <li class="nav-item">
-                                         <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
-                                     </li>
-                                     <li class="nav-item">
-                                         <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
-                                     </li>
-                                     <li class="nav-item">
-                                         <a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
-                                     </li>
-                                 </ul>
-                             </div>
-                         </div>
+
+
                      </div>
                      <div class="col-12 col-md-6 p-0">
                          <div class="row item">
                              <div class="col-4 p-0 pr-3 align-self-center">
-                                 <img src="assets/images/testimonial.webp" alt="Person" class="person">
+                                 <img src="assets/images/team-1.png" alt="Person" class="person">
                              </div>
                              <div class="col-8 align-self-center text-left">
-                                 <h4>Lorem</h4>
-                                 <p>Sr. Audit & Assurance Manager</p>
-                                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis diam varius diam ultricies lacinia.</p> -->
+                                 <h4>Harshil Trivedi</h4>
+                                 <p>Head of Finance</p>
+                                 <p class="tinfo1">Harshil Trivedi, CA, CPA, has over 15 years of experience in the BPO, Consulting, and Education industries, including working with the Big 4.</p>
+
+                                 <!-- Popup content for Harshil Trivedi -->
+                                 <div id="popup-harshil" class="popup">
+                                     <div class="popup-content">
+                                         <span class="popup-close">&times;</span>
+                                         <h2>Harshil Trivedi</h2>
+                                         <p>Harshil Trivedi, CA, CPA, has over 15 years of experience in the BPO, Consulting, and Education industries, including working with the Big 4. Harshil has played a pivotal role in shaping financial strategies, streamlining operations, and driving cost efficiencies across various organizations. His expertise spans financial management, audit, tax consulting, and regulatory compliance, with a focus on optimizing business processes for growth.</p>
+                                     </div>
+                                 </div>
+
                                  <ul class="navbar-nav social share-list ml-auto">
                                      <li class="nav-item">
                                          <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
@@ -426,27 +443,7 @@
                                  </ul>
                              </div>
                          </div>
-                         <div class="row item">
-                             <div class="col-4 p-0 pr-3 align-self-center">
-                                 <img src="assets/images/testimonial.webp" alt="Person" class="person">
-                             </div>
-                             <div class="col-8 align-self-center text-left">
-                                 <h4>Lorem</h4>
-                                 <p>Sr. Accounts Manager</p>
-                                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis diam varius diam ultricies lacinia.</p> -->
-                                 <ul class="navbar-nav social share-list ml-auto">
-                                     <li class="nav-item">
-                                         <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
-                                     </li>
-                                     <li class="nav-item">
-                                         <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
-                                     </li>
-                                     <li class="nav-item">
-                                         <a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
-                                     </li>
-                                 </ul>
-                             </div>
-                         </div>
+
                      </div>
                  </div>
              </div>
@@ -467,7 +464,7 @@
 
  <!-- data Security -->
 
- <section id="about" class=" section-1 highlights image-right counter funfacts featured">
+ <section id="about ds1" class=" section-1 highlights image-right counter funfacts featured">
      <div class="container">
          <div class="row">
              <div class="col-12 col-lg-8 align-self-top text">
@@ -479,15 +476,13 @@
                  </div>
                  <div class="row">
                      <div class="col-12 p-0 pr-md-5">
-                         <p>Our workstation is devoid of CD R/W drives.</p>
-                         <p>We have disabled USB ports at our workplace.</p>
-                         <p>We possess closed-circuit cameras on our premises that monitor and secure the workplace.</p>
-                         <p>Each of our workstations has a fully functional anti-virus software in place that regularly checks recent updates, followed by a quick scan, which occurs every day. We also schedule a boot and full scan on a weekly and monthly basis, respectively.</p>
-                         <p>We have anti-malware software on each of our computers which carries out a quick scan twice daily.</p>
-                         <p>Our company’s network is safeguarded by default Windows firewall software.</p>
-                         <p>We follow a procedure whereby all our computers tend to be password protected for added security. Here too, each of the users possesses a password that gets changed compulsorily every 42 days.</p>
-                         <p>VSC OFFSHORE aims to build a paperless world that not only fosters an eco-friendly environment but also ensures data security.</p>
-                         <p>We even follow stringent IP authentication that restricts outsiders from laying hands on the confidential data of the organization.</p>
+
+                         <p> VSC OFFSHORE is ISO certified, demonstrating our commitment to maintaining the highest standards in data protection, confidentiality, and management practices.</p>
+                         <p> This certification reflects our adherence to globally recognized protocols, ensuring that client data is handled with the utmost security and care.</p>
+                         <p>Our ISO certification validates our robust measures, including stringent access controls, proactive threat detection systems, and regular audits to identify and address vulnerabilities.</p>
+                         <p>
+                             By aligning with international standards, we provide our clients with the confidence that their information is protected by industry-leading security practice</p>
+
                      </div>
                  </div>
              </div>
@@ -534,3 +529,53 @@
      </div>
  </section>
  <!-- data Security -->
+
+
+
+ <script>
+     // Get the popup and the p element with class tinfo
+     const popup = document.getElementById('popup');
+     const tinfoParagraph = document.querySelector('.tinfo');
+     const closeBtn = document.querySelector('.popup-close');
+
+     // Open the popup when clicking on the .tinfo paragraph
+     tinfoParagraph.addEventListener('click', function() {
+         popup.style.display = 'flex'; // Show the popup
+     });
+
+     // Close the popup when clicking on the close button
+     closeBtn.addEventListener('click', function() {
+         popup.style.display = 'none'; // Hide the popup
+     });
+
+     // Close the popup if clicked outside the popup content
+     window.addEventListener('click', function(event) {
+         if (event.target === popup) {
+             popup.style.display = 'none'; // Hide the popup if clicked outside
+         }
+     });
+ </script>
+
+ <script>
+     // Get the popup and the p element with class tinfo for Harshil Trivedi
+     const popupHarshil = document.getElementById('popup-harshil');
+     const tinfoParagraphHarshil = document.querySelector('.tinfo1');
+     const closeBtnHarshil = document.querySelector('.popup-close');
+
+     // Open the popup when clicking on the .tinfo paragraph
+     tinfoParagraphHarshil.addEventListener('click', function() {
+         popupHarshil.style.display = 'flex'; // Show the popup
+     });
+
+     // Close the popup when clicking on the close button
+     closeBtnHarshil.addEventListener('click', function() {
+         popupHarshil.style.display = 'none'; // Hide the popup
+     });
+
+     // Close the popup if clicked outside the popup content
+     window.addEventListener('click', function(event) {
+         if (event.target === popupHarshil) {
+             popupHarshil.style.display = 'none'; // Hide the popup if clicked outside
+         }
+     });
+ </script>

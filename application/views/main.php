@@ -7,7 +7,7 @@
 
     .slider-wrapper {
         display: flex;
-        width: calc(14 * 10%);
+        width: calc(12 * 10%);
         /* 12 items */
     }
 
@@ -138,49 +138,37 @@
         <!-- Slider wrapper -->
         <div class="slider-wrapper">
             <div class="slider-item"><img width="125" height="50"
-                    src="assets/images/QuickBooks.png" class="img-fluid"
+                    src="assets/images/logo/1.png" class="img-fluid"
                     alt="QuickBooks" decoding="async" /></div>
             <div class="slider-item"><img width="125" height="50"
-                    src="assets/images/Drake-Software.png"
+                    src="assets/images/logo/2.png"
                     class="img-fluid" alt="Drake Software" decoding="async" /></div>
             <div class="slider-item"><img width="125" height="50"
-                    src="assets/images/Ultratax.png" class="img-fluid"
+                    src="assets/images/logo/3.png" class="img-fluid"
                     alt="Ultratax" decoding="async" /></div>
             <div class="slider-item"><img width="125" height="50"
-                    src="assets/images/Xero.png" class="img-fluid"
+                    src="assets/images/logo/4.png" class="img-fluid"
                     alt="Xero" decoding="async" /></div>
             <div class="slider-item"><img width="125" height="50"
-                    src="assets/images/CCH-Axcess.png" class="img-fluid"
+                    src="assets/images/logo/5.png" class="img-fluid"
                     alt="CCH Axcess" decoding="async" /></div>
             <div class="slider-item"><img width="125" height="50"
-                    src="assets/images/ProConnect.png" class="img-fluid"
+                    src="assets/images/logo/6.png" class="img-fluid"
                     alt="ProConnect" decoding="async" /></div>
             <!-- Duplicate images for infinite scroll -->
             <div class="slider-item"><img width="125" height="50"
-                    src="assets/images/Sage.png" class="img-fluid"
+                    src="assets/images/logo/7.png" class="img-fluid"
                     alt="Sage" decoding="async" /></div>
             <div class="slider-item"><img width="125" height="50"
-                    src="assets/images/Avalara.png" class="img-fluid"
+                    src="assets/images/logo/8.png" class="img-fluid"
                     alt="Avalara" decoding="async" /></div>
             <div class="slider-item"><img width="125" height="50"
-                    src="assets/images/TaxJar.png" class="img-fluid"
+                    src="assets/images/logo/9.png" class="img-fluid"
                     alt="TaxJar" decoding="async" /></div>
             <div class="slider-item"><img width="125" height="50"
-                    src="assets/images/ADP.png" class="img-fluid" alt="ADP"
+                    src="assets/images/logo/10.png" class="img-fluid" alt="ADP"
                     decoding="async" /></div>
-            <div class="slider-item"><img width="125" height="50"
-                    src="assets/images/Gusto.png" class="img-fluid"
-                    alt="Gusto" decoding="async" /></div>
-            <div class="slider-item"><img width="125" height="50"
-                    src="assets/images/Zoho.png" class="img-fluid"
-                    alt="Zoho" decoding="async" /></div>
-            <div class="slider-item"><img width="125" height="50"
-                    src="assets/images/Wave.png" class="img-fluid" alt=""
-                    decoding="async" /></div>
-            <div class="slider-item"><img width="125" height="50"
-                    src="assets/images/AuditFile.png" class="img-fluid"
-                    alt="AuditFile" decoding="async" /></div>
-
+          
         </div>
 
         <!-- Right white overlay -->
@@ -232,27 +220,27 @@
                     <div class="col-12 p-0">
                         <span class="pre-title m-auto m-md-0">About the network</span>
                         <h2><span class="featured"><span>About</span></span> Us</h2>
-                        <p>We have been providing outsourced taxation and accounting services to CPAs, EAs and accounting firms based in the USA, UK, Canada, and Middle East.</p>
+                        <p>We have been providing outsourced taxation and accounting services to CPAs, EAs and accounting firms based in the USA, UK and Middle East.</p>
                         <p>Our team has over two decades of experience in outsourced accounting & tax preparation services and ensures a greater transparency with control to keep an eye on your business.</p>
                     </div>
                 </div>
                 <div class="row items">
                     <div data-aos="fade-up" class="col-12 col-md-4 m-0 p-0 pr-md-4 item">
-                        <div data-percent="500" class="radial left">
+                        <div data-percent="150" class="radial left">
                             <span></span>
                         </div>
                         <h4>Employees</h4>
                         <!-- <p>Lorem ipsum dolor sit amet.</p> -->
                     </div>
                     <div data-aos="fade-up" class="col-12 col-md-4 m-0 p-0 pr-md-4 item">
-                        <div data-percent="200" class="radial left">
+                        <div data-percent="100" class="radial left">
                             <span></span>
                         </div>
                         <h4>Clients</h4>
                         <!-- <p>Lorem ipsum dolor sit amet.</p> -->
                     </div>
                     <div data-aos="fade-up" class="col-12 col-md-4 m-0 p-0 pr-md-4 item">
-                        <div data-percent="20" class="radial left">
+                        <div data-percent="15" class="radial left">
                             <span></span>
                         </div>
                         <h4>Experience</h4>
@@ -271,12 +259,12 @@
                     <div class="col-md-2 p-0">
                         <img src="assets/images/c-1.png" alt="">
                     </div>
-                    <div class="col-md-2 p-0 pl-1">
+                    <div class="col-md-2 p-0 ml-2">
                         <img src="assets/images/c-2.png" alt="">
                     </div>
-                    <div class="col-md-2 p-0 pl-1">
+                    <!-- <div class="col-md-2 p-0 pl-1">
                         <img src="assets/images/c-3.png" alt="">
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-12 col-md-6 p-0 image">
@@ -351,7 +339,7 @@
 </section>
 
 <!-- Projects -->
-<section id="projects" class="section-3 odd showcase blog-grid filter-section projects featured">
+<section id="projects" class="section-3 odd showcase blog-grid filter-section projects ">
     <div class="overflow-holder">
         <div class="container">
             <div class="row d-flex justify-content-center text-center intro">
@@ -374,7 +362,7 @@
                         </div>
                         <div class="card-caption col-12 p-0">
                             <div class="card-body">
-                                <a href="#">
+                                <a href="onboarding#ds1">
                                     <h4>Data Security</h4>
                                     <p>Strong security systems and data protection policies.</p>
                                 </a>
@@ -527,8 +515,9 @@
 
 
 
-<!-- Testimonials -->
-<section id="testimonials" class="section-5 carousel testimonials featured">
+
+ <!-- Testimonials -->
+<!-- <section id="testimonials" class="section-5 carousel testimonials featured">
     <div class="overflow-holder">
         <div class="container">
             <div class="row text-center intro">
@@ -653,7 +642,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 
 <!-- Service -->
@@ -689,57 +678,9 @@
     </div>
 </section> -->
 
-<!-- blog -->
-<section id="result" class="section-2 showcase blog-grid projects">
-    <div class="container">
-        <div class="row items">
-            <div class="col-12 col-md-4 pr-md-5 text">
-                <div data-aos="fade-up" class="row intro">
-                    <div class="col-12 p-0">
-                        <span class="pre-title m-0">Featured posts</span>
-                        <h2 class="mb-3">Most<br>Viewed<br>This Month</h2>
-                        <div class="row">
-                            <div class="col-12 p-0 input-group">
-                                <input type="text" class="form-control" placeholder="Enter Keywords">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 p-0 input-group align-self-center">
-                                <button class="btn primary-button">SEARCH</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <?php
-            shuffle($posts);
-
-            for ($i = 0; $i < 2; $i++) { ?>
-                <div data-aos="fade-up" class="col-12 col-md-4 item">
-                    <div class="card p-0 text-center">
-                        <div class="image-over">
-                            <img src="<?php echo base_url() . 'admin' . $posts[$i]['image_path'] ?>" alt="Lorem ipsum">
-                        </div>
-                        <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                            <a href="<?php echo base_url() . 'blog/post/' . $posts[$i]['id'] . '/' . $posts[$i]['url'] ?>" class="d-lg-flex align-items-center"><i class="icon-user"></i><?php echo $posts[$i]['author'] ?></a>
-                            <a href="<?php echo base_url() . 'blog/post/' . $posts[$i]['id'] . '/' . $posts[$i]['url'] ?>" class="d-lg-flex align-items-center"><i class="icon-clock"></i>2 Days Ago</a>
-                        </div>
-                        <div class="card-caption col-12 p-0">
-                            <div class="card-body">
-                                <a href="<?php echo base_url() . 'blog/post/' . $posts[$i]['id'] . '/' . $posts[$i]['url'] ?>">
-                                    <h4><?php echo substr(strip_tags($posts[$i]['name']), 0, 50) ?></h4>
-                                    <p class="text-center"><?php echo substr(strip_tags($posts[$i]['content']), 0, 150) ?></p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            <?php } ?>
-        </div>
-    </div>
-</section>
 
 
+<!-- slider -->
 <script>
     const sliderWrapper = document.querySelector('.slider-wrapper');
     let scrollAmount = 1; // Adjust this value to control speed
@@ -762,4 +703,20 @@
 
     // Initialize the slider
     requestAnimationFrame(startSlider);
+</script>
+
+
+
+<!-- #open -->
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+  const hash = window.location.hash;
+  if (hash) {
+    const target = document.querySelector(hash);
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth" });
+    }
+  }
+});
+
 </script>
