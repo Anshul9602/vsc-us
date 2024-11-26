@@ -373,7 +373,7 @@
 
                             <!-- SCHEDULE CALL -->
                             <li class="nav-item">
-                                <a href="#" target="_blank" class="btn ml-lg-auto primary-button nav-link n-menu">SCHEDULE CALL</a>
+                                <a href="https://calendly.com/" target="_blank" class="btn ml-lg-auto primary-button nav-link n-menu">SCHEDULE CALL</a>
                             </li>
 
                     </div>
