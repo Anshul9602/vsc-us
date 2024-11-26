@@ -1,141 +1,196 @@
+
 <style>
-  .hero {
-    background-color: #1A406D;
-    color: white;
-    padding: 100px 15px;
-    text-align: center;
-  }
-
-  h1 {
-    font-weight: 700;
-    margin-bottom: 20px;
-    font-size: 2rem;
-  }
-
-  h2 {
-    margin-top: 30px;
-    font-size: 1.5rem;
-    font-weight: 500;
-  }
-
-  p {
-    font-size: 1rem;
-    margin-bottom: 15px;
-  }
-
-  ul {
-    padding-left: 1.5rem;
-  }
-
-  ul li {
-    margin-bottom: 10px;
-  }
-
-  @media (max-width: 768px) {
-    h1 {
-      font-size: 1.75rem;
+   body {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      line-height: 1.6;
     }
 
-    h2 {
-      font-size: 1.25rem;
-    }
-
-    p {
-      font-size: 0.9rem;
-    }
-
+    /* Hero Section */
     .hero {
-      padding: 60px 10px 30px 10px;
+      background-color: #1A406D;
+      color: white;
+      padding: 100px 15px;
+      text-align: center;
     }
 
-    ul {
-      padding-left: 1rem;
-    }
-  }
-
-  @media (max-width: 576px) {
-    h1 {
-      font-size: 1.5rem;
+    .hero h1 {
+      font-weight: 700;
+      margin-bottom: 20px;
+      font-size: 2rem;
     }
 
+    .hero p {
+      font-size: 1rem;
+    }
+
+    /* Container */
+    .container {
+      padding: 20px 15px;
+      /* max-width: 800px; */
+      margin: 0 auto;
+    }
+
+    /* Section Headings */
     h2 {
-      font-size: 1.1rem;
+      margin-top: 30px;
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: #1A406D;
     }
 
+    /* Paragraphs */
     p {
-      font-size: 0.85rem;
+      font-size: 1rem;
+      margin-bottom: 15px;
     }
 
+    /* Lists */
     ul {
-      padding-left: 0.75rem;
+      padding-left: 1.5rem;
+      list-style-type: disc;
     }
 
-    .btn {
-      font-size: 0.9rem;
-      padding: 8px 16px;
+    ul li {
+      margin-bottom: 10px;
     }
-  }
-</style>
-<div class="hero">
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      .hero {
+        padding: 60px 10px 30px 10px;
+      }
+
+      .hero h1 {
+        font-size: 1.75rem;
+      }
+
+      h2 {
+        font-size: 1.25rem;
+      }
+
+      p {
+        font-size: 0.9rem;
+      }
+
+      ul {
+        padding-left: 1rem;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .hero h1 {
+        font-size: 1.5rem;
+      }
+
+      h2 {
+        font-size: 1.1rem;
+      }
+
+      p {
+        font-size: 0.85rem;
+      }
+
+      ul {
+        padding-left: 0.75rem;
+      }
+    }
+  </style>
+
+  <section class="normals">
+<!-- Hero -->
+<section id="slider" class="hero p-0 odd featured">
+     <div class="swiper-container no-slider animation slider-h-50 slider-h-auto">
+         <div class="swiper-wrapper">
+
+             <!-- Item 1 -->
+             <div class="swiper-slide slide-center">
+
+                 <!-- Media -->
+                 <img src="assets/images/bg-wide.webp" alt="Full Image" class="full-image" data-mask="80">
+
+                 <div class="slide-content row text-center">
+                     <div class="col-12 mx-auto inner">
+
+                         <!-- Content -->
+                         <nav data-aos="zoom-out-up" data-aos-delay="800" aria-label="breadcrumb">
+                             <ol class="breadcrumb">
+                                 <li class="breadcrumb-item"><a href="/">Home</a></li>
+                                 <li class="breadcrumb-item active" aria-current="page">Terms & Conditions</li>
+                             </ol>
+                         </nav>
+
+                         <h1 class="mb-0  effect-static-text" style="font-size: 24px;">Terms & Conditions</h1>
+                     </div>
+                 </div>
+             </div>
+
+         </div>
+     </div>
+ </section>
+
+  <!-- Main Content -->
   <div class="container">
-    <h1>Terms of Service</h1>
-    <p>By using Aesthetic AI, you agree to the following terms and conditions. Please read them carefully.</p>
+    <!-- General Terms -->
+    <h2>1. Acceptance of Terms</h2>
+    <p>
+      By accessing or using our website, you agree to be bound by these terms and conditions. If you do not agree with any part of these terms, you may not use our services.
+    </p>
+
+    <!-- Services -->
+    <h2>2. Services Provided</h2>
+    <p>
+      Our website provides information and services to help you with various financial, accounting, and related tasks. The content on our website is for informational purposes only and should not be considered professional advice.
+    </p>
+
+    <!-- User Responsibilities -->
+    <h2>3. User Responsibilities</h2>
+    <p>As a user, you agree to:</p>
+    <ul>
+      <li>Provide accurate and up-to-date information when interacting with our website.</li>
+      <li>Comply with all applicable laws and regulations.</li>
+      <li>Not engage in any activity that could harm our website or its users.</li>
+    </ul>
+
+    <!-- Intellectual Property -->
+    <h2>4. Intellectual Property</h2>
+    <p>
+      All content on this website, including text, images, and logos, is the intellectual property of VSC Offshore unless otherwise noted. You may not use or reproduce any content without prior written permission.
+    </p>
+
+    <!-- Limitations of Liability -->
+    <h2>5. Limitation of Liability</h2>
+    <p>
+      We are not responsible for any damages arising from the use of our website, including but not limited to direct, indirect, or consequential damages. Use our website at your own risk.
+    </p>
+
+    <!-- Termination of Services -->
+    <h2>6. Termination</h2>
+    <p>
+      We reserve the right to terminate or suspend access to our website and services without prior notice if you violate these terms.
+    </p>
+
+    <!-- Changes to Terms -->
+    <h2>7. Changes to Terms</h2>
+    <p>
+      We may update these terms and conditions from time to time. Any changes will be posted on this page with the updated date. It is your responsibility to review these terms periodically.
+    </p>
+
+    <!-- Governing Law -->
+    <h2>8. Governing Law</h2>
+    <p>
+      These terms and conditions are governed by and construed in accordance with the laws of [Your Jurisdiction]. Any disputes arising under these terms shall be subject to the exclusive jurisdiction of the courts in [Your Jurisdiction].
+    </p>
+
+    <!-- Contact Information -->
+    <h2>9. Contact Us</h2>
+    <p>
+      If you have any questions or concerns about these terms and conditions, please contact us at:
+    </p>
+    <p>Email: <a href="mailto:support@vscoffshore.com">support@vscoffshore.com</a></p>
+    <p>Phone: +1 303 386 3536</p>
   </div>
-</div>
-
-<div class="container pt-5">
-  <!-- Introduction -->
-  <h2>1. Acceptance of Terms</h2>
-  <p>
-    By accessing or using Aesthetic AI’s services, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services.
-  </p>
-
-  <!-- Use of Service -->
-  <h2>2. Use of Service</h2>
-  <p>
-    Aesthetic AI grants you a limited, non-exclusive, non-transferable license to access and use the platform for personal or professional use. You agree not to use the service for any unlawful or prohibited activities.
-  </p>
-
-  <!-- User Accounts -->
-  <h2>3. User Accounts</h2>
-  <p>
-    To access certain features, you may be required to create an account. You agree to provide accurate, complete information and to update it as necessary. You are responsible for maintaining the confidentiality of your account and password.
-  </p>
-
-  <!-- Intellectual Property -->
-  <h2>4. Intellectual Property</h2>
-  <p>
-    All content, software, and other materials available on Aesthetic AI are the intellectual property of Aesthetic AI or its licensors. You may not copy, distribute, or create derivative works based on this content without prior written permission.
-  </p>
-
-  <!-- Payment and Subscriptions -->
-  <h2>5. Payment and Subscriptions</h2>
-  <p>
-    Some features may require payment or a subscription. All payments must be made in accordance with the applicable terms. You agree to pay all fees and applicable taxes incurred by you or anyone using your account.
-  </p>
-
-  <!-- Cancellation and Termination -->
-  <h2>6. Cancellation and Termination</h2>
-  <p>
-    You may cancel your subscription at any time. Aesthetic AI reserves the right to suspend or terminate your account if you violate any of these terms. Any termination of your access to the service will not result in a refund unless otherwise stated.
-  </p>
-
-  <!-- Limitation of Liability -->
-  <h2>7. Limitation of Liability</h2>
-  <p>
-    Aesthetic AI is not responsible for any direct, indirect, incidental, or consequential damages resulting from your use of the platform. This includes but is not limited to, loss of data, profits, or business opportunities.
-  </p>
-
-  <!-- Changes to Terms -->
-  <h2>8. Changes to Terms</h2>
-  <p>
-    We may update these Terms of Service from time to time. Any changes will be posted on this page with an updated date, and your continued use of the service constitutes acceptance of the updated terms.
-  </p>
-
-  <!-- Contact Information -->
-  <h2>9. Contact Us</h2>
-  <p>
-    If you have any questions or concerns about these Terms of Service, please contact us at:
-  </p>
-  <p>Email: <a href="mailto:support@aestheticai.com">support@aestheticai.com</a></p>
-</div>
+  </section>

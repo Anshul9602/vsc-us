@@ -168,7 +168,7 @@
             <div class="slider-item"><img width="125" height="50"
                     src="assets/images/logo/10.png" class="img-fluid" alt="ADP"
                     decoding="async" /></div>
-          
+
         </div>
 
         <!-- Right white overlay -->
@@ -212,7 +212,7 @@
 </section>
 
 <!-- about -->
-<section id="funfacts" class="section-2 highlights image-right counter funfacts featured">
+<section id="funfacts" class="section-2 highlights image-right counter skills funfacts featured">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6 pr-md-5 align-self-center text-center text-md-left text items">
@@ -224,6 +224,9 @@
                         <p>Our team has over two decades of experience in outsourced accounting & tax preparation services and ensures a greater transparency with control to keep an eye on your business.</p>
                     </div>
                 </div>
+
+
+
                 <div class="row items">
                     <div data-aos="fade-up" class="col-12 col-md-4 m-0 p-0 pr-md-4 item">
                         <div data-percent="150" class="radial left">
@@ -259,12 +262,12 @@
                     <div class="col-md-2 p-0">
                         <img src="assets/images/c-1.png" alt="">
                     </div>
-                    <div class="col-md-2 p-0 ml-2">
+                    <div class="col-md-2 p-0 ml-1">
                         <img src="assets/images/c-2.png" alt="">
                     </div>
-                    <!-- <div class="col-md-2 p-0 pl-1">
+                    <div class="col-md-2 p-0 ml-1">
                         <img src="assets/images/c-3.png" alt="">
-                    </div> -->
+                    </div>
                 </div>
             </div>
             <div class="col-12 col-md-6 p-0 image">
@@ -516,7 +519,7 @@
 
 
 
- <!-- Testimonials -->
+<!-- Testimonials -->
 <!-- <section id="testimonials" class="section-5 carousel testimonials featured">
     <div class="overflow-holder">
         <div class="container">
@@ -710,13 +713,14 @@
 <!-- #open -->
 <script>
     document.addEventListener("DOMContentLoaded", () => {
-  const hash = window.location.hash;
-  if (hash) {
-    const target = document.querySelector(hash);
-    if (target) {
-      target.scrollIntoView({ behavior: "smooth" });
-    }
-  }
-});
-
+        const hash = window.location.hash;
+        if (hash) {
+            const target = document.querySelector(hash);
+            if (target) {
+                target.scrollIntoView({
+                    behavior: "smooth"
+                });
+            }
+        }
+    });
 </script>

@@ -211,6 +211,10 @@ HTML5 display-role reset for older browsers
     padding-left: .7rem;
 }
 
+.normals{
+    padding:60px 0;
+}
+
 /* ncss */
 
 
@@ -1476,8 +1480,11 @@ aside {
 }
 
 .counter.funfacts .radial span {
-    font-size: 2.5rem;
-    color: var(--secondary-color);
+    font-size: 2rem;
+    /* color: var(--secondary-color); */
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .counter .radial span i {

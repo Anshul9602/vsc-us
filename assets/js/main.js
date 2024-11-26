@@ -461,7 +461,7 @@ jQuery(function($) {
                     }
     
                     if ( $(section).hasClass('preloader') || $(section).hasClass('skills')) {
-                        var symbol = '<i>%</i>';
+                        var symbol = '<i>+</i>';
                     } else {
                         var symbol = '';
                     }
@@ -505,6 +505,8 @@ jQuery(function($) {
 /*----------------------------------------------
 7. Shuffle
 ----------------------------------------------*/
+
+
 
 jQuery(function ($) {
 

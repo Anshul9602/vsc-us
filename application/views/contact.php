@@ -11,13 +11,13 @@
                          <li class="nav-item">
                              <a href="#" class="nav-link">
                                  <i class="fas fa-phone-alt mr-2"></i>
-                                 +91 8511103880, +91 9829787040
+                                 +1 303 386 3536
                              </a>
                          </li>
                          <li class="nav-item">
                              <a href="#" class="nav-link">
                                  <i class="fas fa-envelope mr-2"></i>
-                                 Support@vscoffshore.com
+                                 support@vscoffshore.com
                              </a>
                          </li>
                          <li class="nav-item">
