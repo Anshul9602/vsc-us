@@ -631,7 +631,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         </div>
     </div>
 </div>
-<div class="www sec-with-shape py-5 ">
+<!-- <div class="www sec-with-shape py-5 ">
     <div class="container" >
         <div class="row">
             <div class="col-md-4">
@@ -641,7 +641,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                 </p>
             </div>
             <div class="col-md-8">
-                <!-- Accordion 6 - Bootstrap Brain Component -->
+             
                 <section class="bsb-accordion-6 py-3">
                     
                         <div class="row">
@@ -702,8 +702,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             </div>
         </div>
     </div>
-</div>
-<div class="light-bg testimonial_scssn py-5">
+</div> -->
+<!-- <div class="light-bg testimonial_scssn py-5">
     <div class="container">
         <div class="section-part pro-testimonials">
             <h3 class="section-title" style="position: relative;">Clients' Testimonials</h3>
@@ -759,7 +759,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <div class="www sec-with-shape py-5 container">
     <!-- Accordion 6 - Bootstrap Brain Component -->
     <!-- <section class="bsb-accordion-6 py-3 container">

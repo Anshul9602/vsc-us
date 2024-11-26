@@ -129,7 +129,8 @@
                                 <i class="fas fa-map-marker-alt mr-2"></i><b>GET IN TOUCH</b>
                             </p>
                             <p class="m-0" style="color:#9ea9b6;">
-                                8 The Green, Ste A, Diver County, Kent, DE - 19901
+                            Rolex Twin Tower, office 2001, Baniyas Road,Dubai <br>
+                            M-06, Al Ahila Tower, Khalidiya Corniche, Abu Dhabi
                             </p>
                         </div>
 

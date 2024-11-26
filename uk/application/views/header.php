@@ -224,7 +224,7 @@
 
                             <!-- Navbar Items [right] -->
                             <ul class="navbar-nav">
-                            <li class="nav-item" style="margin: auto;justify-content: center;align-items: center;">
+                                <li class="nav-item" style="margin: auto;justify-content: center;align-items: center;">
                                     <a href="<?php echo base_url(''); ?>" class="nav-link" style="color:#1A406D;font-weight: 600;"> USA</a>|
                                 </li>
                                 <li class="nav-item" style="margin: auto;justify-content: center;align-items: center;">
@@ -373,7 +373,7 @@
 
                             <!-- SCHEDULE CALL -->
                             <li class="nav-item">
-                                <a href="#" target="_blank" class="btn ml-lg-auto primary-button nav-link n-menu">SCHEDULE CALL</a>
+                                <a href="https://calendly.com/" target="_blank" class="btn ml-lg-auto primary-button nav-link n-menu">SCHEDULE CALL</a>
                             </li>
 
                     </div>

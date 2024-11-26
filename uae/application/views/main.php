@@ -365,13 +365,13 @@
                         </div>
                         <div class="card-caption col-12 p-0">
                             <div class="card-body">
-                                <a href="onboarding/#ds1">
+                                <a href="onboarding#ds1">
                                     <h4>Data Security</h4>
                                     <p>Strong security systems and data protection policies.</p>
                                 </a>
                             </div>
                         </div>
-                        <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                        <a href="onboarding#ds1"><i class="btn-icon fas fas fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 item filter-item"
@@ -382,14 +382,14 @@
                         </div>
                         <div class="card-caption col-12 p-0">
                             <div class="card-body">
-                                <a href="#">
+                                <a href="onboarding#team">
                                     <h4 class="m-0">Qualified Team</h4>
                                     <p>Certified team of more than a decade experience in Tax & Accounting outsourcing.
                                     </p>
                                 </a>
                             </div>
                         </div>
-                        <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                        <a href="onboarding#team"><i class="btn-icon fas fas fa-arrow-right"></i></a>
                     </div>
                 </div>
 

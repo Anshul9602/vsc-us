@@ -1514,9 +1514,9 @@ aside {
     border: none;
 }
 
-.plans .items .item .card:hover {
+/* .plans .items .item .card:hover {
     transform: translateY(-7.5px);
-}
+} */
 
 .plans .items .item .card:hover .btn {
     background: none;
@@ -3123,9 +3123,7 @@ header .navbar-expand .navbar-brand .featured .first {
     background: none;
 }
 
-.card:not(.no-hover):hover {
-    transform: translateY(-7.5px);
-}
+
 
 .sticky.card:not(.no-hover) {
     background: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var(--primary-color) 65%);
