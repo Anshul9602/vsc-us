@@ -1,4 +1,4 @@
-<!-- Tax Services -->
+<!-- Audit & Assurance Services -->
 <section id="single" class="section-1 single">
     <div class="container">
         <div class="row">
@@ -7,28 +7,32 @@
             <div class="col-12 col-lg-8 p-0 text">
                 <div class="row intro m-0">
                     <div class="col-12">
-                        <span class="pre-title m-0">Tax Services</span>
+                        <span class="pre-title m-0">Audit & Assurance Services</span>
                         <div class="title-icon">
-                            <h2><span class="featured"><span><i class="icon icon-notebook"></i>Tax </span></span> Return Preparation</h2>
+                            <h2><span class="featured"><span><i class="icon icon-check"></i>Audit </span></span> & Assurance Services</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 align-self-center">
-                        <p>Our team provides comprehensive tax return preparation services for various entities, including corporations, individuals, partnerships, estates, and tax-exempt organizations. We ensure accurate filing and help you navigate complex tax regulations.</p>
-                        <p>Whether you are an individual taxpayer or represent a business, we offer expert assistance with a range of forms:</p>
+                        <p>Our Audit & Assurance services are designed to help businesses enhance their financial transparency and ensure compliance with relevant regulations. We provide thorough audits and reviews to help you maintain sound financial health and meet statutory requirements.</p>
+                        <p>Our services include a wide range of audit and assurance support, such as:</p>
 
                         <ul>
-                            <li><strong>Form 1120:</strong> U.S. Corporate Income Tax Returns</li>
-                            <li><strong>Form 1120-S:</strong> U.S. Tax Returns for S Corporations</li>
-                            <li><strong>Form 1065:</strong> U.S. Tax Returns for Partnerships</li>
-                            <li><strong>Form 1040:</strong> U.S. Individual Tax Returns</li>
-                            <li><strong>Form 1041:</strong> U.S. Income Tax Return for Estates & Trusts</li>
-                            <li><strong>Form 990:</strong> Return of Organization Exempt from Income Tax</li>
+                            <li><strong>Financial Audits:</strong> In-depth assessments of financial statements to ensure accuracy and compliance with accounting standards</li>
+                            <li><strong>SoC Audit Support:</strong> Assistance with Statement on Standards for Attestation Engagements (SoC) audits</li>
+                            <li><strong>Compilation Services:</strong> Preparation of financial statements in accordance with the necessary regulations</li>
+                            <li><strong>Review Services:</strong> A limited review of financial statements to ensure fairness and accuracy</li>
+                            <li><strong>Due Diligence Support Services:</strong> Providing support for mergers, acquisitions, and other business transactions through comprehensive due diligence</li>
+                            <li><strong>Business Valuation Services:</strong> Professional valuation of businesses for various purposes such as mergers, acquisitions, or investment decisions</li>
+                            <li><strong>401(k) Audits:</strong> Specialized audits for 401(k) plans to ensure compliance with regulatory standards</li>
+                            <li><strong>HOA Audits:</strong> Audits specifically for Homeowners Associations (HOA) to ensure compliance and transparency</li>
+                            <li><strong>HUD Audits:</strong> Audits for Housing and Urban Development (HUD) funded programs to ensure compliance with federal requirements</li>
+                            <li><strong>Not-for-Profit Audit Services:</strong> Audits tailored for non-profit organizations to ensure compliance with funding requirements and regulations</li>
                         </ul>
 
-                        <blockquote>Our team of experienced professionals ensures timely and accurate filings, minimizing your tax liabilities while maximizing available deductions.</blockquote>
-                        <p>Our services extend beyond basic filing and include tax planning, advisory, and IRS representation. We are dedicated to providing tailored solutions that meet your specific tax needs.</p>
+                        <blockquote>Our audit and assurance services help improve your business processes, providing clarity and confidence in your financial reporting.</blockquote>
+                        <p>We specialize in various types of audits and reviews, ensuring transparency, compliance, and providing valuable insights into your financial position.</p>
                     </div>
                 </div>
             </div>
@@ -39,28 +43,28 @@
                 <!-- Services -->
                 <div class="row item widget-services">
                     <div class="col-12 align-self-center">
-                        <h4 class="title">Our Tax Services</h4>
+                        <h4 class="title">Our Audit Services</h4>
                         <div class="quote">
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item d-flex justify-content-start align-items-center">
-                                    <a href="#"><i class="icon icon-organization"></i></a>
+                                    <a href="#"><i class="icon icon-clipboard"></i></a>
                                     <div class="list-group-content">
-                                        <h4>Corporate Tax Returns</h4>
-                                        <p>Accurate filing for businesses</p>
+                                        <h4>Financial Audits</h4>
+                                        <p>Ensuring accuracy and compliance with financial standards</p>
                                     </div>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-start align-items-center">
-                                    <a href="#"><i class="icon icon-briefcase"></i></a>
+                                    <a href="#"><i class="icon icon-shield"></i></a>
                                     <div class="list-group-content">
-                                        <h4>Partnership Tax Filing</h4>
-                                        <p>Expert advice on Form 1065</p>
+                                        <h4>SoC Audit Support</h4>
+                                        <p>Providing assistance with SoC auditing processes</p>
                                     </div>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-start align-items-center">
-                                    <a href="#"><i class="icon icon-chart"></i></a>
+                                    <a href="#"><i class="icon icon-building"></i></a>
                                     <div class="list-group-content">
-                                        <h4>Individual Tax Returns</h4>
-                                        <p>Comprehensive personal tax services</p>
+                                        <h4>Business Valuation Services</h4>
+                                        <p>Accurate valuation for business acquisitions and investments</p>
                                     </div>
                                 </li>
                             </ul>
@@ -68,20 +72,6 @@
                     </div>
                 </div>   
 
-                <!-- Gallery -->
-                <div class="row item widget-gallery mb-0">
-                    <div class="col-12 align-self-center">
-                        <h4 class="title">Certifications</h4>
-                        <div class="gallery row justify-content-center">
-                            <a class="col-6 pl-0 item" href="assets/images/certificate.png">
-                                <img src="assets/images/certificate.png" alt="Certificate" class="w-100">
-                            </a>
-                            <a class="col-6 pr-0 item" href="assets/images/certificate.png">
-                                <img src="assets/images/certificate.png" alt="Certificate" class="w-100">
-                            </a>
-                        </div>
-                    </div>
-                </div>
             </aside>
         </div>
     </div>
@@ -94,27 +84,27 @@
             <div class="col-12 col-md-6 pr-md-5 align-self-top text">
                 <div data-aos="fade-up" class="row intro mb-0">
                     <div class="col-12 p-0">
-                        <span class="pre-title m-0">Sharing knowledge</span>
+                        <span class="pre-title m-0">Ensuring Compliance</span>
                         <h2><span class="featured"><span>Our</span></span> Results</h2>
-                        <p>We have a proven track record of delivering accurate and timely tax filings. Our clients benefit from our deep understanding of tax law and personalized service.</p>
+                        <p>Our team of professionals has extensive experience in providing audit and assurance services, offering invaluable insights into your financial processes. We help businesses enhance their financial integrity, providing you with the confidence to make sound decisions.</p>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-6 pr-md-5 align-self-top text">
                 <div class="row items">
                     <div data-aos="fade-up" class="col-12 col-md-6 p-0 pr-md-4 mb-2 item">
-                        <div data-percent="128" class="radial left">
+                        <div data-percent="100" class="radial left">
                             <span></span>
                         </div>
-                        <h4>Certifications</h4>
-                        <p>We are certified professionals, ensuring your tax filings are handled with the utmost expertise.</p>
+                        <h4>Audits Conducted</h4>
+                        <p>We have completed hundreds of audits for businesses of all sizes and sectors.</p>
                     </div>
                     <div data-aos="fade-up" class="col-12 col-md-6 p-0 pr-md-4 mb-2 item">
-                        <div data-percent="230" class="radial left">
+                        <div data-percent="12" class="radial left">
                             <span></span>
                         </div>
                         <h4>Experience</h4>
-                        <p>Years of experience in tax return preparation and planning services.</p>
+                        <p>Years of experience in providing specialized audit and assurance services.</p>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-<!-- Tax Services -->
+<!-- Controller Services -->
 <section id="single" class="section-1 single">
     <div class="container">
         <div class="row">
@@ -7,28 +7,33 @@
             <div class="col-12 col-lg-8 p-0 text">
                 <div class="row intro m-0">
                     <div class="col-12">
-                        <span class="pre-title m-0">Tax Services</span>
+                        <span class="pre-title m-0">Controller Services</span>
                         <div class="title-icon">
-                            <h2><span class="featured"><span><i class="icon icon-notebook"></i>Tax </span></span> Return Preparation</h2>
+                            <h2><span class="featured"><span><i class="icon icon-calculator"></i>Controller </span></span> Services</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 align-self-center">
-                        <p>Our team provides comprehensive tax return preparation services for various entities, including corporations, individuals, partnerships, estates, and tax-exempt organizations. We ensure accurate filing and help you navigate complex tax regulations.</p>
-                        <p>Whether you are an individual taxpayer or represent a business, we offer expert assistance with a range of forms:</p>
+                        <p>Our Controller services provide businesses with comprehensive financial management solutions, ensuring accuracy, efficiency, and compliance in accounting processes. Our team offers a broad range of services designed to improve financial operations and reporting.</p>
+                        <p>Key areas of our Controller services include:</p>
 
                         <ul>
-                            <li><strong>Form 1120:</strong> U.S. Corporate Income Tax Returns</li>
-                            <li><strong>Form 1120-S:</strong> U.S. Tax Returns for S Corporations</li>
-                            <li><strong>Form 1065:</strong> U.S. Tax Returns for Partnerships</li>
-                            <li><strong>Form 1040:</strong> U.S. Individual Tax Returns</li>
-                            <li><strong>Form 1041:</strong> U.S. Income Tax Return for Estates & Trusts</li>
-                            <li><strong>Form 990:</strong> Return of Organization Exempt from Income Tax</li>
+                            <li><strong>Management of Accounting:</strong> Overseeing all accounting operations to ensure accurate financial records</li>
+                            <li><strong>Budgeting & Forecasting:</strong> Preparing budgets and forecasts to guide financial decisions</li>
+                            <li><strong>Cashflow Management:</strong> Ensuring liquidity by managing and forecasting cash flow</li>
+                            <li><strong>Accounting Software Implementation:</strong> Assisting with the selection and implementation of accounting software systems</li>
+                            <li><strong>Month End and Quarter End Reporting:</strong> Providing detailed financial reports at the end of each month and quarter</li>
+                            <li><strong>Period Closing Journal Entries Recording:</strong> Ensuring all journal entries are accurately recorded during period closings</li>
+                            <li><strong>Financial Statement Preparation:</strong> Preparing balance sheets, income statements, and cash flow statements</li>
+                            <li><strong>Accounting Documentation Support:</strong> Organizing and maintaining critical accounting documentation</li>
+                            <li><strong>Audit Preparation and Advisory Services:</strong> Assisting in preparing for audits and providing advisory support</li>
+                            <li><strong>Review Financials:</strong> Regularly reviewing financials to ensure compliance and accuracy</li>
+                            <li><strong>Job Costing & Inventory Tracking:</strong> Managing job costs and tracking inventory to optimize financial performance</li>
                         </ul>
 
-                        <blockquote>Our team of experienced professionals ensures timely and accurate filings, minimizing your tax liabilities while maximizing available deductions.</blockquote>
-                        <p>Our services extend beyond basic filing and include tax planning, advisory, and IRS representation. We are dedicated to providing tailored solutions that meet your specific tax needs.</p>
+                        <blockquote>Our Controller services ensure your accounting practices are streamlined, accurate, and aligned with industry standards, offering peace of mind and reliable financial reporting.</blockquote>
+                        <p>We work closely with your team to implement best practices and provide expert guidance, helping you manage and monitor all aspects of your financial operations with ease.</p>
                     </div>
                 </div>
             </div>
@@ -39,28 +44,28 @@
                 <!-- Services -->
                 <div class="row item widget-services">
                     <div class="col-12 align-self-center">
-                        <h4 class="title">Our Tax Services</h4>
+                        <h4 class="title">Our Controller Services</h4>
                         <div class="quote">
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item d-flex justify-content-start align-items-center">
-                                    <a href="#"><i class="icon icon-organization"></i></a>
+                                    <a href="#"><i class="icon icon-clipboard-list"></i></a>
                                     <div class="list-group-content">
-                                        <h4>Corporate Tax Returns</h4>
-                                        <p>Accurate filing for businesses</p>
+                                        <h4>Management of Accounting</h4>
+                                        <p>Overseeing and managing financial records</p>
                                     </div>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-start align-items-center">
-                                    <a href="#"><i class="icon icon-briefcase"></i></a>
+                                    <a href="#"><i class="icon icon-chart-pie"></i></a>
                                     <div class="list-group-content">
-                                        <h4>Partnership Tax Filing</h4>
-                                        <p>Expert advice on Form 1065</p>
+                                        <h4>Budgeting & Forecasting</h4>
+                                        <p>Creating financial plans for long-term success</p>
                                     </div>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-start align-items-center">
-                                    <a href="#"><i class="icon icon-chart"></i></a>
+                                    <a href="#"><i class="icon icon-bank"></i></a>
                                     <div class="list-group-content">
-                                        <h4>Individual Tax Returns</h4>
-                                        <p>Comprehensive personal tax services</p>
+                                        <h4>Cashflow Management</h4>
+                                        <p>Ensuring consistent liquidity and financial stability</p>
                                     </div>
                                 </li>
                             </ul>
@@ -68,20 +73,6 @@
                     </div>
                 </div>   
 
-                <!-- Gallery -->
-                <div class="row item widget-gallery mb-0">
-                    <div class="col-12 align-self-center">
-                        <h4 class="title">Certifications</h4>
-                        <div class="gallery row justify-content-center">
-                            <a class="col-6 pl-0 item" href="assets/images/certificate.png">
-                                <img src="assets/images/certificate.png" alt="Certificate" class="w-100">
-                            </a>
-                            <a class="col-6 pr-0 item" href="assets/images/certificate.png">
-                                <img src="assets/images/certificate.png" alt="Certificate" class="w-100">
-                            </a>
-                        </div>
-                    </div>
-                </div>
             </aside>
         </div>
     </div>
@@ -94,27 +85,27 @@
             <div class="col-12 col-md-6 pr-md-5 align-self-top text">
                 <div data-aos="fade-up" class="row intro mb-0">
                     <div class="col-12 p-0">
-                        <span class="pre-title m-0">Sharing knowledge</span>
+                        <span class="pre-title m-0">Efficient Financial Management</span>
                         <h2><span class="featured"><span>Our</span></span> Results</h2>
-                        <p>We have a proven track record of delivering accurate and timely tax filings. Our clients benefit from our deep understanding of tax law and personalized service.</p>
+                        <p>We are dedicated to ensuring your financial operations run smoothly, providing high-quality reporting and analysis. Our Controller services help businesses improve financial oversight and strengthen internal controls.</p>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-6 pr-md-5 align-self-top text">
                 <div class="row items">
                     <div data-aos="fade-up" class="col-12 col-md-6 p-0 pr-md-4 mb-2 item">
-                        <div data-percent="128" class="radial left">
+                        <div data-percent="100" class="radial left">
                             <span></span>
                         </div>
-                        <h4>Certifications</h4>
-                        <p>We are certified professionals, ensuring your tax filings are handled with the utmost expertise.</p>
+                        <h4>Clients Served</h4>
+                        <p>We provide Controller services to organizations across various industries, optimizing their financial operations.</p>
                     </div>
                     <div data-aos="fade-up" class="col-12 col-md-6 p-0 pr-md-4 mb-2 item">
-                        <div data-percent="230" class="radial left">
+                        <div data-percent="25" class="radial left">
                             <span></span>
                         </div>
                         <h4>Experience</h4>
-                        <p>Years of experience in tax return preparation and planning services.</p>
+                        <p>Years of experience in delivering comprehensive financial management solutions.</p>
                     </div>
                 </div>
             </div>

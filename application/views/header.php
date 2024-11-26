@@ -290,18 +290,23 @@
                                             </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="<?php echo base_url('service2'); ?>" class="nav-link <?php echo ($currentPage == 'Multistate_Tax_Preparation_Service') ? 'active' : ''; ?>">
+                                            <a href="<?php echo base_url('service2'); ?>" class="nav-link <?php echo ($currentPage == 'Tax_Preparation_Service') ? 'active' : ''; ?>">
+                                            Accounting &  Bookkeeping  Solutions
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="<?php echo base_url('service3'); ?>" class="nav-link <?php echo ($currentPage == 'Multistate_Tax_Preparation_Service') ? 'active' : ''; ?>">
                                            Audit & Assurance Services
                                             </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="<?php echo base_url('service3'); ?>">CFO Services</a>
+                                            <a class="nav-link" href="<?php echo base_url('service4'); ?>">CFO Services</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="<?php echo base_url('service4'); ?>">Controller  Services</a>
+                                            <a class="nav-link" href="<?php echo base_url('service5'); ?>">Controller  Services</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="<?php echo base_url('service5'); ?>">Back office outsource services</a>
+                                            <a class="nav-link" href="<?php echo base_url('service6'); ?>">Back office outsource services</a>
                                         </li>
                                         
                                     </ul>
