@@ -65,7 +65,7 @@
             <div class="swiper-slide slide-center">
 
                 <!-- Media -->
-                <img src="assets/images/slider-1.jpg" alt="Full Image" class="full-image" data-mask="50">
+                <img src="assets/images/slider-2.png" alt="Full Image" class="full-image" data-mask="50">
 
                 <div class="slide-content row">
                     <div class="col-12 d-flex justify-content-start inner">
