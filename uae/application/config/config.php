@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 
-$config['base_url'] = 'http://localhost/vsc-us/uae';
+$config['base_url'] = 'http://localhost/vsc-us/';
 // $config['base_url'] = 'https://vscoffshore.com/';
 
 /*
