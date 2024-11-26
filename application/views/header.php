@@ -225,16 +225,16 @@
                             <!-- Navbar Items [right] -->
                             <ul class="navbar-nav">
                                 <li class="nav-item" style="margin: auto;justify-content: center;align-items: center;">
-                                    <a href="#" class="nav-link" style="color:#1A406D;font-weight: 600;"> USA</a>|
+                                    <a href="<?php echo base_url(''); ?>" class="nav-link" style="color:#1A406D;font-weight: 600;"> USA</a>|
                                 </li>
                                 <li class="nav-item" style="margin: auto;justify-content: center;align-items: center;">
-                                    <a href="#" class="nav-link"> UK</a>|
+                                    <a href="<?php echo base_url(''); ?>uk" class="nav-link"> UK</a>|
                                 </li>
                                 <!-- <li class="nav-item" style="margin: auto;justify-content: center;align-items: center;">
                                     <a href="#" class="nav-link"> CANADA</a>|
                                 </li> -->
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">UAE</a>
+                                    <a href="<?php echo base_url(''); ?>uae" class="nav-link">UAE</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="tel:+13033863536" class="nav-link"><i class="fas fa-phone-alt mr-2"></i> +1 303 386 3536</a>
