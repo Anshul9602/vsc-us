@@ -285,23 +285,23 @@
                                 <div class="dropdown-menu newmenu">
                                     <ul>
                                         <li class="nav-item">
-                                            <a href="<?php echo base_url('Tax_Preparation_Service'); ?>" class="nav-link <?php echo ($currentPage == 'Tax_Preparation_Service') ? 'active' : ''; ?>">
+                                            <a href="<?php echo base_url('service1'); ?>" class="nav-link <?php echo ($currentPage == 'Tax_Preparation_Service') ? 'active' : ''; ?>">
                                             Tax return preparation 
                                             </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="<?php echo base_url('Multistate_Tax_Preparation_Service'); ?>" class="nav-link <?php echo ($currentPage == 'Multistate_Tax_Preparation_Service') ? 'active' : ''; ?>">
+                                            <a href="<?php echo base_url('service2'); ?>" class="nav-link <?php echo ($currentPage == 'Multistate_Tax_Preparation_Service') ? 'active' : ''; ?>">
                                            Audit & Assurance Services
                                             </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="<?php echo base_url('Back_Year_Tax_Preparation'); ?>">CFO Services</a>
+                                            <a class="nav-link" href="<?php echo base_url('service3'); ?>">CFO Services</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="<?php echo base_url('Forensic_Accounting_Services'); ?>">Controller  Services</a>
+                                            <a class="nav-link" href="<?php echo base_url('service4'); ?>">Controller  Services</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="<?php echo base_url('Tax_Litigation_Resolution_Services'); ?>">Back office outsource services</a>
+                                            <a class="nav-link" href="<?php echo base_url('service5'); ?>">Back office outsource services</a>
                                         </li>
                                         
                                     </ul>
