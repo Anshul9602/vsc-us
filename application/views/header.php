@@ -224,16 +224,16 @@
 
                             <!-- Navbar Items [right] -->
                             <ul class="navbar-nav">
-                                <li class="nav-item" style="margin: auto;justify-content: center;align-items: center;">
-                                    <a href="<?php echo base_url(''); ?>" class="nav-link" style="color:#1A406D;font-weight: 600;"> USA</a>|
+                                <li class="nav-item nav-country" style="margin: auto;justify-content: center;align-items: center;">
+                                    <a href="<?php echo base_url(''); ?>" class="nav-link" > USA</a>|
                                 </li>
-                                <li class="nav-item" style="margin: auto;justify-content: center;align-items: center;">
+                                <li class="nav-item  nav-country" style="margin: auto;justify-content: center;align-items: center;">
                                     <a href="<?php echo base_url(''); ?>uk" class="nav-link"> UK</a>|
                                 </li>
                                 <!-- <li class="nav-item" style="margin: auto;justify-content: center;align-items: center;">
                                     <a href="#" class="nav-link"> CANADA</a>|
                                 </li> -->
-                                <li class="nav-item">
+                                <li class="nav-item  nav-country">
                                     <a href="<?php echo base_url(''); ?>uae" class="nav-link">UAE</a>
                                 </li>
                                 <li class="nav-item">
@@ -373,7 +373,7 @@
 
                             <!-- CONTACT US -->
                             <li class="nav-item">
-                                <a href="contact" class="nav-link n-menu <?php echo ($currentPage == 'contact') ? 'active' : ''; ?>">CONTACT US</a>
+                                <a href="contact" class="nav-link  nav-link1  n-menu <?php echo ($currentPage == 'contact') ? 'active' : ''; ?>">CONTACT US</a>
                             </li>
 
                             <!-- SCHEDULE CALL -->

@@ -164,6 +164,16 @@
             transform: translateY(0);
             transition: opacity 0.5s ease, transform 0.5s ease;
         }
+        .nav-item.active {
+    font-weight: bold;
+    color: #da6331; /* Active color */
+}
+
+.nav-item.active a {
+    color: #da6331; /* Color for the anchor tag */
+}
+
+
     </style>
 
 </head>
@@ -224,18 +234,15 @@
 
                             <!-- Navbar Items [right] -->
                             <ul class="navbar-nav">
-                                <li class="nav-item" style="margin: auto;justify-content: center;align-items: center;">
-                                    <a href="<?php echo base_url(''); ?>" class="nav-link" > USA</a>|
-                                </li>
-                                <li class="nav-item" style="margin: auto;justify-content: center;align-items: center;">
-                                    <a href="<?php echo base_url(''); ?>uk" class="nav-link"style="color:#1A406D;font-weight: 600;"> UK</a>|
-                                </li>
-                                <!-- <li class="nav-item" style="margin: auto;justify-content: center;align-items: center;">
-                                    <a href="#" class="nav-link"> CANADA</a>|
-                                </li> -->
-                                <li class="nav-item">
-                                    <a href="<?php echo base_url(''); ?>uae" class="nav-link">UAE</a>
-                                </li>
+                            <li class="nav-item nav-country" data-country="usa" style="margin: auto; justify-content: center; align-items: center;">
+        <a href="<?php echo base_url(''); ?>" class="nav-link">USA</a>|
+    </li>
+    <li class="nav-item nav-country" data-country="uk" style="margin: auto; justify-content: center; align-items: center;">
+        <a href="<?php echo base_url(''); ?>uk" class="nav-link">UK</a>|
+    </li>
+    <li class="nav-item nav-country" data-country="uae" style="margin: auto; justify-content: center; align-items: center;">
+        <a href="<?php echo base_url(''); ?>uae" class="nav-link">UAE</a>
+    </li>
                                 <li class="nav-item">
                                     <a href="tel:+13033863536" class="nav-link"><i class="fas fa-phone-alt mr-2"></i> +1 303 386 3536</a>
                                 </li>
@@ -285,23 +292,28 @@
                                 <div class="dropdown-menu newmenu">
                                     <ul>
                                         <li class="nav-item">
-                                            <a href="<?php echo base_url('Tax_Preparation_Service'); ?>" class="nav-link <?php echo ($currentPage == 'Tax_Preparation_Service') ? 'active' : ''; ?>">
+                                            <a href="<?php echo base_url('service1'); ?>" class="nav-link <?php echo ($currentPage == 'Tax_Preparation_Service') ? 'active' : ''; ?>">
                                             Tax return preparation 
                                             </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="<?php echo base_url('Multistate_Tax_Preparation_Service'); ?>" class="nav-link <?php echo ($currentPage == 'Multistate_Tax_Preparation_Service') ? 'active' : ''; ?>">
+                                            <a href="<?php echo base_url('service2'); ?>" class="nav-link <?php echo ($currentPage == 'Tax_Preparation_Service') ? 'active' : ''; ?>">
+                                            Accounting &  Bookkeeping  Solutions
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="<?php echo base_url('service3'); ?>" class="nav-link <?php echo ($currentPage == 'Multistate_Tax_Preparation_Service') ? 'active' : ''; ?>">
                                            Audit & Assurance Services
                                             </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="<?php echo base_url('Back_Year_Tax_Preparation'); ?>">CFO Services</a>
+                                            <a class="nav-link" href="<?php echo base_url('service4'); ?>">CFO Services</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="<?php echo base_url('Forensic_Accounting_Services'); ?>">Controller  Services</a>
+                                            <a class="nav-link" href="<?php echo base_url('service5'); ?>">Controller  Services</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="<?php echo base_url('Tax_Litigation_Resolution_Services'); ?>">Back office outsource services</a>
+                                            <a class="nav-link" href="<?php echo base_url('service6'); ?>">Back office outsource services</a>
                                         </li>
                                         
                                     </ul>
@@ -368,7 +380,7 @@
 
                             <!-- CONTACT US -->
                             <li class="nav-item">
-                                <a href="contact" class="nav-link n-menu <?php echo ($currentPage == 'contact') ? 'active' : ''; ?>">CONTACT US</a>
+                                <a href="contact" class="nav-link  nav-link1  n-menu <?php echo ($currentPage == 'contact') ? 'active' : ''; ?>">CONTACT US</a>
                             </li>
 
                             <!-- SCHEDULE CALL -->
@@ -422,5 +434,31 @@
         padding-left: 0;
     }
 </style>
+<script>
+    $(document).ready(function() {
+        // Get the current URL path
+        var currentUrl = window.location.pathname;
+
+        // Loop through each nav-country item
+        $('.nav-country').each(function() {
+            // Get the country name (from data-country attribute)
+            var country = $(this).data('country');
+
+            // Check if the country is part of the current URL
+            if (currentUrl.indexOf(country) !== -1) {
+                // Add the 'active' class to the matching nav item
+                $(this).addClass('active');
+                // Optionally change the link's color or style
+                $(this).find('a').css('color', '#da6331');
+            } else {
+                // Optionally remove the active color if not selected
+                $(this).removeClass('active');
+                $(this).find('a').css('color', '');  // Reset to default color
+            }
+        });
+    });
+</script>
+
+
 
 </html>

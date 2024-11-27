@@ -23,8 +23,7 @@
                          <li class="nav-item">
                              <a href="#" class="nav-link">
                                  <i class="fas fa-map-marker-alt mr-2"></i>
-                                 Rolex Twin Tower, office 2001, Baniyas Road,Dubai <br>
-                                 M-06, Al Ahila Tower, Khalidiya Corniche, Abu Dhabi
+                                 8 The Green, Ste A, Diver County, Kent, DE - 19901
                              </a>
                          </li>
                          <li class="nav-item">

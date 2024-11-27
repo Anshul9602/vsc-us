@@ -170,7 +170,7 @@
 <!-- row1 -->
 
 <!-- row2 -->
-<section id="about" class="normals section-2 highlights team image-right featured">
+<section id="op1" class="normals section-2 highlights team image-right featured">
     <div class="container">
         <div class="row d-flex justify-content-around">
             <!-- Card 1 -->
@@ -215,9 +215,10 @@
 <!-- row2 -->
 
 <!-- row3 -->
- <section id="funfacts" class="section-1 highlights image-right counter funfacts featured">
+ <section id="tn1" class="section-1 highlights image-right counter funfacts featured">
     <div class="container">
         <div class="row d-flex justify-content-around">
+            <!-- Card 1 -->
             <!-- Card 1 -->
             <div class="col-md-5 card">
                 <div class="col-12 col-lg-12 align-self-top text">
