@@ -292,28 +292,35 @@
                                 <div class="dropdown-menu newmenu">
                                     <ul>
                                         <li class="nav-item">
-                                            <a href="<?php echo base_url('service1'); ?>" class="nav-link <?php echo ($currentPage == 'Tax_Preparation_Service') ? 'active' : ''; ?>">
-                                            Tax return preparation 
+                                            <a href="<?php echo base_url('service2'); ?>" class="nav-link <?php echo ($currentPage == 'Tax_Preparation_Service') ? 'active' : ''; ?>">
+                                            Accounting & Bookkeeoing
                                             </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="<?php echo base_url('service2'); ?>" class="nav-link <?php echo ($currentPage == 'Tax_Preparation_Service') ? 'active' : ''; ?>">
-                                            Accounting &  Bookkeeping  Solutions
+                                            <a href="<?php echo base_url('service1'); ?>" class="nav-link <?php echo ($currentPage == 'Tax_Preparation_Service') ? 'active' : ''; ?>">
+                                           VAT Services
                                             </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="<?php echo base_url('service4'); ?>">Corporate Tax Services</a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="<?php echo base_url('service3'); ?>" class="nav-link <?php echo ($currentPage == 'Multistate_Tax_Preparation_Service') ? 'active' : ''; ?>">
                                            Audit & Assurance Services
                                             </a>
                                         </li>
+                                       
                                         <li class="nav-item">
-                                            <a class="nav-link" href="<?php echo base_url('service4'); ?>">CFO Services</a>
+                                            <a class="nav-link" href="<?php echo base_url('service5'); ?>">ICV & ISO Certificates </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="<?php echo base_url('service5'); ?>">Controller  Services</a>
+                                            <a class="nav-link" href="<?php echo base_url('service6'); ?>">Payroll</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="<?php echo base_url('service6'); ?>">Back office outsource services</a>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="<?php echo base_url('service6'); ?>">Company Formation & Liquidation</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="<?php echo base_url('service6'); ?>">Golden Visa Services</a>
                                         </li>
                                         
                                     </ul>

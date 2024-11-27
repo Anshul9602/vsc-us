@@ -23,13 +23,13 @@
                         <p class="aai-footer-nav-title"><b>COMPANY</b></p>
                         <ul class="aai-footer-nav-list" style="list-style-type: none;">
                             <li class="aai-footer-nav-list-item">
-                                <a href="" class="aai-footer-nav-link">Our Team </a>
+                                <a href="onboarding#team" class="aai-footer-nav-link">Our Team </a>
                             </li>
                             <li class="aai-footer-nav-list-item">
-                                <a href="" class="aai-footer-nav-link">Why VSC OFFSHORE</a>
+                                <a href="onboarding" class="aai-footer-nav-link">Why VSC OFFSHORE</a>
                             </li>
                             <li class="aai-footer-nav-list-item">
-                                <a href="Services" class="aai-footer-nav-link">Data Security & Confidentiality</a>
+                                <a href="onboarding#ds1" class="aai-footer-nav-link">Data Security & Confidentiality</a>
                             </li>
                             <!-- <li class="aai-footer-nav-list-item">
                                 <a href="#" class="aai-footer-nav-link"> Careers</a>
