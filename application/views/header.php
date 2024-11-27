@@ -373,7 +373,7 @@
 
                             <!-- CONTACT US -->
                             <li class="nav-item">
-                                <a href="contact" class="nav-link n-menu <?php echo ($currentPage == 'contact') ? 'active' : ''; ?>">CONTACT US</a>
+                                <a href="contact" class="nav-link  nav-link1  n-menu <?php echo ($currentPage == 'contact') ? 'active' : ''; ?>">CONTACT US</a>
                             </li>
 
                             <!-- SCHEDULE CALL -->
