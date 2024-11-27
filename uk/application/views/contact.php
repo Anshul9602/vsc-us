@@ -23,7 +23,7 @@
                          <li class="nav-item">
                              <a href="#" class="nav-link">
                                  <i class="fas fa-map-marker-alt mr-2"></i>
-                                 45 3rd Floor, Albemarle Street, Mayfair, London, United Kingdom, W1S 4JL
+                                 8 The Green, Ste A, Diver County, Kent, DE - 19901
                              </a>
                          </li>
                          <li class="nav-item">

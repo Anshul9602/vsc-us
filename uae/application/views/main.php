@@ -65,7 +65,7 @@
             <div class="swiper-slide slide-center">
 
                 <!-- Media -->
-                <img src="assets/images/slider3.png" alt="Full Image" class="full-image" data-mask="50">
+                <img src="assets/images/slider-1.jpg" alt="Full Image" class="full-image" data-mask="50">
 
                 <div class="slide-content row">
                     <div class="col-12 d-flex justify-content-start inner">
@@ -405,14 +405,14 @@
                         </div>
                         <div class="card-caption col-12 p-0">
                             <div class="card-body">
-                                <a href="#">
+                                <a href="onboarding#tn1">
                                     <h4 class="m-0">Quality Control and Review Processes</h4>
                                     <p>Our rigorous quality control and review processes ensure that your work is
                                         accurate & compliant.</p>
                                 </a>
                             </div>
                         </div>
-                        <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                        <a href="onboarding#tn1"><i class="btn-icon fas fas fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 item filter-item"
@@ -423,13 +423,13 @@
                         </div>
                         <div class="card-caption col-12 p-0">
                             <div class="card-body">
-                                <a href="#">
+                                <a href="onboarding#op1">
                                     <h4>Flexible Operational Models</h4>
                                     <p>Our operational Models follow the “Business Your Way” philosophy.</p>
                                 </a>
                             </div>
                         </div>
-                        <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                        <a href="onboarding#op1"><i class="btn-icon fas fas fa-arrow-right"></i></a>
                     </div>
                 </div>
 
