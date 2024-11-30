@@ -9,22 +9,47 @@
                      <!-- <p>Praesent diam lacus, dapibus sed imperdiet consectetur.</p> -->
                      <ul class="navbar-nav">
                          <li class="nav-item">
-                             <a href="#" class="nav-link">
-                                 <i class="fas fa-phone-alt mr-2"></i>
-                                 +1 303 386 3536
-                             </a>
+                             <div class="row">
+                                 <div class="col-md-1 p-0">
+                                     <a href="tel:+13033863536" class="nav-link">
+                                         <i class="fas fa-phone-alt mr-2"></i>
+                                     </a>
+                                 </div>
+                                 <div class="col-md-11 d-flex align-items-center">
+                                     <a href="tel:+13033863536" class="nav-link">
+                                         +1 303 386 3536
+                                     </a>
+                                 </div>
+                             </div>
+                         </li>
+
+                         <li class="nav-item">
+                             <div class="row">
+                                 <div class="col-md-1 p-0">
+                                     <a href="mailto:support@vscoffshore.com" class="nav-link">
+                                         <i class="fas fa-envelope mr-2"></i>
+                                     </a>
+                                 </div>
+                                 <div class="col-md-11 d-flex align-items-center">
+                                     <a href="mailto:support@vscoffshore.com" class="nav-link">
+                                         support@vscoffshore.com
+                                     </a>
+                                 </div>
+                             </div>
                          </li>
                          <li class="nav-item">
-                             <a href="#" class="nav-link">
-                                 <i class="fas fa-envelope mr-2"></i>
-                                 support@vscoffshore.com
-                             </a>
-                         </li>
-                         <li class="nav-item">
-                             <a href="#" class="nav-link">
-                                 <i class="fas fa-map-marker-alt mr-2"></i>
-                                 8 The Green, Ste A, Diver County, Kent, DE - 19901
-                             </a>
+                             <div class="row">
+                                 <div class="col-md-1 p-0"> <a href="#" class="nav-link">
+                                         <i class="fas fa-map-marker-alt mr-2"></i></a>
+                                 </div>
+                                 <div class="col-md-11 ">
+                                     <p style="color: white;">
+                                         Rolex Twin Tower, office 2001, Baniyas Road,Dubai <br>
+                                         M-06, Al Ahila Tower, Khalidiya Corniche, Abu Dhabi
+                                     </p>
+                                 </div>
+                             </div>
+
                          </li>
                          <li class="nav-item">
                              <a href="#" class="mt-2 btn outline-button" data-toggle="modal" data-target="#map">VIEW MAP</a>

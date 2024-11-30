@@ -129,15 +129,15 @@
                                 <i class="fas fa-map-marker-alt mr-2"></i><b>GET IN TOUCH</b>
                             </p>
                             <p class="m-0" style="color:#9ea9b6;">
-                                8 The Green, Ste A, Diver County, Kent, DE - 19901
+                            45 3rd Floor, Albemarle Street, Mayfair, London, United Kingdom, W1S 4JL
+
                             </p>
                         </div>
 
 
                     </div>
 
-
-
+                  
 
                 </div>
 
