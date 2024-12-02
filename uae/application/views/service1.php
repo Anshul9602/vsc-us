@@ -1,4 +1,4 @@
-<!-- Tax Services -->
+<!-- Accounting & Bookkeeping Solutions -->
 <section id="single" class="section-1 single">
     <div class="container">
         <div class="row">
@@ -7,28 +7,29 @@
             <div class="col-12 col-lg-8 p-0 text">
                 <div class="row intro m-0">
                     <div class="col-12">
-                        <span class="pre-title m-0">Tax Services</span>
+                        <span class="pre-title m-0">Accounting & Bookkeeping Solutions</span>
                         <div class="title-icon">
-                            <h2><span class="featured"><span><i class="icon icon-notebook"></i>Tax </span></span> Return Preparation</h2>
+                            <h2><span class="featured"><span><i class="icon icon-notebook"></i>Accounting </span></span> & Bookkeeping Services</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 align-self-center">
-                        <p>Our team provides comprehensive tax return preparation services for various entities, including corporations, individuals, partnerships, estates, and tax-exempt organizations. We ensure accurate filing and help you navigate complex tax regulations.</p>
-                        <p>Whether you are an individual taxpayer or represent a business, we offer expert assistance with a range of forms:</p>
+                        <p>Our comprehensive accounting and bookkeeping solutions are designed to meet the unique needs of your business. We help streamline financial operations, ensuring timely and accurate processing of all accounts, with a focus on compliance and efficiency.</p>
+                        <p>We offer a wide range of services, including:</p>
 
                         <ul>
-                            <li><strong>Form 1120:</strong> U.S. Corporate Income Tax Returns</li>
-                            <li><strong>Form 1120-S:</strong> U.S. Tax Returns for S Corporations</li>
-                            <li><strong>Form 1065:</strong> U.S. Tax Returns for Partnerships</li>
-                            <li><strong>Form 1040:</strong> U.S. Individual Tax Returns</li>
-                            <li><strong>Form 1041:</strong> U.S. Income Tax Return for Estates & Trusts</li>
-                            <li><strong>Form 990:</strong> Return of Organization Exempt from Income Tax</li>
+                            <li><strong>Accounts Payable Management:</strong> Vendor bill handling and AP reconciliations</li>
+                            <li><strong>Accounts Receivable Management:</strong> Customer invoice processing and AR reconciliations</li>
+                            <li><strong>Bank & Credit Card Management:</strong> Transaction recording and reconciliations</li>
+                            <li><strong>Financial Reporting:</strong> Monthly or quarterly MIS reporting and core financial reporting</li>
+                            <li><strong>Cleanup Activities:</strong> Financial setup review, complete bookkeeping, and adjustments entries recording</li>
+                            <li><strong>Payroll Processing:</strong> Efficient payroll management services</li>
+                            <li><strong>Sales Tax Management:</strong> Accurate sales tax filing and reporting</li>
                         </ul>
 
-                        <blockquote>Our team of experienced professionals ensures timely and accurate filings, minimizing your tax liabilities while maximizing available deductions.</blockquote>
-                        <p>Our services extend beyond basic filing and include tax planning, advisory, and IRS representation. We are dedicated to providing tailored solutions that meet your specific tax needs.</p>
+                        <blockquote>Our team ensures that your accounting records are up to date and compliant, helping you focus on your core business while we handle your financial operations.</blockquote>
+                        <p>From daily bookkeeping to comprehensive financial reports and payroll processing, we provide end-to-end accounting solutions tailored to your business needs.</p>
                     </div>
                 </div>
             </div>
@@ -39,28 +40,28 @@
                 <!-- Services -->
                 <div class="row item widget-services">
                     <div class="col-12 align-self-center">
-                        <h4 class="title">Our Tax Services</h4>
+                        <h4 class="title">Our Accounting Services</h4>
                         <div class="quote">
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item d-flex justify-content-start align-items-center">
-                                    <a href="#"><i class="icon icon-organization"></i></a>
+                                    <a href="#"><i class="icon icon-calculator"></i></a>
                                     <div class="list-group-content">
-                                        <h4>Corporate Tax Returns</h4>
-                                        <p>Accurate filing for businesses</p>
+                                        <h4>Accounts Payable</h4>
+                                        <p>Efficient vendor bill management and AP reconciliations</p>
                                     </div>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-start align-items-center">
-                                    <a href="#"><i class="icon icon-briefcase"></i></a>
+                                    <a href="#"><i class="icon fas fa-receipt"></i></a>
                                     <div class="list-group-content">
-                                        <h4>Partnership Tax Filing</h4>
-                                        <p>Expert advice on Form 1065</p>
+                                        <h4>Accounts Receivable</h4>
+                                        <p>Streamlined customer invoice processing and AR reconciliations</p>
                                     </div>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-start align-items-center">
-                                    <a href="#"><i class="icon icon-chart"></i></a>
+                                    <a href="#"><i class="icon fas fa-landmark"></i></a>
                                     <div class="list-group-content">
-                                        <h4>Individual Tax Returns</h4>
-                                        <p>Comprehensive personal tax services</p>
+                                        <h4>Bank & Credit Card Management</h4>
+                                        <p>Accurate transaction recording and reconciliations</p>
                                     </div>
                                 </li>
                             </ul>
@@ -74,33 +75,33 @@
 </section>
 
 <!-- About -->
-<section id="about-2" class="section-2 highlights image-right counter funfacts">
+<section id="about-2" class=" normals section-2 highlights image-right counter funfacts">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6 pr-md-5 align-self-top text">
                 <div data-aos="fade-up" class="row intro mb-0">
                     <div class="col-12 p-0">
-                        <span class="pre-title m-0">Sharing knowledge</span>
+                        <span class="pre-title m-0">Streamlining Finances</span>
                         <h2><span class="featured"><span>Our</span></span> Results</h2>
-                        <p>We have a proven track record of delivering accurate and timely tax filings. Our clients benefit from our deep understanding of tax law and personalized service.</p>
+                        <p>We bring years of experience in accounting and bookkeeping, helping businesses maintain accurate records, reduce errors, and stay compliant with all tax regulations. Our approach is designed to provide a solid financial foundation for your business.</p>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-6 pr-md-5 align-self-top text">
                 <div class="row items">
                     <div data-aos="fade-up" class="col-12 col-md-6 p-0 pr-md-4 mb-2 item">
-                        <div data-percent="100" class="radial left">
+                        <div data-percent="200" class="radial left">
                             <span></span>
                         </div>
-                        <h4>Clients</h4>
-                        <p>We ensuring your tax filings are handled with the utmost expertise.</p>
+                        <h4>Clients Served</h4>
+                        <p>We ensure efficient financial operations for businesses of all sizes.</p>
                     </div>
                     <div data-aos="fade-up" class="col-12 col-md-6 p-0 pr-md-4 mb-2 item">
-                        <div data-percent="15" class="radial left">
+                        <div data-percent="10" class="radial left">
                             <span></span>
                         </div>
                         <h4>Experience</h4>
-                        <p>Years of experience in tax return preparation and planning services.</p>
+                        <p>Years of expertise in handling various accounting tasks, ensuring accuracy and compliance.</p>
                     </div>
                 </div>
             </div>

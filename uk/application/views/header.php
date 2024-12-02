@@ -164,16 +164,17 @@
             transform: translateY(0);
             transition: opacity 0.5s ease, transform 0.5s ease;
         }
+
         .nav-item.active {
-    font-weight: bold;
-    color: #da6331; /* Active color */
-}
+            font-weight: bold;
+            color: #da6331;
+            /* Active color */
+        }
 
-.nav-item.active a {
-    color: #da6331; /* Color for the anchor tag */
-}
-
-
+        .nav-item.active a {
+            color: #da6331;
+            /* Color for the anchor tag */
+        }
     </style>
 
 </head>
@@ -234,15 +235,15 @@
 
                             <!-- Navbar Items [right] -->
                             <ul class="navbar-nav">
-                            <li class="nav-item nav-country" data-country="usa" style="margin: auto; justify-content: center; align-items: center;">
-        <a href="<?php echo base_url(''); ?>" class="nav-link">USA</a>|
-    </li>
-    <li class="nav-item nav-country" data-country="uk" style="margin: auto; justify-content: center; align-items: center;">
-        <a href="<?php echo base_url(''); ?>uk" class="nav-link">UK</a>|
-    </li>
-    <li class="nav-item nav-country" data-country="uae" style="margin: auto; justify-content: center; align-items: center;">
-        <a href="<?php echo base_url(''); ?>uae" class="nav-link">UAE</a>
-    </li>
+                                <li class="nav-item nav-country" data-country="usa" style="margin: auto; justify-content: center; align-items: center;">
+                                    <a href="<?php echo base_url(''); ?>" class="nav-link">USA</a>|
+                                </li>
+                                <li class="nav-item nav-country" data-country="uk" style="margin: auto; justify-content: center; align-items: center;">
+                                    <a href="<?php echo base_url(''); ?>uk" class="nav-link">UK</a>|
+                                </li>
+                                <li class="nav-item nav-country" data-country="uae" style="margin: auto; justify-content: center; align-items: center;">
+                                    <a href="<?php echo base_url(''); ?>uae" class="nav-link">UAE</a>
+                                </li>
                                 <li class="nav-item">
                                     <a href="tel:+13033863536" class="nav-link"><i class="fas fa-phone-alt mr-2"></i> +1 303 386 3536</a>
                                 </li>
@@ -291,17 +292,17 @@
                                 </a>
                                 <div class="dropdown-menu newmenu">
                                     <ul>
-                                        <li class="nav-item">
+                                        <!-- <li class="nav-item">
                                             <a href="<?php echo base_url('service1'); ?>" class="nav-link <?php echo ($currentPage == 'Tax_Preparation_Service') ? 'active' : ''; ?>">
                                             Tax return preparation 
                                             </a>
-                                        </li>
+                                        </li> -->
                                         <li class="nav-item">
-                                            <a href="<?php echo base_url('service2'); ?>" class="nav-link <?php echo ($currentPage == 'Tax_Preparation_Service') ? 'active' : ''; ?>">
-                                            Accounting &  Bookkeeping  Solutions
+                                            <a href="service2" class="nav-link <?php echo ($currentPage == 'Tax_Preparation_Service') ? 'active' : ''; ?>">
+                                                Accounting & Bookkeeping Solutions
                                             </a>
                                         </li>
-                                        <li class="nav-item">
+                                        <!-- <li class="nav-item">
                                             <a href="<?php echo base_url('service3'); ?>" class="nav-link <?php echo ($currentPage == 'Multistate_Tax_Preparation_Service') ? 'active' : ''; ?>">
                                            Audit & Assurance Services
                                             </a>
@@ -315,7 +316,7 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="<?php echo base_url('service6'); ?>">Back office outsource services</a>
                                         </li>
-                                        
+                                         -->
                                     </ul>
 
                                     <!-- <ul>
@@ -453,7 +454,7 @@
             } else {
                 // Optionally remove the active color if not selected
                 $(this).removeClass('active');
-                $(this).find('a').css('color', '');  // Reset to default color
+                $(this).find('a').css('color', ''); // Reset to default color
             }
         });
     });

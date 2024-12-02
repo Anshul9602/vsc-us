@@ -51,14 +51,14 @@
                                     </div>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-start align-items-center">
-                                    <a href="#"><i class="icon icon-receipt"></i></a>
+                                    <a href="#"><i class="icon fas fa-receipt"></i></a>
                                     <div class="list-group-content">
                                         <h4>Accounts Receivable</h4>
                                         <p>Streamlined customer invoice processing and AR reconciliations</p>
                                     </div>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-start align-items-center">
-                                    <a href="#"><i class="icon icon-bank"></i></a>
+                                    <a href="#"><i class="icon fas fa-landmark"></i></a>
                                     <div class="list-group-content">
                                         <h4>Bank & Credit Card Management</h4>
                                         <p>Accurate transaction recording and reconciliations</p>

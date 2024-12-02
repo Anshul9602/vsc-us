@@ -1,4 +1,4 @@
-<!-- Controller Services -->
+<!-- CV & ISO Certifications -->
 <section id="single" class="section-1 single">
     <div class="container">
         <div class="row">
@@ -7,33 +7,52 @@
             <div class="col-12 col-lg-8 p-0 text">
                 <div class="row intro m-0">
                     <div class="col-12">
-                        <span class="pre-title m-0">Controller Services</span>
+                        <span class="pre-title m-0">Certifications</span>
                         <div class="title-icon">
-                            <h2><span class="featured"><span><i class="icon icon-calculator"></i>Controller </span></span> Services</h2>
+                            <h2><span class="featured"><span><i class="icon icon-check"></i>CV & ISO </span></span> Certifications</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 align-self-center">
-                        <p>Our Controller services provide businesses with comprehensive financial management solutions, ensuring accuracy, efficiency, and compliance in accounting processes. Our team offers a broad range of services designed to improve financial operations and reporting.</p>
-                        <p>Key areas of our Controller services include:</p>
-
+                        <h4>Enhancing Business Excellence in the UAE</h4>
+                        
+                        <h5>In-Country Value (ICV) Certification</h5>
+                        <p>The In-Country Value (ICV) program is a strategic initiative by the UAE government aimed at boosting economic growth, diversifying the economy, and creating more job opportunities for Emiratis. ICV certification is a critical component for businesses looking to participate in government tenders and projects with key UAE entities.</p>
+                        
+                        <h6>Key Benefits of ICV Certification:</h6>
                         <ul>
-                            <li><strong>Management of Accounting:</strong> Overseeing all accounting operations to ensure accurate financial records</li>
-                            <li><strong>Budgeting & Forecasting:</strong> Preparing budgets and forecasts to guide financial decisions</li>
-                            <li><strong>Cashflow Management:</strong> Ensuring liquidity by managing and forecasting cash flow</li>
-                            <li><strong>Accounting Software Implementation:</strong> Assisting with the selection and implementation of accounting software systems</li>
-                            <li><strong>Month End and Quarter End Reporting:</strong> Providing detailed financial reports at the end of each month and quarter</li>
-                            <li><strong>Period Closing Journal Entries Recording:</strong> Ensuring all journal entries are accurately recorded during period closings</li>
-                            <li><strong>Financial Statement Preparation:</strong> Preparing balance sheets, income statements, and cash flow statements</li>
-                            <li><strong>Accounting Documentation Support:</strong> Organizing and maintaining critical accounting documentation</li>
-                            <li><strong>Audit Preparation and Advisory Services:</strong> Assisting in preparing for audits and providing advisory support</li>
-                            <li><strong>Review Financials:</strong> Regularly reviewing financials to ensure compliance and accuracy</li>
-                            <li><strong>Job Costing & Inventory Tracking:</strong> Managing job costs and tracking inventory to optimize financial performance</li>
+                            <li><strong>Increased Business Opportunities:</strong> Companies with ICV certification are prioritized in government contracts and tenders, giving them a competitive edge.</li>
+                            <li><strong>Economic Contribution:</strong> Demonstrates your company’s commitment to enhancing the UAE’s economy through local investments and employment.</li>
+                            <li><strong>Reputation and Trust:</strong> Builds a strong reputation and trust with local authorities and partners, showcasing your dedication to national economic goals.</li>
                         </ul>
 
-                        <blockquote>Our Controller services ensure your accounting practices are streamlined, accurate, and aligned with industry standards, offering peace of mind and reliable financial reporting.</blockquote>
-                        <p>We work closely with your team to implement best practices and provide expert guidance, helping you manage and monitor all aspects of your financial operations with ease.</p>
+                        <h6>ICV Certification Process:</h6>
+                        <ol>
+                            <li><strong>Assessment:</strong> Evaluation of your company’s contribution to the UAE economy based on factors such as local procurement, Emiratization, and investments.</li>
+                            <li><strong>Application:</strong> Submission of necessary documents and financial statements to an approved certifying body.</li>
+                            <li><strong>Certification:</strong> Upon successful evaluation, your company is awarded the ICV certificate, valid for a specified period.</li>
+                        </ol>
+                        <p>Our team can assist you through every step of the ICV certification process, ensuring your business meets all criteria and maximizes its economic impact.</p>
+
+                        <h5>ISO Certification</h5>
+                        <p>ISO (International Organization for Standardization) certification is a globally recognized standard that demonstrates a company’s commitment to quality, efficiency, and continuous improvement. Achieving ISO certification can significantly enhance your business operations and credibility.</p>
+
+                        <h6>Key ISO Standards:</h6>
+                        <ul>
+                            <li><strong>ISO 9001 (Quality Management Systems):</strong> Ensures your company consistently meets customer and regulatory requirements while enhancing customer satisfaction.</li>
+                            <li><strong>ISO 14001 (Environmental Management Systems):</strong> Demonstrates your commitment to environmental responsibility through effective management of environmental impacts.</li>
+                            <li><strong>ISO 45001 (Occupational Health and Safety):</strong> Promotes a safe and healthy workplace, reducing workplace risks and improving employee well-being.</li>
+                            <li><strong>ISO 27001 (Information Security Management):</strong> Ensures your company has robust information security practices, protecting sensitive data and maintaining confidentiality.</li>
+                        </ul>
+
+                        <h6>Benefits of ISO Certification:</h6>
+                        <ul>
+                            <li><strong>Operational Efficiency:</strong> Streamlines processes, reduces waste, and enhances overall operational efficiency.</li>
+                            <li><strong>Market Competitiveness:</strong> Enhances your reputation and credibility, making your business more attractive to potential clients and partners.</li>
+                            <li><strong>Regulatory Compliance:</strong> Helps ensure compliance with industry regulations and standards, reducing legal risks.</li>
+                            <li><strong>Customer Satisfaction:</strong> Improves customer trust and satisfaction by consistently delivering high-quality products and services.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -41,31 +60,31 @@
             <!-- Sidebar -->
             <aside class="col-12 col-lg-4 pl-lg-5 p-0 float-right sidebar">
                 
-                <!-- Services -->
+                <!-- Certifications -->
                 <div class="row item widget-services">
                     <div class="col-12 align-self-center">
-                        <h4 class="title">Our Controller Services</h4>
+                        <h4 class="title">Our Certification Services</h4>
                         <div class="quote">
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item d-flex justify-content-start align-items-center">
-                                    <a href="#"><i class="icon icon-clipboard-list"></i></a>
+                                    <a href="#"><i class="icon icon-briefcase"></i></a>
                                     <div class="list-group-content">
-                                        <h4>Management of Accounting</h4>
-                                        <p>Overseeing and managing financial records</p>
+                                        <h4>ICV Certification</h4>
+                                        <p>Boost opportunities in UAE tenders and projects.</p>
                                     </div>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-start align-items-center">
-                                    <a href="#"><i class="icon icon-chart-pie"></i></a>
+                                    <a href="#"><i class="icon icon-check"></i></a>
                                     <div class="list-group-content">
-                                        <h4>Budgeting & Forecasting</h4>
-                                        <p>Creating financial plans for long-term success</p>
+                                        <h4>ISO Certification</h4>
+                                        <p>Enhance credibility and operational efficiency.</p>
                                     </div>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-start align-items-center">
-                                    <a href="#"><i class="icon icon-bank"></i></a>
+                                    <a href="#"><i class="icon icon-globe"></i></a>
                                     <div class="list-group-content">
-                                        <h4>Cashflow Management</h4>
-                                        <p>Ensuring consistent liquidity and financial stability</p>
+                                        <h4>Consultation Services</h4>
+                                        <p>Comprehensive guidance throughout the process.</p>
                                     </div>
                                 </li>
                             </ul>
@@ -79,15 +98,15 @@
 </section>
 
 <!-- About -->
-<section id="about-2" class="section-2 highlights image-right counter funfacts">
+<section id="about-2" class=" normals section-2 highlights image-right counter funfacts">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6 pr-md-5 align-self-top text">
                 <div data-aos="fade-up" class="row intro mb-0">
                     <div class="col-12 p-0">
-                        <span class="pre-title m-0">Efficient Financial Management</span>
-                        <h2><span class="featured"><span>Our</span></span> Results</h2>
-                        <p>We are dedicated to ensuring your financial operations run smoothly, providing high-quality reporting and analysis. Our Controller services help businesses improve financial oversight and strengthen internal controls.</p>
+                        <span class="pre-title m-0">Sharing knowledge</span>
+                        <h2><span class="featured"><span>Our</span></span> Expertise</h2>
+                        <p>We offer unparalleled expertise in ICV and ISO certifications, helping businesses achieve operational excellence and compliance with global standards.</p>
                     </div>
                 </div>
             </div>
@@ -97,15 +116,15 @@
                         <div data-percent="100" class="radial left">
                             <span></span>
                         </div>
-                        <h4>Clients Served</h4>
-                        <p>We provide Controller services to organizations across various industries, optimizing their financial operations.</p>
+                        <h4>Success Rate</h4>
+                        <p>High success rate in achieving ICV and ISO certifications for our clients.</p>
                     </div>
                     <div data-aos="fade-up" class="col-12 col-md-6 p-0 pr-md-4 mb-2 item">
-                        <div data-percent="25" class="radial left">
+                        <div data-percent="20" class="radial left">
                             <span></span>
                         </div>
                         <h4>Experience</h4>
-                        <p>Years of experience in delivering comprehensive financial management solutions.</p>
+                        <p>Years of experience providing certification guidance to businesses in the UAE.</p>
                     </div>
                 </div>
             </div>
