@@ -287,7 +287,7 @@
 
                             <!-- SERVICES -->
                             <li class="nav-item dropdown">
-                                <a href="<?php echo base_url('Services'); ?>" class="nav-link n-menu <?php echo ($currentPage == 'Services') ? 'active' : ''; ?>">
+                                <a href="<?php echo base_url(''); ?>uae/service1" class="nav-link n-menu <?php echo ($currentPage == 'Services') ? 'active' : ''; ?>">
                                     SERVICES <i class="icon-arrow-down"></i>
                                 </a>
                                 <div class="dropdown-menu newmenu">

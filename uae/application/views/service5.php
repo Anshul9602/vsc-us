@@ -42,7 +42,7 @@
                         <ul>
                             <li><strong>ISO 9001 (Quality Management Systems):</strong> Ensures your company consistently meets customer and regulatory requirements while enhancing customer satisfaction.</li>
                             <li><strong>ISO 14001 (Environmental Management Systems):</strong> Demonstrates your commitment to environmental responsibility through effective management of environmental impacts.</li>
-                            <li><strong>ISO 45001 (Occupational Health and Safety):</strong> Promotes a safe and healthy workplace, reducing workplace risks and improving employee well-being.</li>
+                            <!-- <li><strong>ISO 45001 (Occupational Health and Safety):</strong> Promotes a safe and healthy workplace, reducing workplace risks and improving employee well-being.</li> -->
                             <li><strong>ISO 27001 (Information Security Management):</strong> Ensures your company has robust information security practices, protecting sensitive data and maintaining confidentiality.</li>
                         </ul>
 

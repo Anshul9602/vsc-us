@@ -220,8 +220,9 @@
                     <div class="col-12 p-0">
                         <span class="pre-title m-auto m-md-0">About the network</span>
                         <h2><span class="featured"><span>About</span></span> Us</h2>
-                        <p>We have been providing outsourced taxation and accounting services to CPAs, EAs and accounting firms based in the USA, UK and Middle East.</p>
-                        <p>Our team has over two decades of experience in outsourced accounting & tax preparation services and ensures a greater transparency with control to keep an eye on your business.</p>
+                        <p>VSC Offshore is the brand name of global outsourcing arm of VSC Consulting Inc., a US-based entity, and an extension of Vinod Singhal & Co LLP—one of India’s most respected Chartered Accountant firms with a legacy spanning over 33 years.</p>
+                        <p> With more than 30 offices across India, Vinod Singhal & Co LLP has established itself as a leader in delivering exceptional financial expertise and professional integrity.</p>
+                         <p>At VSC Offshore, we specialize in providing seamless taxation, accounting, and financial solutions to CPAs, EAs, and accounting firms in the USA, UK, Middle East, and beyond. </p>
                     </div>
                 </div>
 
@@ -254,7 +255,7 @@
                 <!-- Action -->
                 <div data-aos="fade-up" class="buttons">
                     <div class="d-sm-inline-flex mb-5 mb-md-0">
-                        <a href="#contact" class="smooth-anchor mx-auto mt-4 btn primary-button">EXPLORE MORE</a>
+                        <a href=" onboarding" class="smooth-anchor mx-auto mt-4 btn primary-button">EXPLORE MORE</a>
                         <!-- <a href="#" class="mx-auto ml-sm-4 mt-4 btn outline-button">EXPLORE MORE</a> -->
                     </div>
                 </div>
