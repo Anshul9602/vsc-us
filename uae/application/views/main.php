@@ -65,9 +65,9 @@
             <div class="swiper-slide slide-center">
 
                 <!-- Media -->
-                <img src="assets/images/slider-1.jpg" alt="Full Image" class="full-image" data-mask="50">
+                <img src="https://vscoffshore.com/assets/images/sl11.jpg" alt="Full Image" width="100%">
 
-                <div class="slide-content row">
+                <div class="slide-content row d-none">
                     <div class="col-12 d-flex justify-content-start inner">
                         <div class="left text-left">
 
