@@ -245,7 +245,7 @@
                                     <a href="<?php echo base_url(''); ?>uae" class="nav-link">UAE</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="tel:+13033863536" class="nav-link"><i class="fas fa-phone-alt mr-2"></i> +1 303 386 3536</a>
+                                    <a href="tel:++1 302 386 3536" class="nav-link"><i class="fas fa-phone-alt mr-2"></i>  +1 302 386 3536</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="mailto:support@vscoffshore.com" class="nav-link"><i class="fas fa-envelope mr-2"></i>support@vscoffshore.com</a>

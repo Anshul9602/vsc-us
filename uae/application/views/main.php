@@ -65,9 +65,9 @@
             <div class="swiper-slide slide-center">
 
                 <!-- Media -->
-                <img src="assets/images/slider-1.jpg" alt="Full Image" class="full-image" data-mask="50">
+                <img src="assets/images/sl11.jpeg" alt="Full Image" width="100%">
 
-                <div class="slide-content row">
+                <div class="slide-content row d-none">
                     <div class="col-12 d-flex justify-content-start inner">
                         <div class="left text-left">
 
@@ -127,7 +127,6 @@
         </div>
     </div>
 </section>
-
 
 <!-- slider -->
 <div class="row " style="padding:40px 0;">
