@@ -46,6 +46,7 @@
         Custom Stylesheet
         =============================================== -->
     <link rel="stylesheet" href="<?php echo base_url(''); ?>assets/css/default.css?v=">
+    <link rel="stylesheet" href="<?php echo base_url(''); ?>assets/css/responsive.css?v=">
 
     <!-- ==============================================
         Theme Color
@@ -190,6 +191,37 @@
             </div>
         </div> -->
 
+
+
+ <!-- Mobile-Only Row Above Header -->
+
+ <div class="mobile-header-row d-block d-md-none p-0 ">
+        <div class="container" style=" padding: 0px 31px;  background-color: #da6331;">
+            <ul class="d-flex justify-content-between align-items-center">
+                <div class="1 d-flex">
+                <li class="line">
+                    <a class="line" href="<?php echo base_url(''); ?>">USA</a> |
+                </li>
+                <li class="line">
+                    <a class="line" href="<?php echo base_url(''); ?>uk">UK</a> |
+                </li>
+
+                <li class="line">
+                    <a class="line" href="<?php echo base_url(''); ?>uae">UAE</a>
+                </li>
+                </div>
+                <div class="2">
+                <li class="ml-3 line">
+                    <a href="mailto:support@vscoffshore.com" class="line">
+                        <i class="fas fa-envelope mr-2"></i>support@vscoffshore.com
+                    </a>
+                </li>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+
     <!-- Header -->
     <header id="header">
 
@@ -245,7 +277,7 @@
                                     <a href="<?php echo base_url(''); ?>uae" class="nav-link">UAE</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="tel:+13033863536" class="nav-link"><i class="fas fa-phone-alt mr-2"></i> +1 303 386 3536</a>
+                                    <a href="tel:++1 302 386 3536" class="nav-link"><i class="fas fa-phone-alt mr-2"></i>  +1 302 386 3536</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="mailto:support@vscoffshore.com" class="nav-link"><i class="fas fa-envelope mr-2"></i>support@vscoffshore.com</a>
@@ -287,7 +319,7 @@
 
                             <!-- SERVICES -->
                             <li class="nav-item dropdown">
-                                <a href="<?php echo base_url('Services'); ?>" class="nav-link n-menu <?php echo ($currentPage == 'Services') ? 'active' : ''; ?>">
+                                <a href="<?php echo base_url(''); ?>uae/service1" class="nav-link n-menu <?php echo ($currentPage == 'Services') ? 'active' : ''; ?>">
                                     SERVICES <i class="icon-arrow-down"></i>
                                 </a>
                                 <div class="dropdown-menu newmenu">
