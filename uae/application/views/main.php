@@ -1,63 +1,161 @@
 <style>
+    /* Styling the container */
     .slider-container {
         width: 100%;
         overflow: hidden;
         position: relative;
+        display: flex;
+        justify-content: center;
+        background: #f9f9f9;
+        padding: 20px 0;
     }
 
+    /* Slider track */
     .slider-wrapper {
         display: flex;
-        width: calc(12 * 10%);
-        /* 12 items */
+        animation: scroll 15s linear infinite;
+        gap: 15px;
     }
 
+    /* Individual slider item */
     .slider-item {
-        /* min-width: 17%; */
-        box-sizing: border-box;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
+    /* Image styling */
     .slider-item img {
-        /* width: 200px;
-        height: 33px; */
+        width: 125px;
+        height: 50px;
+        object-fit: contain;
+        transition: transform 0.3s ease;
     }
 
-    .slider {
-        position: absolute;
-        bottom: 10%;
+    /* Hover effect for images */
+    .slider-item img:hover {
+        transform: scale(1.1);
     }
 
-    /* Overlay styles */
-    .slider-overlay {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        width: 20%;
-        /* Adjust the width to control the overlay size */
-        pointer-events: none;
-        /* Make it non-interactive */
-        background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
-        z-index: 1;
-        /* Ensure it stays above the slider */
+    /* Infinite scroll animation */
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-100%);
+        }
     }
 
-    .slider-overlay-left {
-        left: 0;
-        background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
-        /* Fade from white to transparent */
+    /* Responsive adjustments for mobile */
+    @media screen and (max-width: 768px) {
+        .slider-wrapper {
+            gap: 10px;
+        }
+
+        .slider-item img {
+            width: 100px;
+            height: 40px;
+        }
     }
 
-    .slider-overlay-right {
-        right: 0;
-        background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
-        /* Fade from white to transparent */
+    /* Mobile-Only Header Row */
+@media (max-width: 768px) {
+    
+    .udesk{
+        display: none;
     }
+    .umobile{
+        display: block;
+    }
+}
 
-    .slider-item {
-        padding: 0 10px;
+/* Hide on larger screens */
+@media (min-width: 769px) {
+   
+    .udesk{
+        display: block;
     }
+    .umobile{
+        display: none;
+    }
+}
 </style>
 <!-- Hero -->
-<section class="hero p-0 odd">
+
+<!-- mobile -->
+<section class="hero p-0 odd umobile">
+    <div class="swiper-container no-slider animation slider-h-100 slider-h-auto">
+        <div class="swiper-wrapper">
+
+            <!-- Item 1 -->
+            <div class="swiper-slide slide-center">
+
+                <!-- Media -->
+                <img src="assets/images/slider-1.jpg" alt="Full Image" class="full-image d-banner" data-mask="50">
+                <img src="assets/images/uk-m.jpg" alt="Full Image" class="full-image m-banner" data-mask="50">
+
+                <div class="slide-content row">
+                    <div class="col-12 d-flex justify-content-start inner">
+                        <div class="left text-left">
+
+                            <!-- Content -->
+                            <h1 data-aos="zoom-in" data-aos-delay="2000" class=" b-heading title effect-static-text">
+                                <!-- <span class="pre-title m-0">Human Resources</span> -->
+                                <span class="pt-5"> Outsourcing<span class="featured bottom"><span>Your
+                                            Way!</span></span>
+                            </h1>
+                            <p data-aos="zoom-in" data-aos-delay="2400" class="description bigger"> Get accurate financial
+                                statements at month-end with our Outsource Bookkeeping Services</p>
+
+                            <!-- Action -->
+                            <div data-aos="fade-up" data-aos-delay="2800" class="buttons">
+                                <div class="d-sm-inline-flex">
+                                <a href="contact" class="mb-4 btn primary-button">Know More</a>
+                                    <!-- <a href="#features" class="smooth-anchor ml-sm-4 mt-4 btn outline-button">READ MORE</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <!-- <div class="swiper-slide slide-center">
+
+                <img src="assets/images/banner.webp" alt="Full Image" class="full-image" data-mask="50">
+
+                <div class="slide-content row">
+                    <div class="col-12 d-flex justify-content-start inner">
+                        <div class="left text-left">
+
+                            <h1 data-aos="zoom-in" data-aos-delay="2000" class="title effect-static-text">
+                                <span class="pt-5"> Outsourcing<span class="featured bottom"><span>Your
+                                            Way!</span></span>
+                            </h1>
+                            <p data-aos="zoom-in" data-aos-delay="2400" class="description bigger"> A Trusted Outsourced
+                                Firm for Bookkeeping, Accounting and Tax, Paraplanning and Loans Processing in
+                                Middle East </p>
+
+                            <div data-aos="fade-up" data-aos-delay="2800" class="buttons">
+                                <div class="d-sm-inline-flex">
+                                    
+                                <a href="contact" class=" mt-4 btn primary-button">Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
+    </div>
+</section>
+
+<!-- desktop -->
+<section class="hero p-0 odd udesk">
     <div class="swiper-container no-slider animation slider-h-100 slider-h-auto">
         <div class="swiper-wrapper">
 
@@ -129,45 +227,45 @@
 </section>
 
 <!-- slider -->
-<div class="row " style="padding:40px 0;">
+<div class="row ">
     <div class="slider-container" style="margin: 10px 0;">
         <!-- Left white overlay -->
         <div class="slider-overlay slider-overlay-left"></div>
 
         <!-- Slider wrapper -->
-        <div class="slider-wrapper">
-            <div class="slider-item"><img width="125" height="50"
-                    src="assets/images/logo/1.png" class="img-fluid"
-                    alt="QuickBooks" decoding="async" /></div>
-            <div class="slider-item"><img width="125" height="50"
-                    src="assets/images/logo/2.png"
-                    class="img-fluid" alt="Drake Software" decoding="async" /></div>
-            <div class="slider-item"><img width="125" height="50"
-                    src="assets/images/logo/3.png" class="img-fluid"
-                    alt="Ultratax" decoding="async" /></div>
-            <div class="slider-item"><img width="125" height="50"
-                    src="assets/images/logo/4.png" class="img-fluid"
-                    alt="Xero" decoding="async" /></div>
-            <div class="slider-item"><img width="125" height="50"
-                    src="assets/images/logo/5.png" class="img-fluid"
-                    alt="CCH Axcess" decoding="async" /></div>
-            <div class="slider-item"><img width="125" height="50"
-                    src="assets/images/logo/6.png" class="img-fluid"
-                    alt="ProConnect" decoding="async" /></div>
-            <!-- Duplicate images for infinite scroll -->
-            <div class="slider-item"><img width="125" height="50"
-                    src="assets/images/logo/7.png" class="img-fluid"
-                    alt="Sage" decoding="async" /></div>
-            <div class="slider-item"><img width="125" height="50"
-                    src="assets/images/logo/8.png" class="img-fluid"
-                    alt="Avalara" decoding="async" /></div>
-            <div class="slider-item"><img width="125" height="50"
-                    src="assets/images/logo/9.png" class="img-fluid"
-                    alt="TaxJar" decoding="async" /></div>
-            <div class="slider-item"><img width="125" height="50"
-                    src="assets/images/logo/10.png" class="img-fluid" alt="ADP"
-                    decoding="async" /></div>
-
+        <div class="slider-container">
+            <div class="slider-wrapper">
+                <div class="slider-item">
+                    <img src="assets/images/logo/1.png" alt="QuickBooks" decoding="async" />
+                </div>
+                <div class="slider-item">
+                    <img src="assets/images/logo/2.png" alt="Drake Software" decoding="async" />
+                </div>
+                <div class="slider-item">
+                    <img src="assets/images/logo/3.png" alt="Ultratax" decoding="async" />
+                </div>
+                <div class="slider-item">
+                    <img src="assets/images/logo/4.png" alt="Xero" decoding="async" />
+                </div>
+                <div class="slider-item">
+                    <img src="assets/images/logo/5.png" alt="CCH Axcess" decoding="async" />
+                </div>
+                <div class="slider-item">
+                    <img src="assets/images/logo/6.png" alt="ProConnect" decoding="async" />
+                </div>
+                <div class="slider-item">
+                    <img src="assets/images/logo/7.png" alt="Sage" decoding="async" />
+                </div>
+                <div class="slider-item">
+                    <img src="assets/images/logo/8.png" alt="Avalara" decoding="async" />
+                </div>
+                <div class="slider-item">
+                    <img src="assets/images/logo/9.png" alt="TaxJar" decoding="async" />
+                </div>
+                <div class="slider-item">
+                    <img src="assets/images/logo/10.png" alt="ADP" decoding="async" />
+                </div>
+            </div>
         </div>
 
         <!-- Right white overlay -->
@@ -177,26 +275,6 @@
 
 </div>
 
-<div class="client-slider">
-    <div class="container">
-        <div id="client-slider-2" class="owl-carousel owl-theme client-slid client-slider-2">
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-        </div>
-    </div>
-</div>
 
 <!-- Features -->
 <section id="features" class="section-1 features offers featured" style="padding: 40px 0;">
@@ -216,61 +294,62 @@
         <div class="row">
             <div class="col-12 col-md-6 pr-md-5 align-self-center text-center text-md-left text items">
                 <div data-aos="fade-up" class="row intro mb-4">
-                <div class="col-12 p-0">
-                        <span class="pre-title m-auto m-md-0">About the network</span>
+                    <div class="col-12 p-0">
+                        <span class="pre-title  m-md-0">About the network</span>
                         <h2><span class="featured"><span>About</span></span> Us</h2>
-                        <p>VSC Offshore is the brand name of global outsourcing arm of VSC Consulting Inc., a US-based entity, and an extension of Vinod Singhal & Co LLP—one of India’s most respected Chartered Accountant firms with a legacy spanning over 33 years.</p>
-                        <p> With more than 30 offices across India, Vinod Singhal & Co LLP has established itself as a leader in delivering exceptional financial expertise and professional integrity.</p>
-                         <p>At VSC Offshore, we specialize in providing seamless taxation, accounting, and financial solutions to CPAs, EAs, and accounting firms in the USA, UK, Middle East, and beyond. </p>
+                        <p class="mb-3 mt-3 m-0">VSC Offshore is the brand name of global outsourcing arm of VSC Consulting Inc., a US-based entity, and an extension of Vinod Singhal & Co LLP—one of India’s most respected Chartered Accountant firms with a legacy spanning over 33 years.</p>
+                        <p class="mb-3 m-0"> With more than 30 offices across India, Vinod Singhal & Co LLP has established itself as a leader in delivering exceptional financial expertise and professional integrity.</p>
+                        <p class="mb-3 m-0">At VSC Offshore, we specialize in providing seamless taxation, accounting, and financial solutions to CPAs, EAs, and accounting firms in the USA, UK, Middle East, and beyond. </p>
                     </div>
                 </div>
-
 
 
                 <div class="row items">
-                    <div data-aos="fade-up" class="col-12 col-md-4 m-0 p-0 pr-md-4 item">
+                    <div data-aos="fade-up" class="col-4 col-md-4 m-0 p-0 pr-md-4 item">
                         <div data-percent="150" class="radial left">
                             <span></span>
                         </div>
-                        <h4>Employees</h4>
+                        <h4 class="m">Employees</h4>
                         <!-- <p>Lorem ipsum dolor sit amet.</p> -->
                     </div>
-                    <div data-aos="fade-up" class="col-12 col-md-4 m-0 p-0 pr-md-4 item">
+                    <div data-aos="fade-up" class="col-4 col-md-4 m-0 p-0 pr-md-4 item">
                         <div data-percent="100" class="radial left">
                             <span></span>
                         </div>
-                        <h4>Clients</h4>
+                        <h4 class="m">Clients</h4>
                         <!-- <p>Lorem ipsum dolor sit amet.</p> -->
                     </div>
-                    <div data-aos="fade-up" class="col-12 col-md-4 m-0 p-0 pr-md-4 item">
+                    <div data-aos="fade-up" class="col-4 col-md-4 m-0 p-0 pr-md-4 item">
                         <div data-percent="15" class="radial left">
                             <span></span>
                         </div>
-                        <h4>Experience</h4>
+                        <h4 class="m">Experience</h4>
                         <!-- <p>Lorem ipsum dolor sit amet.</p> -->
                     </div>
                 </div>
 
+
                 <!-- Action -->
                 <div data-aos="fade-up" class="buttons">
-                    <div class="d-sm-inline-flex mb-5 mb-md-0">
-                        <a href="#contact" class="smooth-anchor mx-auto mt-4 btn primary-button">EXPLORE MORE</a>
+                    <div class="d-sm-inline-flex ">
+                        <a href="onboarding" class="my-3 btn primary-button">EXPLORE MORE</a>
                         <!-- <a href="#" class="mx-auto ml-sm-4 mt-4 btn outline-button">EXPLORE MORE</a> -->
                     </div>
                 </div>
-                <div class="row pt-4">
-                    <div class="col-md-2 p-0">
-                        <img src="assets/images/c-1.png" alt="">
-                    </div>
-                    <div class="col-md-2 p-0 ml-1">
+                <div class="row pt-md-1 mb-3">
+                    
+                    <div class="col-3 col-md-2 p-0 ml-1">
                         <img src="assets/images/c-2.png" alt="">
                     </div>
-                    <div class="col-md-2 p-0 ml-1">
+                    <div class="col-3 col-md-2 p-0 ml-1">
                         <img src="assets/images/c-3.png" alt="">
+                    </div>
+                    <div class="col-3 col-md-2 p-0">
+                        <img src="assets/images/c-1.png" alt="">
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 p-0 image">
+            <div class="col-12 col-md-6 p-0 image ">
                 <img src="assets/images/about.webp" class="fit-image" alt="Fit Image">
             </div>
         </div>
@@ -350,13 +429,12 @@
                     <span class="pre-title">We do more for everyone</span>
                     <h2 class="mb-0"> <span class="featured"><span>Why</span></span> Choose Us?</h2>
                     <p>VSC OFFSHORE specializes in addressing the needs of CPAs, EAs and accounting firms across the
-                        globe. <br>
+                        globe.
                         Our end-to-end outsourced tax and accounting services are designed to help you navigate
                         challenges and seize opportunities.</p>
                 </div>
             </div>
-
-            <div class="row my-3  d-flex justify-content-center">
+            <!-- <div class="row my-3  d-flex justify-content-center">
                 <div class="col-12 col-md-6 col-lg-4 item filter-item"
                     data-groups='["environment","institutional","social"]'>
                     <div class="row card p-0 text-center">
@@ -434,44 +512,81 @@
                 </div>
 
                 <div class="col-1 filter-sizer"></div>
+            </div> -->
+
+            <div class="row my-3 d-flex justify-content-center">
+                <div class="col-6 col-md-6 col-lg-4 item filter-item" data-groups='["environment","institutional","social"]'>
+                    <div class="row card p-0 text-center">
+                        <div class="image-over">
+                            <img src="assets/images/ds3.jpg" alt="Lorem ipsum">
+                        </div>
+                        <div class="card-caption col-12 p-0">
+                            <div class="card-body">
+                                <a href="onboarding#ds1">
+                                    <h4 class="ds-mob">Data Security</h4>
+                                    <p>Strong security systems and data protection policies.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <a href="onboarding#ds1"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-4 item filter-item" data-groups='["technology","events","innovation"]'>
+                    <div class="row card p-0 text-center">
+                        <div class="image-over">
+                            <img src="assets/images/qt3.jpg" alt="Lorem ipsum">
+                        </div>
+                        <div class="card-caption col-12 p-0">
+                            <div class="card-body">
+                                <a href="onboarding#team">
+                                    <h4 class="m-0">Qualified Team</h4>
+                                    <p>Certified team of more than a decade experience in Tax & Accounting outsourcing.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <a href="onboarding#team"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-1 filter-sizer"></div>
             </div>
 
-            <!-- <div class="row items filter-items  d-flex justify-content-center">
-                 <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["environment","institutional","social"]'>
-                     <div class="row card p-0 text-center">
-                         <div class="image-over">
-                             <img src="assets/images/project-3.jpg" alt="Lorem ipsum">
-                         </div>
-                         <div class="card-caption col-12 p-0">
-                             <div class="card-body">
-                                 <a href="#">
-                                     <h4>International business trip in Shanghai</h4>
-                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                 </a>
-                             </div>
-                         </div>
-                         <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
-                     </div>
-                 </div>
-                 <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["technology","events","innovation"]'>
-                     <div class="row card p-0 text-center">
-                         <div class="image-over">
-                             <img src="assets/images/project-4.jpg" alt="Lorem ipsum">
-                         </div>
-                         <div class="card-caption col-12 p-0">
-                             <div class="card-body">
-                                 <a href="#">
-                                     <h4>Technology workshop with education theme</h4>
-                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                 </a>
-                             </div>
-                         </div>
-                         <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
-                     </div>
-                 </div>
+            <div class="row my-3 d-flex justify-content-center">
+                <div class="col-6 col-md-6 col-lg-4 item filter-item" data-groups='["environment","institutional","social"]'>
+                    <div class="row card p-0 text-center">
+                        <div class="image-over">
+                            <img src="assets/images/r3.jpg" alt="Lorem ipsum">
+                        </div>
+                        <div class="card-caption col-12 p-0">
+                            <div class="card-body">
+                                <a href="onboarding#tn1">
+                                    <h4 class="m-0">Quality Control and Review Processes</h4>
+                                    <p>Our rigorous quality control and review processes ensure that your work is
+                                        accurate & compliant.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <a href="onboarding#tn1"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-4 item filter-item" data-groups='["technology","events","innovation"]'>
+                    <div class="row card p-0 text-center">
+                        <div class="image-over">
+                            <img src="assets/images/fl3.jpg" alt="Lorem ipsum">
+                        </div>
+                        <div class="card-caption col-12 p-0">
+                            <div class="card-body">
+                                <a href="onboarding#op1">
+                                    <h4>Flexible Operational Models</h4>
+                                    <p>Our operational Models follow the “Business Your Way” philosophy.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <a href="onboarding#op1"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-1 filter-sizer"></div>
+            </div>
 
-                 <div class="col-1 filter-sizer"></div>
-             </div> -->
         </div>
     </div>
 </section>
@@ -685,27 +800,26 @@
 
 <!-- slider -->
 <script>
-    const sliderWrapper = document.querySelector('.slider-wrapper');
-    let scrollAmount = 1; // Adjust this value to control speed
+    document.addEventListener("DOMContentLoaded", () => {
+        const sliderWrapper = document.querySelector(".slider-wrapper");
 
-    function startSlider() {
-        // Move the slider to the left continuously
-        sliderWrapper.style.transform = `translateX(${-scrollAmount}px)`;
+        // Duplicate slider items for seamless infinite scrolling
+        const items = Array.from(sliderWrapper.children);
+        items.forEach((item) => {
+            const clone = item.cloneNode(true);
+            sliderWrapper.appendChild(clone);
+        });
 
-        // Increase the scroll amount for smooth movement
-        scrollAmount += 1; // Higher value = faster scroll
+        // Pause the animation on hover
+        sliderWrapper.addEventListener("mouseover", () => {
+            sliderWrapper.style.animationPlayState = "paused";
+        });
 
-        // Reset scrollAmount if it exceeds the width of slider content for looping
-        if (scrollAmount >= sliderWrapper.scrollWidth / 2) {
-            scrollAmount = 0; // Reset for infinite scrolling effect
-        }
-
-        // Use requestAnimationFrame to call startSlider again for a smooth loop
-        requestAnimationFrame(startSlider);
-    }
-
-    // Initialize the slider
-    requestAnimationFrame(startSlider);
+        // Resume the animation when hover ends
+        sliderWrapper.addEventListener("mouseout", () => {
+            sliderWrapper.style.animationPlayState = "running";
+        });
+    });
 </script>
 
 

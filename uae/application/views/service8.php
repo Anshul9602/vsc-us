@@ -39,7 +39,6 @@
                             <li><strong>High Success Rate:</strong> Leverage our deep understanding of UAE immigration policies to maximize your chances of approval.</li>
                             <li><strong>Client-Centric Approach:</strong> Tailored solutions prioritize your needs and objectives for long-term residency in the UAE.</li>
                         </ul>
-                        <p>At SSG Consultant, we are committed to helping you secure your UAE Golden Visa with ease and confidence. Contact us today to learn more about our Golden Visa services and take the first step towards long-term residency in one of the world’s most vibrant and prosperous countries.</p>
                     </div>
                 </div>
             </div>
@@ -90,7 +89,7 @@
                     <div class="col-12 p-0">
                         <span class="pre-title m-0">Sharing Knowledge</span>
                         <h2><span class="featured"><span>Our</span></span> Expertise</h2>
-                        <p>With years of experience, SSG Consultant offers tailored Golden Visa solutions, ensuring a smooth and successful application process.</p>
+                        <p>With years of experience, VSC Offshore offers tailored Golden Visa solutions, ensuring a smooth and successful application process.</p>
                     </div>
                 </div>
             </div>

@@ -18,8 +18,8 @@
                         <p>The UAE’s favorable political and economic environment has made it a thriving destination for businesses worldwide. With its promise of high returns and ease of business transactions, UAE is home to numerous enterprises operating at various scales and across diverse industries.</p>
                         <p>A company’s employees are its backbone. Without skilled professionals capable of managing various operations, businesses would struggle to operate efficiently or achieve success. Managing salaries as a major expense is a crucial part of ensuring smooth business operations.</p>
                         
-                        <h4>Why Choose SSG Consultant for Payroll Management in UAE?</h4>
-                        <p>At SSG Consultant, we value your employees and recognize the critical role of efficient payroll management. Our experienced professionals provide tailored payroll services, enabling you to focus on other business priorities. Here’s why SSG Consultant is the right choice:</p>
+                        <h4>Why Choose VSC Offshore for Payroll Management in UAE?</h4>
+                        <p>At VSC Offshore, we value your employees and recognize the critical role of efficient payroll management. Our experienced professionals provide tailored payroll services, enabling you to focus on other business priorities. Here’s why VSC Offshore is the right choice:</p>
 
                         <h5>Exceptional Services</h5>
                         <p>We offer top-notch payroll management services in the UAE, including:</p>
@@ -34,7 +34,7 @@
                         <p>Time is critical in payroll management. We ensure timely salary processing, including incentives, bonuses, and expense claim reimbursements, allowing you to focus on your business growth.</p>
 
                         <h5>Confidentiality Ensured</h5>
-                        <p>Payroll management involves handling sensitive employee and financial data. At SSG Consultant, we prioritize confidentiality by implementing secure data management systems and ensuring data privacy. Our payroll support services include:</p>
+                        <p>Payroll management involves handling sensitive employee and financial data. At VSC Offshore, we prioritize confidentiality by implementing secure data management systems and ensuring data privacy. Our payroll support services include:</p>
                         <ul>
                             <li>Preparation of bank transfer letters</li>
                             <li>Transfer of salaries to overseas accounts</li>
@@ -100,7 +100,7 @@
                     <div class="col-12 p-0">
                         <span class="pre-title m-0">Sharing Knowledge</span>
                         <h2><span class="featured"><span>Our</span></span> Expertise</h2>
-                        <p>With extensive experience in payroll management, SSG Consultant ensures streamlined operations, accurate salary processing, and confidentiality.</p>
+                        <p>With extensive experience in payroll management, VSC Offshore ensures streamlined operations, accurate salary processing, and confidentiality.</p>
                     </div>
                 </div>
             </div>

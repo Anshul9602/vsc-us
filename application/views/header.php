@@ -46,6 +46,8 @@
         Custom Stylesheet
         =============================================== -->
     <link rel="stylesheet" href="<?php echo base_url(''); ?>assets/css/default.css?v=">
+    <link rel="stylesheet" href="<?php echo base_url(''); ?>assets/css/responsive.css">
+
 
     <!-- ==============================================
         Theme Color
@@ -164,6 +166,10 @@
             transform: translateY(0);
             transition: opacity 0.5s ease, transform 0.5s ease;
         }
+
+        .line {
+            font-size: 13px !important;
+        }
     </style>
 
 </head>
@@ -180,7 +186,38 @@
         </div> -->
 
     <!-- Header -->
+
+    <!-- Mobile-Only Row Above Header -->
+
+    <div class="mobile-header-row d-block d-md-none p-0 ">
+        <div class="container" style=" padding: 0px 31px;  background-color: #da6331;">
+            <ul class="d-flex justify-content-between align-items-center">
+                <div class="1 d-flex">
+                <li class="line">
+                    <a class="line" href="<?php echo base_url(''); ?>">USA</a> |
+                </li>
+                <li class="line">
+                    <a class="line" href="<?php echo base_url(''); ?>uk">UK</a> |
+                </li>
+
+                <li class="line">
+                    <a class="line" href="<?php echo base_url(''); ?>uae">UAE</a>
+                </li>
+                </div>
+                <div class="2">
+                <li class="ml-3 line">
+                    <a href="mailto:support@vscoffshore.com" class="line">
+                        <i class="fas fa-envelope mr-2"></i>support@vscoffshore.com
+                    </a>
+                </li>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+
     <header id="header">
+
 
         <!-- Top Navbar -->
 
@@ -225,7 +262,7 @@
                             <!-- Navbar Items [right] -->
                             <ul class="navbar-nav">
                                 <li class="nav-item nav-country" style="margin: auto;justify-content: center;align-items: center;">
-                                    <a href="<?php echo base_url(''); ?>" class="nav-link" > USA</a>|
+                                    <a href="<?php echo base_url(''); ?>" class="nav-link"> USA</a>|
                                 </li>
                                 <li class="nav-item  nav-country" style="margin: auto;justify-content: center;align-items: center;">
                                     <a href="<?php echo base_url(''); ?>uk" class="nav-link"> UK</a>|
@@ -237,7 +274,7 @@
                                     <a href="<?php echo base_url(''); ?>uae" class="nav-link">UAE</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="tel:++1 302 386 3536" class="nav-link"><i class="fas fa-phone-alt mr-2"></i>  +1 302 386 3536</a>
+                                    <a href="tel:++1 302 386 3536" class="nav-link"><i class="fas fa-phone-alt mr-2"></i> +1 302 386 3536</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="mailto:support@vscoffshore.com" class="nav-link"><i class="fas fa-envelope mr-2"></i>support@vscoffshore.com</a>
@@ -286,29 +323,29 @@
                                     <ul>
                                         <li class="nav-item">
                                             <a href="<?php echo base_url('service1'); ?>" class="nav-link <?php echo ($currentPage == 'Tax_Preparation_Service') ? 'active' : ''; ?>">
-                                            Tax return preparation 
+                                                Tax return preparation
                                             </a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="<?php echo base_url('service2'); ?>" class="nav-link <?php echo ($currentPage == 'Tax_Preparation_Service') ? 'active' : ''; ?>">
-                                            Accounting &  Bookkeeping  Solutions
+                                                Accounting & Bookkeeping Solutions
                                             </a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="<?php echo base_url('service3'); ?>" class="nav-link <?php echo ($currentPage == 'Multistate_Tax_Preparation_Service') ? 'active' : ''; ?>">
-                                           Audit & Assurance Services
+                                                Audit & Assurance Services
                                             </a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="<?php echo base_url('service4'); ?>">CFO Services</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="<?php echo base_url('service5'); ?>">Controller  Services</a>
+                                            <a class="nav-link" href="<?php echo base_url('service5'); ?>">Controller Services</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="<?php echo base_url('service6'); ?>">Back office outsource services</a>
                                         </li>
-                                        
+
                                     </ul>
 
                                     <!-- <ul>
@@ -378,7 +415,7 @@
 
                             <!-- SCHEDULE CALL -->
                             <li class="nav-item">
-                                <a href="https://calendly.com/" target="_blank" class="btn ml-lg-auto primary-button nav-link n-menu">SCHEDULE CALL</a>
+                                <a href="mailto:support@vscoffshore.com"" target=" _blank" class="btn ml-lg-auto primary-button nav-link n-menu">SCHEDULE CALL</a>
                             </li>
 
                     </div>
@@ -398,8 +435,10 @@
             <!-- Navbar Action -->
 
             </div>
+            
         </nav>
 
+        
     </header>
     <div id="menu" class="p-0 modal fade" role="dialog" aria-labelledby="menu" aria-hidden="true">
         <div class="modal-dialog modal-dialog-slideout" role="document">

@@ -15,7 +15,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12 align-self-center">
-                        <p>Our Tax Experts at SSG Consultant provide proper assistance & guidance on compliance with the provision of the UAE Tax Laws. They are cupped with local and international industry experience and advice businesses through all tax challenges, supporting them for tax compliance and progress towards a sustainable tax strategy.</p>
+                        <p>Our Tax Experts at VSC Offshore provide proper assistance & guidance on compliance with the provision of the UAE Tax Laws. They are cupped with local and international industry experience and advice businesses through all tax challenges, supporting them for tax compliance and progress towards a sustainable tax strategy.</p>
 
                         <ul>
                             <li><strong>VAT / Excise Tax Advisory:</strong> Exclusive advisory services to represent FTA on behalf of you.</li>
@@ -28,7 +28,7 @@
                             <li><strong>Tax Audit:</strong> Review and audit of VAT records to ensure FTA compliance.</li>
                         </ul>
 
-                        <blockquote>SSG Consultant offers tailored solutions to ensure businesses comply with UAE VAT laws while minimizing penalties and maximizing efficiency.</blockquote>
+                        <blockquote>VSC Offshore offers tailored solutions to ensure businesses comply with UAE VAT laws while minimizing penalties and maximizing efficiency.</blockquote>
                     </div>
                 </div>
             </div>

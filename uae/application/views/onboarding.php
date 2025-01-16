@@ -71,7 +71,7 @@
 <!-- why us -->
 
 <section id="funfacts" class="section-2 normals highlights image-right counter funfacts featured">
-    <div class="container">
+    <div class="container" id="about1">
         <div class="row">
             <div class="col-12 col-md-12 align-self-center text-center text-md-left text items">
                 <div data-aos="fade-up" class="row intro mb-4">
@@ -98,7 +98,7 @@
 <section id="about" class=" normals section-1 highlights team image-right  featured">
     <div class="container">
         <div class="row d-flex justify-content-around">
-            <div class="col-md-5 card ">
+            <div class="col-md-5 card mt-3 ">
                 <!-- <div class="row  d-flex justify-content-center ">
                      <div data-aos="zoom-in" class="col-12 col-lg-5 mt-5 mt-lg-0">
                          <div class="gallery row d-flex justify-content-center pt-5">
@@ -131,7 +131,7 @@
 
             </div>
 
-            <div class="col-md-5  card">
+            <div class="col-md-5 card mt-3">
                 <!-- <div class="row d-flex justify-content-around">
                     <div data-aos="zoom-in" class="col-12 col-lg-4 mt-5 mt-lg-0">
                         <div class="gallery row justify-content-center pt-5">
@@ -174,7 +174,7 @@
     <div class="container">
         <div class="row d-flex justify-content-around">
             <!-- Card 1 -->
-            <div class="col-md-5 card">
+            <div class="col-md-5 card mt-3">
                 <div class="col-12 col-lg-12 align-self-top text">
                     <div class="row intro m-0">
                         <div class="col-12 p-0">
@@ -192,7 +192,7 @@
             </div>
 
             <!-- Card 2 -->
-            <div class="col-md-5 card">
+            <div class="col-md-5 card mt-3">
                 <div class="col-12 col-lg-12 align-self-top text">
                     <div class="row intro m-0">
                         <div class="col-12 p-0">
@@ -215,12 +215,12 @@
 <!-- row2 -->
 
 <!-- row3 -->
- <section id="tn1" class="section-1 highlights image-right counter funfacts featured">
+ <section id="tn1" class=" normals section-1 highlights image-right counter funfacts featured">
     <div class="container">
         <div class="row d-flex justify-content-around">
+           
             <!-- Card 1 -->
-            <!-- Card 1 -->
-            <div class="col-md-5 card">
+            <div class="col-md-5 card mt-3">
                 <div class="col-12 col-lg-12 align-self-top text">
                     <div class="row intro m-0">
                         <div class="col-12 p-0">
@@ -237,7 +237,7 @@
             </div>
 
             <!-- Card 2 -->
-            <div class="col-md-5 card">
+            <div class="col-md-5 card mt-3">
                 <div class="col-12 col-lg-12 align-self-top text">
                     <div class="row intro m-0">
                         <div class="col-12 p-0">
@@ -259,11 +259,11 @@
 <!-- row3 -->
 
 <!-- row4 -->
-<section id="about" class="section-2 highlights team image-right featured">
+<section id="about" class=" normals section-2 highlights team image-right featured ">
     <div class="container">
         <div class="row d-flex justify-content-around">
             <!-- Card 1 -->
-            <div class="col-md-5 card">
+            <div class="col-md-5 card mt-3">
                 <div class="col-12 col-lg-12 align-self-top text">
                     <div class="row intro m-0">
                         <div class="col-12 p-0">
@@ -281,7 +281,7 @@
             </div>
 
             <!-- Card 2 -->
-            <div class="col-md-5 card">
+            <div class="col-md-5 card mt-3">
                 <div class="col-12 col-lg-12 align-self-top text">
                     <div class="row intro m-0">
                         <div class="col-12 p-0">
@@ -441,7 +441,7 @@
 
 <!-- data Security -->
 
-<section id="ds1" class="  section-2 highlights image-right counter funfacts featured">
+<section id="ds1" class=" normals  section-2 highlights image-right counter funfacts featured">
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-8 align-self-top text">
@@ -471,7 +471,7 @@
             <div data-aos="zoom-in" class="col-12 col-lg-4 mt-5 mt-lg-0">
 
                 <!-- Gallery -->
-                <div class="gallery row justify-content-center pt-5">
+                <div class="gallery row justify-content-center pt-md-5">
                     <img src="assets/images/security.jpg" alt="Certificate">
                 </div>
             </div>
@@ -479,7 +479,7 @@
     </div>
 </section>
 
-<section id="funfacts" class="section-1 highlights team image-right  featured">
+<section id="funfacts" class=" normals section-1 highlights team image-right  featured">
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-8 align-self-top text">
@@ -508,7 +508,7 @@
             <div data-aos="zoom-in" class="col-12 col-lg-4 mt-5 mt-lg-0">
 
                 <!-- Gallery -->
-                <div class="gallery row justify-content-center pt-5">
+                <div class="gallery row justify-content-center pt-md-5">
                     <img src="assets/images/confidentiality.jpg" alt="Certificate">
                 </div>
             </div>

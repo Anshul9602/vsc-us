@@ -180,24 +180,6 @@ HTML5 display-role reset for older browsers
     margin-bottom: 5px;
   }
   
-  /* Responsive Adjustments */
-  @media (max-width: 768px) {
-    .card1 {
-      width: 100%; /* Full width on smaller screens */
-      flex-direction: column; /* Stack icon and content vertically */
-      text-align: center;
-    }
-  
-    .icon-section {
-      width: 100%; /* Full width icon section */
-      padding: 20px;
-    }
-  
-    .content {
-      padding: 15px;
-    }
-  }
-
 
 /* personalised */
 
@@ -4798,7 +4780,7 @@ footer .copyright p {
     }
 
     body .slide-content .buttons .btn {
-        min-width: 180px;
+        /* min-width: 180px; */
         font-size: 0.9rem;
     }
 

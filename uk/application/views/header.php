@@ -46,6 +46,7 @@
         Custom Stylesheet
         =============================================== -->
     <link rel="stylesheet" href="<?php echo base_url(''); ?>assets/css/default.css?v=">
+    <link rel="stylesheet" href="<?php echo base_url(''); ?>assets/css/responsive.css?v=">
 
     <!-- ==============================================
         Theme Color
@@ -189,6 +190,37 @@
                 </div>
             </div>
         </div> -->
+
+ <!-- Mobile-Only Row Above Header -->
+
+ <div class="mobile-header-row d-block d-md-none p-0 ">
+        <div class="container" style=" padding: 0px 31px;  background-color: #da6331;">
+            <ul class="d-flex justify-content-between align-items-center">
+                <div class="1 d-flex">
+                <li class="line">
+                    <a class="line" href="<?php echo base_url(''); ?>">USA</a> |
+                </li>
+                <li class="line">
+                    <a class="line" href="<?php echo base_url(''); ?>uk">UK</a> |
+                </li>
+
+                <li class="line">
+                    <a class="line" href="<?php echo base_url(''); ?>uae">UAE</a>
+                </li>
+                </div>
+                <div class="2">
+                <li class="ml-3 line">
+                    <a href="mailto:support@vscoffshore.com" class="line">
+                        <i class="fas fa-envelope mr-2"></i>support@vscoffshore.com
+                    </a>
+                </li>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+
+
 
     <!-- Header -->
     <header id="header">

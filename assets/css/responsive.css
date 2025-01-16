@@ -1,0 +1,256 @@
+@media (max-width: 768px) {
+    p {
+        font-size: 14px !important;
+        margin: 9px 0 !important;
+    }
+
+    h2,
+    h3 {
+        margin: 0.5rem 0;
+        font-size: 22px !important;
+    }
+
+    .m {
+        margin: 0.5rem 0;
+        font-size: 18px;
+    }
+
+    /* .pre-title{
+    margin: 0;
+} */
+
+    .person {
+        width: 100%;
+        height: 112px;
+        margin-top: -37px;
+        border-radius: 5px;
+    }
+
+    .card {
+        padding: 22px;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        /* Stack cards vertically */
+        gap: 20px;
+        /* Add spacing between cards */
+    }
+
+    .card1 {
+        flex: 1 1 100%;
+        /* Full width for each card */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        /* Soft shadow for separation */
+        border-radius: 10px;
+
+        background-color: #fff;
+        /* Maintain white background */
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card1:hover {
+        transform: translateY(-5px);
+        /* Slight lift effect */
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        /* Enhanced shadow on hover */
+    }
+
+    .icon-section {
+
+        display: flex;
+        justify-content: center;
+        /* Center icon for mobile */
+        align-items: center;
+    }
+
+    .content h3 {
+        font-size: 19px !important;
+        /* Slightly smaller heading */
+        text-align: center;
+        /* Center align headings for better presentation */
+        margin-bottom: 10px;
+    }
+
+    .content ul {
+        padding-left: 15px;
+        /* Adjust padding for list */
+        font-size: 0.95rem;
+        /* Smaller font for text */
+        line-height: 1.5;
+        /* Improve readability */
+    }
+
+    .content ul li {
+        margin-bottom: 10px;
+        /* Add spacing between list items */
+        font-size: 14px;
+    }
+
+    .counter .radial span {
+        top: 25px;
+        left: 0;
+        font-size: 24px !important;
+    }
+
+    canvas {
+        height: 90px !important;
+        width: 90px !important;
+
+    }
+
+    .card1 {
+        /* width: 325px !important; */
+        width: 100% !important;
+    }
+
+    .btn {
+        font-size: 13px;
+    }
+
+    /* Mobile Header Row Styling */
+    .mobile-header-row {
+        background-color: #f8f9fa;
+        /* Light background */
+        padding: 10px 0;
+        /* Vertical padding */
+        font-size: 14px;
+        /* Slightly smaller font for mobile */
+        text-align: center;
+    }
+
+    /* Style for links */
+    .mobile-header-row .nav-link {
+        color: #333;
+        /* Dark text color */
+        text-decoration: none;
+        /* Remove underline */
+        padding: 5px 10px;
+        /* Add some spacing */
+        font-weight: 500;
+        /* Slightly bold text */
+    }
+
+    /* Hover effects for links */
+    .mobile-header-row .nav-link:hover {
+        color: #007bff;
+        /* Bootstrap primary color on hover */
+        text-decoration: underline;
+        /* Add underline on hover */
+    }
+
+    /* Country-specific styling (optional) */
+    .mobile-header-row .nav-country {
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    /* Icons spacing */
+    .mobile-header-row .fa-phone-alt,
+    .mobile-header-row .fa-envelope {
+        margin-right: 5px;
+        /* Add space between icon and text */
+    }
+
+    .showcase .card .card-body {
+        padding: 23px 9px !important;
+    }
+
+    .showcase .card .card-body h4 {
+        /* margin: 0; */
+        font-size: 15px;
+    }
+
+    .ds-mob {
+        margin-bottom: 74px !important;
+    }
+
+    .line {
+        color: white !important;
+    }
+
+    .aai-footer-nav-link {
+        font-size: 14px !important;
+    }
+
+    .max {
+        display: none !important;
+    }
+
+    .temp {
+        width: 138px;
+    }
+
+
+    .aai-footer-nav-list-item {
+        margin: 2px 0 !important;
+    }
+
+    .m-container {
+        padding: 0px 63px;
+    }
+
+    .mobile-header-row {
+        /* margin-top: 52px; */
+        background-color: #da6331;
+        position: fixed;
+        top: 51px;
+        color: white;
+        z-index: 999;
+        width: 100%;
+    }
+
+.b-heading{
+    font-size: 30px !important;
+    margin: 0 !important;
+}
+.line {
+    font-size: 13px !important;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile-Only Header Row */
+@media (max-width: 768px) {
+    .mobile-header-row {
+        display: block;
+        /* Show the row on mobile */
+    }
+    .d-banner{
+        display: none;
+    }
+    .m-banner{
+        display: block;
+    }
+}
+
+/* Hide on larger screens */
+@media (min-width: 769px) {
+    .mobile-header-row {
+        display: none;
+        /* Hide the row on tablet and larger screens */
+    }
+    .d-banner{
+        display: block;
+    }
+    .m-banner{
+        display: none;
+    }
+}
